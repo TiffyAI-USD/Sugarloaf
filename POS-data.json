@@ -1,0 +1,3589 @@
+{
+  "inventory": {
+    "P_1771320027434": {
+      "name": "FLYING FISH",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1771320068598": {
+      "name": "STONEY",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 33
+    },
+    "P_1771338445412": {
+      "name": "FANTA",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1771338477277": {
+      "name": "SPRITE",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 18
+    },
+    "P_1771338511578": {
+      "name": "COKE ",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 38
+    },
+    "P_1771338603517": {
+      "name": "POWER RADE",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 20
+    },
+    "P_1771338639237": {
+      "name": "WATER 500MLS",
+      "price": 10,
+      "cost": 0,
+      "category": "drink",
+      "stock": 130
+    },
+    "P_1771338668079": {
+      "name": "RED BULL",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 36
+    },
+    "P_1771338735647": {
+      "name": "LIQUI FRUIT",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 17
+    },
+    "P_1771339096675": {
+      "name": "LUCKY CLUB ",
+      "price": 70,
+      "cost": 0,
+      "category": "drink",
+      "stock": 36
+    },
+    "P_1771339222504": {
+      "name": "SPAR .LETT CREAMSODA",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 6
+    },
+    "P_1771339423854": {
+      "name": "BLACK LABLE CAN ",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 61
+    },
+    "P_1771339483003": {
+      "name": "BLACK LABLE 300MLS",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 4
+    },
+    "P_1771339519564": {
+      "name": "CASTLE LAGER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 2
+    },
+    "P_1771339542710": {
+      "name": "CASTLE LITE",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 32
+    },
+    "P_1771339635906": {
+      "name": "CASTLE MILK STOUT",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 67
+    },
+    "P_1771339662077": {
+      "name": "GORDON'S PINK",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 8
+    },
+    "P_1771339720174": {
+      "name": "STRONG BOW CANS ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 20
+    },
+    "P_1771339899152": {
+      "name": "SAVANNA CANS ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 17
+    },
+    "P_1771339932815": {
+      "name": "BLACK CROWN",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 33
+    },
+    "P_1771340061682": {
+      "name": "HUNTERS DRY BOTTLE ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 16
+    },
+    "P_1771340256910": {
+      "name": "HUNTERS GOLDS CANS",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 48
+    },
+    "P_1771340334623": {
+      "name": "WINDHOEK CAN ",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 26
+    },
+    "P_1771340442059": {
+      "name": "BENIN BLUSH",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1771340478018": {
+      "name": "BENINI CLASIC",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 25
+    },
+    "P_1771340517865": {
+      "name": "STELLA ARITOS",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 12
+    },
+    "P_1771340576103": {
+      "name": "CASTLE.DOUBLE MALT",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 4
+    },
+    "P_1771341834967": {
+      "name": "SPARKLING ",
+      "price": 10,
+      "cost": 0,
+      "category": "drink",
+      "stock": 17
+    },
+    "P_1771342188025": {
+      "name": "HUNTERS CAN ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 15
+    },
+    "P_1771342541082": {
+      "name": "SODAZE GUMS",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 18
+    },
+    "P_1771342660771": {
+      "name": "GORDON'S SHORT",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 16
+    },
+    "P_1771342687107": {
+      "name": "KLIP DRIFT ",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 22
+    },
+    "P_1771342713141": {
+      "name": "RECHELLUE SHORT",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 56
+    },
+    "P_1771343231551": {
+      "name": "CAPTAIN MORGAN BLACK",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 45
+    },
+    "P_1771419304896": {
+      "name": "CHEESE BURGER (WITH SIDE CHIPS)",
+      "price": 120,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771419455340": {
+      "name": "BOERIE ROLL",
+      "price": 40,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771756211629": {
+      "name": "RUMP STEAK (WITH MUSHROOMS SAUCE AND CHIPS)",
+      "price": 160,
+      "cost": 0,
+      "category": "food",
+      "stock": -3
+    },
+    "P_1771756320784": {
+      "name": "CHEESY POPS -15(SERVED WITH DIP)",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771756591277": {
+      "name": "CHEESY STRIPS -5 (SERVED WITH DIP) ",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771756651292": {
+      "name": "WINGLETS -5 ",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771756709069": {
+      "name": "WINGLETS -10",
+      "price": 100,
+      "cost": 0,
+      "category": "food",
+      "stock": -7
+    },
+    "P_1771756895248": {
+      "name": "DOUBLE CHICKEN SCHNITZEL. (WITH CHIPS OR SALAD, MUSHROOM SAUCE & MELTED CHEESE)",
+      "price": 120,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757001528": {
+      "name": "PREGO ROLL",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757038685": {
+      "name": "MUNCHIE PLATTER",
+      "price": 350,
+      "cost": 0,
+      "category": "food",
+      "stock": -2
+    },
+    "P_1771757121452": {
+      "name": "BREAKFAST (SERVED FROM 8-11 AM)",
+      "price": 80,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757236156": {
+      "name": "RIB RACK",
+      "price": 200,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757278829": {
+      "name": "RUSSIAN ROLL AND CHIPS",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757322066": {
+      "name": "BOERIE AND CHIPS",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757411189": {
+      "name": "SOMETHING MEATY",
+      "price": 135,
+      "cost": 0,
+      "category": "food",
+      "stock": -7
+    },
+    "P_1771757453158": {
+      "name": "CREAMY CHICKEN",
+      "price": 135,
+      "cost": 0,
+      "category": "food",
+      "stock": -7
+    },
+    "P_1771757654550": {
+      "name": "PEPPERONI",
+      "price": 135,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757675550": {
+      "name": "VEGETARIAN ",
+      "price": 135,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1771757696714": {
+      "name": "HAWAIIAN",
+      "price": 135,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771757972656": {
+      "name": "MILLIONAIRE ",
+      "price": 200,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771758017047": {
+      "name": "CHICKEN PERI NACHO",
+      "price": 160,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771758105998": {
+      "name": "PAPA RONY",
+      "price": 150,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771758124454": {
+      "name": "AFRICAN MEATY",
+      "price": 150,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1771758163867": {
+      "name": "MARGHERITA ",
+      "price": 100,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1771758231776": {
+      "name": "FLAMING SPARE RIB",
+      "price": 150,
+      "cost": 0,
+      "category": "food",
+      "stock": -2
+    },
+    "P_1771759125390": {
+      "name": "GANJA 1-GRAM",
+      "price": 30,
+      "cost": 0,
+      "category": "food",
+      "stock": -7
+    },
+    "P_1771759370339": {
+      "name": "HASH JOINT",
+      "price": 30,
+      "cost": 0,
+      "category": "food",
+      "stock": 70
+    },
+    "P_1771759402142": {
+      "name": "HASH 1-GRAM",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": 4
+    },
+    "P_1771759522686": {
+      "name": "PSILLOSHOT",
+      "price": 100,
+      "cost": 0,
+      "category": "food",
+      "stock": 5
+    },
+    "P_1771759559766": {
+      "name": "RIZZLA RAW",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 45
+    },
+    "P_1771759584913": {
+      "name": "RIZZLA PURE HEMP",
+      "price": 30,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1771759613141": {
+      "name": "NIK NAKS",
+      "price": 2,
+      "cost": 0,
+      "category": "food",
+      "stock": 30
+    },
+    "P_1771759629390": {
+      "name": "PEANUTS",
+      "price": 10,
+      "cost": 0,
+      "category": "food",
+      "stock": 34
+    },
+    "P_1771759640812": {
+      "name": "GAS LIGHTER ",
+      "price": 10,
+      "cost": 0,
+      "category": "food",
+      "stock": 15
+    },
+    "P_1772112075419": {
+      "name": "J & B",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 15
+    },
+    "P_1772112131612": {
+      "name": "SAVANNA 330ML",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 3
+    },
+    "P_1772112351662": {
+      "name": "LOOSE RIZZLA",
+      "price": 1,
+      "cost": 0,
+      "category": "food",
+      "stock": -10
+    },
+    "POTATOES_POCKETS_10KG": {
+      "name": "POTATOES POCKETS 10KG",
+      "stock": 4,
+      "cost": 6.666666666666667,
+      "price": 0,
+      "category": "ingredient"
+    },
+    "P_1772182443370": {
+      "name": "HENNESSY ",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 50
+    },
+    "P_1772182664501": {
+      "name": "TEQUILA GOLD",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 25
+    },
+    "P_1772182685136": {
+      "name": "TEQUILA SILVER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 26
+    },
+    "P_1772182956556": {
+      "name": "SMIRNOFF 1818",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1772183086715": {
+      "name": "BOSWORTH PINK SPIRIT",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 75
+    },
+    "P_1772183417708": {
+      "name": "AMARRULA",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 12
+    },
+    "P_1772183552163": {
+      "name": "CAPTAIN MORGAN SPICED GOLD",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": 18
+    },
+    "P_1772184064385": {
+      "name": "OUDE MEESTER PEPPERMINT",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 9
+    },
+    "P_1772184150641": {
+      "name": "ROSES CORDIAL  PASSION FRUIT",
+      "price": 5,
+      "cost": 0,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1772184450169": {
+      "name": "JAMESON SELECT  RESERVE",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 26
+    },
+    "P_1772184616229": {
+      "name": "KWV PINOTAGE",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 31
+    },
+    "P_1772184801798": {
+      "name": "SAUVIGNON BLANC (WHITE WINE)",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 2
+    },
+    "P_1772185051510": {
+      "name": "DROSTDY HOF",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1772185176729": {
+      "name": "JAGERMEISTER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 9
+    },
+    "P_1772185277326": {
+      "name": "BUTTONS WATERMELON",
+      "price": 5,
+      "cost": 0,
+      "category": "drink",
+      "stock": 8
+    },
+    "P_1772185314941": {
+      "name": "BUTTONS LIME",
+      "price": 5,
+      "cost": 0,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1772185638955": {
+      "name": "SCHWEPPES 1L",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 4
+    },
+    "P_1772185865809": {
+      "name": "SPARLETTA SPARBERRY",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 21
+    },
+    "P_1772186895009": {
+      "name": "APPLETIZER",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 8
+    },
+    "P_1772186923724": {
+      "name": "GRAPTISER",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 14
+    },
+    "P_1772187015874": {
+      "name": "BREEZER",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 18
+    },
+    "P_1772187374566": {
+      "name": "SMIRNOFF ICE PINE TWIST",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 3
+    },
+    "P_1772187411936": {
+      "name": "SMIRNOFF ICE STORM",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 1
+    },
+    "P_1772187524414": {
+      "name": "GORDON'S & TONIC",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 17
+    },
+    "P_1772187616875": {
+      "name": "GORDON'S PINK & TONIC",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 8
+    },
+    "P_1772188084273": {
+      "name": "BERNINI MIMOSA",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 21
+    },
+    "P_1772188183404": {
+      "name": "SCHWEPPES DRY LEMON",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 12
+    },
+    "P_1772188199797": {
+      "name": "SCHWEPPES TONIC WATER",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": 21
+    },
+    "P_1772188428600": {
+      "name": "SODAZE MERINGUE",
+      "price": 60,
+      "cost": 0,
+      "category": "drink",
+      "stock": 3
+    },
+    "P_1772188460835": {
+      "name": "SODAZE TROPICAL PUNCH",
+      "price": 60,
+      "cost": 0,
+      "category": "drink",
+      "stock": 1
+    },
+    "P_1772188503824": {
+      "name": "SODAZRE BLUEBERRY LEMONADE ",
+      "price": 60,
+      "cost": 0,
+      "category": "drink",
+      "stock": 1
+    },
+    "P_1772188537573": {
+      "name": "SODAZE LEMONADA",
+      "price": 60,
+      "cost": 0,
+      "category": "drink",
+      "stock": 6
+    },
+    "P_1772189091678": {
+      "name": "BRUTAL FRUIT BOTTLE 275ML STRABERRY",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1772189159763": {
+      "name": "BRUTAL FRUIT BOTTLE 275ML RUBY APPLE",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 2
+    },
+    "P_1772189354556": {
+      "name": "EXTREME BOTTLE RUBBY APPLE",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 46
+    },
+    "P_1772189543514": {
+      "name": "SAVANNA 500ML DRY",
+      "price": 45,
+      "cost": 0,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1772189568077": {
+      "name": "SAVANNA 500ML ANGRY LEMON",
+      "price": 45,
+      "cost": 0,
+      "category": "drink",
+      "stock": 22
+    },
+    "P_1772189715173": {
+      "name": "EXTREME CAN 440ML ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 53
+    },
+    "P_1772189983819": {
+      "name": "CORONA EXTRA",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 39
+    },
+    "P_1772191048414": {
+      "name": "SHROOMS EQ",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": 9.94
+    },
+    "P_1772191087155": {
+      "name": "SHROOMS RW",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": 1.57
+    },
+    "P_1772191127721": {
+      "name": "SHROOMS SHAK",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": 6.63
+    },
+    "P_1772191815029": {
+      "name": "CHOCOLOKO",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 28
+    },
+    "P_1772191903139": {
+      "name": "CANDY CHEESE",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 1
+    },
+    "P_1772191946938": {
+      "name": "VELVET MOON",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 37
+    },
+    "P_1772192126615": {
+      "name": "BIG BUDDHA ",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 3
+    },
+    "P_1772192262380": {
+      "name": "SS JOINT",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 10
+    },
+    "P_1772192319700": {
+      "name": "WHITE WIDOW",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 34
+    },
+    "P_1772192395554": {
+      "name": "BIG JOINT SD",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 15
+    },
+    "P_1772192447710": {
+      "name": "BIG JOINT SS",
+      "price": 25,
+      "cost": 0,
+      "category": "food",
+      "stock": 24
+    },
+    "P_1772192598587": {
+      "name": "INDOOR GRAM",
+      "price": 120,
+      "cost": 0,
+      "category": "food",
+      "stock": 14.01
+    },
+    "P_1772200964831": {
+      "name": "CASTLE LITE CAN 500ML",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 72
+    },
+    "P_1772201070507": {
+      "name": "BRUTAL FRUIT CAN STRAWBERRY ",
+      "price": 35,
+      "cost": 0,
+      "category": "food",
+      "stock": 24
+    },
+    "P_1772271647612": {
+      "name": "WOOD",
+      "price": 0,
+      "cost": 0,
+      "category": "food",
+      "stock": 9
+    },
+    "P_1772274041776": {
+      "name": "MR ORANGE",
+      "price": 15,
+      "cost": 0,
+      "category": "drink",
+      "stock": 18
+    },
+    "P_1772274987056": {
+      "name": "BERNINI BLUSH CAN 500ML",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 22
+    },
+    "AIRFRESHNER": {
+      "name": "AIRFRESHNER",
+      "stock": 2,
+      "cost": 0,
+      "price": 0,
+      "category": "ingredient"
+    },
+    "P_1772308254845": {
+      "name": "SALAD",
+      "price": 20,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1772308654584": {
+      "name": "ICE",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1772308657047": {
+      "name": "ICE",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": -2
+    },
+    "POTATOES ": {
+      "name": "POTATOES ",
+      "stock": -12,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1772310687689": {
+      "name": "FRIED CHIPS",
+      "price": 20,
+      "cost": 0,
+      "category": "food",
+      "stock": -4
+    },
+    "P_1772312133170": {
+      "name": "LUNCH BAR",
+      "price": 10,
+      "cost": 0,
+      "category": "food",
+      "stock": -4
+    },
+    "P_1772451423710": {
+      "name": "COKE",
+      "price": 15,
+      "cost": 0,
+      "category": "drink",
+      "stock": -1
+    },
+    "P_1772478208209": {
+      "name": "X-TRA CHEESE",
+      "price": 15,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1772478637938": {
+      "name": "PREGO & CHIPS",
+      "price": 60,
+      "cost": 0,
+      "category": "food",
+      "stock": -9
+    },
+    "P_1772478984765": {
+      "name": "TONIC ",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": -3
+    },
+    "P_1772479539637": {
+      "name": "GORDON'S ",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": -1
+    },
+    "P_1772479541024": {
+      "name": "GORDON'S ",
+      "price": 25,
+      "cost": 0,
+      "category": "drink",
+      "stock": -2
+    },
+    "P_1772650909815": {
+      "name": "BOERIE AND CHIPS",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1772650913150": {
+      "name": "BOERIE AND CHIPS",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1772651655461": {
+      "name": "PAPA RONY",
+      "price": 150,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1772709017285": {
+      "name": "STELLA CAN 410 ML",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1772709165416": {
+      "name": "ROBERTSON 5L",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    }
+  },
+  "recipes": {
+    "P_1772310687689": {
+      "POTATOES ": 3
+    }
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "items": [
+        {
+          "name": "COKE ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338511578"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338445412"
+        }
+      ],
+      "status": "paid",
+      "date": 1771758739340,
+      "total": 40,
+      "method": "Cash"
+    },
+    {
+      "id": 2,
+      "items": [
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771759125390"
+        },
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771757453158"
+        },
+        {
+          "name": "SMIRNOFF ICE",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771342746077"
+        },
+        {
+          "name": "SMIRNOFF ICE",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771342746077"
+        },
+        {
+          "name": "SODAZE GUMS",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771342541082"
+        }
+      ],
+      "status": "paid",
+      "date": 1771759167328,
+      "total": 275,
+      "method": "Cash"
+    },
+    {
+      "id": 3,
+      "items": [
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772112351662"
+        }
+      ],
+      "status": "paid",
+      "date": 1772113313816,
+      "total": 4,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 4,
+      "items": [
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1771338477277"
+        }
+      ],
+      "status": "paid",
+      "date": 1772196692181,
+      "total": 40,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 5,
+      "items": [
+        {
+          "name": "SMIRNOFF ICE STORM",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1772187411936"
+        },
+        {
+          "name": "SMIRNOFF ICE STORM",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1772187411936"
+        },
+        {
+          "name": "SODAZE MERINGUE",
+          "price": 60,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772188428600"
+        },
+        {
+          "name": "SODAZE GUMS",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1771342541082"
+        }
+      ],
+      "status": "paid",
+      "date": 1772212588241,
+      "total": 170,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 6,
+      "items": [
+        {
+          "name": "WINDHOEK CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 43,
+          "code": "P_1771340334623"
+        },
+        {
+          "name": "HENNESSY ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 52,
+          "code": "P_1772182443370"
+        },
+        {
+          "name": "HENNESSY ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 52,
+          "code": "P_1772182443370"
+        },
+        {
+          "name": "WATER 500MLS",
+          "price": 10,
+          "cost": 0,
+          "category": "drink",
+          "stock": 132,
+          "code": "P_1771338639237"
+        }
+      ],
+      "status": "paid",
+      "date": 1772214877433,
+      "total": 100,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 7,
+      "items": [
+        {
+          "name": "APPLETIZER",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1772186895009"
+        },
+        {
+          "name": "APPLETIZER",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1772186895009"
+        }
+      ],
+      "status": "paid",
+      "date": 1772271870269,
+      "total": 40,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 8,
+      "items": [
+        {
+          "name": "FLAMING SPARE RIB",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771758231776"
+        }
+      ],
+      "status": "paid",
+      "date": 1771758793507,
+      "total": 150,
+      "method": "Card"
+    },
+    {
+      "id": 9,
+      "items": [
+        {
+          "name": "MR ORANGE",
+          "price": 15,
+          "cost": 0,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1772274041776"
+        },
+        {
+          "name": "MR ORANGE",
+          "price": 15,
+          "cost": 0,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1772274041776"
+        },
+        {
+          "name": "GAS LIGHTER ",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": 16,
+          "code": "P_1771759640812"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "WINDHOEK CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1771340334623"
+        },
+        {
+          "name": "WINDHOEK CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1771340334623"
+        }
+      ],
+      "status": "paid",
+      "date": 1772274524092,
+      "total": 160,
+      "method": "Card"
+    },
+    {
+      "id": 10,
+      "items": [
+        {
+          "name": "BERNINI BLUSH CAN 500ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1772274987056"
+        }
+      ],
+      "status": "paid",
+      "date": 1772275153310,
+      "total": 0,
+      "method": "Wastage",
+      "staff": "Zuko",
+      "notes": "Came broken"
+    },
+    {
+      "id": 11,
+      "items": [
+        {
+          "name": "SODAZE MERINGUE",
+          "price": 60,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1772188428600"
+        },
+        {
+          "name": "SODAZE GUMS",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1771342541082"
+        },
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771756709069"
+        }
+      ],
+      "status": "paid",
+      "date": 1772291027162,
+      "total": 200,
+      "tip": 390,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 12,
+      "items": [
+        {
+          "name": "WINDHOEK CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 45,
+          "code": "P_1771340334623"
+        },
+        {
+          "name": "WINDHOEK CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 45,
+          "code": "P_1771340334623"
+        }
+      ],
+      "status": "paid",
+      "date": 1772212673461,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 13,
+      "items": [
+        {
+          "name": "COKE ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1771338511578"
+        }
+      ],
+      "status": "paid",
+      "date": 1772214221432,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 14,
+      "items": [
+        {
+          "name": "SAVANNA CANS ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1771339899152"
+        }
+      ],
+      "status": "paid",
+      "date": 1772215468217,
+      "total": 35,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 15,
+      "items": [
+        {
+          "name": "HUNTERS DRY BOTTLE ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1771340061682"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1772185176729"
+        }
+      ],
+      "status": "paid",
+      "date": 1772298066119,
+      "total": 65,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 16,
+      "items": [
+        {
+          "name": "INDOOR GRAM",
+          "price": 120,
+          "cost": 0,
+          "category": "food",
+          "stock": 6.51,
+          "code": "P_1772192598587"
+        },
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771759125390"
+        },
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771759125390"
+        },
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771759125390"
+        }
+      ],
+      "status": "paid",
+      "date": 1772272295830,
+      "total": 210,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 17,
+      "items": [
+        {
+          "name": "SALAD",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772308254845"
+        },
+        {
+          "name": "AFRICAN MEATY",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771758124454"
+        },
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1772189543514"
+        },
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1772189543514"
+        }
+      ],
+      "status": "paid",
+      "date": 1772308369447,
+      "total": 360,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 18,
+      "items": [
+        {
+          "name": "ICE",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772308657047"
+        },
+        {
+          "name": "ICE",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772308657047"
+        }
+      ],
+      "status": "paid",
+      "date": 1772308680147,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 19,
+      "items": [
+        {
+          "name": "MR ORANGE",
+          "price": 15,
+          "cost": 0,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1772274041776"
+        },
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771757453158"
+        }
+      ],
+      "status": "paid",
+      "date": 1772291598322,
+      "total": 150,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 20,
+      "items": [
+        {
+          "name": "MR ORANGE",
+          "price": 15,
+          "cost": 0,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1772274041776"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 74,
+          "code": "P_1771339423854"
+        }
+      ],
+      "status": "paid",
+      "date": 1772298142767,
+      "total": 45,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 21,
+      "items": [
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771757411189"
+        }
+      ],
+      "status": "paid",
+      "date": 1772298195648,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 22,
+      "items": [
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1771757453158"
+        }
+      ],
+      "status": "paid",
+      "date": 1772298278021,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 23,
+      "items": [
+        {
+          "name": "FLAMING SPARE RIB",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771758231776"
+        },
+        {
+          "name": "BIG BUDDHA ",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 6,
+          "code": "P_1772192126615"
+        }
+      ],
+      "status": "paid",
+      "date": 1772308563251,
+      "total": 175,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 24,
+      "items": [
+        {
+          "name": "CASTLE LAGER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1771339519564"
+        }
+      ],
+      "status": "paid",
+      "date": 1772309153045,
+      "total": 30,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 25,
+      "items": [
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1772189568077"
+        },
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1772189568077"
+        }
+      ],
+      "status": "paid",
+      "date": 1772309202664,
+      "total": 90,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 26,
+      "items": [
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772189543514"
+        },
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772189543514"
+        }
+      ],
+      "status": "paid",
+      "date": 1772309255699,
+      "total": 90,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 27,
+      "items": [
+        {
+          "name": "FRIED CHIPS",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772310687689"
+        },
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "FRIED CHIPS",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772310687689"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 73,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 73,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 73,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "SAVANNA 330ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 6,
+          "code": "P_1772112131612"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 73,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1772189543514"
+        }
+      ],
+      "status": "paid",
+      "date": 1772311683128,
+      "total": 340,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 28,
+      "items": [
+        {
+          "name": "FRIED CHIPS",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1772310687689"
+        },
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "JAMESON SELECT  RESERVE",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1772184450169"
+        },
+        {
+          "name": "JAMESON SELECT  RESERVE",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1772184450169"
+        }
+      ],
+      "status": "paid",
+      "date": 1772311826556,
+      "total": 180,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 29,
+      "items": [
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1772189568077"
+        },
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1772189568077"
+        }
+      ],
+      "status": "paid",
+      "date": 1772311931101,
+      "total": 90,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 30,
+      "items": [
+        {
+          "name": "CASTLE LAGER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 6,
+          "code": "P_1771339519564"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312032221,
+      "total": 30,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 31,
+      "items": [
+        {
+          "name": "LUNCH BAR",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772312133170"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312155099,
+      "total": 10,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 32,
+      "items": [
+        {
+          "name": "WATER 500MLS",
+          "price": 10,
+          "cost": 0,
+          "category": "drink",
+          "stock": 131,
+          "code": "P_1771338639237"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312186058,
+      "total": 10,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 33,
+      "items": [
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 69,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 69,
+          "code": "P_1771339423854"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312313658,
+      "total": 60,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 34,
+      "items": [
+        {
+          "name": "COKE ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1771338511578"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312346384,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 35,
+      "items": [
+        {
+          "name": "VELVET MOON",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 42,
+          "code": "P_1772191946938"
+        },
+        {
+          "name": "VELVET MOON",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 42,
+          "code": "P_1772191946938"
+        },
+        {
+          "name": "TEQUILA GOLD",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1772182664501"
+        },
+        {
+          "name": "TEQUILA GOLD",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1772182664501"
+        }
+      ],
+      "status": "paid",
+      "date": 1772312438248,
+      "total": 110,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 36,
+      "items": [
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1772189983819"
+        },
+        {
+          "name": "TEQUILA GOLD",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1772182664501"
+        }
+      ],
+      "status": "paid",
+      "date": 1772313337264,
+      "total": 95,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 37,
+      "items": [
+        {
+          "name": "HASH JOINT",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": 74,
+          "code": "P_1771759370339"
+        }
+      ],
+      "status": "paid",
+      "date": 1772313365777,
+      "total": 30,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 38,
+      "items": [
+        {
+          "name": "VELVET MOON",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 40,
+          "code": "P_1772191946938"
+        },
+        {
+          "name": "VELVET MOON",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 40,
+          "code": "P_1772191946938"
+        },
+        {
+          "name": "VELVET MOON",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 40,
+          "code": "P_1772191946938"
+        },
+        {
+          "name": "HASH JOINT",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": 73,
+          "code": "P_1771759370339"
+        }
+      ],
+      "status": "paid",
+      "date": 1772313406733,
+      "total": 105,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 39,
+      "items": [
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 67,
+          "code": "P_1771339423854"
+        }
+      ],
+      "status": "paid",
+      "date": 1772313430120,
+      "total": 30,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 40,
+      "items": [
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 66,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE 300MLS",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1771339483003"
+        },
+        {
+          "name": "BERNINI BLUSH CAN 500ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1772274987056"
+        }
+      ],
+      "status": "paid",
+      "date": 1772313495868,
+      "total": 95,
+      "tip": 10,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 41,
+      "items": [
+        {
+          "name": "INDOOR GRAM",
+          "price": 120,
+          "cost": 0,
+          "category": "food",
+          "stock": 5.51,
+          "code": "P_1772192598587"
+        },
+        {
+          "name": "INDOOR GRAM",
+          "price": 120,
+          "cost": 0,
+          "category": "food",
+          "stock": 5.51,
+          "code": "P_1772192598587"
+        },
+        {
+          "name": "INDOOR GRAM",
+          "price": 120,
+          "cost": 0,
+          "category": "food",
+          "stock": 5.51,
+          "code": "P_1772192598587"
+        },
+        {
+          "name": "INDOOR GRAM",
+          "price": 120,
+          "cost": 0,
+          "category": "food",
+          "stock": 5.51,
+          "code": "P_1772192598587"
+        },
+        {
+          "name": "HASH JOINT",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": 72,
+          "code": "P_1771759370339"
+        },
+        {
+          "name": "SODAZE GUMS",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1771342541082"
+        }
+      ],
+      "status": "paid",
+      "date": 1772451345084,
+      "total": 550,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 42,
+      "items": [
+        {
+          "name": "COKE",
+          "price": 15,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772451423710"
+        },
+        {
+          "name": "LUNCH BAR",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1772312133170"
+        },
+        {
+          "name": "SAVANNA 500ML DRY",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1772189543514"
+        }
+      ],
+      "status": "paid",
+      "date": 1772451449763,
+      "total": 70,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 43,
+      "items": [
+        {
+          "name": "RUMP STEAK (WITH MUSHROOMS SAUCE AND CHIPS)",
+          "price": 160,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771756211629"
+        },
+        {
+          "name": "RUMP STEAK (WITH MUSHROOMS SAUCE AND CHIPS)",
+          "price": 160,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771756211629"
+        },
+        {
+          "name": "RUMP STEAK (WITH MUSHROOMS SAUCE AND CHIPS)",
+          "price": 160,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771756211629"
+        }
+      ],
+      "status": "paid",
+      "date": 1772451496821,
+      "total": 480,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 44,
+      "items": [
+        {
+          "name": "HASH JOINT",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": 71,
+          "code": "P_1771759370339"
+        }
+      ],
+      "status": "paid",
+      "date": 1772477928100,
+      "total": 30,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 45,
+      "items": [
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771757411189"
+        },
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771757411189"
+        }
+      ],
+      "status": "paid",
+      "date": 1772477964322,
+      "total": 270,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 46,
+      "items": [
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1771757453158"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478005958,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 47,
+      "items": [
+        {
+          "name": "FLYING FISH",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 29,
+          "code": "P_1771320027434"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478035160,
+      "total": 35,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 48,
+      "items": [
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1771759125390"
+        },
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1771757453158"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478113440,
+      "total": 165,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 49,
+      "items": [
+        {
+          "name": "NIK NAKS",
+          "price": 2,
+          "cost": 0,
+          "category": "food",
+          "stock": 32,
+          "code": "P_1771759613141"
+        },
+        {
+          "name": "NIK NAKS",
+          "price": 2,
+          "cost": 0,
+          "category": "food",
+          "stock": 32,
+          "code": "P_1771759613141"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478142850,
+      "total": 4,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 50,
+      "items": [
+        {
+          "name": "X-TRA CHEESE",
+          "price": 15,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772478208209"
+        },
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1771757411189"
+        },
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1771759125390"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478285687,
+      "total": 180,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 51,
+      "items": [
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1771757411189"
+        },
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1771757453158"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 65,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 65,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "POWER RADE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1771338603517"
+        },
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1771757411189"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478560374,
+      "total": 505,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 52,
+      "items": [
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772478637938"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478662773,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 53,
+      "items": [
+        {
+          "name": "BIG BUDDHA ",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1772192126615"
+        }
+      ],
+      "status": "paid",
+      "date": 1772478712686,
+      "total": 25,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 54,
+      "items": [
+        {
+          "name": "GRAPTISER",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1772186923724"
+        },
+        {
+          "name": "POWER RADE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1771338603517"
+        },
+        {
+          "name": "POWER RADE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1771338603517"
+        },
+        {
+          "name": "POWER RADE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1771338603517"
+        },
+        {
+          "name": "TONIC ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772478984765"
+        },
+        {
+          "name": "TONIC ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772478984765"
+        },
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "FRIED CHIPS",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1772310687689"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479111574,
+      "total": 240,
+      "tip": 60,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 55,
+      "items": [
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "BIG BUDDHA ",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 4,
+          "code": "P_1772192126615"
+        },
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1772478637938"
+        },
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1772478637938"
+        },
+        {
+          "name": "CASTLE LAGER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1771339519564"
+        },
+        {
+          "name": "CASTLE LITE",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1771339542710"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479228845,
+      "total": 305,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 56,
+      "items": [
+        {
+          "name": "LUNCH BAR",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1772312133170"
+        },
+        {
+          "name": "LUNCH BAR",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1772312133170"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 63,
+          "code": "P_1771339423854"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479261766,
+      "total": 50,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 57,
+      "items": [
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772189568077"
+        },
+        {
+          "name": "COKE ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1771338511578"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479295850,
+      "total": 65,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 58,
+      "items": [
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1772478637938"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479312003,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 59,
+      "items": [
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1772189568077"
+        },
+        {
+          "name": "SAVANNA 500ML ANGRY LEMON",
+          "price": 45,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1772189568077"
+        },
+        {
+          "name": "TONIC ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1772478984765"
+        },
+        {
+          "name": "GORDON'S ",
+          "price": 25,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772479541024"
+        },
+        {
+          "name": "GORDON'S ",
+          "price": 25,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772479541024"
+        }
+      ],
+      "status": "paid",
+      "date": 1772479648699,
+      "total": 160,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 60,
+      "items": [
+        {
+          "name": "SODAZRE BLUEBERRY LEMONADE ",
+          "price": 60,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1772188503824"
+        }
+      ],
+      "status": "paid",
+      "date": 1772480085871,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 61,
+      "items": [
+        {
+          "name": "SODAZE TROPICAL PUNCH",
+          "price": 60,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1772188460835"
+        },
+        {
+          "name": "SPARKLING ",
+          "price": 10,
+          "cost": 0,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1771341834967"
+        }
+      ],
+      "status": "paid",
+      "date": 1772480128066,
+      "total": 70,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 62,
+      "items": [
+        {
+          "name": "GORDON'S ",
+          "price": 25,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1772479539637"
+        }
+      ],
+      "status": "paid",
+      "date": 1772650414500,
+      "total": 25,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 63,
+      "items": [
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1772478637938"
+        }
+      ],
+      "status": "paid",
+      "date": 1772650446707,
+      "total": 60,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 64,
+      "items": [
+        {
+          "name": "SS JOINT",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 11,
+          "code": "P_1772192262380"
+        },
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1772478637938"
+        },
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1772478637938"
+        }
+      ],
+      "status": "paid",
+      "date": 1772650482183,
+      "total": 145,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 65,
+      "items": [
+        {
+          "name": "SOMETHING MEATY",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1771757411189"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "BERNINI MIMOSA",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 25,
+          "code": "P_1772188084273"
+        },
+        {
+          "name": "BERNINI MIMOSA",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 25,
+          "code": "P_1772188084273"
+        },
+        {
+          "name": "SAVANNA 330ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772112131612"
+        }
+      ],
+      "status": "paid",
+      "date": 1772650660062,
+      "total": 260,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 66,
+      "items": [
+        {
+          "name": "BOERIE AND CHIPS",
+          "price": 50,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772650913150"
+        }
+      ],
+      "status": "paid",
+      "date": 1772650930054,
+      "total": 50,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 67,
+      "items": [
+        {
+          "name": "WINGLETS -10",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1771756709069"
+        },
+        {
+          "name": "BERNINI MIMOSA",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1772188084273"
+        },
+        {
+          "name": "BERNINI MIMOSA",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1772188084273"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 1,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "SAVANNA 330ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1772112131612"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651039642,
+      "total": 225,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 68,
+      "items": [
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338477277"
+        },
+        {
+          "name": "SPRITE",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1771338477277"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651131968,
+      "total": 80,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 69,
+      "items": [
+        {
+          "name": "WHITE WIDOW",
+          "price": 25,
+          "cost": 0,
+          "category": "food",
+          "stock": 35,
+          "code": "P_1772192319700"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651173221,
+      "total": 25,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 70,
+      "items": [
+        {
+          "name": "MUNCHIE PLATTER",
+          "price": 350,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771757038685"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651206616,
+      "total": 350,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 71,
+      "items": [
+        {
+          "name": "COKE ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 39,
+          "code": "P_1771338511578"
+        },
+        {
+          "name": "MUNCHIE PLATTER",
+          "price": 350,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1771757038685"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651259419,
+      "total": 370,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 72,
+      "items": [
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -7,
+          "code": "P_1772478637938"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651290995,
+      "total": 60,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 73,
+      "items": [
+        {
+          "name": "CASTLE LITE CAN 500ML",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 72,
+          "code": "P_1772200964831"
+        },
+        {
+          "name": "CASTLE LITE CAN 500ML",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 72,
+          "code": "P_1772200964831"
+        },
+        {
+          "name": "SMIRNOFF ICE PINE TWIST",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772187374566"
+        },
+        {
+          "name": "SMIRNOFF ICE PINE TWIST",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1772187374566"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651363776,
+      "total": 130,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 74,
+      "items": [
+        {
+          "name": "PREGO & CHIPS",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": -8,
+          "code": "P_1772478637938"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 62,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "CASTLE LAGER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1771339519564"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651417692,
+      "total": 120,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 75,
+      "items": [
+        {
+          "name": "GANJA 1-GRAM",
+          "price": 30,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1771759125390"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1772112351662"
+        },
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1772112351662"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651514908,
+      "total": 34,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Zuko"
+    },
+    {
+      "id": 76,
+      "items": [
+        {
+          "name": "PAPA RONY",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1772651655461"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651670138,
+      "total": 150,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 77,
+      "items": [
+        {
+          "name": "VEGETARIAN ",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771757675550"
+        },
+        {
+          "name": "CREAMY CHICKEN",
+          "price": 135,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1771757453158"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651710562,
+      "total": 270,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 78,
+      "items": [
+        {
+          "name": "MARGHERITA ",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1771758163867"
+        },
+        {
+          "name": "CASTLE LAGER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1771339519564"
+        }
+      ],
+      "status": "paid",
+      "date": 1772651902074,
+      "total": 130,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Zuko"
+    },
+    {
+      "id": 79,
+      "items": [
+        {
+          "name": "SHROOMS RW",
+          "price": 60,
+          "cost": 0,
+          "category": "food",
+          "stock": 1.57,
+          "code": "P_1772191087155"
+        }
+      ],
+      "status": "active",
+      "date": 1772708955986
+    },
+    {
+      "id": 80,
+      "items": [
+        {
+          "name": "LOOSE RIZZLA",
+          "price": 1,
+          "cost": 0,
+          "category": "food",
+          "stock": -9,
+          "code": "P_1772112351662"
+        }
+      ],
+      "status": "active",
+      "date": 1772789648379
+    },
+    {
+      "id": 81,
+      "items": [],
+      "status": "active",
+      "date": 1772789730119
+    }
+  ],
+  "purchaseLog": [
+    {
+      "date": 1772112625737,
+      "name": "POTATOES POCKETS 10KG",
+      "qty": 6,
+      "cost": 40,
+      "cat": "FOOD"
+    },
+    {
+      "date": 1772275635250,
+      "name": "AIRFRESHNER",
+      "qty": 2,
+      "cost": 0,
+      "cat": "TOILET"
+    }
+  ],
+  "staffSales": {
+    "Zet": [
+      {
+        "name": "LOOSE RIZZLA",
+        "price": 1,
+        "date": 1772789645301
+      },
+      {
+        "name": "LOOSE RIZZLA",
+        "price": 1,
+        "date": 1772789726716
+      }
+    ]
+  },
+  "lastSync": "2026-03-06T10:50:43.262Z"
+}
