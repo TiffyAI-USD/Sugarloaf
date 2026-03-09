@@ -1,715 +1,716 @@
-"P_1771339635906": {
-  "name": "WINDHOEK DRAUGHT",
-  "price": 30.00,
-  "cost": 16.91,
-  "category": "drink",
-  "stock": 24
-},
-"P_1771338511578": {
-  "name": "CASTLE LAGER 500ML",
-  "price": 25.00,
-  "cost": 11.90,
-  "category": "drink",
-  "stock": 35
-},
-"P_1771338477277": {
-  "name": "CASTLE LAGER 330ML",
-  "price": 25.00,
-  "cost": 11.90,
-  "category": "drink",
-  "stock": 6
-},
-"P_1771339635906": {
-  "name": "CASTLE MILK STOUT",
-  "price": 25.00,
-  "cost": 11.90,
-  "category": "drink",
-  "stock": 12
-},
-"P_1771339899152": {
-  "name": "CASTLE DOUBLE MALT",
-  "price": 25.00,
-  "cost": 13.81,
-  "category": "drink",
-  "stock": 12
-},
-"P_1771338445412": {
-  "name": "CASTLE LITE",
-  "price": 25.00,
-  "cost": 12.46,
-  "category": "drink",
-  "stock": 24
-},
-"P_1771338477277": {
-  "name": "BLACK LABEL",
-  "price": 25.00,
-  "cost": 12.79,
-  "category": "drink",
-  "stock": 84
-},
-"P_1771320068598": {
-  "name": "HEINEKEN",
-  "price": 30.00,
-  "cost": 14.96,
-  "category": "drink",
-  "stock": 24
-},
-"P_1771338445412": {
-  "name": "HUNTERS GOLD 330ML",
-  "price": 30.00,
-  "cost": 15.42,
-  "category": "drink",
-  "stock": 12
-},
-"P_1771339899152": {
-  "name": "SAVANNA ANGRY LEMON",
-  "price": 40.00,
-  "cost": 19.50,
-  "category": "drink",
-  "stock": 12
-},
-"P_SAVANNA_DRY": {
-  "name": "SAVANNA DRY",
-  "price": 30.00,
-  "cost": 16.20,
-  "category": "drink",
-  "stock": 24
-},
-"P_SAVANNA_NEAT": {
-  "name": "SAVANNA NEAT",
-  "price": 28.00,
-  "cost": 19.25,
-  "category": "drink",
-  "stock": 6
-},
-"P_BERNINI_BLUSH": {
-  "name": "BERNINI BLUSH",
-  "price": 28.00,
-  "cost": 12.67,
-  "category": "drink",
-  "stock": 12
-},
-"P_BRUTAL_FRUIT": {
-  "name": "BRUTAL FRUIT",
-  "price": 28.00,
-  "cost": 14.60,
-  "category": "drink",
-  "stock": 12
-},
-"P_BERNINI_CLASSIC": {
-  "name": "BERNINI CLASSIC",
-  "price": 28.00,
-  "cost": 15.67,
-  "category": "drink",
-  "stock": 12
-},
-"P_BELLGRAVIA_GNT": {
-  "name": "BELLGRAVIA GIN AND TONIC",
-  "price": 28.00,
-  "cost": 15.98,
-  "category": "drink",
-  "stock": 12
-},
-"P_BELLGRAVIA_GNDL": {
-  "name": "BELLGRAVIA GIN AND DRY LEMON",
-  "price": 28.00,
-  "cost": 15.98,
-  "category": "drink",
-  "stock": 12
-},
-"P_EXTREME": {
-  "name": "EXTREME",
-  "price": 28.00,
-  "cost": 16.11,
-  "category": "drink",
-  "stock": 12
-},
-"P_CARONA": {
-  "name": "CARONA",
-  "price": 30.00,
-  "cost": 16.02,
-  "category": "drink",
-  "stock": 46
-},
-"P_AQUELLE_STILL": {
-  "name": "AQUEALE STILL WATER",
-  "price": 15.00,
-  "cost": 5.66,
-  "category": "drink",
-  "stock": 6
-},
-"P_AQUELLE_SPARK": {
-  "name": "AQUELLE SPARKLING WATER",
-  "price": 15.00,
-  "cost": 5.86,
-  "category": "drink",
-  "stock": 36
-},
-"P_TSITSIKAMA_500": {
-  "name": "TSITSIKAMA SPRING 500ML",
-  "price": 15.00,
-  "cost": 4.45,
-  "category": "drink",
-  "stock": 30
-},
-"P_APPETIZERS": {
-  "name": "APPETIZERS",
-  "price": 30.00,
-  "cost": 15.49,
-  "category": "drink",
-  "stock": 12
-},
-"P_GRAPETISER": {
-  "name": "GRAPETISER 275ML",
-  "price": 30.00,
-  "cost": 15.85,
-  "category": "drink",
-  "stock": 12
-},
-"P_TWIST_GRANADILLA": {
-  "name": "TWIST GRANADILLA 300ML",
-  "price": 20.00,
-  "cost": 10.39,
-  "category": "drink",
-  "stock": 12
-},
-"P_STONEY_GINGER": {
-  "name": "STONEY GINGER BEER",
-  "price": 20.00,
-  "cost": 10.39,
-  "category": "drink",
-  "stock": 24
-},
-"P_SCHWEPPES_GINGER": {
-  "name": "SCHWEPPES GINGERALE 200ML",
-  "price": 20.00,
-  "cost": 8.34,
-  "category": "drink",
-  "stock": 12
-},
-"P_SCHWEPPES_LEMON": {
-  "name": "SCHWEPPES LEMONADE 200ML",
-  "price": 20.00,
-  "cost": 8.34,
-  "category": "drink",
-  "stock": 12
-},
-"P_SCHWEPPES_DRY": {
-  "name": "SCHWEPPES DRY LEMON",
-  "price": 20.00,
-  "cost": 8.34,
-  "category": "drink",
-  "stock": 12
-},
-"P_SCHWEPPES_SODA": {
-  "name": "SCHWEPPES SODA WATER",
-  "price": 20.00,
-  "cost": 8.34,
-  "category": "drink",
-  "stock": 12
-},
-"P_SCHWEPPES_TONIC": {
-  "name": "SCHWEPPES TONIC WATER 200ML",
-  "price": 20.00,
-  "cost": 8.34,
-  "category": "drink",
-  "stock": 12
-},
-"P_CREAM_SODA": {
-  "name": "CREAM SODA 300ML",
-  "price": 20.00,
-  "cost": 10.39,
-  "category": "drink",
-  "stock": 12
-},
-"P_ROSES_KOLA": {
-  "name": "ROSES CORDIAL KOLA",
-  "price": 5.00,
-  "cost": 1.71,
-  "category": "drink",
-  "stock": 28
-},
-"P_ROSES_LIME": {
-  "name": "ROSES CORDIAL LIME",
-  "price": 5.00,
-  "cost": 1.71,
-  "category": "drink",
-  "stock": 28
-},
-"P_ROSES_PASSION": {
-  "name": "ROSES CORDIAL PASSION FRUIT",
-  "price": 5.00,
-  "cost": 1.80,
-  "category": "drink",
-  "stock": 56
-},
-"P_RED_BULL": {
-  "name": "RED BULL",
-  "price": 30.00,
-  "cost": 15.35,
-  "category": "drink",
-  "stock": 36
-},
-"P_FANTA_ORANGE": {
-  "name": "FANTA ORANGE 300ML",
-  "price": 20.00,
-  "cost": 10.40,
-  "category": "drink",
-  "stock": 12
-},
-"P_COCA_COLA": {
-  "name": "COCA COLA 300ML",
-  "price": 20.00,
-  "cost": 7.67,
-  "category": "drink",
-  "stock": 72
-},
-"P_SPRITE": {
-  "name": "SPRITE 300ML",
-  "price": 20.00,
-  "cost": 10.50,
-  "category": "drink",
-  "stock": 12
-},
-"P_LIQUI_FRUIT": {
-  "name": "LIQUI FRUIT BREAKFAST PUNCH",
-  "price": 20.00,
-  "cost": 10.50,
-  "category": "drink",
-  "stock": 12
-},
-"P_HUNTERS_GOLD_440": {
-  "name": "HUNTERS GOLD 440ML",
-  "price": 30.00,
-  "cost": 15.42,
-  "category": "drink",
-  "stock": 12
-},
-"P_SMIRNOFF_1818": {
-  "name": "SMIRNOFF 1818 VODCA",
-  "price": 25.00,
-  "cost": 10.60,
-  "category": "drink",
-  "stock": 28
-},
-"P_ABSOLUTE_VODCA": {
-  "name": "ABSOLUTE VODCA",
-  "price": 40.00,
-  "cost": 10.60,
-  "category": "drink",
-  "stock": 28
-},
-"P_GORDENS_GIN": {
-  "name": "GORDENS DRY GIN",
-  "price": 25.00,
-  "cost": 6.06,
-  "category": "drink",
-  "stock": 28
-},
-"P_SOUTHERN_COMFORT": {
-  "name": "SOUTHERN COMFORT",
-  "price": 25.00,
-  "cost": 6.16,
-  "category": "drink",
-  "stock": 28
-},
-"P_SPICE_GOLD": {
-  "name": "SPICE GOLD",
-  "price": 25.00,
-  "cost": 6.25,
-  "category": "drink",
-  "stock": 28
-},
-"P_CAPTAIN_MORGAN": {
-  "name": "CAPTAIN MORGAN DARK RUM",
-  "price": 25.00,
-  "cost": 7.30,
-  "category": "drink",
-  "stock": 56
-},
-"P_RICHELIEU": {
-  "name": "RICHELIEU",
-  "price": 25.00,
-  "cost": 7.25,
-  "category": "drink",
-  "stock": 56
-},
-"P_OLFBERG_BRANDY": {
-  "name": "OLFBERG BRANDY",
-  "price": 25.00,
-  "cost": 6.48,
-  "category": "drink",
-  "stock": 28
-},
-"P_KLIPDRIFT": {
-  "name": "KLIPDRIFT",
-  "price": 25.00,
-  "cost": 6.39,
-  "category": "drink",
-  "stock": 56
-},
-"P_JB_WHISKY": {
-  "name": "J & B WHISKY",
-  "price": 30.00,
-  "cost": 7.10,
-  "category": "drink",
-  "stock": 28
-},
-"P_JACK_DANIELS": {
-  "name": "JACK DANIELS",
-  "price": 40.00,
-  "cost": 10.67,
-  "category": "drink",
-  "stock": 28
-},
-"P_JOHNNY_WALKER_BLACK": {
-  "name": "JOHNNY WALKER BLACK",
-  "price": 40.00,
-  "cost": 15.22,
-  "category": "drink",
-  "stock": 28
-},
-"P_JAMESON_SELECT": {
-  "name": "JAMESON SELECT WHISKEY",
-  "price": 40.00,
-  "cost": 19.72,
-  "category": "drink",
-  "stock": 28
-},
-"P_HENNESY": {
-  "name": "HENNESY",
-  "price": 30.00,
-  "cost": 19.00,
-  "category": "drink",
-  "stock": 28
-},
-"P_COURVOISIER_CONIAC": {
-  "name": "COURVOISIER CONIAC",
-  "price": 30.00,
-  "cost": 18.63,
-  "category": "drink",
-  "stock": 28
-},
-"P_AMARULA": {
-  "name": "AMARULA",
-  "price": 25.00,
-  "cost": 5.86,
-  "category": "drink",
-  "stock": 28
-},
-"P_OUDE_MEESTER": {
-  "name": "OUDE MEESTER PERPERMINT",
-  "price": 30.00,
-  "cost": 7.72,
-  "category": "drink",
-  "stock": 28
-},
-"P_JOSE_CUERVO_GOLD": {
-  "name": "JOSE CUERVO GOLD",
-  "price": 30.00,
-  "cost": 10.56,
-  "category": "drink",
-  "stock": 28
-},
-"P_JOSE_CUERVO_SILVER": {
-  "name": "JOSE CUERVO SILVER",
-  "price": 30.00,
-  "cost": 10.56,
-  "category": "drink",
-  "stock": 28
-},
-"P_JAGERMEIST": {
-  "name": "JAGERMEIST",
-  "price": 30.00,
-  "cost": 10.56,
-  "category": "drink",
-  "stock": 28
-},
-"P_COKE_ZERO_300": {
-  "name": "COKE ZERO 300ML",
-  "price": 30.00,
-  "cost": 7.67,
-  "category": "drink",
-  "stock": 72
-},
-"P_NEDERBERG_BARONNE": {
-  "name": "NEDERBERG BARONNE",
-  "price": 160.00,
-  "cost": 80.66,
-  "category": "drink",
-  "stock": 3
-},
-"P_NEDERBERG_SAUVIGNON": {
-  "name": "NEDERBERG SAUVIGNON BLANC",
-  "price": 160.00,
-  "cost": 79.35,
-  "category": "drink",
-  "stock": 3
-},
-"P_DURBAN_VILLE_CHARD": {
-  "name": "DURBAN VILLE HILLS CHARDONNAY",
-  "price": 160.00,
-  "cost": 80.56,
-  "category": "drink",
-  "stock": 1
-},
-"P_GRACA_WINE": {
-  "name": "GRACA WINE",
-  "price": 120.00,
-  "cost": 69.00,
-  "category": "drink",
-  "stock": 4
-},
-"P_ROBERTSON_DRY_RED": {
-  "name": "ROBERTSON DRY RED BOX",
-  "price": 30.00,
-  "cost": 6.51,
-  "category": "drink",
-  "stock": 33
-},
-"P_SPIER_CHARD": {
-  "name": "SPIER 1692 CHARDONNAY",
-  "price": 160.00,
-  "cost": 80.90,
-  "category": "drink",
-  "stock": 1
-},
-"P_TRIPE": {
-  "name": "TRIPE",
-  "price": 105.00,
-  "cost": 30.00,
-  "category": "food",
-  "stock": 19
-},
-"P_RED_HEART_RUM": {
-  "name": "RED HEART RUM",
-  "price": 25.00,
-  "cost": 7.82,
-  "category": "drink",
-  "stock": 28
-},
-"P_MUSSELS": {
-  "name": "MUSSELS",
-  "price": 60.00,
-  "cost": 15.00,
-  "category": "food",
-  "stock": 36
-},
-"P_CHICKEN_LEG_QUARTER": {
-  "name": "CHICKEN LEG QUARTER",
-  "price": 135.00,
-  "cost": 15.26,
-  "category": "food",
-  "stock": 40
-},
-"P_LINE_FISH": {
-  "name": "LINE FISH",
-  "price": 125.00,
-  "cost": 21.15,
-  "category": "food",
-  "stock": 36
-},
-"P_EISBEIN": {
-  "name": "EISBEIN",
-  "price": 145.00,
-  "cost": 58.58,
-  "category": "food",
-  "stock": 12
-},
-"P_CRUMBED_PORK_CHOPS": {
-  "name": "2 CRUMBED PORK CHOPS",
-  "price": 115.00,
-  "cost": 17.40,
-  "category": "food",
-  "stock": 20
-},
-"P_CHICKEN_LIVERS": {
-  "name": "CHICKEN LIVERS",
-  "price": 45.00,
-  "cost": 12.50,
-  "category": "food",
-  "stock": 30
-},
-"P_HAKE_FILLET": {
-  "name": "HAKE FILLET",
-  "price": 95.00,
-  "cost": 40.00,
-  "category": "food",
-  "stock": 20
-},
-"P_SNAILS": {
-  "name": "SNAILS",
-  "price": 70.00,
-  "cost": 17.00,
-  "category": "food",
-  "stock": 8
-},
-"P_MUSESEL_BEAT": {
-  "name": "MUSESEL BEAT",
-  "price": 55.00,
-  "cost": 8.50,
-  "category": "food",
-  "stock": 30
-},
-"P_GRATED_CHEESE": {
-  "name": "GRATED CHEESE",
-  "price": 15.00,
-  "cost": 5.00,
-  "category": "food",
-  "stock": 40
-},
-"P_PORK_FILLET": {
-  "name": "PORK FILLET",
-  "price": 125.00,
-  "cost": 27.00,
-  "category": "food",
-  "stock": 4
-},
-"P_CHICKEN_BREAST": {
-  "name": "CHICKEN BREAST",
-  "price": 125.00,
-  "cost": 17.00,
-  "category": "food",
-  "stock": 15
-},
-"P_STUFFED_CALAMARI": {
-  "name": "STUFFED CALAMARI",
-  "price": 125.00,
-  "cost": 30.00,
-  "category": "food",
-  "stock": 25
-},
-"P_PRAWNS": {
-  "name": "PRAWNS",
-  "price": 92.50,
-  "cost": 19.50,
-  "category": "food",
-  "stock": 27
-},
-"P_GRAB_CURRY": {
-  "name": "GRAB CURRY",
-  "price": 135.00,
-  "cost": 27.50,
-  "category": "food",
-  "stock": 7
-},
-"P_CLAMS": {
-  "name": "CLAMS",
-  "price": 105.00,
-  "cost": 13.50,
-  "category": "food",
-  "stock": 10
-},
-"P_OCTOPUS": {
-  "name": "OCTOPUS",
-  "price": 105.00,
-  "cost": 18.00,
-  "category": "food",
-  "stock": 12
-},
-"P_EISBEIN_2": {
-  "name": "EISBEIN",
-  "price": 145.00,
-  "cost": 65.00,
-  "category": "food",
-  "stock": 32
-},
-"P_BOLONAISE": {
-  "name": "BOLONAISE",
-  "price": 95.00,
-  "cost": 15.00,
-  "category": "food",
-  "stock": 11
-},
-"P_BURGER_PANTIES": {
-  "name": "BURGER PANTIES",
-  "price": 110.00,
-  "cost": 20.00,
-  "category": "food",
-  "stock": 45
-},
-"P_LAMB_SHANK": {
-  "name": "LAMB SHANK",
-  "price": 165.00,
-  "cost": 60.00,
-  "category": "food",
-  "stock": 8
-},
-"P_MARROW_BONES": {
-  "name": "MARROW BONES",
-  "price": 60.00,
-  "cost": 4.00,
-  "category": "food",
-  "stock": 3
-},
-"P_CHICKEN_WINGS": {
-  "name": "CHICKEN WINGS",
-  "price": 75.00,
-  "cost": 20.00,
-  "category": "food",
-  "stock": 24
-},
-"P_BACCON": {
-  "name": "BACCON",
-  "price": 20.00,
-  "cost": 8.24,
-  "category": "food",
-  "stock": 24
-},
-"P_BEEF_FILLET_2": {
-  "name": "BEEF FILLET",
-  "price": 145.00,
-  "cost": 35.00,
-  "category": "food",
-  "stock": 22
-},
-"P_CARPACCIO": {
-  "name": "CARPACCIO",
-  "price": 80.00,
-  "cost": 16.00,
-  "category": "food",
-  "stock": 1
-},
-"P_OYSTERS": {
-  "name": "OYSTERS",
-  "price": 70.00,
-  "cost": 20.00,
-  "category": "food",
-  "stock": 41
-},
-"P_SPRITE_500": {
-  "name": "SPRITE 500ML",
-  "price": 20.00,
-  "cost": 10.56,
-  "category": "drink",
-  "stock": 36
-},
-"P_COCA_COLA_500": {
-  "name": "COCA COLA 500M",
-  "price": 20.00,
-  "cost": 10.48,
-  "category": "drink",
-  "stock": 24
-},
-"P_LIQUI_FRUIT_BERRY": {
-  "name": "LIQUI FRUIT BERRY BLAZE",
-  "price": 20.00,
-  "cost": 10.50,
-  "category": "drink",
-  "stock": 6
-},
-"P_LIQUI_FRUIT_RED": {
-  "name": "LIQUI FRUIT RED GRAPE",
-  "price": 20.00,
-  "cost": 10.50,
-  "category": "drink",
-  "stock": 6
-},
-"P_LIQUI_FRUIT_CRAN": {
-  "name": "LIQUI FRUIT CRANBERRY COOLER",
-  "price": 20.00,
-  "cost": 10.50,
-  "category": "drink",
-  "stock": 12
+{
+  "P_WINDHOEK_DRAUGHT": {
+    "name": "WINDHOEK DRAUGHT",
+    "price": 30.00,
+    "cost": 16.91,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_CASTLE_LAGER_500": {
+    "name": "CASTLE LAGER 500ML",
+    "price": 25.00,
+    "cost": 11.90,
+    "category": "drink",
+    "stock": 35
+  },
+  "P_CASTLE_LAGER_330": {
+    "name": "CASTLE LAGER 330ML",
+    "price": 25.00,
+    "cost": 11.90,
+    "category": "drink",
+    "stock": 6
+  },
+  "P_CASTLE_MILK_STOUT": {
+    "name": "CASTLE MILK STOUT",
+    "price": 25.00,
+    "cost": 11.90,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_CASTLE_DOUBLE_MALT": {
+    "name": "CASTLE DOUBLE MALT",
+    "price": 25.00,
+    "cost": 13.81,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_CASTLE_LITE": {
+    "name": "CASTLE LITE",
+    "price": 25.00,
+    "cost": 12.46,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_BLACK_LABEL": {
+    "name": "BLACK LABEL",
+    "price": 25.00,
+    "cost": 12.79,
+    "category": "drink",
+    "stock": 84
+  },
+  "P_HEINEKEN": {
+    "name": "HEINEKEN",
+    "price": 30.00,
+    "cost": 14.96,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_HUNTERS_GOLD_330": {
+    "name": "HUNTERS GOLD 330ML",
+    "price": 30.00,
+    "cost": 15.42,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SAVANNA_ANGRY_LEMON": {
+    "name": "SAVANNA ANGRY LEMON",
+    "price": 40.00,
+    "cost": 19.50,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SAVANNA_DRY": {
+    "name": "SAVANNA DRY",
+    "price": 30.00,
+    "cost": 16.20,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_SAVANNA_NEAT": {
+    "name": "SAVANNA NEAT",
+    "price": 28.00,
+    "cost": 19.25,
+    "category": "drink",
+    "stock": 6
+  },
+  "P_BERNINI_BLUSH": {
+    "name": "BERNINI BLUSH",
+    "price": 28.00,
+    "cost": 12.67,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_BRUTAL_FRUIT": {
+    "name": "BRUTAL FRUIT",
+    "price": 28.00,
+    "cost": 14.60,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_BERNINI_CLASSIC": {
+    "name": "BERNINI CLASSIC",
+    "price": 28.00,
+    "cost": 15.67,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_BELLGRAVIA_GNT": {
+    "name": "BELLGRAVIA GIN AND TONIC",
+    "price": 28.00,
+    "cost": 15.98,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_BELLGRAVIA_GNDL": {
+    "name": "BELLGRAVIA GIN AND DRY LEMON",
+    "price": 28.00,
+    "cost": 15.98,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_EXTREME": {
+    "name": "EXTREME",
+    "price": 28.00,
+    "cost": 16.11,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_CARONA": {
+    "name": "CARONA",
+    "price": 30.00,
+    "cost": 16.02,
+    "category": "drink",
+    "stock": 46
+  },
+  "P_AQUELLE_STILL": {
+    "name": "AQUEALE STILL WATER",
+    "price": 15.00,
+    "cost": 5.66,
+    "category": "drink",
+    "stock": 6
+  },
+  "P_AQUELLE_SPARK": {
+    "name": "AQUELLE SPARKLING WATER",
+    "price": 15.00,
+    "cost": 5.86,
+    "category": "drink",
+    "stock": 36
+  },
+  "P_TSITSIKAMA_500": {
+    "name": "TSITSIKAMA SPRING 500ML",
+    "price": 15.00,
+    "cost": 4.45,
+    "category": "drink",
+    "stock": 30
+  },
+  "P_APPETIZERS": {
+    "name": "APPETIZERS",
+    "price": 30.00,
+    "cost": 15.49,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_GRAPETISER": {
+    "name": "GRAPETISER 275ML",
+    "price": 30.00,
+    "cost": 15.85,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_TWIST_GRANADILLA": {
+    "name": "TWIST GRANADILLA 300ML",
+    "price": 20.00,
+    "cost": 10.39,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_STONEY_GINGER": {
+    "name": "STONEY GINGER BEER",
+    "price": 20.00,
+    "cost": 10.39,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_SCHWEPPES_GINGER": {
+    "name": "SCHWEPPES GINGERALE 200ML",
+    "price": 20.00,
+    "cost": 8.34,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SCHWEPPES_LEMON": {
+    "name": "SCHWEPPES LEMONADE 200ML",
+    "price": 20.00,
+    "cost": 8.34,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SCHWEPPES_DRY": {
+    "name": "SCHWEPPES DRY LEMON",
+    "price": 20.00,
+    "cost": 8.34,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SCHWEPPES_SODA": {
+    "name": "SCHWEPPES SODA WATER",
+    "price": 20.00,
+    "cost": 8.34,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SCHWEPPES_TONIC": {
+    "name": "SCHWEPPES TONIC WATER 200ML",
+    "price": 20.00,
+    "cost": 8.34,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_CREAM_SODA": {
+    "name": "CREAM SODA 300ML",
+    "price": 20.00,
+    "cost": 10.39,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_ROSES_KOLA": {
+    "name": "ROSES CORDIAL KOLA",
+    "price": 5.00,
+    "cost": 1.71,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_ROSES_LIME": {
+    "name": "ROSES CORDIAL LIME",
+    "price": 5.00,
+    "cost": 1.71,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_ROSES_PASSION": {
+    "name": "ROSES CORDIAL PASSION FRUIT",
+    "price": 5.00,
+    "cost": 1.80,
+    "category": "drink",
+    "stock": 56
+  },
+  "P_RED_BULL": {
+    "name": "RED BULL",
+    "price": 30.00,
+    "cost": 15.35,
+    "category": "drink",
+    "stock": 36
+  },
+  "P_FANTA_ORANGE": {
+    "name": "FANTA ORANGE 300ML",
+    "price": 20.00,
+    "cost": 10.40,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_COCA_COLA": {
+    "name": "COCA COLA 300ML",
+    "price": 20.00,
+    "cost": 7.67,
+    "category": "drink",
+    "stock": 72
+  },
+  "P_SPRITE": {
+    "name": "SPRITE 300ML",
+    "price": 20.00,
+    "cost": 10.50,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_LIQUI_FRUIT": {
+    "name": "LIQUI FRUIT BREAKFAST PUNCH",
+    "price": 20.00,
+    "cost": 10.50,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_HUNTERS_GOLD_440": {
+    "name": "HUNTERS GOLD 440ML",
+    "price": 30.00,
+    "cost": 15.42,
+    "category": "drink",
+    "stock": 12
+  },
+  "P_SMIRNOFF_1818": {
+    "name": "SMIRNOFF 1818 VODCA",
+    "price": 25.00,
+    "cost": 10.60,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_ABSOLUTE_VODCA": {
+    "name": "ABSOLUTE VODCA",
+    "price": 40.00,
+    "cost": 10.60,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_GORDENS_GIN": {
+    "name": "GORDENS DRY GIN",
+    "price": 25.00,
+    "cost": 6.06,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_SOUTHERN_COMFORT": {
+    "name": "SOUTHERN COMFORT",
+    "price": 25.00,
+    "cost": 6.16,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_SPICE_GOLD": {
+    "name": "SPICE GOLD",
+    "price": 25.00,
+    "cost": 6.25,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_CAPTAIN_MORGAN": {
+    "name": "CAPTAIN MORGAN DARK RUM",
+    "price": 25.00,
+    "cost": 7.30,
+    "category": "drink",
+    "stock": 56
+  },
+  "P_RICHELIEU": {
+    "name": "RICHELIEU",
+    "price": 25.00,
+    "cost": 7.25,
+    "category": "drink",
+    "stock": 56
+  },
+  "P_OLFBERG_BRANDY": {
+    "name": "OLFBERG BRANDY",
+    "price": 25.00,
+    "cost": 6.48,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_KLIPDRIFT": {
+    "name": "KLIPDRIFT",
+    "price": 25.00,
+    "cost": 6.39,
+    "category": "drink",
+    "stock": 56
+  },
+  "P_JB_WHISKY": {
+    "name": "J & B WHISKY",
+    "price": 30.00,
+    "cost": 7.10,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JACK_DANIELS": {
+    "name": "JACK DANIELS",
+    "price": 40.00,
+    "cost": 10.67,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JOHNNY_WALKER_BLACK": {
+    "name": "JOHNNY WALKER BLACK",
+    "price": 40.00,
+    "cost": 15.22,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JAMESON_SELECT": {
+    "name": "JAMESON SELECT WHISKEY",
+    "price": 40.00,
+    "cost": 19.72,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_HENNESY": {
+    "name": "HENNESY",
+    "price": 30.00,
+    "cost": 19.00,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_COURVOISIER_CONIAC": {
+    "name": "COURVOISIER CONIAC",
+    "price": 30.00,
+    "cost": 18.63,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_AMARULA": {
+    "name": "AMARULA",
+    "price": 25.00,
+    "cost": 5.86,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_OUDE_MEESTER": {
+    "name": "OUDE MEESTER PERPERMINT",
+    "price": 30.00,
+    "cost": 7.72,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JOSE_CUERVO_GOLD": {
+    "name": "JOSE CUERVO GOLD",
+    "price": 30.00,
+    "cost": 10.56,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JOSE_CUERVO_SILVER": {
+    "name": "JOSE CUERVO SILVER",
+    "price": 30.00,
+    "cost": 10.56,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_JAGERMEIST": {
+    "name": "JAGERMEIST",
+    "price": 30.00,
+    "cost": 10.56,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_COKE_ZERO_300": {
+    "name": "COKE ZERO 300ML",
+    "price": 30.00,
+    "cost": 7.67,
+    "category": "drink",
+    "stock": 72
+  },
+  "P_NEDERBERG_BARONNE": {
+    "name": "NEDERBERG BARONNE",
+    "price": 160.00,
+    "cost": 80.66,
+    "category": "drink",
+    "stock": 3
+  },
+  "P_NEDERBERG_SAUVIGNON": {
+    "name": "NEDERBERG SAUVIGNON BLANC",
+    "price": 160.00,
+    "cost": 79.35,
+    "category": "drink",
+    "stock": 3
+  },
+  "P_DURBAN_VILLE_CHARD": {
+    "name": "DURBAN VILLE HILLS CHARDONNAY",
+    "price": 160.00,
+    "cost": 80.56,
+    "category": "drink",
+    "stock": 1
+  },
+  "P_GRACA_WINE": {
+    "name": "GRACA WINE",
+    "price": 120.00,
+    "cost": 69.00,
+    "category": "drink",
+    "stock": 4
+  },
+  "P_ROBERTSON_DRY_RED": {
+    "name": "ROBERTSON DRY RED BOX",
+    "price": 30.00,
+    "cost": 6.51,
+    "category": "drink",
+    "stock": 33
+  },
+  "P_SPIER_CHARD": {
+    "name": "SPIER 1692 CHARDONNAY",
+    "price": 160.00,
+    "cost": 80.90,
+    "category": "drink",
+    "stock": 1
+  },
+  "P_TRIPE": {
+    "name": "TRIPE",
+    "price": 105.00,
+    "cost": 30.00,
+    "category": "food",
+    "stock": 19
+  },
+  "P_RED_HEART_RUM": {
+    "name": "RED HEART RUM",
+    "price": 25.00,
+    "cost": 7.82,
+    "category": "drink",
+    "stock": 28
+  },
+  "P_MUSSELS": {
+    "name": "MUSSELS",
+    "price": 60.00,
+    "cost": 15.00,
+    "category": "food",
+    "stock": 36
+  },
+  "P_CHICKEN_LEG_QUARTER": {
+    "name": "CHICKEN LEG QUARTER",
+    "price": 135.00,
+    "cost": 15.26,
+    "category": "food",
+    "stock": 40
+  },
+  "P_LINE_FISH": {
+    "name": "LINE FISH",
+    "price": 125.00,
+    "cost": 21.15,
+    "category": "food",
+    "stock": 36
+  },
+  "P_EISBEIN": {
+    "name": "EISBEIN",
+    "price": 145.00,
+    "cost": 58.58,
+    "category": "food",
+    "stock": 12
+  },
+  "P_CRUMBED_PORK_CHOPS": {
+    "name": "2 CRUMBED PORK CHOPS",
+    "price": 115.00,
+    "cost": 17.40,
+    "category": "food",
+    "stock": 20
+  },
+  "P_CHICKEN_LIVERS": {
+    "name": "CHICKEN LIVERS",
+    "price": 45.00,
+    "cost": 12.50,
+    "category": "food",
+    "stock": 30
+  },
+  "P_HAKE_FILLET": {
+    "name": "HAKE FILLET",
+    "price": 95.00,
+    "cost": 40.00,
+    "category": "food",
+    "stock": 20
+  },
+  "P_SNAILS": {
+    "name": "SNAILS",
+    "price": 70.00,
+    "cost": 17.00,
+    "category": "food",
+    "stock": 8
+  },
+  "P_MUSESEL_BEAT": {
+    "name": "MUSESEL BEAT",
+    "price": 55.00,
+    "cost": 8.50,
+    "category": "food",
+    "stock": 30
+  },
+  "P_GRATED_CHEESE": {
+    "name": "GRATED CHEESE",
+    "price": 15.00,
+    "cost": 5.00,
+    "category": "food",
+    "stock": 40
+  },
+  "P_PORK_FILLET": {
+    "name": "PORK FILLET",
+    "price": 125.00,
+    "cost": 27.00,
+    "category": "food",
+    "stock": 4
+  },
+  "P_CHICKEN_BREAST": {
+    "name": "CHICKEN BREAST",
+    "price": 125.00,
+    "cost": 17.00,
+    "category": "food",
+    "stock": 15
+  },
+  "P_STUFFED_CALAMARI": {
+    "name": "STUFFED CALAMARI",
+    "price": 125.00,
+    "cost": 30.00,
+    "category": "food",
+    "stock": 25
+  },
+  "P_PRAWNS": {
+    "name": "PRAWNS",
+    "price": 92.50,
+    "cost": 19.50,
+    "category": "food",
+    "stock": 27
+  },
+  "P_GRAB_CURRY": {
+    "name": "GRAB CURRY",
+    "price": 135.00,
+    "cost": 27.50,
+    "category": "food",
+    "stock": 7
+  },
+  "P_CLAMS": {
+    "name": "CLAMS",
+    "price": 105.00,
+    "cost": 13.50,
+    "category": "food",
+    "stock": 10
+  },
+  "P_OCTOPUS": {
+    "name": "OCTOPUS",
+    "price": 105.00,
+    "cost": 18.00,
+    "category": "food",
+    "stock": 12
+  },
+  "P_EISBEIN_2": {
+    "name": "EISBEIN",
+    "price": 145.00,
+    "cost": 65.00,
+    "category": "food",
+    "stock": 32
+  },
+  "P_BOLONAISE": {
+    "name": "BOLONAISE",
+    "price": 95.00,
+    "cost": 15.00,
+    "category": "food",
+    "stock": 11
+  },
+  "P_BURGER_PANTIES": {
+    "name": "BURGER PANTIES",
+    "price": 110.00,
+    "cost": 20.00,
+    "category": "food",
+    "stock": 45
+  },
+  "P_LAMB_SHANK": {
+    "name": "LAMB SHANK",
+    "price": 165.00,
+    "cost": 60.00,
+    "category": "food",
+    "stock": 8
+  },
+  "P_MARROW_BONES": {
+    "name": "MARROW BONES",
+    "price": 60.00,
+    "cost": 4.00,
+    "category": "food",
+    "stock": 3
+  },
+  "P_CHICKEN_WINGS": {
+    "name": "CHICKEN WINGS",
+    "price": 75.00,
+    "cost": 20.00,
+    "category": "food",
+    "stock": 24
+  },
+  "P_BACCON": {
+    "name": "BACCON",
+    "price": 20.00,
+    "cost": 8.24,
+    "category": "food",
+    "stock": 24
+  },
+  "P_BEEF_FILLET_2": {
+    "name": "BEEF FILLET",
+    "price": 145.00,
+    "cost": 35.00,
+    "category": "food",
+    "stock": 22
+  },
+  "P_CARPACCIO": {
+    "name": "CARPACCIO",
+    "price": 80.00,
+    "cost": 16.00,
+    "category": "food",
+    "stock": 1
+  },
+  "P_OYSTERS": {
+    "name": "OYSTERS",
+    "price": 70.00,
+    "cost": 20.00,
+    "category": "food",
+    "stock": 41
+  },
+  "P_SPRITE_500": {
+    "name": "SPRITE 500ML",
+    "price": 20.00,
+    "cost": 10.56,
+    "category": "drink",
+    "stock": 36
+  },
+  "P_COCA_COLA_500": {
+    "name": "COCA COLA 500M",
+    "price": 20.00,
+    "cost": 10.48,
+    "category": "drink",
+    "stock": 24
+  },
+  "P_LIQUI_FRUIT_BERRY": {
+    "name": "LIQUI FRUIT BERRY BLAZE",
+    "price": 20.00,
+    "cost": 10.50,
+    "category": "drink",
+    "stock": 6
+  },
+  "P_LIQUI_FRUIT_RED": {
+    "name": "LIQUI FRUIT RED GRAPE",
+    "price": 20.00,
+    "cost": 10.50,
+    "category": "drink",
+    "stock": 6
+  },
+  "P_LIQUI_FRUIT_CRAN": {
+    "name": "LIQUI FRUIT CRANBERRY COOLER",
+    "price": 20.00,
+    "cost": 10.50,
+    "category": "drink",
+    "stock": 12
   }
 }
