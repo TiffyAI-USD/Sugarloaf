@@ -105,13 +105,6 @@
       "category": "drink",
       "stock": 16
     },
-    "P_1771342687107": {
-      "name": "KLIP DRIFT ",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 22
-    },
     "P_1771342713141": {
       "name": "RECHELLUE SHORT",
       "price": 25,
@@ -132,13 +125,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 15
-    },
-    "POTATOES_POCKETS_10KG": {
-      "name": "POTATOES POCKETS 10KG",
-      "stock": 4,
-      "cost": 6.666666666666667,
-      "price": 0,
-      "category": "ingredient"
     },
     "P_1772182443370": {
       "name": "HENNESSY ",
@@ -406,19 +392,6 @@
       "category": "drink",
       "stock": 22
     },
-    "AIRFRESHNER": {
-      "name": "AIRFRESHNER",
-      "stock": 2,
-      "cost": 0,
-      "price": 0,
-      "category": "ingredient"
-    },
-    "POTATOES ": {
-      "name": "POTATOES ",
-      "stock": -12,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "P_1772451423710": {
       "name": "COKE",
       "price": 15,
@@ -467,32 +440,8 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "GARLIC ": {
-      "name": "GARLIC ",
-      "stock": 5,
-      "cost": 0,
-      "category": "ingredient"
-    },
-    "CHICKEN ": {
-      "name": "CHICKEN ",
-      "stock": -200,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "ROLL": {
       "name": "ROLL",
-      "stock": -1,
-      "cost": 0,
-      "category": "ingredient"
-    },
-    "LETTUCE ": {
-      "name": "LETTUCE ",
-      "stock": -1,
-      "cost": 0,
-      "category": "ingredient"
-    },
-    "CHEESE": {
-      "name": "CHEESE",
       "stock": -1,
       "cost": 0,
       "category": "ingredient"
@@ -672,19 +621,12 @@
       "category": "drink",
       "stock": 6
     },
-    "P_1773150813810": {
-      "name": "SCHWEPPES GIN & TONIC",
-      "price": 28,
-      "cost": 8.34,
-      "category": "drink",
-      "stock": 0
-    },
     "P_1773150882146": {
       "name": "SCHWEPPES GIN & TONIC",
       "price": 20,
       "cost": 8.34,
       "category": "drink",
-      "stock": 0
+      "stock": 3
     },
     "P_1773150930960": {
       "name": "SCHWEPPES GINGERALE 200ML",
@@ -727,55 +669,6 @@
       "cost": 10.4,
       "category": "drink",
       "stock": 3
-    },
-    "P_1773153011078": {
-      "name": "STONEY GINGER BEER",
-      "price": 20,
-      "cost": 10.39,
-      "category": "drink",
-      "stock": 17
-    },
-    "P_1773153280481": {
-      "name": "ROSES CORDIAL PASSION FRUIT",
-      "price": 10,
-      "cost": 1.8,
-      "category": "drink",
-      "stock": 32
-    },
-    "P_1773153420009": {
-      "name": "ROSES CORDIAL KOLA",
-      "price": 10,
-      "cost": 1.71,
-      "category": "drink",
-      "stock": 28
-    },
-    "P_1773153488572": {
-      "name": "ROSES CORDIAL LIME",
-      "price": 10,
-      "cost": 1.71,
-      "category": "drink",
-      "stock": 28
-    },
-    "P_1773154019061": {
-      "name": "RICHELIEU",
-      "price": 25,
-      "cost": 7.25,
-      "category": "drink",
-      "stock": 36
-    },
-    "P_1773154423053": {
-      "name": "OLFBERG BRANDY",
-      "price": 25,
-      "cost": 6.48,
-      "category": "drink",
-      "stock": 26
-    },
-    "P_1773154568226": {
-      "name": "KLIPDRIFT",
-      "price": 25,
-      "cost": 6.39,
-      "category": "drink",
-      "stock": 28
     }
   },
   "recipes": {},
@@ -3868,5 +3761,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:57:23.054Z"
+  "lastSync": "2026-03-10T15:02:01.922Z"
 }
