@@ -3741,6 +3741,14 @@
           "category": "drink",
           "stock": 60,
           "code": "P_1771339423854"
+        },
+        {
+          "name": "AMARRULA",
+          "price": 25,
+          "cost": 0,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1772183417708"
         }
       ],
       "status": "active",
@@ -3977,5 +3985,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:01:26.535Z"
+  "lastSync": "2026-03-10T07:01:43.605Z"
 }
