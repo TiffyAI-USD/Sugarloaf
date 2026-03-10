@@ -704,6 +704,13 @@
       "cost": 7.1,
       "category": "drink",
       "stock": 14
+    },
+    "P_1773157354874": {
+      "name": "CAPTAIN MORGAN SPICED GOLD",
+      "price": 25,
+      "cost": 6.25,
+      "category": "drink",
+      "stock": 21
     }
   },
   "recipes": {},
@@ -3796,5 +3803,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T15:40:12.183Z"
+  "lastSync": "2026-03-10T15:43:08.902Z"
 }
