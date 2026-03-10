@@ -664,6 +664,13 @@
       "cost": 12.79,
       "category": "drink",
       "stock": 18
+    },
+    "P_1773145614589": {
+      "name": "HEINEKEN",
+      "price": 30,
+      "cost": 14.96,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3756,5 +3763,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:24:32.010Z"
+  "lastSync": "2026-03-10T12:26:54.592Z"
 }
