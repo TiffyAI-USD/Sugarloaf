@@ -47,7 +47,7 @@
       "price": 30,
       "cost": 11.9,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773144259954": {
       "name": "CASTLE DOUBLE MALT",
@@ -243,7 +243,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 48
+      "stock": 44
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
@@ -271,7 +271,7 @@
       "price": 25,
       "cost": 10.6,
       "category": "drink",
-      "stock": 11
+      "stock": 9
     },
     "P_1773155151874": {
       "name": "GORDENS DRY GIN",
@@ -292,14 +292,14 @@
       "price": 35,
       "cost": 10.67,
       "category": "drink",
-      "stock": 21
+      "stock": 19
     },
     "P_1773156851227": {
       "name": "J & B WHISKY ",
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 14
+      "stock": 8
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -3541,8 +3541,12 @@
           "code": "P_1773139959465"
         }
       ],
-      "status": "active",
-      "date": 1773126048504
+      "status": "paid",
+      "date": 1773174225608,
+      "total": 360,
+      "tip": 150,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 94,
@@ -3768,6 +3772,12 @@
       "items": [],
       "status": "active",
       "date": 1773170213724
+    },
+    {
+      "id": 104,
+      "items": [],
+      "status": "active",
+      "date": 1773174225868
     }
   ],
   "purchaseLog": [
@@ -3833,5 +3843,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T20:23:07.551Z"
+  "lastSync": "2026-03-10T20:23:45.867Z"
 }
