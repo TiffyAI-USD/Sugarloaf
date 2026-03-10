@@ -3717,7 +3717,32 @@
     },
     {
       "id": 84,
-      "items": [],
+      "items": [
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 60,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 60,
+          "code": "P_1771339423854"
+        },
+        {
+          "name": "BLACK LABLE CAN ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 60,
+          "code": "P_1771339423854"
+        }
+      ],
       "status": "active",
       "date": 1772894548805
     },
@@ -3952,5 +3977,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:00:48.502Z"
+  "lastSync": "2026-03-10T07:01:26.535Z"
 }
