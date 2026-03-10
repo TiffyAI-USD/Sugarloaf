@@ -3429,12 +3429,12 @@
           "code": "P_1773156851227"
         },
         {
-          "name": "JAGERMEISTER",
-          "price": 30,
-          "cost": 0,
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
           "category": "drink",
-          "stock": 9,
-          "code": "P_1772185176729"
+          "stock": 14,
+          "code": "P_1773156851227"
         }
       ],
       "status": "active",
@@ -3729,5 +3729,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T20:17:44.328Z"
+  "lastSync": "2026-03-10T20:17:48.485Z"
 }
