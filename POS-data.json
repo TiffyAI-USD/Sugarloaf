@@ -1,12 +1,5 @@
 {
   "inventory": {
-    "P_1771320027434": {
-      "name": "FLYING FISH",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 28
-    },
     "P_1771320068598": {
       "name": "STONEY",
       "price": 20,
@@ -76,13 +69,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 6
-    },
-    "P_1771339423854": {
-      "name": "BLACK LABLE CAN ",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 57
     },
     "P_1771339483003": {
       "name": "BLACK LABLE 300MLS",
@@ -217,244 +203,6 @@
       "category": "drink",
       "stock": 45
     },
-    "P_1771419304896": {
-      "name": "CHEESE BURGER (WITH SIDE CHIPS)",
-      "price": 120,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771419455340": {
-      "name": "BOERIE ROLL",
-      "price": 40,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771756211629": {
-      "name": "RUMP STEAK (WITH MUSHROOMS SAUCE AND CHIPS)",
-      "price": 160,
-      "cost": 0,
-      "category": "food",
-      "stock": -4
-    },
-    "P_1771756320784": {
-      "name": "CHEESY POPS -15(SERVED WITH DIP)",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771756591277": {
-      "name": "CHEESY STRIPS -5 (SERVED WITH DIP) ",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": -2
-    },
-    "P_1771756651292": {
-      "name": "WINGLETS -5 ",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771756709069": {
-      "name": "WINGLETS -10",
-      "price": 100,
-      "cost": 0,
-      "category": "food",
-      "stock": -8
-    },
-    "P_1771756895248": {
-      "name": "DOUBLE CHICKEN SCHNITZEL. (WITH CHIPS OR SALAD, MUSHROOM SAUCE & MELTED CHEESE)",
-      "price": 120,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757001528": {
-      "name": "PREGO ROLL",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757038685": {
-      "name": "MUNCHIE PLATTER",
-      "price": 350,
-      "cost": 0,
-      "category": "food",
-      "stock": -2
-    },
-    "P_1771757121452": {
-      "name": "BREAKFAST (SERVED FROM 8-11 AM)",
-      "price": 80,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757236156": {
-      "name": "RIB RACK",
-      "price": 200,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757278829": {
-      "name": "RUSSIAN ROLL AND CHIPS",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757322066": {
-      "name": "BOERIE AND CHIPS",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757411189": {
-      "name": "SOMETHING MEATY",
-      "price": 135,
-      "cost": 0,
-      "category": "food",
-      "stock": -7
-    },
-    "P_1771757453158": {
-      "name": "CREAMY CHICKEN",
-      "price": 135,
-      "cost": 0,
-      "category": "food",
-      "stock": -8
-    },
-    "P_1771757654550": {
-      "name": "PEPPERONI",
-      "price": 135,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757675550": {
-      "name": "VEGETARIAN ",
-      "price": 135,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
-    "P_1771757696714": {
-      "name": "HAWAIIAN",
-      "price": 135,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771757972656": {
-      "name": "MILLIONAIRE ",
-      "price": 200,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771758017047": {
-      "name": "CHICKEN PERI NACHO",
-      "price": 160,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771758105998": {
-      "name": "PAPA RONY",
-      "price": 150,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771758124454": {
-      "name": "AFRICAN MEATY",
-      "price": 150,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
-    "P_1771758163867": {
-      "name": "MARGHERITA ",
-      "price": 100,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
-    "P_1771758231776": {
-      "name": "FLAMING SPARE RIB",
-      "price": 150,
-      "cost": 0,
-      "category": "food",
-      "stock": -2
-    },
-    "P_1771759125390": {
-      "name": "GANJA 1-GRAM",
-      "price": 30,
-      "cost": 0,
-      "category": "food",
-      "stock": -7
-    },
-    "P_1771759370339": {
-      "name": "HASH JOINT",
-      "price": 30,
-      "cost": 0,
-      "category": "food",
-      "stock": 70
-    },
-    "P_1771759402142": {
-      "name": "HASH 1-GRAM",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": 4
-    },
-    "P_1771759522686": {
-      "name": "PSILLOSHOT",
-      "price": 100,
-      "cost": 0,
-      "category": "food",
-      "stock": 5
-    },
-    "P_1771759559766": {
-      "name": "RIZZLA RAW",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 45
-    },
-    "P_1771759584913": {
-      "name": "RIZZLA PURE HEMP",
-      "price": 30,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1771759613141": {
-      "name": "NIK NAKS",
-      "price": 2,
-      "cost": 0,
-      "category": "food",
-      "stock": 30
-    },
-    "P_1771759629390": {
-      "name": "PEANUTS",
-      "price": 10,
-      "cost": 0,
-      "category": "food",
-      "stock": 34
-    },
-    "P_1771759640812": {
-      "name": "GAS LIGHTER ",
-      "price": 10,
-      "cost": 0,
-      "category": "food",
-      "stock": 15
-    },
     "P_1772112075419": {
       "name": "J & B",
       "price": 30,
@@ -468,13 +216,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 3
-    },
-    "P_1772112351662": {
-      "name": "LOOSE RIZZLA",
-      "price": 1,
-      "cost": 0,
-      "category": "food",
-      "stock": -11
     },
     "POTATOES_POCKETS_10KG": {
       "name": "POTATOES POCKETS 10KG",
@@ -756,110 +497,12 @@
       "category": "drink",
       "stock": 39
     },
-    "P_1772191048414": {
-      "name": "SHROOMS EQ",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": 9.94
-    },
-    "P_1772191087155": {
-      "name": "SHROOMS RW",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": 1.57
-    },
-    "P_1772191127721": {
-      "name": "SHROOMS SHAK",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": 6.63
-    },
-    "P_1772191815029": {
-      "name": "CHOCOLOKO",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 28
-    },
-    "P_1772191903139": {
-      "name": "CANDY CHEESE",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 1
-    },
-    "P_1772191946938": {
-      "name": "VELVET MOON",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 37
-    },
-    "P_1772192126615": {
-      "name": "BIG BUDDHA ",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 3
-    },
-    "P_1772192262380": {
-      "name": "SS JOINT",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 10
-    },
-    "P_1772192319700": {
-      "name": "WHITE WIDOW",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 34
-    },
-    "P_1772192395554": {
-      "name": "BIG JOINT SD",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 15
-    },
-    "P_1772192447710": {
-      "name": "BIG JOINT SS",
-      "price": 25,
-      "cost": 0,
-      "category": "food",
-      "stock": 24
-    },
-    "P_1772192598587": {
-      "name": "INDOOR GRAM",
-      "price": 120,
-      "cost": 0,
-      "category": "food",
-      "stock": 14.01
-    },
     "P_1772200964831": {
       "name": "CASTLE LITE CAN 500ML",
       "price": 30,
       "cost": 0,
       "category": "drink",
       "stock": 68
-    },
-    "P_1772201070507": {
-      "name": "BRUTAL FRUIT CAN STRAWBERRY ",
-      "price": 35,
-      "cost": 0,
-      "category": "food",
-      "stock": 24
-    },
-    "P_1772271647612": {
-      "name": "WOOD",
-      "price": 0,
-      "cost": 0,
-      "category": "food",
-      "stock": 9
     },
     "P_1772274041776": {
       "name": "MR ORANGE",
@@ -882,13 +525,6 @@
       "price": 0,
       "category": "ingredient"
     },
-    "P_1772308254845": {
-      "name": "SALAD",
-      "price": 20,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
     "P_1772308654584": {
       "name": "ICE",
       "price": 30,
@@ -909,40 +545,12 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "P_1772310687689": {
-      "name": "FRIED CHIPS",
-      "price": 20,
-      "cost": 0,
-      "category": "food",
-      "stock": -4
-    },
-    "P_1772312133170": {
-      "name": "LUNCH BAR",
-      "price": 10,
-      "cost": 0,
-      "category": "food",
-      "stock": -4
-    },
     "P_1772451423710": {
       "name": "COKE",
       "price": 15,
       "cost": 0,
       "category": "drink",
       "stock": -1
-    },
-    "P_1772478208209": {
-      "name": "X-TRA CHEESE",
-      "price": 15,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
-    "P_1772478637938": {
-      "name": "PREGO & CHIPS",
-      "price": 60,
-      "cost": 0,
-      "category": "food",
-      "stock": -9
     },
     "P_1772478984765": {
       "name": "TONIC ",
@@ -964,27 +572,6 @@
       "cost": 0,
       "category": "drink",
       "stock": -2
-    },
-    "P_1772650909815": {
-      "name": "BOERIE AND CHIPS",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
-    "P_1772650913150": {
-      "name": "BOERIE AND CHIPS",
-      "price": 50,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
-    },
-    "P_1772651655461": {
-      "name": "PAPA RONY",
-      "price": 150,
-      "cost": 0,
-      "category": "food",
-      "stock": -1
     },
     "P_1772709017285": {
       "name": "STELLA CAN 410 ML",
@@ -1012,13 +599,6 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "P_1772883490652": {
-      "name": "FOCACCIA ONE",
-      "price": 70,
-      "cost": 0,
-      "category": "food",
-      "stock": 0
-    },
     "CHICKEN ": {
       "name": "CHICKEN ",
       "stock": -200,
@@ -1042,13 +622,6 @@
       "stock": -1,
       "cost": 0,
       "category": "ingredient"
-    },
-    "P_1772967340149": {
-      "name": "BLONDIE BURGER",
-      "price": 110,
-      "cost": 55,
-      "category": "food",
-      "stock": -1
     },
     "P_1773139959465": {
       "name": "CASTLE LAGER 500ML",
@@ -1084,17 +657,16 @@
       "cost": 16.91,
       "category": "drink",
       "stock": 96
-    }
-  },
-  "recipes": {
-    "P_1772310687689": {
-      "POTATOES ": 3
     },
-    "P_1772883490652": {
-      "ROSEMARY ": 0.2,
-      "GARLIC ": 0.2
+    "P_1773145425644": {
+      "name": "BLACK LABEL 500ML",
+      "price": 30,
+      "cost": 12.79,
+      "category": "drink",
+      "stock": 18
     }
   },
+  "recipes": {},
   "transactions": [
     {
       "id": 1,
@@ -4184,5 +3756,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:14:43.958Z"
+  "lastSync": "2026-03-10T12:24:32.010Z"
 }
