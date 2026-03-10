@@ -748,6 +748,13 @@
       "cost": 12.46,
       "category": "drink",
       "stock": 8
+    },
+    "P_1773152130426": {
+      "name": "TSITSIKAMA SPRING STILL 500ML",
+      "price": 15,
+      "cost": 4.45,
+      "category": "drink",
+      "stock": 48
     }
   },
   "recipes": {},
@@ -3840,5 +3847,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:11:03.960Z"
+  "lastSync": "2026-03-10T14:16:01.499Z"
 }
