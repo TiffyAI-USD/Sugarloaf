@@ -657,6 +657,13 @@
       "cost": 14.6,
       "category": "drink",
       "stock": 24
+    },
+    "P_1773149925884": {
+      "name": "BURNING BLUSH",
+      "price": 35,
+      "cost": 12.67,
+      "category": "drink",
+      "stock": 70
     }
   },
   "recipes": {},
@@ -3749,5 +3756,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:38:07.819Z"
+  "lastSync": "2026-03-10T13:39:10.674Z"
 }
