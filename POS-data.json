@@ -1,123 +1,11 @@
 {
   "inventory": {
-    "P_1771338603517": {
-      "name": "POWER RADE",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 20
-    },
-    "P_1771338668079": {
-      "name": "RED BULL",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 36
-    },
-    "P_1771339096675": {
-      "name": "LUCKY CLUB ",
-      "price": 70,
-      "cost": 0,
-      "category": "drink",
-      "stock": 36
-    },
-    "P_1771339222504": {
-      "name": "SPAR .LETT CREAMSODA",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 6
-    },
-    "P_1771339483003": {
-      "name": "BLACK LABLE 300MLS",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": -1
-    },
-    "P_1771339662077": {
-      "name": "GORDON'S PINK",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 8
-    },
-    "P_1771339720174": {
-      "name": "STRONG BOW CANS ",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 20
-    },
     "P_1771339932815": {
       "name": "BLACK CROWN",
       "price": 35,
       "cost": 0,
       "category": "drink",
       "stock": 33
-    },
-    "P_1771340442059": {
-      "name": "BENIN BLUSH",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 24
-    },
-    "P_1771340478018": {
-      "name": "BENINI CLASIC",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 25
-    },
-    "P_1771340517865": {
-      "name": "STELLA ARITOS",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 12
-    },
-    "P_1771340576103": {
-      "name": "CASTLE.DOUBLE MALT",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 4
-    },
-    "P_1771341834967": {
-      "name": "SPARKLING ",
-      "price": 10,
-      "cost": 0,
-      "category": "drink",
-      "stock": 17
-    },
-    "P_1771342541082": {
-      "name": "SODAZE GUMS",
-      "price": 40,
-      "cost": 0,
-      "category": "drink",
-      "stock": 18
-    },
-    "P_1771342660771": {
-      "name": "GORDON'S SHORT",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 16
-    },
-    "P_1771342713141": {
-      "name": "RECHELLUE SHORT",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 56
-    },
-    "P_1771343231551": {
-      "name": "CAPTAIN MORGAN BLACK",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 45
     },
     "P_1772182443370": {
       "name": "HENNESSY ",
@@ -140,13 +28,6 @@
       "category": "drink",
       "stock": 26
     },
-    "P_1772182956556": {
-      "name": "SMIRNOFF 1818",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 28
-    },
     "P_1772183086715": {
       "name": "BOSWORTH PINK SPIRIT",
       "price": 25,
@@ -159,7 +40,7 @@
       "price": 25,
       "cost": 0,
       "category": "drink",
-      "stock": 11
+      "stock": 30
     },
     "P_1772183552163": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -426,18 +307,6 @@
       "cost": 0,
       "category": "drink",
       "stock": -2
-    },
-    "ROSEMARY ": {
-      "name": "ROSEMARY ",
-      "stock": 0,
-      "cost": 0,
-      "category": "ingredient"
-    },
-    "ROLL": {
-      "name": "ROLL",
-      "stock": -1,
-      "cost": 0,
-      "category": "ingredient"
     },
     "P_1773139959465": {
       "name": "CASTLE LAGER 500ML",
@@ -3845,5 +3714,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T16:05:07.396Z"
+  "lastSync": "2026-03-10T16:21:02.144Z"
 }
