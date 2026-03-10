@@ -551,7 +551,7 @@
       "price": 25,
       "cost": 5.86,
       "category": "drink",
-      "stock": 7.5
+      "stock": 29.5
     },
     "P_1773157682336": {
       "name": "RED HEART RUM",
@@ -3679,5 +3679,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T16:37:36.133Z"
+  "lastSync": "2026-03-10T16:38:09.158Z"
 }
