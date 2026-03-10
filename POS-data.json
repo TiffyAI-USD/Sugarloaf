@@ -747,6 +747,13 @@
       "price": 10,
       "cost": 1.71,
       "category": "drink",
+      "stock": 28
+    },
+    "P_1773153488572": {
+      "name": "ROSES CORDIAL LIME",
+      "price": 10,
+      "cost": 1.71,
+      "category": "drink",
       "stock": 0
     }
   },
@@ -3840,5 +3847,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:37:00.011Z"
+  "lastSync": "2026-03-10T14:38:31.031Z"
 }
