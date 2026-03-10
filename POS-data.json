@@ -91,13 +91,6 @@
       "category": "drink",
       "stock": -1
     },
-    "P_1771339519564": {
-      "name": "CASTLE LAGER",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 2
-    },
     "P_1771339542710": {
       "name": "CASTLE LITE",
       "price": 30,
@@ -1070,6 +1063,20 @@
       "cost": 55,
       "category": "food",
       "stock": -1
+    },
+    "P_1773139959465": {
+      "name": "CASTLE LAGER 500ML",
+      "price": 30,
+      "cost": 11.9,
+      "category": "drink",
+      "stock": 7
+    },
+    "P_1773144259954": {
+      "name": "CASTLE DOUBLE MALT",
+      "price": 30,
+      "cost": 13.81,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -3822,24 +3829,7 @@
     },
     {
       "id": 87,
-      "items": [
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 23,
-          "code": "P_1771338445412"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 23,
-          "code": "P_1771338445412"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1772895233994
     },
@@ -4187,5 +4177,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T09:55:12.549Z"
+  "lastSync": "2026-03-10T12:04:55.300Z"
 }
