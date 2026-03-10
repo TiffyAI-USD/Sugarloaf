@@ -89,7 +89,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 4
+      "stock": -1
     },
     "P_1771339519564": {
       "name": "CASTLE LAGER",
@@ -3830,6 +3830,14 @@
           "category": "drink",
           "stock": 23,
           "code": "P_1771338445412"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1771338445412"
         }
       ],
       "status": "active",
@@ -4114,12 +4122,6 @@
       "items": [],
       "status": "active",
       "date": 1773126631627
-    },
-    {
-      "id": 100,
-      "items": [],
-      "status": "active",
-      "date": 1773136218712
     }
   ],
   "purchaseLog": [
@@ -4185,5 +4187,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T09:51:20.951Z"
+  "lastSync": "2026-03-10T09:55:12.549Z"
 }
