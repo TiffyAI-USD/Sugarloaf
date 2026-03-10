@@ -706,6 +706,13 @@
       "cost": 8.34,
       "category": "drink",
       "stock": 6
+    },
+    "P_1773150716589": {
+      "name": "SCHWEPPES SODA WATER",
+      "price": 20,
+      "cost": 8.34,
+      "category": "drink",
+      "stock": 7
     }
   },
   "recipes": {},
@@ -3798,5 +3805,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:51:20.626Z"
+  "lastSync": "2026-03-10T13:52:12.532Z"
 }
