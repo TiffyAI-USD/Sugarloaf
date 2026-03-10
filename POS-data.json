@@ -1,12 +1,5 @@
 {
   "inventory": {
-    "P_1771320068598": {
-      "name": "STONEY",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 32
-    },
     "P_1771338603517": {
       "name": "POWER RADE",
       "price": 20,
@@ -734,6 +727,13 @@
       "cost": 10.4,
       "category": "drink",
       "stock": 3
+    },
+    "P_1773153011078": {
+      "name": "STONEY GINGER BEER",
+      "price": 20,
+      "cost": 10.39,
+      "category": "drink",
+      "stock": 17
     }
   },
   "recipes": {},
@@ -3826,5 +3826,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:28:48.193Z"
+  "lastSync": "2026-03-10T14:30:41.239Z"
 }
