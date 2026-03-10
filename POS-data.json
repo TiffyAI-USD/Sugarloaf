@@ -664,6 +664,13 @@
       "cost": 12.67,
       "category": "drink",
       "stock": 70
+    },
+    "P_1773149976429": {
+      "name": "BERNINI CLASSIC",
+      "price": 35,
+      "cost": 15.67,
+      "category": "drink",
+      "stock": 7
     }
   },
   "recipes": {},
@@ -3756,5 +3763,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:39:10.674Z"
+  "lastSync": "2026-03-10T13:40:17.114Z"
 }
