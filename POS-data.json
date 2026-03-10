@@ -769,6 +769,13 @@
       "cost": 10.5,
       "category": "drink",
       "stock": 39
+    },
+    "P_1773152724847": {
+      "name": "LIQUI FRUIT RED GRAPE",
+      "price": 20,
+      "cost": 10.5,
+      "category": "drink",
+      "stock": 3
     }
   },
   "recipes": {},
@@ -3861,5 +3868,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:24:19.019Z"
+  "lastSync": "2026-03-10T14:25:45.264Z"
 }
