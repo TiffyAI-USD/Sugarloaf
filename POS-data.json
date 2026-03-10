@@ -89,7 +89,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": -1
+      "stock": 4
     },
     "P_1771339519564": {
       "name": "CASTLE LAGER",
@@ -4114,6 +4114,12 @@
       "items": [],
       "status": "active",
       "date": 1773126631627
+    },
+    {
+      "id": 100,
+      "items": [],
+      "status": "active",
+      "date": 1773136218712
     }
   ],
   "purchaseLog": [
@@ -4179,5 +4185,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T09:48:45.887Z"
+  "lastSync": "2026-03-10T09:51:20.951Z"
 }
