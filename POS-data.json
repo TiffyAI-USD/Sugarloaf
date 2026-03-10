@@ -692,6 +692,13 @@
       "cost": 16.02,
       "category": "drink",
       "stock": 8
+    },
+    "P_1773147217567": {
+      "name": "HUNTERS GOLD",
+      "price": 35,
+      "cost": 15.42,
+      "category": "drink",
+      "stock": 8
     }
   },
   "recipes": {},
@@ -3784,5 +3791,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:38:00.349Z"
+  "lastSync": "2026-03-10T12:53:53.698Z"
 }
