@@ -14,13 +14,6 @@
       "category": "drink",
       "stock": 23
     },
-    "P_1771338477277": {
-      "name": "SPRITE",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 17
-    },
     "P_1771338511578": {
       "name": "COKE ",
       "price": 20,
@@ -762,6 +755,13 @@
       "cost": 4.45,
       "category": "drink",
       "stock": 20
+    },
+    "P_1773152551247": {
+      "name": "SPRITE 500ML",
+      "price": 20,
+      "cost": 10.5,
+      "category": "drink",
+      "stock": 15
     }
   },
   "recipes": {},
@@ -3854,5 +3854,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:19:48.462Z"
+  "lastSync": "2026-03-10T14:22:53.000Z"
 }
