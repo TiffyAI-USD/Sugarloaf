@@ -271,7 +271,7 @@
       "price": 25,
       "cost": 10.6,
       "category": "drink",
-      "stock": 14
+      "stock": 11
     },
     "P_1773155151874": {
       "name": "GORDENS DRY GIN",
@@ -348,7 +348,7 @@
       "price": 40,
       "cost": 7.1,
       "category": "drink",
-      "stock": 18
+      "stock": 17
     },
     "P_1773162909257": {
       "name": "TEQUILA GOLD",
@@ -369,7 +369,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": -1
+      "stock": -4
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -3391,8 +3391,12 @@
           "code": "P_1773158634215"
         }
       ],
-      "status": "active",
-      "date": 1772970769415
+      "status": "paid",
+      "date": 1773169561363,
+      "total": 175,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 92,
@@ -3618,6 +3622,12 @@
       ],
       "status": "active",
       "date": 1773169245520
+    },
+    {
+      "id": 102,
+      "items": [],
+      "status": "active",
+      "date": 1773169561505
     }
   ],
   "purchaseLog": [
@@ -3683,5 +3693,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T19:05:42.758Z"
+  "lastSync": "2026-03-10T19:06:01.501Z"
 }
