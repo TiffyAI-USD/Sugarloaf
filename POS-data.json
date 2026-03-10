@@ -643,6 +643,13 @@
       "cost": 19.5,
       "category": "drink",
       "stock": 24
+    },
+    "P_1773149785260": {
+      "name": "SAVANNA DRY",
+      "price": 35,
+      "cost": 16.5,
+      "category": "drink",
+      "stock": 46
     }
   },
   "recipes": {},
@@ -3735,5 +3742,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:35:35.262Z"
+  "lastSync": "2026-03-10T13:36:47.052Z"
 }
