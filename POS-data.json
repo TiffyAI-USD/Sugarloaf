@@ -3749,6 +3749,14 @@
           "category": "drink",
           "stock": 12,
           "code": "P_1772183417708"
+        },
+        {
+          "name": "OUDE MEESTER PEPPERMINT",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1772184064385"
         }
       ],
       "status": "active",
@@ -3985,5 +3993,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:01:43.605Z"
+  "lastSync": "2026-03-10T07:02:10.644Z"
 }
