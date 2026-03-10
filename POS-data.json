@@ -3515,6 +3515,22 @@
           "category": "drink",
           "stock": 48,
           "code": "P_1773152130426"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
         }
       ],
       "status": "active",
@@ -3809,5 +3825,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T20:22:46.662Z"
+  "lastSync": "2026-03-10T20:22:50.093Z"
 }
