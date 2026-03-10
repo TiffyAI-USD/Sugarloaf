@@ -699,6 +699,13 @@
       "cost": 15.35,
       "category": "drink",
       "stock": 13
+    },
+    "P_1773150663163": {
+      "name": "SCHWEPPES TONIC WATER",
+      "price": 20,
+      "cost": 8.34,
+      "category": "drink",
+      "stock": 6
     }
   },
   "recipes": {},
@@ -3791,5 +3798,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:50:12.578Z"
+  "lastSync": "2026-03-10T13:51:20.626Z"
 }
