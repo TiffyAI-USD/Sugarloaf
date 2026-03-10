@@ -4061,12 +4061,28 @@
       "id": 98,
       "items": [
         {
-          "name": "EXTREME CAN 440ML ",
-          "price": 35,
+          "name": "CASTLE LITE CAN 500ML",
+          "price": 30,
           "cost": 0,
           "category": "drink",
-          "stock": 53,
-          "code": "P_1772189715173"
+          "stock": 72,
+          "code": "P_1772200964831"
+        },
+        {
+          "name": "CASTLE LITE CAN 500ML",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 72,
+          "code": "P_1772200964831"
+        },
+        {
+          "name": "CASTLE LITE CAN 500ML",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 72,
+          "code": "P_1772200964831"
         }
       ],
       "status": "active",
@@ -4136,5 +4152,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:09:55.652Z"
+  "lastSync": "2026-03-10T07:09:59.295Z"
 }
