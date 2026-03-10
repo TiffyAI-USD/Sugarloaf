@@ -650,6 +650,13 @@
       "cost": 16.5,
       "category": "drink",
       "stock": 46
+    },
+    "P_1773149869795": {
+      "name": "BRUTAL FRUIT STRAWBERRY ",
+      "price": 35,
+      "cost": 14.6,
+      "category": "drink",
+      "stock": 24
     }
   },
   "recipes": {},
@@ -3742,5 +3749,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:36:47.052Z"
+  "lastSync": "2026-03-10T13:38:07.819Z"
 }
