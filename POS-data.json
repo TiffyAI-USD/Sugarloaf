@@ -3333,16 +3333,7 @@
     },
     {
       "id": 91,
-      "items": [
-        {
-          "name": "BLACK LABLE 300MLS",
-          "price": 30,
-          "cost": 0,
-          "category": "drink",
-          "stock": 4,
-          "code": "P_1771339483003"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1772970769415
     },
@@ -3635,5 +3626,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T19:04:37.261Z"
+  "lastSync": "2026-03-10T19:05:09.474Z"
 }
