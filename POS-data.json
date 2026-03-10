@@ -671,6 +671,13 @@
       "cost": 15.67,
       "category": "drink",
       "stock": 7
+    },
+    "P_1773150214676": {
+      "name": "APPLETIZERS ",
+      "price": 30,
+      "cost": 15.49,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3763,5 +3770,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:40:17.114Z"
+  "lastSync": "2026-03-10T13:43:34.678Z"
 }
