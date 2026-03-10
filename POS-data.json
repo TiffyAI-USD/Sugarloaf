@@ -4032,6 +4032,14 @@
           "category": "drink",
           "stock": 129,
           "code": "P_1771338639237"
+        },
+        {
+          "name": "WATER 500MLS",
+          "price": 10,
+          "cost": 0,
+          "category": "drink",
+          "stock": 129,
+          "code": "P_1771338639237"
         }
       ],
       "status": "active",
@@ -4101,5 +4109,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:09:04.284Z"
+  "lastSync": "2026-03-10T07:09:11.602Z"
 }
