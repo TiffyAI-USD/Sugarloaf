@@ -3775,7 +3775,16 @@
     },
     {
       "id": 104,
-      "items": [],
+      "items": [
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1772185176729"
+        }
+      ],
       "status": "active",
       "date": 1773174225868
     }
@@ -3843,5 +3852,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T20:24:25.462Z"
+  "lastSync": "2026-03-10T20:24:46.567Z"
 }
