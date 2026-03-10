@@ -3241,6 +3241,22 @@
           "category": "drink",
           "stock": 22,
           "code": "P_1773147503327"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
         }
       ],
       "status": "active",
@@ -3546,5 +3562,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T17:00:32.002Z"
+  "lastSync": "2026-03-10T17:00:42.047Z"
 }
