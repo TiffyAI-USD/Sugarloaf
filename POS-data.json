@@ -580,6 +580,13 @@
       "cost": 7.1,
       "category": "drink",
       "stock": 25
+    },
+    "P_1773160613061": {
+      "name": "JAMESON SELECT WHISKEY ",
+      "price": 50,
+      "cost": 19.72,
+      "category": "drink",
+      "stock": 24
     }
   },
   "recipes": {},
@@ -3672,5 +3679,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T16:36:10.756Z"
+  "lastSync": "2026-03-10T16:37:36.133Z"
 }
