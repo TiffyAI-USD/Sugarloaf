@@ -4040,6 +4040,14 @@
           "category": "drink",
           "stock": 129,
           "code": "P_1771338639237"
+        },
+        {
+          "name": "GORDON'S ",
+          "price": 25,
+          "cost": 0,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1772479539637"
         }
       ],
       "status": "active",
@@ -4109,5 +4117,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:09:11.602Z"
+  "lastSync": "2026-03-10T07:09:14.878Z"
 }
