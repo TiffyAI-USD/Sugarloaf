@@ -82,7 +82,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 60
+      "stock": 57
     },
     "P_1771339483003": {
       "name": "BLACK LABLE 300MLS",
@@ -544,7 +544,7 @@
       "price": 25,
       "cost": 0,
       "category": "drink",
-      "stock": 12
+      "stock": 11
     },
     "P_1772183552163": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -558,7 +558,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1772184150641": {
       "name": "ROSES CORDIAL  PASSION FRUIT",
@@ -3759,12 +3759,25 @@
           "code": "P_1772184064385"
         }
       ],
-      "status": "active",
-      "date": 1772894548805
+      "status": "paid",
+      "date": 1773126142699,
+      "total": 145,
+      "tip": 35,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 85,
-      "items": [],
+      "items": [
+        {
+          "name": "BRUTAL FRUIT BOTTLE 275ML STRABERRY",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1772189091678"
+        }
+      ],
       "status": "active",
       "date": 1772894791449
     },
@@ -3928,6 +3941,12 @@
       "items": [],
       "status": "active",
       "date": 1773126048504
+    },
+    {
+      "id": 94,
+      "items": [],
+      "status": "active",
+      "date": 1773126142834
     }
   ],
   "purchaseLog": [
@@ -3993,5 +4012,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:02:10.644Z"
+  "lastSync": "2026-03-10T07:02:39.620Z"
 }
