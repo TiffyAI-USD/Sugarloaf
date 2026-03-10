@@ -4026,12 +4026,12 @@
           "code": "P_1772479539637"
         },
         {
-          "name": "GORDON'S PINK & TONIC",
-          "price": 35,
+          "name": "WATER 500MLS",
+          "price": 10,
           "cost": 0,
           "category": "drink",
-          "stock": 8,
-          "code": "P_1772187616875"
+          "stock": 129,
+          "code": "P_1771338639237"
         }
       ],
       "status": "active",
@@ -4101,5 +4101,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:08:30.475Z"
+  "lastSync": "2026-03-10T07:09:04.284Z"
 }
