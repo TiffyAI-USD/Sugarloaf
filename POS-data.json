@@ -713,6 +713,13 @@
       "cost": 8.34,
       "category": "drink",
       "stock": 7
+    },
+    "P_1773150754259": {
+      "name": "SCHWEPPES LEMONADE 200ML",
+      "price": 20,
+      "cost": 8.34,
+      "category": "drink",
+      "stock": 6
     }
   },
   "recipes": {},
@@ -3805,5 +3812,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:52:12.532Z"
+  "lastSync": "2026-03-10T13:52:52.676Z"
 }
