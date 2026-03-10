@@ -657,6 +657,13 @@
       "cost": 15.42,
       "category": "drink",
       "stock": 8
+    },
+    "P_1773148706987": {
+      "name": "SAVANNA NEAT",
+      "price": 35,
+      "cost": 19.25,
+      "category": "drink",
+      "stock": 4
     }
   },
   "recipes": {},
@@ -3749,5 +3756,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:14:03.123Z"
+  "lastSync": "2026-03-10T13:19:12.447Z"
 }
