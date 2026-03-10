@@ -739,6 +739,13 @@
       "cost": 7.72,
       "category": "drink",
       "stock": 12
+    },
+    "P_1773158228951": {
+      "name": "4TH STREET WHITE SWEET 5L",
+      "price": 40,
+      "cost": 7,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3831,5 +3838,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T15:51:50.621Z"
+  "lastSync": "2026-03-10T15:57:08.961Z"
 }
