@@ -1077,6 +1077,13 @@
       "cost": 13.81,
       "category": "drink",
       "stock": 3
+    },
+    "P_1773144401525": {
+      "name": "CASTLE LITE",
+      "price": 30,
+      "cost": 12.46,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -4177,5 +4184,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:05:33.238Z"
+  "lastSync": "2026-03-10T12:06:41.530Z"
 }
