@@ -28,47 +28,12 @@
       "category": "drink",
       "stock": 26
     },
-    "P_1772183552163": {
-      "name": "CAPTAIN MORGAN SPICED GOLD",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": 18
-    },
-    "P_1772184064385": {
-      "name": "OUDE MEESTER PEPPERMINT",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 8
-    },
-    "P_1772184801798": {
-      "name": "SAUVIGNON BLANC (WHITE WINE)",
-      "price": 40,
-      "cost": 0,
-      "category": "drink",
-      "stock": 1
-    },
     "P_1772185176729": {
       "name": "JAGERMEISTER",
       "price": 30,
       "cost": 0,
       "category": "drink",
       "stock": 9
-    },
-    "P_1772185277326": {
-      "name": "BUTTONS WATERMELON",
-      "price": 5,
-      "cost": 0,
-      "category": "drink",
-      "stock": 8
-    },
-    "P_1772185314941": {
-      "name": "BUTTONS LIME",
-      "price": 5,
-      "cost": 0,
-      "category": "drink",
-      "stock": 28
     },
     "P_1772185638955": {
       "name": "SCHWEPPES 1L",
@@ -77,132 +42,6 @@
       "category": "drink",
       "stock": 4
     },
-    "P_1772185865809": {
-      "name": "SPARLETTA SPARBERRY",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 21
-    },
-    "P_1772186895009": {
-      "name": "APPLETIZER",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 8
-    },
-    "P_1772186923724": {
-      "name": "GRAPTISER",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 14
-    },
-    "P_1772187015874": {
-      "name": "BREEZER",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 17
-    },
-    "P_1772187524414": {
-      "name": "GORDON'S & TONIC",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 17
-    },
-    "P_1772187616875": {
-      "name": "GORDON'S PINK & TONIC",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 8
-    },
-    "P_1772188084273": {
-      "name": "BERNINI MIMOSA",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 21
-    },
-    "P_1772188183404": {
-      "name": "SCHWEPPES DRY LEMON",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 12
-    },
-    "P_1772188199797": {
-      "name": "SCHWEPPES TONIC WATER",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 21
-    },
-    "P_1772188428600": {
-      "name": "SODAZE MERINGUE",
-      "price": 60,
-      "cost": 0,
-      "category": "drink",
-      "stock": 3
-    },
-    "P_1772188460835": {
-      "name": "SODAZE TROPICAL PUNCH",
-      "price": 60,
-      "cost": 0,
-      "category": "drink",
-      "stock": 1
-    },
-    "P_1772188503824": {
-      "name": "SODAZRE BLUEBERRY LEMONADE ",
-      "price": 60,
-      "cost": 0,
-      "category": "drink",
-      "stock": 1
-    },
-    "P_1772188537573": {
-      "name": "SODAZE LEMONADA",
-      "price": 60,
-      "cost": 0,
-      "category": "drink",
-      "stock": 6
-    },
-    "P_1772189091678": {
-      "name": "BRUTAL FRUIT BOTTLE 275ML STRABERRY",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 22
-    },
-    "P_1772189159763": {
-      "name": "BRUTAL FRUIT BOTTLE 275ML RUBY APPLE",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 2
-    },
-    "P_1772189354556": {
-      "name": "EXTREME BOTTLE RUBBY APPLE",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 46
-    },
-    "P_1772189715173": {
-      "name": "EXTREME CAN 440ML ",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 53
-    },
-    "P_1772189983819": {
-      "name": "CORONA EXTRA",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 39
-    },
     "P_1772200964831": {
       "name": "CASTLE LITE CAN 500ML",
       "price": 30,
@@ -210,61 +49,12 @@
       "category": "drink",
       "stock": 68
     },
-    "P_1772274041776": {
-      "name": "MR ORANGE",
-      "price": 15,
-      "cost": 0,
-      "category": "drink",
-      "stock": 18
-    },
-    "P_1772274987056": {
-      "name": "BERNINI BLUSH CAN 500ML",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 22
-    },
-    "P_1772451423710": {
-      "name": "COKE",
-      "price": 15,
-      "cost": 0,
-      "category": "drink",
-      "stock": -1
-    },
-    "P_1772478984765": {
-      "name": "TONIC ",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": -3
-    },
     "P_1772479539637": {
       "name": "GORDON'S ",
       "price": 25,
       "cost": 0,
       "category": "drink",
       "stock": -3
-    },
-    "P_1772479541024": {
-      "name": "GORDON'S ",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": -2
-    },
-    "P_1772709017285": {
-      "name": "STELLA CAN 410 ML",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 24
-    },
-    "P_1772709165416": {
-      "name": "ROBERTSON 5L",
-      "price": 40,
-      "cost": 0,
-      "category": "drink",
-      "stock": -2
     },
     "P_1773139959465": {
       "name": "CASTLE LAGER 500ML",
@@ -551,7 +341,7 @@
       "price": 25,
       "cost": 5.86,
       "category": "drink",
-      "stock": 29.5
+      "stock": 7.5
     },
     "P_1773157682336": {
       "name": "RED HEART RUM",
@@ -580,13 +370,6 @@
       "cost": 7.1,
       "category": "drink",
       "stock": 25
-    },
-    "P_1773160613061": {
-      "name": "JAMESON SELECT WHISKEY ",
-      "price": 50,
-      "cost": 19.72,
-      "category": "drink",
-      "stock": 24
     }
   },
   "recipes": {},
@@ -3331,7 +3114,32 @@
     },
     {
       "id": 87,
-      "items": [],
+      "items": [
+        {
+          "name": "SCHWEPPES TONIC WATER",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1772188199797"
+        },
+        {
+          "name": "SCHWEPPES TONIC WATER",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1772188199797"
+        },
+        {
+          "name": "GORDON'S PINK & TONIC",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1772187616875"
+        }
+      ],
       "status": "active",
       "date": 1772895233994
     },
@@ -3679,5 +3487,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T16:38:09.158Z"
+  "lastSync": "2026-03-10T16:45:00.775Z"
 }
