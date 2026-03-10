@@ -356,6 +356,13 @@
       "cost": 10.56,
       "category": "drink",
       "stock": 0
+    },
+    "P_1773164159136": {
+      "name": "GRAPETISER 275ML",
+      "price": 30,
+      "cost": 15.85,
+      "category": "drink",
+      "stock": 2
     }
   },
   "recipes": {},
@@ -3482,5 +3489,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T17:31:58.456Z"
+  "lastSync": "2026-03-10T17:39:14.262Z"
 }
