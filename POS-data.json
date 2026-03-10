@@ -3531,6 +3531,14 @@
           "category": "drink",
           "stock": 48,
           "code": "P_1773152130426"
+        },
+        {
+          "name": "CASTLE LAGER 500ML",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773139959465"
         }
       ],
       "status": "active",
@@ -3825,5 +3833,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T20:22:50.093Z"
+  "lastSync": "2026-03-10T20:23:07.551Z"
 }
