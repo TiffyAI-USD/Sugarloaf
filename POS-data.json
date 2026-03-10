@@ -741,6 +741,13 @@
       "cost": 1.8,
       "category": "drink",
       "stock": 32
+    },
+    "P_1773153420009": {
+      "name": "ROSES CORDIAL KOLA",
+      "price": 10,
+      "cost": 1.71,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3833,5 +3840,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:36:05.444Z"
+  "lastSync": "2026-03-10T14:37:00.011Z"
 }
