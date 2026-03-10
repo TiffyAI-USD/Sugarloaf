@@ -718,6 +718,13 @@
       "cost": 7.3,
       "category": "drink",
       "stock": 28
+    },
+    "P_1773157574033": {
+      "name": "AMARULA",
+      "price": 25,
+      "cost": 5.86,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3810,5 +3817,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T15:45:04.248Z"
+  "lastSync": "2026-03-10T15:46:14.037Z"
 }
