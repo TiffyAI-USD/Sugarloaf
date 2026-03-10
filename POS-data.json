@@ -649,7 +649,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 18
+      "stock": 17
     },
     "P_1772187374566": {
       "name": "SMIRNOFF ICE PINE TWIST",
@@ -733,7 +733,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 24
+      "stock": 22
     },
     "P_1772189159763": {
       "name": "BRUTAL FRUIT BOTTLE 275ML RUBY APPLE",
@@ -3794,8 +3794,12 @@
           "code": "P_1772187015874"
         }
       ],
-      "status": "active",
-      "date": 1772894791449
+      "status": "paid",
+      "date": 1773126188396,
+      "total": 105,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
     },
     {
       "id": 86,
@@ -3963,6 +3967,12 @@
       "items": [],
       "status": "active",
       "date": 1773126142834
+    },
+    {
+      "id": 95,
+      "items": [],
+      "status": "active",
+      "date": 1773126188523
     }
   ],
   "purchaseLog": [
@@ -4028,5 +4038,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:02:54.554Z"
+  "lastSync": "2026-03-10T07:03:08.522Z"
 }
