@@ -371,20 +371,6 @@
       "category": "drink",
       "stock": 17
     },
-    "P_1772187374566": {
-      "name": "SMIRNOFF ICE PINE TWIST",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 3
-    },
-    "P_1772187411936": {
-      "name": "SMIRNOFF ICE STORM",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 1
-    },
     "P_1772187524414": {
       "name": "GORDON'S & TONIC",
       "price": 35,
@@ -524,20 +510,6 @@
       "cost": 0,
       "price": 0,
       "category": "ingredient"
-    },
-    "P_1772308654584": {
-      "name": "ICE",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 22
-    },
-    "P_1772308657047": {
-      "name": "ICE",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": -2
     },
     "POTATOES ": {
       "name": "POTATOES ",
@@ -693,12 +665,12 @@
       "category": "drink",
       "stock": 8
     },
-    "P_1773147217567": {
-      "name": "HUNTERS GOLD",
+    "P_1773147503327": {
+      "name": "SMIRNOFF ICE BERRY TWIST",
       "price": 35,
-      "cost": 15.42,
+      "cost": 13,
       "category": "drink",
-      "stock": 8
+      "stock": 22
     }
   },
   "recipes": {},
@@ -3791,5 +3763,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:53:53.698Z"
+  "lastSync": "2026-03-10T12:59:28.323Z"
 }
