@@ -105,27 +105,6 @@
       "category": "drink",
       "stock": 33
     },
-    "P_1771340061682": {
-      "name": "HUNTERS DRY BOTTLE ",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 16
-    },
-    "P_1771340256910": {
-      "name": "HUNTERS GOLDS CANS",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 48
-    },
-    "P_1771340334623": {
-      "name": "WINDHOEK CAN ",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 22
-    },
     "P_1771340442059": {
       "name": "BENIN BLUSH",
       "price": 35,
@@ -160,13 +139,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 17
-    },
-    "P_1771342188025": {
-      "name": "HUNTERS CAN ",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 15
     },
     "P_1771342541082": {
       "name": "SODAZE GUMS",
@@ -678,6 +650,13 @@
       "cost": 16.48,
       "category": "drink",
       "stock": 18
+    },
+    "P_1773148398541": {
+      "name": "HUNTERS GOLD 440ML",
+      "price": 35,
+      "cost": 15.42,
+      "category": "drink",
+      "stock": 8
     }
   },
   "recipes": {},
@@ -3770,5 +3749,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:06:33.172Z"
+  "lastSync": "2026-03-10T13:14:03.123Z"
 }
