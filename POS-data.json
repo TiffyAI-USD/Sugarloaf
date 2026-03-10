@@ -7,20 +7,6 @@
       "category": "drink",
       "stock": 32
     },
-    "P_1771338445412": {
-      "name": "FANTA",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 23
-    },
-    "P_1771338511578": {
-      "name": "COKE ",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 36
-    },
     "P_1771338603517": {
       "name": "POWER RADE",
       "price": 20,
@@ -28,26 +14,12 @@
       "category": "drink",
       "stock": 20
     },
-    "P_1771338639237": {
-      "name": "WATER 500MLS",
-      "price": 10,
-      "cost": 0,
-      "category": "drink",
-      "stock": 127
-    },
     "P_1771338668079": {
       "name": "RED BULL",
       "price": 25,
       "cost": 0,
       "category": "drink",
       "stock": 36
-    },
-    "P_1771338735647": {
-      "name": "LIQUI FRUIT",
-      "price": 20,
-      "cost": 0,
-      "category": "drink",
-      "stock": 16
     },
     "P_1771339096675": {
       "name": "LUCKY CLUB ",
@@ -756,24 +728,10 @@
       "category": "drink",
       "stock": 20
     },
-    "P_1773152551247": {
-      "name": "SPRITE 500ML",
+    "P_1773152909317": {
+      "name": "FANTA ORANGE 300ML",
       "price": 20,
-      "cost": 10.5,
-      "category": "drink",
-      "stock": 15
-    },
-    "P_1773152636387": {
-      "name": "COCA COLA 500ML",
-      "price": 20,
-      "cost": 10.5,
-      "category": "drink",
-      "stock": 39
-    },
-    "P_1773152724847": {
-      "name": "LIQUI FRUIT RED GRAPE",
-      "price": 20,
-      "cost": 10.5,
+      "cost": 10.4,
       "category": "drink",
       "stock": 3
     }
@@ -3868,5 +3826,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:25:45.264Z"
+  "lastSync": "2026-03-10T14:28:48.193Z"
 }
