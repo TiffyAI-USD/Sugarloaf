@@ -746,6 +746,13 @@
       "cost": 7,
       "category": "drink",
       "stock": 33
+    },
+    "P_1773158634215": {
+      "name": "DROSTY HOF SWEET DRY RED 5L",
+      "price": 40,
+      "cost": 7.1,
+      "category": "drink",
+      "stock": 25
     }
   },
   "recipes": {},
@@ -3838,5 +3845,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T15:59:03.709Z"
+  "lastSync": "2026-03-10T16:05:07.396Z"
 }
