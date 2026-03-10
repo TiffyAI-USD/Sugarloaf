@@ -89,7 +89,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 3
+      "stock": 0
     },
     "P_1771339519564": {
       "name": "CASTLE LAGER",
@@ -3698,10 +3698,22 @@
           "category": "drink",
           "stock": 3,
           "code": "P_1771339483003"
+        },
+        {
+          "name": "BLACK LABLE 300MLS",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1771339483003"
         }
       ],
-      "status": "active",
-      "date": 1772892491911
+      "status": "paid",
+      "date": 1773126048136,
+      "total": 90,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 84,
@@ -3869,6 +3881,12 @@
       "items": [],
       "status": "active",
       "date": 1773125933134
+    },
+    {
+      "id": 93,
+      "items": [],
+      "status": "active",
+      "date": 1773126048504
     }
   ],
   "purchaseLog": [
@@ -3934,5 +3952,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T07:00:32.979Z"
+  "lastSync": "2026-03-10T07:00:48.502Z"
 }
