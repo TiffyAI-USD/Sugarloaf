@@ -42,13 +42,6 @@
       "category": "drink",
       "stock": 4
     },
-    "P_1772200964831": {
-      "name": "CASTLE LITE CAN 500ML",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 68
-    },
     "P_1772479539637": {
       "name": "GORDON'S ",
       "price": 25,
@@ -3116,28 +3109,28 @@
       "id": 87,
       "items": [
         {
-          "name": "SCHWEPPES TONIC WATER",
-          "price": 20,
-          "cost": 0,
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
           "category": "drink",
-          "stock": 21,
-          "code": "P_1772188199797"
+          "stock": 25,
+          "code": "P_1773158634215"
         },
         {
-          "name": "SCHWEPPES TONIC WATER",
-          "price": 20,
-          "cost": 0,
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
           "category": "drink",
-          "stock": 21,
-          "code": "P_1772188199797"
+          "stock": 25,
+          "code": "P_1773158634215"
         },
         {
-          "name": "GORDON'S PINK & TONIC",
-          "price": 35,
-          "cost": 0,
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
           "category": "drink",
-          "stock": 8,
-          "code": "P_1772187616875"
+          "stock": 25,
+          "code": "P_1773158634215"
         }
       ],
       "status": "active",
@@ -3487,5 +3480,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T16:45:00.775Z"
+  "lastSync": "2026-03-10T16:52:06.084Z"
 }
