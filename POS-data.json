@@ -671,6 +671,13 @@
       "cost": 14.96,
       "category": "drink",
       "stock": 15
+    },
+    "P_1773145804561": {
+      "name": "BELLGRAVIA GIN AND DRY LEMON",
+      "price": 35,
+      "cost": 15.98,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {},
@@ -3763,5 +3770,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T12:27:54.597Z"
+  "lastSync": "2026-03-10T12:30:04.563Z"
 }
