@@ -747,7 +747,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 0
+      "stock": 8
     }
   },
   "recipes": {},
@@ -3840,5 +3840,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T14:10:57.522Z"
+  "lastSync": "2026-03-10T14:11:03.960Z"
 }
