@@ -91,13 +91,6 @@
       "category": "drink",
       "stock": 20
     },
-    "P_1771339899152": {
-      "name": "SAVANNA CANS ",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 17
-    },
     "P_1771339932815": {
       "name": "BLACK CROWN",
       "price": 35,
@@ -181,13 +174,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 15
-    },
-    "P_1772112131612": {
-      "name": "SAVANNA 330ML",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 3
     },
     "POTATOES_POCKETS_10KG": {
       "name": "POTATOES POCKETS 10KG",
@@ -427,20 +413,6 @@
       "category": "drink",
       "stock": 46
     },
-    "P_1772189543514": {
-      "name": "SAVANNA 500ML DRY",
-      "price": 45,
-      "cost": 0,
-      "category": "drink",
-      "stock": 24
-    },
-    "P_1772189568077": {
-      "name": "SAVANNA 500ML ANGRY LEMON",
-      "price": 45,
-      "cost": 0,
-      "category": "drink",
-      "stock": 24
-    },
     "P_1772189715173": {
       "name": "EXTREME CAN 440ML ",
       "price": 35,
@@ -664,6 +636,13 @@
       "cost": 19.25,
       "category": "drink",
       "stock": 4
+    },
+    "P_1773149638554": {
+      "name": "SAVANNA ANGRY LEMON",
+      "price": 45,
+      "cost": 19.5,
+      "category": "drink",
+      "stock": 24
     }
   },
   "recipes": {},
@@ -3756,5 +3735,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T13:20:14.327Z"
+  "lastSync": "2026-03-10T13:35:35.262Z"
 }
