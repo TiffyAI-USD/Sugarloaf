@@ -412,6 +412,13 @@
       "cost": 6.55,
       "category": "drink",
       "stock": 3
+    },
+    "P_1773206480637": {
+      "name": "LIQUI FRUIT CRANBERRY COOLER",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 4
     }
   },
   "recipes": {},
@@ -3878,5 +3885,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:19:10.200Z"
+  "lastSync": "2026-03-11T05:21:58.161Z"
 }
