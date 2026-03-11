@@ -676,8 +676,8 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "JALAPEÃOS ": {
-      "name": "JALAPEÃOS ",
+    "JALAPEÃÂOS ": {
+      "name": "JALAPEÃÂOS ",
       "stock": 0,
       "cost": 0,
       "category": "ingredient"
@@ -943,11 +943,11 @@
     },
     "P_1773215086503": {
       "FETA": 0.02,
-      "JALAPEÃOS ": 0.01
+      "JALAPEÃÂOS ": 0.01
     },
     "P_1773215225358": {
       "CALAMARI TUBES": 0.15,
-      "JALAPEÃOS ": 0.05,
+      "JALAPEÃÂOS ": 0.05,
       "FETA": 0.005,
       "POTATOES ": 0.2
     },
@@ -4258,6 +4258,14 @@
           "category": "drink",
           "stock": -4,
           "code": "P_1773169011803"
+        },
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773212737065"
         }
       ],
       "status": "active",
@@ -4552,5 +4560,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:51:10.438Z"
+  "lastSync": "2026-03-11T09:52:00.921Z"
 }
