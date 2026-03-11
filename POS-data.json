@@ -4457,6 +4457,14 @@
           "category": "food",
           "stock": 65,
           "code": "P_1773214041916"
+        },
+        {
+          "name": "OYSTERS (BAKED)",
+          "price": 70,
+          "cost": 20,
+          "category": "food",
+          "stock": 32,
+          "code": "P_1773220662005"
         }
       ],
       "status": "active",
@@ -4619,5 +4627,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T12:14:48.854Z"
+  "lastSync": "2026-03-11T12:14:54.848Z"
 }
