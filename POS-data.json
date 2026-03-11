@@ -348,7 +348,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -4694,8 +4694,12 @@
           "code": "P_1773169011803"
         }
       ],
-      "status": "active",
-      "date": 1773170213724
+      "status": "paid",
+      "date": 1773251525993,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
     },
     {
       "id": 104,
@@ -4732,6 +4736,12 @@
       "items": [],
       "status": "active",
       "date": 1773251478847
+    },
+    {
+      "id": 110,
+      "items": [],
+      "status": "active",
+      "date": 1773251526120
     }
   ],
   "purchaseLog": [
@@ -4797,5 +4807,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T17:51:53.253Z"
+  "lastSync": "2026-03-11T17:52:06.120Z"
 }
