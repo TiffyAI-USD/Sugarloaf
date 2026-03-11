@@ -806,7 +806,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 0
+      "stock": 35
     },
     "BEEF FILLET": {
       "name": "BEEF FILLET",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:09:03.776Z"
+  "lastSync": "2026-03-11T10:09:18.707Z"
 }
