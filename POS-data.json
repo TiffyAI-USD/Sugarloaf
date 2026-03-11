@@ -838,7 +838,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": 0
+      "stock": 8
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:51:43.480Z"
+  "lastSync": "2026-03-11T10:51:49.334Z"
 }
