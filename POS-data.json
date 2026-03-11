@@ -571,7 +571,7 @@
       "price": 145,
       "cost": 65,
       "category": "food",
-      "stock": 0
+      "stock": 21
     },
     "P_1773213167637": {
       "name": "2 CRUMBED PORK CHOPS",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:07:49.947Z"
+  "lastSync": "2026-03-11T10:08:13.062Z"
 }
