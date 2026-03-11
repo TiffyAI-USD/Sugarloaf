@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 15.42,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773148706987": {
       "name": "SAVANNA NEAT",
@@ -4675,8 +4675,12 @@
           "code": "P_1773148398541"
         }
       ],
-      "status": "active",
-      "date": 1773169561505
+      "status": "paid",
+      "date": 1773251478578,
+      "total": 35,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 103,
@@ -4713,6 +4717,12 @@
       "items": [],
       "status": "active",
       "date": 1773244880273
+    },
+    {
+      "id": 109,
+      "items": [],
+      "status": "active",
+      "date": 1773251478847
     }
   ],
   "purchaseLog": [
@@ -4778,5 +4788,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T17:51:10.285Z"
+  "lastSync": "2026-03-11T17:51:18.846Z"
 }
