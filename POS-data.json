@@ -721,7 +721,7 @@
       "price": 145,
       "cost": 27.5,
       "category": "food",
-      "stock": 0
+      "stock": 5
     },
     "P_1773218768414": {
       "name": "OCTOPUS (GRILLED)",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:04:24.816Z"
+  "lastSync": "2026-03-11T10:04:38.658Z"
 }
