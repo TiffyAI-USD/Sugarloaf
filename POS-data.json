@@ -4210,6 +4210,22 @@
           "category": "drink",
           "stock": 94,
           "code": "P_1773144846841"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 94,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773149869795"
         }
       ],
       "status": "active",
@@ -4504,5 +4520,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:50:21.197Z"
+  "lastSync": "2026-03-11T09:50:37.912Z"
 }
