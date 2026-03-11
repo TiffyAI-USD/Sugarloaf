@@ -54,7 +54,7 @@
       "price": 30,
       "cost": 16.91,
       "category": "drink",
-      "stock": 94
+      "stock": 91
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
@@ -138,7 +138,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 24
+      "stock": 22
     },
     "P_1773149976429": {
       "name": "BERNINI CLASSIC",
@@ -222,14 +222,14 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 44
+      "stock": 43
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 20
+      "stock": 18
     },
     "P_1773152909317": {
       "name": "FANTA ORANGE 300ML",
@@ -348,7 +348,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": -4
+      "stock": -5
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -536,7 +536,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 0,
+      "stock": -0.4,
       "cost": 0,
       "category": "ingredient"
     },
@@ -545,7 +545,7 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "PRAWNS": {
       "name": "PRAWNS",
@@ -645,7 +645,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 0,
+      "stock": -0.05,
       "cost": 0,
       "category": "ingredient"
     },
@@ -672,13 +672,13 @@
     },
     "FETA": {
       "name": "FETA",
-      "stock": 0,
+      "stock": -0.005,
       "cost": 0,
       "category": "ingredient"
     },
     "JALAPEÃÂOS ": {
       "name": "JALAPEÃÂOS ",
-      "stock": 0,
+      "stock": -0.05,
       "cost": 0,
       "category": "ingredient"
     },
@@ -691,7 +691,7 @@
     },
     "CALAMARI TUBES": {
       "name": "CALAMARI TUBES",
-      "stock": 0,
+      "stock": -0.15,
       "cost": 0,
       "category": "ingredient"
     },
@@ -700,7 +700,7 @@
       "price": 125,
       "cost": 30,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1773215522553": {
       "name": "CRAYFISH ",
@@ -764,13 +764,13 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": 0,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 0,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -779,7 +779,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -896,7 +896,7 @@
       "price": 135,
       "cost": 65.25,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -4299,8 +4299,12 @@
           "code": "P_1773215225358"
         }
       ],
-      "status": "active",
-      "date": 1773126142834
+      "status": "paid",
+      "date": 1773222891517,
+      "total": 730,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
     },
     {
       "id": 95,
@@ -4526,6 +4530,12 @@
       "items": [],
       "status": "active",
       "date": 1773174225868
+    },
+    {
+      "id": 105,
+      "items": [],
+      "status": "active",
+      "date": 1773222891846
     }
   ],
   "purchaseLog": [
@@ -4591,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:54:17.802Z"
+  "lastSync": "2026-03-11T09:54:51.843Z"
 }
