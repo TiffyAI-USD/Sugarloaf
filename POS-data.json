@@ -751,7 +751,7 @@
     },
     "CHEESE PARMESAN ": {
       "name": "CHEESE PARMESAN ",
-      "stock": 0,
+      "stock": 22,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:19:55.605Z"
+  "lastSync": "2026-03-11T10:21:33.916Z"
 }
