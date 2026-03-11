@@ -639,7 +639,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.88,
+      "stock": 20.83,
       "cost": 0,
       "category": "ingredient"
     },
@@ -758,13 +758,13 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -1,
+      "stock": -2,
       "cost": 0,
       "category": "ingredient"
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 19,
+      "stock": 18,
       "cost": 0,
       "category": "ingredient"
     },
@@ -773,7 +773,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 15
+      "stock": 14
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -4620,8 +4620,12 @@
           "code": "P_1773219173270"
         }
       ],
-      "status": "active",
-      "date": 1773169245520
+      "status": "paid",
+      "date": 1773232268577,
+      "total": 110,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 102,
@@ -4652,6 +4656,12 @@
       "items": [],
       "status": "active",
       "date": 1773231342183
+    },
+    {
+      "id": 107,
+      "items": [],
+      "status": "active",
+      "date": 1773232268799
     }
   ],
   "purchaseLog": [
@@ -4717,5 +4727,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T12:30:52.133Z"
+  "lastSync": "2026-03-11T12:31:08.798Z"
 }
