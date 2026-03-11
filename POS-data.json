@@ -61,7 +61,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 18
+      "stock": 12
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -159,7 +159,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 18
+      "stock": 17
     },
     "P_1773150598235": {
       "name": "RED BULL",
@@ -488,7 +488,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 10
+      "stock": 5
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
@@ -904,7 +904,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": -2
     }
   },
   "recipes": {
@@ -4637,8 +4637,12 @@
           "code": "P_1773232135446"
         }
       ],
-      "status": "active",
-      "date": 1773161539941
+      "status": "paid",
+      "date": 1773244879814,
+      "total": 405,
+      "tip": 30,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 101,
@@ -4694,6 +4698,12 @@
       "items": [],
       "status": "active",
       "date": 1773232268799
+    },
+    {
+      "id": 108,
+      "items": [],
+      "status": "active",
+      "date": 1773244880273
     }
   ],
   "purchaseLog": [
@@ -4759,5 +4769,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T16:01:04.486Z"
+  "lastSync": "2026-03-11T16:01:20.266Z"
 }
