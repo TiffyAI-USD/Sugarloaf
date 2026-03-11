@@ -687,7 +687,7 @@
       "price": 125,
       "cost": 17,
       "category": "food",
-      "stock": 0
+      "stock": 7
     },
     "CALAMARI TUBES": {
       "name": "CALAMARI TUBES",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:10:54.215Z"
+  "lastSync": "2026-03-11T10:11:11.228Z"
 }
