@@ -735,7 +735,7 @@
       "price": 145,
       "cost": 65,
       "category": "food",
-      "stock": 0
+      "stock": 21
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:34:41.868Z"
+  "lastSync": "2026-03-11T10:34:54.857Z"
 }
