@@ -384,6 +384,13 @@
       "cost": 6,
       "category": "drink",
       "stock": 24
+    },
+    "P_1773206006718": {
+      "name": "AQUELLE WATER",
+      "price": 15,
+      "cost": 5.66,
+      "category": "drink",
+      "stock": 17
     }
   },
   "recipes": {},
@@ -3850,5 +3857,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:12:43.326Z"
+  "lastSync": "2026-03-11T05:13:58.410Z"
 }
