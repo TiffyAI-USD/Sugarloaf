@@ -532,7 +532,7 @@
       "price": 60,
       "cost": 15,
       "category": "food",
-      "stock": 0
+      "stock": 26
     },
     "POTATOES ": {
       "name": "POTATOES ",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:54:51.843Z"
+  "lastSync": "2026-03-11T10:00:51.910Z"
 }
