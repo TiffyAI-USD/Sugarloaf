@@ -625,12 +625,6 @@
       "category": "food",
       "stock": 8
     },
-    "LINE FISH": {
-      "name": "LINE FISH",
-      "stock": 8,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
       "stock": 65,
@@ -897,6 +891,13 @@
       "cost": 65.25,
       "category": "food",
       "stock": -1
+    },
+    "P_1773230972483": {
+      "name": "LINE FISH",
+      "price": 125,
+      "cost": 26.47,
+      "category": "food",
+      "stock": 17
     }
   },
   "recipes": {
@@ -4440,7 +4441,16 @@
     },
     {
       "id": 99,
-      "items": [],
+      "items": [
+        {
+          "name": "EISBEIN",
+          "price": 145,
+          "cost": 65,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773218854737"
+        }
+      ],
       "status": "active",
       "date": 1773126631627
     },
@@ -4601,5 +4611,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T12:06:35.417Z"
+  "lastSync": "2026-03-11T12:14:30.750Z"
 }
