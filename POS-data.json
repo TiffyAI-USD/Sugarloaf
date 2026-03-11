@@ -355,7 +355,7 @@
       "price": 25,
       "cost": 7.25,
       "category": "drink",
-      "stock": -1
+      "stock": 36
     },
     "P_1773205494078": {
       "name": "BERNINI BLUSH",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:32:51.478Z"
+  "lastSync": "2026-03-11T10:33:10.528Z"
 }
