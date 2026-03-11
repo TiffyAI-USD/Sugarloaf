@@ -362,14 +362,21 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": -4
+      "stock": 9
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
       "price": 25,
       "cost": 7.25,
       "category": "drink",
-      "stock": -1
+      "stock": 33
+    },
+    "P_1773204826836": {
+      "name": "SPRITE 500ML",
+      "price": 20,
+      "cost": 10.5,
+      "category": "drink",
+      "stock": 9
     }
   },
   "recipes": {},
@@ -3836,5 +3843,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T04:42:58.107Z"
+  "lastSync": "2026-03-11T04:57:13.861Z"
 }
