@@ -691,7 +691,7 @@
     },
     "CALAMARI TUBES": {
       "name": "CALAMARI TUBES",
-      "stock": -0.15,
+      "stock": 13.85,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:04:38.658Z"
+  "lastSync": "2026-03-11T10:05:42.537Z"
 }
