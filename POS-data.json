@@ -482,6 +482,13 @@
       "cost": 18.63,
       "category": "drink",
       "stock": 21
+    },
+    "P_1773207891456": {
+      "name": "BREEZER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 10
     }
   },
   "recipes": {},
@@ -3948,5 +3955,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:38:16.595Z"
+  "lastSync": "2026-03-11T05:46:10.916Z"
 }
