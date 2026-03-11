@@ -890,6 +890,13 @@
       "cost": 8,
       "category": "food",
       "stock": 0
+    },
+    "P_1773222794698": {
+      "name": "MUFASA",
+      "price": 135,
+      "cost": 65.25,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -4274,6 +4281,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1773219173270"
+        },
+        {
+          "name": "MUFASA",
+          "price": 135,
+          "cost": 65.25,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773222794698"
         }
       ],
       "status": "active",
@@ -4568,5 +4583,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:52:08.252Z"
+  "lastSync": "2026-03-11T09:54:04.277Z"
 }
