@@ -819,7 +819,7 @@
       "price": 135,
       "cost": 35,
       "category": "food",
-      "stock": 0
+      "stock": 8
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:42:19.253Z"
+  "lastSync": "2026-03-11T10:51:43.480Z"
 }
