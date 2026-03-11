@@ -348,7 +348,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": -5
+      "stock": 3
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:28:54.156Z"
+  "lastSync": "2026-03-11T10:32:51.478Z"
 }
