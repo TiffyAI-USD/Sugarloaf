@@ -633,7 +633,7 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 0,
+      "stock": 65,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:01:12.084Z"
+  "lastSync": "2026-03-11T10:03:24.183Z"
 }
