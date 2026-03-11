@@ -432,7 +432,7 @@
       "price": 25,
       "cost": 6.39,
       "category": "drink",
-      "stock": 0
+      "stock": 28
     },
     "P_1773206716666": {
       "name": "OLF BERGER ",
@@ -3906,5 +3906,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:25:39.502Z"
+  "lastSync": "2026-03-11T05:26:00.140Z"
 }
