@@ -4532,6 +4532,38 @@
           "category": "drink",
           "stock": 18,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
         }
       ],
       "status": "active",
@@ -4694,5 +4726,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T12:27:09.607Z"
+  "lastSync": "2026-03-11T12:27:26.072Z"
 }
