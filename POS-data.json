@@ -489,9 +489,323 @@
       "cost": 0,
       "category": "drink",
       "stock": 10
+    },
+    "MASH POTATOES ": {
+      "name": "MASH POTATOES ",
+      "stock": 0,
+      "cost": 1,
+      "category": "ingredient"
+    },
+    "VEG OF DAY": {
+      "name": "VEG OF DAY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773211899248": {
+      "name": "TRIPE",
+      "price": 105,
+      "cost": 30,
+      "category": "food",
+      "stock": 0
+    },
+    "GARLIC": {
+      "name": "GARLIC",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CREAM": {
+      "name": "CREAM",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "WHITE WINE": {
+      "name": "WHITE WINE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773212399084": {
+      "name": "MUSSELS",
+      "price": 60,
+      "cost": 15,
+      "category": "food",
+      "stock": 0
+    },
+    "POTATOES ": {
+      "name": "POTATOES ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773212737065": {
+      "name": "CHICKEN LEG QUARTER ",
+      "price": 135,
+      "cost": 15.26,
+      "category": "food",
+      "stock": 0
+    },
+    "PRAWNS": {
+      "name": "PRAWNS",
+      "stock": 0,
+      "cost": 19.5,
+      "category": "ingredient"
+    },
+    "P_1773212967469": {
+      "name": "LINE FISH AND PRAWN",
+      "price": 125,
+      "cost": 21.15,
+      "category": "food",
+      "stock": 0
+    },
+    "SOUR CROUT": {
+      "name": "SOUR CROUT",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213071275": {
+      "name": "EISBEIN",
+      "price": 145,
+      "cost": 65,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773213167637": {
+      "name": "2 CRUMBED PORK CHOPS",
+      "price": 115,
+      "cost": 17.4,
+      "category": "food",
+      "stock": 0
+    },
+    "BREAD SLICE": {
+      "name": "BREAD SLICE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHILLY": {
+      "name": "CHILLY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "RED WINE": {
+      "name": "RED WINE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213348251": {
+      "name": "CHICKEN LIVERS",
+      "price": 45,
+      "cost": 12.5,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773213504995": {
+      "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
+      "price": 95,
+      "cost": 40,
+      "category": "food",
+      "stock": 0
+    },
+    "CREAM ": {
+      "name": "CREAM ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213728170": {
+      "name": "SNAILS (CREAMY GARLIC SNAILS)",
+      "price": 70,
+      "cost": 17,
+      "category": "food",
+      "stock": 0
+    },
+    "LINE FISH": {
+      "name": "LINE FISH",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "MUSSEL MEAT": {
+      "name": "MUSSEL MEAT",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CALAMARI ": {
+      "name": "CALAMARI ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHEESE": {
+      "name": "CHEESE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773214041916": {
+      "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+      "price": 185,
+      "cost": 8.5,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773214465273": {
+      "name": "GRATED CHEESE 2KG",
+      "price": 20,
+      "cost": 5,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773214733906": {
+      "name": "PORK FILLET (MUSTARD PORK FILLET)",
+      "price": 125,
+      "cost": 27,
+      "category": "food",
+      "stock": 0
+    },
+    "FETA": {
+      "name": "FETA",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "JALAPEÑOS ": {
+      "name": "JALAPEÑOS ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773215086503": {
+      "name": "CHICKEN BREAST (STUFFED CHICKEN BREAST) ",
+      "price": 125,
+      "cost": 17,
+      "category": "food",
+      "stock": 0
+    },
+    "CALAMARI TUBES": {
+      "name": "CALAMARI TUBES",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773215225358": {
+      "name": "STUFFED CALAMARI ",
+      "price": 125,
+      "cost": 30,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773215522553": {
+      "name": "CRAYFISH ",
+      "price": 165,
+      "cost": 15,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773215678430": {
+      "name": "PRAWNS (MAIN DISH)",
+      "price": 185,
+      "cost": 39,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773218355573": {
+      "name": "CRAB CURRY",
+      "price": 145,
+      "cost": 27.5,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773218768414": {
+      "name": "OCTOPUS (GRILLED)",
+      "price": 105,
+      "cost": 18,
+      "category": "food",
+      "stock": 0
     }
   },
-  "recipes": {},
+  "recipes": {
+    "P_1773211899248": {
+      "MASH POTATOES ": 0.2,
+      "VEG OF DAY": 0.2
+    },
+    "P_1773212399084": {
+      "GARLIC": 0.01,
+      "CREAM": 0.05,
+      "WHITE WINE": 0.1
+    },
+    "P_1773212737065": {
+      "POTATOES ": 0.2
+    },
+    "P_1773212967469": {
+      "PRAWNS": 3,
+      "POTATOES ": 0.2,
+      "VEG OF DAY": 0.2
+    },
+    "P_1773213071275": {
+      "MASH POTATOES ": 0.2,
+      "SOUR CROUT": 0.5
+    },
+    "P_1773213167637": {
+      "MASH POTATOES ": 0.2
+    },
+    "P_1773213348251": {
+      "BREAD SLICE": 2,
+      "GARLIC": 0.1,
+      "CHILLY": 3,
+      "CREAM": 0.5,
+      "RED WINE": 0.5
+    },
+    "P_1773213504995": {
+      "POTATOES ": 0.2
+    },
+    "P_1773213728170": {
+      "GARLIC": 0.02,
+      "CREAM ": 0.05
+    },
+    "P_1773214041916": {
+      "LINE FISH": 1,
+      "PRAWNS": 3,
+      "MUSSEL MEAT": 0.05,
+      "CALAMARI ": 0.05,
+      "GARLIC": 0.02,
+      "WHITE WINE": 0.1,
+      "CHEESE": 0.05,
+      "CREAM": 0.1
+    },
+    "P_1773215086503": {
+      "FETA": 0.02,
+      "JALAPEÑOS ": 0.01
+    },
+    "P_1773215225358": {
+      "CALAMARI TUBES": 0.15,
+      "JALAPEÑOS ": 0.05,
+      "FETA": 0.005,
+      "POTATOES ": 0.2
+    },
+    "P_1773215522553": {
+      "GARLIC": 0.02,
+      "CHEESE": 0.05,
+      "WHITE WINE": 0.05
+    },
+    "P_1773215678430": {
+      "PRAWNS": 6,
+      "POTATOES ": 0.2
+    },
+    "P_1773218355573": {
+      "CREAM": 0.1
+    },
+    "P_1773218768414": {
+      "POTATOES ": 0.2
+    }
+  },
   "transactions": [
     {
       "id": 1,
@@ -3955,5 +4269,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T06:43:27.802Z"
+  "lastSync": "2026-03-11T08:46:16.156Z"
 }
