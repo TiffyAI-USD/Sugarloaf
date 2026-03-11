@@ -54,7 +54,7 @@
       "price": 30,
       "cost": 16.91,
       "category": "drink",
-      "stock": 91
+      "stock": 89
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
@@ -327,7 +327,7 @@
       "price": 40,
       "cost": 7.1,
       "category": "drink",
-      "stock": 17
+      "stock": 14
     },
     "P_1773162909257": {
       "name": "TEQUILA GOLD",
@@ -511,19 +511,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": 0,
+      "stock": -0.02,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": 2,
+      "stock": 1.9,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": 0,
+      "stock": -0.1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -536,7 +536,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 99.6,
+      "stock": 99.39999999999999,
       "cost": 0,
       "category": "ingredient"
     },
@@ -549,7 +549,7 @@
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": 6,
+      "stock": 3,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -562,7 +562,7 @@
     },
     "SOUR CROUT": {
       "name": "SOUR CROUT",
-      "stock": 0,
+      "stock": -0.1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -627,19 +627,19 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 65,
+      "stock": 64.95,
       "cost": 0,
       "category": "ingredient"
     },
     "CALAMARI ": {
       "name": "CALAMARI ",
-      "stock": 6,
+      "stock": 5.95,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.95,
+      "stock": 20.88,
       "cost": 0,
       "category": "ingredient"
     },
@@ -648,7 +648,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 65
+      "stock": 64
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -729,7 +729,7 @@
       "price": 145,
       "cost": 65,
       "category": "food",
-      "stock": 21
+      "stock": 20
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -855,19 +855,19 @@
     },
     "BREAD SLICES": {
       "name": "BREAD SLICES",
-      "stock": 0,
+      "stock": -2,
       "cost": 0,
       "category": "ingredient"
     },
     "GREEN PEPPERS": {
       "name": "GREEN PEPPERS",
-      "stock": 0,
+      "stock": -0.02,
       "cost": 0,
       "category": "ingredient"
     },
     "ONION": {
       "name": "ONION",
-      "stock": 0,
+      "stock": -0.02,
       "cost": 0,
       "category": "ingredient"
     },
@@ -876,7 +876,7 @@
       "price": 70,
       "cost": 20,
       "category": "food",
-      "stock": 32
+      "stock": 31
     },
     "P_1773220946460": {
       "name": "CRUMBED MUSHROOMS ",
@@ -4497,10 +4497,22 @@
           "category": "drink",
           "stock": 17,
           "code": "P_1773158634215"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773158634215"
         }
       ],
-      "status": "active",
-      "date": 1773126631627
+      "status": "paid",
+      "date": 1773231341981,
+      "total": 580,
+      "tip": 120,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 100,
@@ -4594,6 +4606,12 @@
       "items": [],
       "status": "active",
       "date": 1773222891846
+    },
+    {
+      "id": 106,
+      "items": [],
+      "status": "active",
+      "date": 1773231342183
     }
   ],
   "purchaseLog": [
@@ -4659,5 +4677,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T12:15:28.287Z"
+  "lastSync": "2026-03-11T12:15:42.182Z"
 }
