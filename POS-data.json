@@ -714,7 +714,7 @@
       "price": 185,
       "cost": 39,
       "category": "food",
-      "stock": 0
+      "stock": 6
     },
     "P_1773218355573": {
       "name": "CRAB CURRY",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:12:49.683Z"
+  "lastSync": "2026-03-11T10:12:58.426Z"
 }
