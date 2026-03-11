@@ -7,13 +7,6 @@
       "category": "drink",
       "stock": 33
     },
-    "P_1772182443370": {
-      "name": "HENNESSY ",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 50
-    },
     "P_1772182685136": {
       "name": "TEQUILA SILVER",
       "price": 30,
@@ -461,6 +454,13 @@
       "cost": 1.71,
       "category": "drink",
       "stock": 24
+    },
+    "P_1773207178866": {
+      "name": "HENESSY",
+      "price": 50,
+      "cost": 19,
+      "category": "drink",
+      "stock": 20
     }
   },
   "recipes": {},
@@ -3927,5 +3927,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:30:44.810Z"
+  "lastSync": "2026-03-11T05:33:23.145Z"
 }
