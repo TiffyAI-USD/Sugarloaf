@@ -770,7 +770,7 @@
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": -1,
+      "stock": 19,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:23:23.199Z"
+  "lastSync": "2026-03-11T10:25:35.342Z"
 }
