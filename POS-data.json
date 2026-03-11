@@ -35,13 +35,6 @@
       "category": "drink",
       "stock": 4
     },
-    "P_1772479539637": {
-      "name": "GORDON'S ",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": -3
-    },
     "P_1773139959465": {
       "name": "CASTLE LAGER 500ML",
       "price": 30,
@@ -3843,5 +3836,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T21:57:32.924Z"
+  "lastSync": "2026-03-11T04:42:58.107Z"
 }
