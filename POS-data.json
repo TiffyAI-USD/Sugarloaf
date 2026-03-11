@@ -786,7 +786,7 @@
       "price": 165,
       "cost": 60,
       "category": "food",
-      "stock": 0
+      "stock": 6
     },
     "P_1773219335220": {
       "name": "BONE MARROWS",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:08:13.062Z"
+  "lastSync": "2026-03-11T10:08:33.039Z"
 }
