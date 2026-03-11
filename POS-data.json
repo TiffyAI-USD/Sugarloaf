@@ -627,7 +627,7 @@
     },
     "LINE FISH": {
       "name": "LINE FISH",
-      "stock": 0,
+      "stock": 8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:11:11.228Z"
+  "lastSync": "2026-03-11T10:11:36.261Z"
 }
