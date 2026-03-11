@@ -745,7 +745,7 @@
     },
     "LINGUINE ": {
       "name": "LINGUINE ",
-      "stock": 0,
+      "stock": 8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:21:33.916Z"
+  "lastSync": "2026-03-11T10:23:23.199Z"
 }
