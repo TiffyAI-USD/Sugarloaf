@@ -603,7 +603,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 0
+      "stock": 22
     },
     "P_1773213504995": {
       "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
@@ -729,6 +729,167 @@
       "cost": 18,
       "category": "food",
       "stock": 0
+    },
+    "P_1773218854737": {
+      "name": "EISBEIN",
+      "price": 145,
+      "cost": 65,
+      "category": "food",
+      "stock": 0
+    },
+    "PIZZA SAUCE": {
+      "name": "PIZZA SAUCE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "LINGUINE ": {
+      "name": "LINGUINE ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHEESE PARMESAN ": {
+      "name": "CHEESE PARMESAN ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219047917": {
+      "name": "BOLONAISE",
+      "price": 95,
+      "cost": 15,
+      "category": "food",
+      "stock": 0
+    },
+    "EGG": {
+      "name": "EGG",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "BACCON": {
+      "name": "BACCON",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219173270": {
+      "name": "BURGER PATTIES (BLONDIE BURGER)",
+      "price": 110,
+      "cost": 20,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773219242862": {
+      "name": "LAMB SHANK",
+      "price": 165,
+      "cost": 60,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773219335220": {
+      "name": "BONE MARROWS",
+      "price": 60,
+      "cost": 4,
+      "category": "food",
+      "stock": 0
+    },
+    "BREAD SLICES ": {
+      "name": "BREAD SLICES ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219547672": {
+      "name": "CHICKEN WINGS",
+      "price": 75,
+      "cost": 20,
+      "category": "food",
+      "stock": 0
+    },
+    "BEEF FILLET": {
+      "name": "BEEF FILLET",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219731782": {
+      "name": "STEAK EGG AND CHIPS",
+      "price": 135,
+      "cost": 35,
+      "category": "food",
+      "stock": 0
+    },
+    "BEEF FILLT": {
+      "name": "BEEF FILLT",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "BRANDY": {
+      "name": "BRANDY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220350299": {
+      "name": "MADAGASCAR STEAK",
+      "price": 155,
+      "cost": 35,
+      "category": "food",
+      "stock": 0
+    },
+    "PESTO ": {
+      "name": "PESTO ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "PARMESAN CHEESE": {
+      "name": "PARMESAN CHEESE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220536730": {
+      "name": "CARPACCIO",
+      "price": 80,
+      "cost": 16,
+      "category": "food",
+      "stock": 0
+    },
+    "BREAD SLICES": {
+      "name": "BREAD SLICES",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "GREEN PEPPERS": {
+      "name": "GREEN PEPPERS",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "ONION": {
+      "name": "ONION",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220662005": {
+      "name": "OYSTERS (BAKED)",
+      "price": 70,
+      "cost": 20,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773220946460": {
+      "name": "CRUMBED MUSHROOMS ",
+      "price": 55,
+      "cost": 8,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -804,6 +965,55 @@
     },
     "P_1773218768414": {
       "POTATOES ": 0.2
+    },
+    "P_1773218854737": {
+      "POTATOES ": 0.2,
+      "SOUR CROUT": 0.1
+    },
+    "P_1773219047917": {
+      "PIZZA SAUCE": 0.5,
+      "LINGUINE ": 1,
+      "CHEESE PARMESAN ": 0.02,
+      "GARLIC": 0.02
+    },
+    "P_1773219173270": {
+      "EGG": 1,
+      "CHEESE": 0.05,
+      "BACCON": 1
+    },
+    "P_1773219242862": {
+      "POTATOES ": 0.2
+    },
+    "P_1773219335220": {
+      "BREAD SLICE": 2
+    },
+    "P_1773219547672": {
+      "BREAD SLICES ": 2
+    },
+    "P_1773219731782": {
+      "POTATOES ": 0.2,
+      "BEEF FILLET": 1,
+      "EGG": 1
+    },
+    "P_1773220350299": {
+      "POTATOES ": 0.2,
+      "BEEF FILLT": 1,
+      "CREAM": 0.1,
+      "BRANDY": 2
+    },
+    "P_1773220536730": {
+      "BEEF FILLET": 0.1,
+      "PESTO ": 0.02,
+      "PARMESAN CHEESE": 0.02
+    },
+    "P_1773220662005": {
+      "BREAD SLICES": 2,
+      "CHEESE": 0.02,
+      "GREEN PEPPERS": 0.02,
+      "ONION": 0.02
+    },
+    "P_1773220946460": {
+      "BREAD SLICE": 2
     }
   },
   "transactions": [
@@ -4269,5 +4479,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T08:46:16.156Z"
+  "lastSync": "2026-03-11T09:48:19.579Z"
 }
