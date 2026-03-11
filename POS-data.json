@@ -623,7 +623,7 @@
       "price": 70,
       "cost": 17,
       "category": "food",
-      "stock": 0
+      "stock": 8
     },
     "LINE FISH": {
       "name": "LINE FISH",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:05:42.537Z"
+  "lastSync": "2026-03-11T10:06:16.813Z"
 }
