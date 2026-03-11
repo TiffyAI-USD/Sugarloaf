@@ -475,6 +475,13 @@
       "cost": 19.72,
       "category": "drink",
       "stock": 22
+    },
+    "P_1773207423198": {
+      "name": "COURVOISIER CONIAC",
+      "price": 50,
+      "cost": 18.63,
+      "category": "drink",
+      "stock": 21
     }
   },
   "recipes": {},
@@ -3941,5 +3948,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:36:17.928Z"
+  "lastSync": "2026-03-11T05:37:26.535Z"
 }
