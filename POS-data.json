@@ -377,6 +377,13 @@
       "cost": 10.5,
       "category": "drink",
       "stock": 11
+    },
+    "P_1773205912873": {
+      "name": "AKALINW",
+      "price": 15,
+      "cost": 6,
+      "category": "drink",
+      "stock": 24
     }
   },
   "recipes": {},
@@ -3843,5 +3850,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T05:10:55.868Z"
+  "lastSync": "2026-03-11T05:12:43.326Z"
 }
