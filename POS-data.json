@@ -654,7 +654,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 0
+      "stock": 65
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -4601,5 +4601,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T10:34:11.470Z"
+  "lastSync": "2026-03-11T10:34:23.910Z"
 }
