@@ -4186,7 +4186,16 @@
     },
     {
       "id": 94,
-      "items": [],
+      "items": [
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773149869795"
+        }
+      ],
       "status": "active",
       "date": 1773126142834
     },
@@ -4479,5 +4488,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:49:34.395Z"
+  "lastSync": "2026-03-11T09:50:07.866Z"
 }
