@@ -4289,6 +4289,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1773222794698"
+        },
+        {
+          "name": "STUFFED CALAMARI ",
+          "price": 125,
+          "cost": 30,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773215225358"
         }
       ],
       "status": "active",
@@ -4583,5 +4591,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:54:04.277Z"
+  "lastSync": "2026-03-11T09:54:17.802Z"
 }
