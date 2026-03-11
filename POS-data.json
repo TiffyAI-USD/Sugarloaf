@@ -507,7 +507,7 @@
       "price": 105,
       "cost": 30,
       "category": "food",
-      "stock": 0
+      "stock": 14
     },
     "GARLIC": {
       "name": "GARLIC",
@@ -4479,5 +4479,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-11T09:48:19.579Z"
+  "lastSync": "2026-03-11T09:49:24.819Z"
 }
