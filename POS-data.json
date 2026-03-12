@@ -632,7 +632,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.83,
+      "stock": 20.729999999999997,
       "cost": 0,
       "category": "ingredient"
     },
@@ -751,13 +751,13 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -2,
+      "stock": -4,
       "cost": 0,
       "category": "ingredient"
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 18,
+      "stock": 16,
       "cost": 0,
       "category": "ingredient"
     },
@@ -766,7 +766,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 14
+      "stock": 12
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -1023,7 +1023,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -5130,10 +5130,22 @@
           "category": "food",
           "stock": 14,
           "code": "P_1773219173270"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773344090994"
         }
       ],
-      "status": "active",
-      "date": 1773309945732
+      "status": "paid",
+      "date": 1773344139809,
+      "total": 240,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 113,
@@ -5478,6 +5490,12 @@
       ],
       "status": "active",
       "date": 1773344025950
+    },
+    {
+      "id": 125,
+      "items": [],
+      "status": "active",
+      "date": 1773344139971
     }
   ],
   "purchaseLog": [
@@ -5543,5 +5561,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:35:18.621Z"
+  "lastSync": "2026-03-12T19:35:29.048Z"
 }
