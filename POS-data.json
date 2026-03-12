@@ -961,6 +961,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 60
+    },
+    "P_1773329199769": {
+      "name": "JOSE CUERVO SILVER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 30
     }
   },
   "recipes": {
@@ -5156,5 +5163,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:25:55.760Z"
+  "lastSync": "2026-03-12T15:27:02.386Z"
 }
