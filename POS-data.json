@@ -926,6 +926,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 0
+    },
+    "P_1773315615064": {
+      "name": "FOCACCIA TWO",
+      "price": 95,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -4837,7 +4844,16 @@
     },
     {
       "id": 107,
-      "items": [],
+      "items": [
+        {
+          "name": "FOCACCIA TWO",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773315615064"
+        }
+      ],
       "status": "active",
       "date": 1773232268799
     },
@@ -5035,5 +5051,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:39:01.894Z"
+  "lastSync": "2026-03-12T11:40:34.611Z"
 }
