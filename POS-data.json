@@ -5310,6 +5310,14 @@
           "category": "drink",
           "stock": -1,
           "code": "P_1773328863956"
+        },
+        {
+          "name": "SMIRNOFF STORM PINE",
+          "price": 35,
+          "cost": 18.71,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773330079005"
         }
       ],
       "status": "active",
@@ -5379,5 +5387,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:29:46.870Z"
+  "lastSync": "2026-03-12T19:29:55.276Z"
 }
