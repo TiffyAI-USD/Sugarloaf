@@ -919,6 +919,13 @@
       "cost": 0,
       "category": "food",
       "stock": 0
+    },
+    "P_1773309845876": {
+      "name": "BRUTAL FRUIT ",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -4773,6 +4780,14 @@
           "category": "drink",
           "stock": 12,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BRUTAL FRUIT RUBY APPLE",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773150462720"
         }
       ],
       "status": "active",
@@ -4917,5 +4932,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T09:45:30.024Z"
+  "lastSync": "2026-03-12T10:04:33.318Z"
 }
