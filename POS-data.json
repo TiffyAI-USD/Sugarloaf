@@ -5493,7 +5493,16 @@
     },
     {
       "id": 125,
-      "items": [],
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773145425644"
+        }
+      ],
       "status": "active",
       "date": 1773344139971
     }
@@ -5561,5 +5570,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:35:29.048Z"
+  "lastSync": "2026-03-12T19:36:09.617Z"
 }
