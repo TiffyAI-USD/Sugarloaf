@@ -4911,6 +4911,14 @@
           "category": "drink",
           "stock": 15,
           "code": "P_1773145614589"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773169011803"
         }
       ],
       "status": "active",
@@ -5110,5 +5118,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:44:27.816Z"
+  "lastSync": "2026-03-12T11:44:33.865Z"
 }
