@@ -982,6 +982,27 @@
       "cost": 233.91,
       "category": "drink",
       "stock": 30
+    },
+    "P_1773329640857": {
+      "name": "ROYAL PREMIER GIN ",
+      "price": 30,
+      "cost": 225.22,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1773329739443": {
+      "name": "SEAGRAMS EXTRA DRY GIN",
+      "price": 30,
+      "cost": 219,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1773329861913": {
+      "name": "SKYY VODKA ",
+      "price": 30,
+      "cost": 259.22,
+      "category": "drink",
+      "stock": 30
     }
   },
   "recipes": {
@@ -5177,5 +5198,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:32:41.983Z"
+  "lastSync": "2026-03-12T15:38:25.497Z"
 }
