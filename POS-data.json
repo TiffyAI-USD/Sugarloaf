@@ -968,6 +968,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 30
+    },
+    "P_1773329356586": {
+      "name": "ROBERTSON CHAPLE RED 5L",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 23
     }
   },
   "recipes": {
@@ -5163,5 +5170,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:27:02.386Z"
+  "lastSync": "2026-03-12T15:30:24.537Z"
 }
