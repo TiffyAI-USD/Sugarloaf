@@ -19,7 +19,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 9
+      "stock": 69
     },
     "P_1772185638955": {
       "name": "SCHWEPPES 1L",
@@ -5149,5 +5149,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:22:20.324Z"
+  "lastSync": "2026-03-12T15:22:31.559Z"
 }
