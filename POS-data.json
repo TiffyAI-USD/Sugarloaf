@@ -47,7 +47,7 @@
       "price": 35,
       "cost": 11.9,
       "category": "drink",
-      "stock": 6
+      "stock": 5
     },
     "P_1773144846841": {
       "name": "WINDHOEK DRAUGHT",
@@ -511,13 +511,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -0.02,
+      "stock": -0.12000000000000001,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": 1.7999999999999998,
+      "stock": 1.2999999999999998,
       "cost": 0,
       "category": "ingredient"
     },
@@ -582,19 +582,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": 0,
+      "stock": -2,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": 0,
+      "stock": -3,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": 0,
+      "stock": -0.5,
       "cost": 0,
       "category": "ingredient"
     },
@@ -603,7 +603,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 22
+      "stock": 21
     },
     "P_1773213504995": {
       "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
@@ -932,7 +932,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -4870,8 +4870,12 @@
           "code": "P_1773144628700"
         }
       ],
-      "status": "active",
-      "date": 1773232268799
+      "status": "paid",
+      "date": 1773315703522,
+      "total": 175,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 108,
@@ -5002,6 +5006,12 @@
       ],
       "status": "active",
       "date": 1773315517053
+    },
+    {
+      "id": 117,
+      "items": [],
+      "status": "active",
+      "date": 1773315703662
     }
   ],
   "purchaseLog": [
@@ -5067,5 +5077,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:41:07.484Z"
+  "lastSync": "2026-03-12T11:41:43.661Z"
 }
