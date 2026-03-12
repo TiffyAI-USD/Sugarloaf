@@ -4893,7 +4893,16 @@
     },
     {
       "id": 113,
-      "items": [],
+      "items": [
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773220350299"
+        }
+      ],
       "status": "active",
       "date": 1773314196945
     }
@@ -4961,5 +4970,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:16:36.944Z"
+  "lastSync": "2026-03-12T11:17:02.633Z"
 }
