@@ -7,13 +7,6 @@
       "category": "drink",
       "stock": 33
     },
-    "P_1772182443370": {
-      "name": "HENNESSY ",
-      "price": 30,
-      "cost": 0,
-      "category": "drink",
-      "stock": 50
-    },
     "P_1772182685136": {
       "name": "TEQUILA SILVER",
       "price": 30,
@@ -35,19 +28,12 @@
       "category": "drink",
       "stock": 4
     },
-    "P_1772479539637": {
-      "name": "GORDON'S ",
-      "price": 25,
-      "cost": 0,
-      "category": "drink",
-      "stock": -3
-    },
     "P_1773139959465": {
       "name": "CASTLE LAGER 500ML",
       "price": 30,
       "cost": 11.9,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773144259954": {
       "name": "CASTLE DOUBLE MALT",
@@ -68,14 +54,14 @@
       "price": 30,
       "cost": 16.91,
       "category": "drink",
-      "stock": 96
+      "stock": 89
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 18
+      "stock": 12
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -124,7 +110,7 @@
       "price": 35,
       "cost": 15.42,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773148706987": {
       "name": "SAVANNA NEAT",
@@ -138,7 +124,7 @@
       "price": 45,
       "cost": 19.5,
       "category": "drink",
-      "stock": 24
+      "stock": 23
     },
     "P_1773149785260": {
       "name": "SAVANNA DRY",
@@ -152,14 +138,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 24
-    },
-    "P_1773149925884": {
-      "name": "BURNING BLUSH",
-      "price": 35,
-      "cost": 12.67,
-      "category": "drink",
-      "stock": 70
+      "stock": 22
     },
     "P_1773149976429": {
       "name": "BERNINI CLASSIC",
@@ -173,14 +152,14 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 4
+      "stock": 11
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 18
+      "stock": 17
     },
     "P_1773150598235": {
       "name": "RED BULL",
@@ -243,14 +222,14 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 48
+      "stock": 43
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 20
+      "stock": 18
     },
     "P_1773152909317": {
       "name": "FANTA ORANGE 300ML",
@@ -271,7 +250,7 @@
       "price": 25,
       "cost": 10.6,
       "category": "drink",
-      "stock": 14
+      "stock": 9
     },
     "P_1773155151874": {
       "name": "GORDENS DRY GIN",
@@ -292,14 +271,14 @@
       "price": 35,
       "cost": 10.67,
       "category": "drink",
-      "stock": 21
+      "stock": 19
     },
     "P_1773156851227": {
       "name": "J & B WHISKY ",
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 14
+      "stock": 8
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -313,14 +292,14 @@
       "price": 25,
       "cost": 7.3,
       "category": "drink",
-      "stock": 28
+      "stock": 29
     },
     "P_1773157574033": {
       "name": "AMARULA",
       "price": 25,
       "cost": 5.86,
       "category": "drink",
-      "stock": 7.5
+      "stock": 35.5
     },
     "P_1773157682336": {
       "name": "RED HEART RUM",
@@ -348,7 +327,7 @@
       "price": 40,
       "cost": 7.1,
       "category": "drink",
-      "stock": 20
+      "stock": 14
     },
     "P_1773162909257": {
       "name": "TEQUILA GOLD",
@@ -362,10 +341,696 @@
       "price": 30,
       "cost": 15.85,
       "category": "drink",
-      "stock": 2
+      "stock": 8
+    },
+    "P_1773169011803": {
+      "name": "COCA COLA 500ML",
+      "price": 20,
+      "cost": 10.5,
+      "category": "drink",
+      "stock": 7
+    },
+    "P_1773169167556": {
+      "name": "RICHELIEU",
+      "price": 25,
+      "cost": 7.25,
+      "category": "drink",
+      "stock": 36
+    },
+    "P_1773205494078": {
+      "name": "BERNINI BLUSH",
+      "price": 35,
+      "cost": 12.67,
+      "category": "drink",
+      "stock": 70
+    },
+    "P_1773205810578": {
+      "name": "STONEY GINGER BEER",
+      "price": 20,
+      "cost": 10.5,
+      "category": "drink",
+      "stock": 11
+    },
+    "P_1773205912873": {
+      "name": "AKALINW",
+      "price": 15,
+      "cost": 6,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1773206006718": {
+      "name": "AQUELLE WATER",
+      "price": 15,
+      "cost": 5.66,
+      "category": "drink",
+      "stock": 17
+    },
+    "P_1773206179279": {
+      "name": "LIQUI FRUIT MANGO & 0RANGE",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 3
+    },
+    "P_1773206254229": {
+      "name": "LIQUI FRUIT REG GRAPE ",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 12
+    },
+    "P_1773206330598": {
+      "name": "LIQUI FRUITE APPLE & CRANBERRY ",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 3
+    },
+    "P_1773206480637": {
+      "name": "LIQUI FRUIT CRANBERRY COOLER",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 4
+    },
+    "P_1773206565471": {
+      "name": "LIGUI FRUIT TROPICAL",
+      "price": 20,
+      "cost": 6.55,
+      "category": "drink",
+      "stock": 4
+    },
+    "P_1773206681976": {
+      "name": "KLIPDRIFT",
+      "price": 25,
+      "cost": 6.39,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1773206716666": {
+      "name": "OLF BERGER ",
+      "price": 25,
+      "cost": 6.48,
+      "category": "drink",
+      "stock": 25
+    },
+    "P_1773206927907": {
+      "name": "ROSES CORDIAL KOLA",
+      "price": 10,
+      "cost": 1.71,
+      "category": "drink",
+      "stock": 28
+    },
+    "P_1773206969496": {
+      "name": "ROSES CORDIAL PASSION FRUIT",
+      "price": 10,
+      "cost": 1.71,
+      "category": "drink",
+      "stock": 31
+    },
+    "P_1773206987907": {
+      "name": "ROSES CORDIAL LIME",
+      "price": 10,
+      "cost": 1.71,
+      "category": "drink",
+      "stock": 24
+    },
+    "P_1773207178866": {
+      "name": "HENESSY",
+      "price": 50,
+      "cost": 19,
+      "category": "drink",
+      "stock": 20
+    },
+    "P_1773207238699": {
+      "name": "JONNY WALKER BLACK ",
+      "price": 40,
+      "cost": 15.22,
+      "category": "drink",
+      "stock": 20
+    },
+    "P_1773207358357": {
+      "name": "JAMESON SELECT",
+      "price": 50,
+      "cost": 19.72,
+      "category": "drink",
+      "stock": 22
+    },
+    "P_1773207423198": {
+      "name": "COURVOISIER CONIAC",
+      "price": 50,
+      "cost": 18.63,
+      "category": "drink",
+      "stock": 21
+    },
+    "P_1773207891456": {
+      "name": "BREEZER",
+      "price": 30,
+      "cost": 0,
+      "category": "drink",
+      "stock": 5
+    },
+    "MASH POTATOES ": {
+      "name": "MASH POTATOES ",
+      "stock": 95,
+      "cost": 1,
+      "category": "ingredient"
+    },
+    "VEG OF DAY": {
+      "name": "VEG OF DAY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773211899248": {
+      "name": "TRIPE",
+      "price": 105,
+      "cost": 30,
+      "category": "food",
+      "stock": 14
+    },
+    "GARLIC": {
+      "name": "GARLIC",
+      "stock": -0.02,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CREAM": {
+      "name": "CREAM",
+      "stock": 1.9,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "WHITE WINE": {
+      "name": "WHITE WINE",
+      "stock": -0.1,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773212399084": {
+      "name": "MUSSELS",
+      "price": 60,
+      "cost": 15,
+      "category": "food",
+      "stock": 26
+    },
+    "POTATOES ": {
+      "name": "POTATOES ",
+      "stock": 99.39999999999999,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773212737065": {
+      "name": "CHICKEN LEG QUARTER ",
+      "price": 135,
+      "cost": 15.26,
+      "category": "food",
+      "stock": 8
+    },
+    "PRAWNS": {
+      "name": "PRAWNS",
+      "stock": 3,
+      "cost": 19.5,
+      "category": "ingredient"
+    },
+    "P_1773212967469": {
+      "name": "LINE FISH AND PRAWN",
+      "price": 125,
+      "cost": 21.15,
+      "category": "food",
+      "stock": 25
+    },
+    "SOUR CROUT": {
+      "name": "SOUR CROUT",
+      "stock": -0.1,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213071275": {
+      "name": "EISBEIN",
+      "price": 145,
+      "cost": 65,
+      "category": "food",
+      "stock": 21
+    },
+    "P_1773213167637": {
+      "name": "2 CRUMBED PORK CHOPS",
+      "price": 115,
+      "cost": 17.4,
+      "category": "food",
+      "stock": 3
+    },
+    "BREAD SLICE": {
+      "name": "BREAD SLICE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHILLY": {
+      "name": "CHILLY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "RED WINE": {
+      "name": "RED WINE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213348251": {
+      "name": "CHICKEN LIVERS",
+      "price": 45,
+      "cost": 12.5,
+      "category": "food",
+      "stock": 22
+    },
+    "P_1773213504995": {
+      "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
+      "price": 95,
+      "cost": 40,
+      "category": "food",
+      "stock": 0
+    },
+    "CREAM ": {
+      "name": "CREAM ",
+      "stock": 2,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773213728170": {
+      "name": "SNAILS (CREAMY GARLIC SNAILS)",
+      "price": 70,
+      "cost": 17,
+      "category": "food",
+      "stock": 8
+    },
+    "MUSSEL MEAT": {
+      "name": "MUSSEL MEAT",
+      "stock": 64.95,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CALAMARI ": {
+      "name": "CALAMARI ",
+      "stock": 5.95,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHEESE": {
+      "name": "CHEESE",
+      "stock": 20.83,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773214041916": {
+      "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+      "price": 185,
+      "cost": 8.5,
+      "category": "food",
+      "stock": 64
+    },
+    "P_1773214465273": {
+      "name": "GRATED CHEESE 2KG",
+      "price": 20,
+      "cost": 5,
+      "category": "food",
+      "stock": 21
+    },
+    "P_1773214733906": {
+      "name": "PORK FILLET (MUSTARD PORK FILLET)",
+      "price": 125,
+      "cost": 27,
+      "category": "food",
+      "stock": 3
+    },
+    "FETA": {
+      "name": "FETA",
+      "stock": -0.005,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "JALAPEÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂOS ": {
+      "name": "JALAPEÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂOS ",
+      "stock": -0.05,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773215086503": {
+      "name": "CHICKEN BREAST (STUFFED CHICKEN BREAST) ",
+      "price": 125,
+      "cost": 17,
+      "category": "food",
+      "stock": 7
+    },
+    "CALAMARI TUBES": {
+      "name": "CALAMARI TUBES",
+      "stock": 13.85,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773215225358": {
+      "name": "STUFFED CALAMARI ",
+      "price": 125,
+      "cost": 30,
+      "category": "food",
+      "stock": 13
+    },
+    "P_1773215522553": {
+      "name": "CRAYFISH ",
+      "price": 165,
+      "cost": 15,
+      "category": "food",
+      "stock": 44
+    },
+    "P_1773215678430": {
+      "name": "PRAWNS (MAIN DISH)",
+      "price": 185,
+      "cost": 39,
+      "category": "food",
+      "stock": 6
+    },
+    "P_1773218355573": {
+      "name": "CRAB CURRY",
+      "price": 145,
+      "cost": 27.5,
+      "category": "food",
+      "stock": 5
+    },
+    "P_1773218768414": {
+      "name": "OCTOPUS (GRILLED)",
+      "price": 105,
+      "cost": 18,
+      "category": "food",
+      "stock": 18
+    },
+    "P_1773218854737": {
+      "name": "EISBEIN",
+      "price": 145,
+      "cost": 65,
+      "category": "food",
+      "stock": 20
+    },
+    "PIZZA SAUCE": {
+      "name": "PIZZA SAUCE",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "LINGUINE ": {
+      "name": "LINGUINE ",
+      "stock": 8,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "CHEESE PARMESAN ": {
+      "name": "CHEESE PARMESAN ",
+      "stock": 22,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219047917": {
+      "name": "BOLONAISE",
+      "price": 95,
+      "cost": 15,
+      "category": "food",
+      "stock": 7
+    },
+    "EGG": {
+      "name": "EGG",
+      "stock": -2,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "BACCON": {
+      "name": "BACCON",
+      "stock": 18,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219173270": {
+      "name": "BURGER PATTIES (BLONDIE BURGER)",
+      "price": 110,
+      "cost": 20,
+      "category": "food",
+      "stock": 14
+    },
+    "P_1773219242862": {
+      "name": "LAMB SHANK",
+      "price": 165,
+      "cost": 60,
+      "category": "food",
+      "stock": 6
+    },
+    "P_1773219335220": {
+      "name": "BONE MARROWS",
+      "price": 60,
+      "cost": 4,
+      "category": "food",
+      "stock": 5
+    },
+    "BREAD SLICES ": {
+      "name": "BREAD SLICES ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219547672": {
+      "name": "CHICKEN WINGS",
+      "price": 75,
+      "cost": 20,
+      "category": "food",
+      "stock": 35
+    },
+    "BEEF FILLET": {
+      "name": "BEEF FILLET",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773219731782": {
+      "name": "STEAK EGG AND CHIPS",
+      "price": 135,
+      "cost": 35,
+      "category": "food",
+      "stock": 8
+    },
+    "BEEF FILLT": {
+      "name": "BEEF FILLT",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "BRANDY": {
+      "name": "BRANDY",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220350299": {
+      "name": "MADAGASCAR STEAK",
+      "price": 155,
+      "cost": 35,
+      "category": "food",
+      "stock": 8
+    },
+    "PESTO ": {
+      "name": "PESTO ",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "PARMESAN CHEESE": {
+      "name": "PARMESAN CHEESE",
+      "stock": 10,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220536730": {
+      "name": "CARPACCIO",
+      "price": 80,
+      "cost": 16,
+      "category": "food",
+      "stock": 6
+    },
+    "BREAD SLICES": {
+      "name": "BREAD SLICES",
+      "stock": -2,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "GREEN PEPPERS": {
+      "name": "GREEN PEPPERS",
+      "stock": -0.02,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "ONION": {
+      "name": "ONION",
+      "stock": -0.02,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773220662005": {
+      "name": "OYSTERS (BAKED)",
+      "price": 70,
+      "cost": 20,
+      "category": "food",
+      "stock": 31
+    },
+    "P_1773220946460": {
+      "name": "CRUMBED MUSHROOMS ",
+      "price": 55,
+      "cost": 8,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773222794698": {
+      "name": "MUFASA",
+      "price": 135,
+      "cost": 65.25,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1773230972483": {
+      "name": "LINE FISH",
+      "price": 125,
+      "cost": 26.47,
+      "category": "food",
+      "stock": 17
+    },
+    "P_1773232135446": {
+      "name": "SPRITE 500ML ",
+      "price": 20,
+      "cost": 0,
+      "category": "drink",
+      "stock": -2
     }
   },
-  "recipes": {},
+  "recipes": {
+    "P_1773211899248": {
+      "MASH POTATOES ": 0.2,
+      "VEG OF DAY": 0.2
+    },
+    "P_1773212399084": {
+      "GARLIC": 0.01,
+      "CREAM": 0.05,
+      "WHITE WINE": 0.1
+    },
+    "P_1773212737065": {
+      "POTATOES ": 0.2
+    },
+    "P_1773212967469": {
+      "PRAWNS": 3,
+      "POTATOES ": 0.2,
+      "VEG OF DAY": 0.2
+    },
+    "P_1773213071275": {
+      "MASH POTATOES ": 0.2,
+      "SOUR CROUT": 0.5
+    },
+    "P_1773213167637": {
+      "MASH POTATOES ": 0.2
+    },
+    "P_1773213348251": {
+      "BREAD SLICE": 2,
+      "GARLIC": 0.1,
+      "CHILLY": 3,
+      "CREAM": 0.5,
+      "RED WINE": 0.5
+    },
+    "P_1773213504995": {
+      "POTATOES ": 0.2
+    },
+    "P_1773213728170": {
+      "GARLIC": 0.02,
+      "CREAM ": 0.05
+    },
+    "P_1773214041916": {
+      "LINE FISH": 1,
+      "PRAWNS": 3,
+      "MUSSEL MEAT": 0.05,
+      "CALAMARI ": 0.05,
+      "GARLIC": 0.02,
+      "WHITE WINE": 0.1,
+      "CHEESE": 0.05,
+      "CREAM": 0.1
+    },
+    "P_1773215086503": {
+      "FETA": 0.02,
+      "JALAPEÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂOS ": 0.01
+    },
+    "P_1773215225358": {
+      "CALAMARI TUBES": 0.15,
+      "JALAPEÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂOS ": 0.05,
+      "FETA": 0.005,
+      "POTATOES ": 0.2
+    },
+    "P_1773215522553": {
+      "GARLIC": 0.02,
+      "CHEESE": 0.05,
+      "WHITE WINE": 0.05
+    },
+    "P_1773215678430": {
+      "PRAWNS": 6,
+      "POTATOES ": 0.2
+    },
+    "P_1773218355573": {
+      "CREAM": 0.1
+    },
+    "P_1773218768414": {
+      "POTATOES ": 0.2
+    },
+    "P_1773218854737": {
+      "POTATOES ": 0.2,
+      "SOUR CROUT": 0.1
+    },
+    "P_1773219047917": {
+      "PIZZA SAUCE": 0.5,
+      "LINGUINE ": 1,
+      "CHEESE PARMESAN ": 0.02,
+      "GARLIC": 0.02
+    },
+    "P_1773219173270": {
+      "EGG": 1,
+      "CHEESE": 0.05,
+      "BACCON": 1
+    },
+    "P_1773219242862": {
+      "POTATOES ": 0.2
+    },
+    "P_1773219335220": {
+      "BREAD SLICE": 2
+    },
+    "P_1773219547672": {
+      "BREAD SLICES ": 2
+    },
+    "P_1773219731782": {
+      "POTATOES ": 0.2,
+      "BEEF FILLET": 1,
+      "EGG": 1
+    },
+    "P_1773220350299": {
+      "POTATOES ": 0.2,
+      "BEEF FILLT": 1,
+      "CREAM": 0.1,
+      "BRANDY": 2
+    },
+    "P_1773220536730": {
+      "BEEF FILLET": 0.1,
+      "PESTO ": 0.02,
+      "PARMESAN CHEESE": 0.02
+    },
+    "P_1773220662005": {
+      "BREAD SLICES": 2,
+      "CHEESE": 0.02,
+      "GREEN PEPPERS": 0.02,
+      "ONION": 0.02
+    },
+    "P_1773220946460": {
+      "BREAD SLICE": 2
+    }
+  },
   "transactions": [
     {
       "id": 1,
@@ -3185,9 +3850,78 @@
     },
     {
       "id": 89,
-      "items": [],
-      "status": "active",
-      "date": 1772957958374
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 96,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1773150214676"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 96,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773158634215"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773158634215"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773169011803"
+        },
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1773150214676"
+        }
+      ],
+      "status": "paid",
+      "date": 1773169245281,
+      "total": 245,
+      "tip": 35,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 90,
@@ -3252,34 +3986,333 @@
       "id": 91,
       "items": [
         {
-          "name": "BLACK LABLE 300MLS",
-          "price": 30,
-          "cost": 0,
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
           "category": "drink",
-          "stock": 4,
-          "code": "P_1771339483003"
+          "stock": -1,
+          "code": "P_1773169011803"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773169011803"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773169011803"
+        },
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 25,
+          "cost": 10.6,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773155056799"
+        },
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 25,
+          "cost": 10.6,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773155056799"
+        },
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 25,
+          "cost": 10.6,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773155056799"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773158634215"
         }
       ],
-      "status": "active",
-      "date": 1772970769415
+      "status": "paid",
+      "date": 1773169561363,
+      "total": 175,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 92,
-      "items": [],
-      "status": "active",
-      "date": 1773125933134
+      "items": [
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773149638554"
+        }
+      ],
+      "status": "paid",
+      "date": 1773170213575,
+      "total": 45,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 93,
-      "items": [],
-      "status": "active",
-      "date": 1773126048504
+      "items": [
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 25,
+          "cost": 10.6,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773155056799"
+        },
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 25,
+          "cost": 10.6,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773155056799"
+        },
+        {
+          "name": "JACK DANIELS",
+          "price": 35,
+          "cost": 10.67,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1773155309888"
+        },
+        {
+          "name": "JACK DANIELS",
+          "price": 35,
+          "cost": 10.67,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1773155309888"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "CASTLE LAGER 500ML",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773139959465"
+        }
+      ],
+      "status": "paid",
+      "date": 1773174225608,
+      "total": 360,
+      "tip": 150,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 94,
-      "items": [],
-      "status": "active",
-      "date": 1773126142834
+      "items": [
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773149869795"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 94,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 94,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 94,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773149869795"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPRING STILL 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 44,
+          "code": "P_1773152130426"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1773169011803"
+        },
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773212737065"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "MUFASA",
+          "price": 135,
+          "cost": 65.25,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773222794698"
+        },
+        {
+          "name": "STUFFED CALAMARI ",
+          "price": 125,
+          "cost": 30,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773215225358"
+        }
+      ],
+      "status": "paid",
+      "date": 1773222891517,
+      "total": 730,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
     },
     {
       "id": 95,
@@ -3415,15 +4448,300 @@
     },
     {
       "id": 99,
-      "items": [],
-      "status": "active",
-      "date": 1773126631627
+      "items": [
+        {
+          "name": "EISBEIN",
+          "price": 145,
+          "cost": 65,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773218854737"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 65,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "OYSTERS (BAKED)",
+          "price": 70,
+          "cost": 20,
+          "category": "food",
+          "stock": 32,
+          "code": "P_1773220662005"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 91,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 91,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773158634215"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773158634215"
+        },
+        {
+          "name": "DROSTY HOF SWEET DRY RED 5L",
+          "price": 40,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773158634215"
+        }
+      ],
+      "status": "paid",
+      "date": 1773231341981,
+      "total": 580,
+      "tip": 120,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 100,
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "BRUTAL FRUIT RUBY APPLE",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773150462720"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "SPRITE 500ML ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773232135446"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "SPRITE 500ML ",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773232135446"
+        }
+      ],
+      "status": "paid",
+      "date": 1773244879814,
+      "total": 405,
+      "tip": 30,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 101,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 15,
+          "code": "P_1773219173270"
+        }
+      ],
+      "status": "paid",
+      "date": 1773232268577,
+      "total": 110,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 102,
+      "items": [
+        {
+          "name": "HUNTERS GOLD 440ML",
+          "price": 35,
+          "cost": 15.42,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1773148398541"
+        }
+      ],
+      "status": "paid",
+      "date": 1773251478578,
+      "total": 35,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 103,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1773169011803"
+        }
+      ],
+      "status": "paid",
+      "date": 1773251525993,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
+    },
+    {
+      "id": 104,
       "items": [],
       "status": "active",
-      "date": 1773161539941
+      "date": 1773174225868
+    },
+    {
+      "id": 105,
+      "items": [],
+      "status": "active",
+      "date": 1773222891846
+    },
+    {
+      "id": 106,
+      "items": [],
+      "status": "active",
+      "date": 1773231342183
+    },
+    {
+      "id": 107,
+      "items": [],
+      "status": "active",
+      "date": 1773232268799
+    },
+    {
+      "id": 108,
+      "items": [],
+      "status": "active",
+      "date": 1773244880273
+    },
+    {
+      "id": 109,
+      "items": [],
+      "status": "active",
+      "date": 1773251478847
+    },
+    {
+      "id": 110,
+      "items": [],
+      "status": "active",
+      "date": 1773251526120
     }
   ],
   "purchaseLog": [
@@ -3489,5 +4807,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-10T18:02:55.200Z"
+  "lastSync": "2026-03-11T17:52:45.627Z"
 }
