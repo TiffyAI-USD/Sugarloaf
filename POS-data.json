@@ -61,7 +61,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 48
+      "stock": 47
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -5503,8 +5503,27 @@
           "code": "P_1773145425644"
         }
       ],
+      "status": "paid",
+      "date": 1773344175343,
+      "total": 30,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 126,
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 132,
+          "code": "P_1773144846841"
+        }
+      ],
       "status": "active",
-      "date": 1773344139971
+      "date": 1773344175525
     }
   ],
   "purchaseLog": [
@@ -5570,5 +5589,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:36:09.617Z"
+  "lastSync": "2026-03-12T19:37:28.243Z"
 }
