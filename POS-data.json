@@ -250,7 +250,7 @@
       "price": 25,
       "cost": 10.6,
       "category": "drink",
-      "stock": 9
+      "stock": 69
     },
     "P_1773155151874": {
       "name": "GORDENS DRY GIN",
@@ -5198,5 +5198,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:39:01.634Z"
+  "lastSync": "2026-03-12T15:39:38.015Z"
 }
