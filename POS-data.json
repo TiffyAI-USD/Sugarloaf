@@ -4895,6 +4895,22 @@
           "category": "food",
           "stock": 8,
           "code": "P_1773212737065"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1773145614589"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1773145614589"
         }
       ],
       "status": "active",
@@ -5094,5 +5110,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:44:19.529Z"
+  "lastSync": "2026-03-12T11:44:27.816Z"
 }
