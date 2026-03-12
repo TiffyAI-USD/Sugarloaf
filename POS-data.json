@@ -5345,7 +5345,16 @@
     },
     {
       "id": 121,
-      "items": [],
+      "items": [
+        {
+          "name": "FANTA ORANGE 300ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": 27,
+          "code": "P_1773152909317"
+        }
+      ],
       "status": "active",
       "date": 1773343831327
     }
@@ -5413,5 +5422,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:30:31.326Z"
+  "lastSync": "2026-03-12T19:31:05.848Z"
 }
