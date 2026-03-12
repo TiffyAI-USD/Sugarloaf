@@ -940,6 +940,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 24
+    },
+    "P_1773323466547": {
+      "name": "ROBERTSON DRY RED BOX 3L",
+      "price": 40,
+      "cost": 0,
+      "category": "drink",
+      "stock": 40
     }
   },
   "recipes": {
@@ -5135,5 +5142,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T13:48:08.711Z"
+  "lastSync": "2026-03-12T13:54:10.523Z"
 }
