@@ -1010,6 +1010,13 @@
       "cost": 18.71,
       "category": "drink",
       "stock": 48
+    },
+    "P_1773330195771": {
+      "name": "STRAWBERRY LIPS TEQUILA ",
+      "price": 30,
+      "cost": 139,
+      "category": "drink",
+      "stock": 28
     }
   },
   "recipes": {
@@ -5205,5 +5212,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:41:50.873Z"
+  "lastSync": "2026-03-12T15:43:40.986Z"
 }
