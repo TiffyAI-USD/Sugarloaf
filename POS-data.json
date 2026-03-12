@@ -517,7 +517,7 @@
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": 1.9,
+      "stock": 1.7999999999999998,
       "cost": 0,
       "category": "ingredient"
     },
@@ -536,7 +536,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 99.19999999999999,
+      "stock": 98.99999999999999,
       "cost": 0,
       "category": "ingredient"
     },
@@ -817,13 +817,13 @@
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
-      "stock": 0,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": 0,
+      "stock": -2,
       "cost": 0,
       "category": "ingredient"
     },
@@ -832,7 +832,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": 8
+      "stock": 7
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -4903,8 +4903,18 @@
           "code": "P_1773220350299"
         }
       ],
+      "status": "paid",
+      "date": 1773314229690,
+      "total": 155,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 114,
+      "items": [],
       "status": "active",
-      "date": 1773314196945
+      "date": 1773314229829
     }
   ],
   "purchaseLog": [
@@ -4970,5 +4980,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T11:17:02.633Z"
+  "lastSync": "2026-03-12T11:17:09.829Z"
 }
