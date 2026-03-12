@@ -5262,6 +5262,38 @@
           "category": "drink",
           "stock": 5,
           "code": "P_1773207891456"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "SMIRNOFF STORM PINE",
+          "price": 35,
+          "cost": 18.71,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773330079005"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
         }
       ],
       "status": "active",
@@ -5331,5 +5363,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:29:13.769Z"
+  "lastSync": "2026-03-12T19:29:27.487Z"
 }
