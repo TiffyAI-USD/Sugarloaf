@@ -54,7 +54,7 @@
       "price": 30,
       "cost": 16.91,
       "category": "drink",
-      "stock": 85
+      "stock": 133
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
@@ -5212,5 +5212,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:43:40.986Z"
+  "lastSync": "2026-03-12T15:44:13.174Z"
 }
