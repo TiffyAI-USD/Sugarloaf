@@ -54,14 +54,14 @@
       "price": 30,
       "cost": 16.91,
       "category": "drink",
-      "stock": 89
+      "stock": 87
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 12
+      "stock": 10
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -159,7 +159,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 17
+      "stock": 16
     },
     "P_1773150598235": {
       "name": "RED BULL",
@@ -904,21 +904,21 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": -2
+      "stock": -3
     },
     "P_1773308487164": {
       "name": "STEAK",
       "price": 135,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1773308518835": {
       "name": "CALAMARI SALAD",
       "price": 89,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1773309845876": {
       "name": "BRUTAL FRUIT ",
@@ -4790,8 +4790,12 @@
           "code": "P_1773150462720"
         }
       ],
-      "status": "active",
-      "date": 1773174225868
+      "status": "paid",
+      "date": 1773309945504,
+      "total": 399,
+      "tip": 50,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 105,
@@ -4867,6 +4871,12 @@
       ],
       "status": "active",
       "date": 1773308526232
+    },
+    {
+      "id": 112,
+      "items": [],
+      "status": "active",
+      "date": 1773309945732
     }
   ],
   "purchaseLog": [
@@ -4932,5 +4942,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T10:04:33.318Z"
+  "lastSync": "2026-03-12T10:05:45.731Z"
 }
