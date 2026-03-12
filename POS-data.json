@@ -208,7 +208,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 9
+      "stock": 7
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
@@ -953,7 +953,7 @@
       "price": 35,
       "cost": 13.71,
       "category": "drink",
-      "stock": 0
+      "stock": -1
     },
     "P_1773329125060": {
       "name": "JOSE CUERVO GOLD",
@@ -5040,8 +5040,12 @@
           "code": "P_1773151783920"
         }
       ],
-      "status": "active",
-      "date": 1773251478847
+      "status": "paid",
+      "date": 1773331477518,
+      "total": 95,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 110,
@@ -5172,6 +5176,12 @@
       "items": [],
       "status": "active",
       "date": 1773316695072
+    },
+    {
+      "id": 119,
+      "items": [],
+      "status": "active",
+      "date": 1773331477740
     }
   ],
   "purchaseLog": [
@@ -5237,5 +5247,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T16:04:33.236Z"
+  "lastSync": "2026-03-12T16:04:37.739Z"
 }
