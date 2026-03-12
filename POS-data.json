@@ -278,7 +278,7 @@
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 8
+      "stock": 37
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -947,6 +947,13 @@
       "cost": 16.46,
       "category": "drink",
       "stock": 48
+    },
+    "P_1773328863956": {
+      "name": "FLYFISH ",
+      "price": 35,
+      "cost": 13.71,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -5142,5 +5149,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:19:25.960Z"
+  "lastSync": "2026-03-12T15:22:06.165Z"
 }
