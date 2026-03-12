@@ -5198,7 +5198,48 @@
     },
     {
       "id": 120,
-      "items": [],
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773145425644"
+        }
+      ],
       "status": "active",
       "date": 1773343687222
     }
@@ -5266,5 +5307,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:28:07.220Z"
+  "lastSync": "2026-03-12T19:28:47.293Z"
 }
