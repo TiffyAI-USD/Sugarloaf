@@ -5294,6 +5294,14 @@
           "category": "drink",
           "stock": 58,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "OUDE MEESTER PERPERMINT",
+          "price": 30,
+          "cost": 7.72,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1773157871849"
         }
       ],
       "status": "active",
@@ -5363,5 +5371,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T19:29:27.487Z"
+  "lastSync": "2026-03-12T19:29:41.161Z"
 }
