@@ -995,7 +995,7 @@
       "price": 30,
       "cost": 219,
       "category": "drink",
-      "stock": 0
+      "stock": 30
     },
     "P_1773329861913": {
       "name": "SKYY VODKA ",
@@ -5198,5 +5198,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-12T15:38:25.497Z"
+  "lastSync": "2026-03-12T15:38:47.801Z"
 }
