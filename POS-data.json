@@ -355,7 +355,7 @@
       "price": 35,
       "cost": 12.67,
       "category": "drink",
-      "stock": 70
+      "stock": 68
     },
     "P_1773205810578": {
       "name": "STONEY GINGER BEER",
@@ -5392,10 +5392,22 @@
           "category": "drink",
           "stock": 70,
           "code": "P_1773205494078"
+        },
+        {
+          "name": "BERNINI BLUSH",
+          "price": 35,
+          "cost": 12.67,
+          "category": "drink",
+          "stock": 70,
+          "code": "P_1773205494078"
         }
       ],
-      "status": "active",
-      "date": 1773331477740
+      "status": "paid",
+      "date": 1773467099138,
+      "total": 70,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 120,
@@ -5864,6 +5876,12 @@
       "tip": 0,
       "method": "Cash",
       "staff": "Don"
+    },
+    {
+      "id": 136,
+      "items": [],
+      "status": "active",
+      "date": 1773467099262
     }
   ],
   "purchaseLog": [
@@ -5929,5 +5947,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:44:46.346Z"
+  "lastSync": "2026-03-14T05:44:59.262Z"
 }
