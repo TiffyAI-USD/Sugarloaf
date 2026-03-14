@@ -5334,6 +5334,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1773220946460"
+        },
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773466721989"
         }
       ],
       "status": "active",
@@ -5835,5 +5843,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:40:14.956Z"
+  "lastSync": "2026-03-14T05:40:41.255Z"
 }
