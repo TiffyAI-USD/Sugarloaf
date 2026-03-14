@@ -581,7 +581,7 @@
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": -3,
+      "stock": 15,
       "cost": 0,
       "category": "ingredient"
     },
@@ -6261,5 +6261,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T13:31:19.228Z"
+  "lastSync": "2026-03-14T13:46:47.381Z"
 }
