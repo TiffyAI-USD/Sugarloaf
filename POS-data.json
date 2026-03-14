@@ -1030,7 +1030,7 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -5227,8 +5227,12 @@
           "code": "P_1773466315290"
         }
       ],
-      "status": "active",
-      "date": 1773315517053
+      "status": "paid",
+      "date": 1773466389964,
+      "total": 35,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
     },
     {
       "id": 117,
@@ -5562,6 +5566,37 @@
       "items": [],
       "status": "active",
       "date": 1773466238881
+    },
+    {
+      "id": 130,
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 131,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.91,
+          "category": "drink",
+          "stock": 131,
+          "code": "P_1773144846841"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773149785260"
+        }
+      ],
+      "status": "active",
+      "date": 1773466437822
     }
   ],
   "purchaseLog": [
@@ -5627,5 +5662,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:32:44.173Z"
+  "lastSync": "2026-03-14T05:33:57.830Z"
 }
