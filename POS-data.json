@@ -603,7 +603,7 @@
       "price": 95,
       "cost": 40,
       "category": "food",
-      "stock": -1
+      "stock": 21
     },
     "CREAM ": {
       "name": "CREAM ",
@@ -674,7 +674,7 @@
       "price": 125,
       "cost": 17,
       "category": "food",
-      "stock": 19
+      "stock": 24
     },
     "CALAMARI TUBES": {
       "name": "CALAMARI TUBES",
@@ -757,7 +757,7 @@
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 11,
+      "stock": 37,
       "cost": 0,
       "category": "ingredient"
     },
@@ -6261,5 +6261,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T13:53:59.553Z"
+  "lastSync": "2026-03-14T13:57:51.327Z"
 }
