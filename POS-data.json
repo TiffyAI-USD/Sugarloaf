@@ -5342,6 +5342,22 @@
           "category": "food",
           "stock": 0,
           "code": "P_1773466721989"
+        },
+        {
+          "name": "BREEZER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1773207891456"
+        },
+        {
+          "name": "BRUTAL FRUIT RUBY APPLE",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773150462720"
         }
       ],
       "status": "active",
@@ -5843,5 +5859,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:40:41.255Z"
+  "lastSync": "2026-03-14T05:40:57.645Z"
 }
