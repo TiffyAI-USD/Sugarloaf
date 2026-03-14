@@ -5384,7 +5384,16 @@
     },
     {
       "id": 119,
-      "items": [],
+      "items": [
+        {
+          "name": "BERNINI BLUSH",
+          "price": 35,
+          "cost": 12.67,
+          "category": "drink",
+          "stock": 70,
+          "code": "P_1773205494078"
+        }
+      ],
       "status": "active",
       "date": 1773331477740
     },
@@ -5855,12 +5864,6 @@
       "tip": 0,
       "method": "Cash",
       "staff": "Don"
-    },
-    {
-      "id": 136,
-      "items": [],
-      "status": "active",
-      "date": 1773467057699
     }
   ],
   "purchaseLog": [
@@ -5926,5 +5929,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:44:05.192Z"
+  "lastSync": "2026-03-14T05:44:46.346Z"
 }
