@@ -1031,6 +1031,13 @@
       "cost": 10,
       "category": "food",
       "stock": -1
+    },
+    "P_1773466721989": {
+      "name": "JALAPEÑOS POPERS",
+      "price": 55,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -5311,7 +5318,16 @@
     },
     {
       "id": 118,
-      "items": [],
+      "items": [
+        {
+          "name": "EISBEIN",
+          "price": 145,
+          "cost": 65,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773213071275"
+        }
+      ],
       "status": "active",
       "date": 1773316695072
     },
@@ -5811,5 +5827,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:37:54.332Z"
+  "lastSync": "2026-03-14T05:39:07.606Z"
 }
