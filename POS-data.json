@@ -1038,6 +1038,13 @@
       "cost": 0,
       "category": "food",
       "stock": -1
+    },
+    "P_1773467035443": {
+      "name": "PUB STYLE FISH",
+      "price": 95,
+      "cost": 0,
+      "category": "food",
+      "stock": -2
     }
   },
   "recipes": {
@@ -5809,9 +5816,51 @@
     },
     {
       "id": 134,
-      "items": [],
+      "items": [
+        {
+          "name": "LINE FISH",
+          "price": 125,
+          "cost": 26.47,
+          "category": "food",
+          "stock": 17,
+          "code": "P_1773230972483"
+        }
+      ],
       "status": "active",
       "date": 1773466917179
+    },
+    {
+      "id": 135,
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773467035443"
+        }
+      ],
+      "status": "paid",
+      "date": 1773467057543,
+      "total": 190,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Don"
+    },
+    {
+      "id": 136,
+      "items": [],
+      "status": "active",
+      "date": 1773467057699
     }
   ],
   "purchaseLog": [
@@ -5877,5 +5926,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T05:41:57.178Z"
+  "lastSync": "2026-03-14T05:44:05.192Z"
 }
