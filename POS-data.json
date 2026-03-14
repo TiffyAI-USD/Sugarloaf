@@ -61,7 +61,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 45
+      "stock": 40
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -124,14 +124,14 @@
       "price": 45,
       "cost": 19.5,
       "category": "drink",
-      "stock": 21
+      "stock": 20
     },
     "P_1773149785260": {
       "name": "SAVANNA DRY",
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 44
+      "stock": 42
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -208,14 +208,14 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 3
+      "stock": 2
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773152130426": {
       "name": "TSITSIKAMA SPRING STILL 500ML",
@@ -236,7 +236,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": 26
+      "stock": 25
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -313,7 +313,7 @@
       "price": 30,
       "cost": 7.72,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773158228951": {
       "name": "4TH STREET WHITE SWEET 5L",
@@ -632,7 +632,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.729999999999997,
+      "stock": 20.479999999999993,
       "cost": 0,
       "category": "ingredient"
     },
@@ -751,13 +751,13 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -4,
+      "stock": -9,
       "cost": 0,
       "category": "ingredient"
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 16,
+      "stock": 11,
       "cost": 0,
       "category": "ingredient"
     },
@@ -766,7 +766,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 12
+      "stock": 7
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -953,7 +953,7 @@
       "price": 35,
       "cost": 13.71,
       "category": "drink",
-      "stock": -2
+      "stock": -3
     },
     "P_1773329125060": {
       "name": "JOSE CUERVO GOLD",
@@ -1023,7 +1023,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": -1
+      "stock": -2
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1044,7 +1044,21 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -2
+      "stock": -5
+    },
+    "P_1773489030098": {
+      "name": "POWERADE",
+      "price": 25,
+      "cost": 7.5,
+      "category": "drink",
+      "stock": -4
+    },
+    "P_1773489624065": {
+      "name": "MUFASA PIZZA",
+      "price": 150,
+      "cost": 0,
+      "category": "food",
+      "stock": -1
     }
   },
   "recipes": {
@@ -5705,8 +5719,12 @@
           "code": "P_1773328863956"
         }
       ],
-      "status": "active",
-      "date": 1773344025950
+      "status": "paid",
+      "date": 1773486329454,
+      "total": 355,
+      "tip": 5,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 125,
@@ -5748,50 +5766,160 @@
     },
     {
       "id": 127,
-      "items": [],
-      "status": "active",
-      "date": 1773344254715
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "CASTLE LITE 330ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1773151783920"
+        }
+      ],
+      "status": "paid",
+      "date": 1773489155101,
+      "total": 300,
+      "tip": 25,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 128,
-      "items": [],
-      "status": "active",
-      "date": 1773394671797
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 10,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 10,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "CASTLE LITE 500ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1773151833033"
+        }
+      ],
+      "status": "paid",
+      "date": 1773489478090,
+      "total": 300,
+      "tip": 25,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 129,
-      "items": [],
-      "status": "active",
-      "date": 1773466238881
+      "items": [
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "MUFASA PIZZA",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773489624065"
+        }
+      ],
+      "status": "paid",
+      "date": 1773493754007,
+      "total": 420,
+      "tip": 50,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 130,
-      "items": [
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.91,
-          "category": "drink",
-          "stock": 131,
-          "code": "P_1773144846841"
-        },
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.91,
-          "category": "drink",
-          "stock": 131,
-          "code": "P_1773144846841"
-        },
-        {
-          "name": "SAVANNA DRY",
-          "price": 35,
-          "cost": 16.5,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773149785260"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1773466437822
     },
@@ -5935,6 +6063,145 @@
       "tip": 0,
       "method": "Cash",
       "staff": "Don"
+    },
+    {
+      "id": 137,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773219173270"
+        }
+      ],
+      "status": "active",
+      "date": 1773486329683
+    },
+    {
+      "id": 138,
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 44,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 44,
+          "code": "P_1773145425644"
+        }
+      ],
+      "status": "paid",
+      "date": 1773489231330,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 139,
+      "items": [],
+      "status": "active",
+      "date": 1773489231450
+    },
+    {
+      "id": 140,
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        }
+      ],
+      "status": "paid",
+      "date": 1773489508249,
+      "total": 60,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 141,
+      "items": [
+        {
+          "name": "FANTA ORANGE 300ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773152909317"
+        }
+      ],
+      "status": "paid",
+      "date": 1773489531260,
+      "total": 20,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 142,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1773149638554"
+        }
+      ],
+      "status": "active",
+      "date": 1773489531377
+    },
+    {
+      "id": 143,
+      "items": [],
+      "status": "active",
+      "date": 1773493754260
     }
   ],
   "purchaseLog": [
@@ -6000,5 +6267,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T11:05:17.568Z"
+  "lastSync": "2026-03-14T13:09:14.260Z"
 }
