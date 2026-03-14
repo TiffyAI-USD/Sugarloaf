@@ -626,7 +626,7 @@
     },
     "CALAMARI ": {
       "name": "CALAMARI ",
-      "stock": 5.95,
+      "stock": 18.95,
       "cost": 0,
       "category": "ingredient"
     },
@@ -6261,5 +6261,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T13:48:57.041Z"
+  "lastSync": "2026-03-14T13:49:57.357Z"
 }
