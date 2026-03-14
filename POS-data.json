@@ -5687,6 +5687,22 @@
           "category": "drink",
           "stock": 44,
           "code": "P_1773149785260"
+        },
+        {
+          "name": "OUDE MEESTER PERPERMINT",
+          "price": 30,
+          "cost": 7.72,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1773157871849"
+        },
+        {
+          "name": "FLYFISH ",
+          "price": 35,
+          "cost": 13.71,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1773328863956"
         }
       ],
       "status": "active",
@@ -5984,5 +6000,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-14T11:04:31.520Z"
+  "lastSync": "2026-03-14T11:05:17.568Z"
 }
