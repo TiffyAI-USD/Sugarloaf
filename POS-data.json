@@ -6443,7 +6443,16 @@
     },
     {
       "id": 149,
-      "items": [],
+      "items": [
+        {
+          "name": "AQUELLE WATER",
+          "price": 15,
+          "cost": 5.66,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773206006718"
+        }
+      ],
       "status": "active",
       "date": 1773571446593
     }
@@ -6511,5 +6520,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:44:06.592Z"
+  "lastSync": "2026-03-15T10:44:21.549Z"
 }
