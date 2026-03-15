@@ -6555,6 +6555,30 @@
           "category": "drink",
           "stock": 4,
           "code": "P_1773206565471"
+        },
+        {
+          "name": "LIGUI FRUIT TROPICAL",
+          "price": 20,
+          "cost": 6.55,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1773206565471"
+        },
+        {
+          "name": "ROSES CORDIAL PASSION FRUIT",
+          "price": 10,
+          "cost": 1.71,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773206969496"
+        },
+        {
+          "name": "ROSES CORDIAL PASSION FRUIT",
+          "price": 10,
+          "cost": 1.71,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773206969496"
         }
       ],
       "status": "active",
@@ -6624,5 +6648,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:49:55.982Z"
+  "lastSync": "2026-03-15T10:50:08.674Z"
 }
