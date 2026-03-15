@@ -6381,7 +6381,16 @@
     },
     {
       "id": 147,
-      "items": [],
+      "items": [
+        {
+          "name": "SCHWEPPES GINGERALE 200ML",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1773150930960"
+        }
+      ],
       "status": "active",
       "date": 1773571361782
     }
@@ -6449,5 +6458,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:42:41.782Z"
+  "lastSync": "2026-03-15T10:42:59.821Z"
 }
