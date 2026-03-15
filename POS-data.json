@@ -1066,6 +1066,13 @@
       "cost": 7,
       "category": "drink",
       "stock": 0
+    },
+    "P_1773571718066": {
+      "name": "EGG & BACON",
+      "price": 45,
+      "cost": 6.5,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -6047,6 +6054,14 @@
           "category": "drink",
           "stock": 0,
           "code": "P_1773571642385"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773571718066"
         }
       ],
       "status": "active",
@@ -6582,5 +6597,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:47:57.941Z"
+  "lastSync": "2026-03-15T10:48:49.067Z"
 }
