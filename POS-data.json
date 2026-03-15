@@ -6033,38 +6033,6 @@
       "id": 133,
       "items": [
         {
-          "name": "BRUTAL FRUIT RUBY APPLE",
-          "price": 35,
-          "cost": 14.6,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773150462720"
-        },
-        {
-          "name": "SAVANNA ANGRY LEMON",
-          "price": 45,
-          "cost": 19.5,
-          "category": "drink",
-          "stock": 22,
-          "code": "P_1773149638554"
-        },
-        {
-          "name": "CRUMBED MUSHROOMS ",
-          "price": 55,
-          "cost": 8,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1773220946460"
-        },
-        {
-          "name": "EISBEIN",
-          "price": 145,
-          "cost": 65,
-          "category": "food",
-          "stock": 21,
-          "code": "P_1773213071275"
-        },
-        {
           "name": "FILTER COFFY",
           "price": 35,
           "cost": 7,
@@ -6534,6 +6502,21 @@
       "items": [],
       "status": "active",
       "date": 1773571591968
+    },
+    {
+      "id": 153,
+      "items": [
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 19,
+          "code": "P_1773213348251"
+        }
+      ],
+      "status": "active",
+      "date": 1773571674318
     }
   ],
   "purchaseLog": [
@@ -6599,5 +6582,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:47:44.380Z"
+  "lastSync": "2026-03-15T10:47:57.941Z"
 }
