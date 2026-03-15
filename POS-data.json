@@ -201,7 +201,7 @@
       "price": 20,
       "cost": 8.34,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773151783920": {
       "name": "CASTLE LITE 330ML",
@@ -376,7 +376,7 @@
       "price": 15,
       "cost": 5.66,
       "category": "drink",
-      "stock": 14
+      "stock": 13
     },
     "P_1773206179279": {
       "name": "LIQUI FRUIT MANGO & 0RANGE",
@@ -6399,8 +6399,18 @@
           "code": "P_1773206006718"
         }
       ],
+      "status": "paid",
+      "date": 1773571399569,
+      "total": 35,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 148,
+      "items": [],
       "status": "active",
-      "date": 1773571361782
+      "date": 1773571399696
     }
   ],
   "purchaseLog": [
@@ -6466,5 +6476,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:43:06.467Z"
+  "lastSync": "2026-03-15T10:43:19.695Z"
 }
