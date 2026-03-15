@@ -504,13 +504,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -0.12000000000000001,
+      "stock": -0.32000000000000006,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": 1.2999999999999998,
+      "stock": 0.2999999999999998,
       "cost": 0,
       "category": "ingredient"
     },
@@ -575,19 +575,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -4,
+      "stock": -8,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": 15,
+      "stock": 9,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -0.5,
+      "stock": -1.5,
       "cost": 0,
       "category": "ingredient"
     },
@@ -596,7 +596,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 21
+      "stock": 19
     },
     "P_1773213504995": {
       "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
@@ -6497,10 +6497,28 @@
           "category": "food",
           "stock": 21,
           "code": "P_1773213348251"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773213348251"
         }
       ],
+      "status": "paid",
+      "date": 1773571591816,
+      "total": 90,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 152,
+      "items": [],
       "status": "active",
-      "date": 1773571507351
+      "date": 1773571591968
     }
   ],
   "purchaseLog": [
@@ -6566,5 +6584,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:45:40.534Z"
+  "lastSync": "2026-03-15T10:46:31.967Z"
 }
