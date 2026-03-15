@@ -1065,14 +1065,14 @@
       "price": 35,
       "cost": 7,
       "category": "drink",
-      "stock": 0
+      "stock": -2
     },
     "P_1773571718066": {
       "name": "EGG & BACON",
       "price": 45,
       "cost": 6.5,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -6064,8 +6064,12 @@
           "code": "P_1773571718066"
         }
       ],
-      "status": "active",
-      "date": 1773466594635
+      "status": "paid",
+      "date": 1773571740757,
+      "total": 115,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
     },
     {
       "id": 134,
@@ -6532,6 +6536,12 @@
       ],
       "status": "active",
       "date": 1773571674318
+    },
+    {
+      "id": 154,
+      "items": [],
+      "status": "active",
+      "date": 1773571740881
     }
   ],
   "purchaseLog": [
@@ -6597,5 +6607,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:48:49.067Z"
+  "lastSync": "2026-03-15T10:49:00.881Z"
 }
