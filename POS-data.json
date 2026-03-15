@@ -6408,7 +6408,16 @@
     },
     {
       "id": 148,
-      "items": [],
+      "items": [
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 34,
+          "code": "P_1773169167556"
+        }
+      ],
       "status": "active",
       "date": 1773571399696
     }
@@ -6476,5 +6485,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:43:19.695Z"
+  "lastSync": "2026-03-15T10:43:37.310Z"
 }
