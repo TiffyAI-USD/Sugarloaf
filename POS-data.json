@@ -6300,7 +6300,24 @@
     },
     {
       "id": 144,
-      "items": [],
+      "items": [
+        {
+          "name": "FLYFISH ",
+          "price": 35,
+          "cost": 13.71,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1773328863956"
+        },
+        {
+          "name": "FLYFISH ",
+          "price": 35,
+          "cost": 13.71,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1773328863956"
+        }
+      ],
       "status": "active",
       "date": 1773571262551
     }
@@ -6368,5 +6385,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:41:02.549Z"
+  "lastSync": "2026-03-15T10:41:21.615Z"
 }
