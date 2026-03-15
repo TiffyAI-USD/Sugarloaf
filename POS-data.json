@@ -953,7 +953,7 @@
       "price": 35,
       "cost": 13.71,
       "category": "drink",
-      "stock": -10
+      "stock": -13
     },
     "P_1773329125060": {
       "name": "JOSE CUERVO GOLD",
@@ -6316,10 +6316,28 @@
           "category": "drink",
           "stock": -10,
           "code": "P_1773328863956"
+        },
+        {
+          "name": "FLYFISH ",
+          "price": 35,
+          "cost": 13.71,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1773328863956"
         }
       ],
+      "status": "paid",
+      "date": 1773571290589,
+      "total": 105,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Don"
+    },
+    {
+      "id": 145,
+      "items": [],
       "status": "active",
-      "date": 1773571262551
+      "date": 1773571290715
     }
   ],
   "purchaseLog": [
@@ -6385,5 +6403,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-15T10:41:21.615Z"
+  "lastSync": "2026-03-15T10:41:30.710Z"
 }
