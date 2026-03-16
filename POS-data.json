@@ -953,7 +953,7 @@
       "price": 35,
       "cost": 13.71,
       "category": "drink",
-      "stock": 20
+      "stock": 34
     },
     "P_1773329125060": {
       "name": "JOSE CUERVO GOLD",
@@ -6698,5 +6698,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-16T10:48:09.341Z"
+  "lastSync": "2026-03-16T10:49:15.399Z"
 }
