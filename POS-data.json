@@ -6265,6 +6265,22 @@
           "category": "food",
           "stock": 21,
           "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "STEAK EGG AND CHIPS",
+          "price": 135,
+          "cost": 35,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773219731782"
         }
       ],
       "status": "active",
@@ -6773,5 +6789,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T15:09:50.361Z"
+  "lastSync": "2026-03-17T15:10:13.072Z"
 }
