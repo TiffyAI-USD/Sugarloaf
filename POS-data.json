@@ -201,7 +201,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 2
+      "stock": 1
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
@@ -1048,7 +1048,7 @@
     },
     "CHICKEN BREAST": {
       "name": "CHICKEN BREAST",
-      "stock": 0,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -1057,7 +1057,7 @@
       "price": 69,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -6741,8 +6741,12 @@
           "code": "P_1773151783920"
         }
       ],
-      "status": "active",
-      "date": 1773571591968
+      "status": "paid",
+      "date": 1773771254496,
+      "total": 99,
+      "tip": 31,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 153,
@@ -6879,6 +6883,12 @@
       "items": [],
       "status": "active",
       "date": 1773761624100
+    },
+    {
+      "id": 159,
+      "items": [],
+      "status": "active",
+      "date": 1773771254752
     }
   ],
   "purchaseLog": [
@@ -6944,5 +6954,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T18:13:56.672Z"
+  "lastSync": "2026-03-17T18:14:14.752Z"
 }
