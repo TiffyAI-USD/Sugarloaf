@@ -166,7 +166,7 @@
       "price": 20,
       "cost": 8.34,
       "category": "drink",
-      "stock": 6
+      "stock": 25
     },
     "P_1773150716589": {
       "name": "SCHWEPPES SODA WATER",
@@ -1030,7 +1030,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -9
+      "stock": 2
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -6873,5 +6873,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:36:14.081Z"
+  "lastSync": "2026-03-17T16:40:59.579Z"
 }
