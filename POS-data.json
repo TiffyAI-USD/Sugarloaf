@@ -236,7 +236,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": 25
+      "stock": 43
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -6894,5 +6894,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:10:04.342Z"
+  "lastSync": "2026-03-17T16:19:01.269Z"
 }
