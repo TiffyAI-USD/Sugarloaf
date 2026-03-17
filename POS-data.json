@@ -1023,7 +1023,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 31
+      "stock": 36
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -6894,5 +6894,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:09:49.397Z"
+  "lastSync": "2026-03-17T16:10:04.342Z"
 }
