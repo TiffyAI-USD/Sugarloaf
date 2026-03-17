@@ -6329,6 +6329,38 @@
           "category": "drink",
           "stock": -4,
           "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1773489030098"
         }
       ],
       "status": "active",
@@ -6837,5 +6869,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T15:19:25.336Z"
+  "lastSync": "2026-03-17T15:19:39.759Z"
 }
