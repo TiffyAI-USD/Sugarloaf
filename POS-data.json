@@ -1060,13 +1060,6 @@
       "category": "food",
       "stock": -1
     },
-    "P_1773571642385": {
-      "name": "FILTER COFFY",
-      "price": 35,
-      "cost": 7,
-      "category": "drink",
-      "stock": -2
-    },
     "P_1773571718066": {
       "name": "EGG & BACON",
       "price": 45,
@@ -6162,7 +6155,16 @@
     },
     {
       "id": 137,
-      "items": [],
+      "items": [
+        {
+          "name": "CHICKEN WINGS",
+          "price": 75,
+          "cost": 20,
+          "category": "food",
+          "stock": 35,
+          "code": "P_1773219547672"
+        }
+      ],
       "status": "active",
       "date": 1773486329683
     },
@@ -6698,5 +6700,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-16T11:02:55.042Z"
+  "lastSync": "2026-03-17T09:11:09.374Z"
 }
