@@ -161,13 +161,6 @@
       "category": "drink",
       "stock": 14
     },
-    "P_1773150598235": {
-      "name": "RED BULL",
-      "price": 30,
-      "cost": 15.35,
-      "category": "drink",
-      "stock": 13
-    },
     "P_1773150663163": {
       "name": "SCHWEPPES TONIC WATER",
       "price": 20,
@@ -1053,19 +1046,12 @@
       "category": "food",
       "stock": -1
     },
-    "P_1773765141151": {
-      "name": "SPRITE 300ML",
-      "price": 20,
-      "cost": 10.4,
+    "P_1773765347802": {
+      "name": "RED BULL",
+      "price": 30,
+      "cost": 15.35,
       "category": "drink",
-      "stock": 0
-    },
-    "P_1773765173744": {
-      "name": "SPRITE 500ML ",
-      "price": 20,
-      "cost": 11.4,
-      "category": "drink",
-      "stock": 36
+      "stock": 7
     }
   },
   "recipes": {
@@ -6887,5 +6873,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:33:31.200Z"
+  "lastSync": "2026-03-17T16:36:14.081Z"
 }
