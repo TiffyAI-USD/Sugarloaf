@@ -166,7 +166,7 @@
       "price": 20,
       "cost": 8.34,
       "category": "drink",
-      "stock": 25
+      "stock": 6
     },
     "P_1773150716589": {
       "name": "SCHWEPPES SODA WATER",
@@ -209,13 +209,6 @@
       "cost": 12.46,
       "category": "drink",
       "stock": 7
-    },
-    "P_1773152130426": {
-      "name": "TSITSIKAMA SPRING STILL 500ML",
-      "price": 15,
-      "cost": 4.45,
-      "category": "drink",
-      "stock": 42
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
@@ -1030,7 +1023,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": 2
+      "stock": -9
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -1046,12 +1039,12 @@
       "category": "food",
       "stock": -1
     },
-    "P_1773765347802": {
-      "name": "RED BULL",
-      "price": 30,
-      "cost": 15.35,
+    "P_1773765858998": {
+      "name": "TSITSIKAMA SPRING 500ML",
+      "price": 15,
+      "cost": 4.45,
       "category": "drink",
-      "stock": 7
+      "stock": 36
     }
   },
   "recipes": {
@@ -6873,5 +6866,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:40:59.579Z"
+  "lastSync": "2026-03-17T16:45:48.646Z"
 }
