@@ -476,13 +476,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -0.32000000000000006,
+      "stock": -0.42000000000000004,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": 0.09999999999999981,
+      "stock": -0.4000000000000002,
       "cost": 0,
       "category": "ingredient"
     },
@@ -547,19 +547,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -8,
+      "stock": -10,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": 9,
+      "stock": 6,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -1.5,
+      "stock": -2,
       "cost": 0,
       "category": "ingredient"
     },
@@ -568,7 +568,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 19
+      "stock": 18
     },
     "P_1773213504995": {
       "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
@@ -988,7 +988,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 36
+      "stock": 34
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1009,7 +1009,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -5
+      "stock": -6
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1037,7 +1037,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 36
+      "stock": 35
     },
     "P_1773766196672": {
       "name": "LIQUI FRUIT RED GRAPE",
@@ -1045,6 +1045,19 @@
       "cost": 6.55,
       "category": "drink",
       "stock": 10
+    },
+    "CHICKEN BREAST": {
+      "name": "CHICKEN BREAST",
+      "stock": 0,
+      "cost": 0,
+      "category": "ingredient"
+    },
+    "P_1773771013096": {
+      "name": "CHICKEN SALAD",
+      "price": 69,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -1169,6 +1182,9 @@
     },
     "P_1773220946460": {
       "BREAD SLICE": 2
+    },
+    "P_1773771013096": {
+      "CHICKEN BREAST": 1
     }
   },
   "transactions": [
@@ -6421,10 +6437,38 @@
           "category": "drink",
           "stock": 36,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 36,
+          "code": "P_1773765858998"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 19,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1773467035443"
         }
       ],
-      "status": "active",
-      "date": 1773489531377
+      "status": "paid",
+      "date": 1773768698498,
+      "total": 195,
+      "tip": 25,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 143,
@@ -6679,7 +6723,16 @@
     },
     {
       "id": 152,
-      "items": [],
+      "items": [
+        {
+          "name": "CHICKEN SALAD",
+          "price": 69,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773771013096"
+        }
+      ],
       "status": "active",
       "date": 1773571591968
     },
@@ -6883,5 +6936,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T17:29:24.404Z"
+  "lastSync": "2026-03-17T18:13:27.231Z"
 }
