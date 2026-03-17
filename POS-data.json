@@ -61,7 +61,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 37
+      "stock": 35
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -96,7 +96,7 @@
       "price": 35,
       "cost": 13,
       "category": "drink",
-      "stock": 40
+      "stock": 39
     },
     "P_1773147927738": {
       "name": "HUNTERS DRY 440ML",
@@ -131,7 +131,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 39
+      "stock": 38
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -159,7 +159,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 15
+      "stock": 14
     },
     "P_1773150598235": {
       "name": "RED BULL",
@@ -529,7 +529,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 98.19999999999997,
+      "stock": 97.99999999999997,
       "cost": 0,
       "category": "ingredient"
     },
@@ -632,7 +632,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.479999999999993,
+      "stock": 20.379999999999992,
       "cost": 0,
       "category": "ingredient"
     },
@@ -751,13 +751,13 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -9,
+      "stock": -12,
       "cost": 0,
       "category": "ingredient"
     },
     "BACCON": {
       "name": "BACCON",
-      "stock": 37,
+      "stock": 35,
       "cost": 0,
       "category": "ingredient"
     },
@@ -766,7 +766,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 21
+      "stock": 19
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -797,7 +797,7 @@
     },
     "BEEF FILLET": {
       "name": "BEEF FILLET",
-      "stock": 0,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -806,7 +806,7 @@
       "price": 135,
       "cost": 35,
       "category": "food",
-      "stock": 8
+      "stock": 7
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
@@ -1023,7 +1023,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": -4
+      "stock": -5
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1051,7 +1051,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -4
+      "stock": -9
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -6371,8 +6371,12 @@
           "code": "P_1773344090994"
         }
       ],
-      "status": "active",
-      "date": 1773489231450
+      "status": "paid",
+      "date": 1773761623741,
+      "total": 665,
+      "tip": 15,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 140,
@@ -6812,6 +6816,12 @@
       "items": [],
       "status": "active",
       "date": 1773738707511
+    },
+    {
+      "id": 158,
+      "items": [],
+      "status": "active",
+      "date": 1773761624100
     }
   ],
   "purchaseLog": [
@@ -6877,5 +6887,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T15:23:28.845Z"
+  "lastSync": "2026-03-17T15:33:44.096Z"
 }
