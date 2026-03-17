@@ -1073,6 +1073,13 @@
       "cost": 10.4,
       "category": "drink",
       "stock": 3
+    },
+    "P_1773764876750": {
+      "name": "FANTA ORANGE 500ML",
+      "price": 20,
+      "cost": 11.4,
+      "category": "drink",
+      "stock": 19
     }
   },
   "recipes": {
@@ -6894,5 +6901,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T16:27:11.743Z"
+  "lastSync": "2026-03-17T16:28:40.450Z"
 }
