@@ -6163,6 +6163,22 @@
           "category": "food",
           "stock": 7,
           "code": "P_1773220350299"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 7,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "CHICKEN BREAST (STUFFED CHICKEN BREAST) ",
+          "price": 125,
+          "cost": 17,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773215086503"
         }
       ],
       "status": "active",
@@ -6704,5 +6720,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T09:49:45.210Z"
+  "lastSync": "2026-03-17T09:50:47.974Z"
 }
