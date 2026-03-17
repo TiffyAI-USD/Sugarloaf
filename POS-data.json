@@ -6281,6 +6281,14 @@
           "category": "food",
           "stock": 8,
           "code": "P_1773219731782"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 39,
+          "code": "P_1773149785260"
         }
       ],
       "status": "active",
@@ -6789,5 +6797,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T15:10:13.072Z"
+  "lastSync": "2026-03-17T15:10:41.167Z"
 }
