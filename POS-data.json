@@ -6752,12 +6752,20 @@
       "id": 153,
       "items": [
         {
-          "name": "CHICKEN LIVERS",
-          "price": 45,
-          "cost": 12.5,
+          "name": "2 CRUMBED PORK CHOPS",
+          "price": 115,
+          "cost": 17.4,
           "category": "food",
-          "stock": 19,
-          "code": "P_1773213348251"
+          "stock": 3,
+          "code": "P_1773213167637"
+        },
+        {
+          "name": "BLACK CROWN",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1771339932815"
         }
       ],
       "status": "active",
@@ -6883,12 +6891,6 @@
       "items": [],
       "status": "active",
       "date": 1773761624100
-    },
-    {
-      "id": 159,
-      "items": [],
-      "status": "active",
-      "date": 1773771254752
     }
   ],
   "purchaseLog": [
@@ -6954,5 +6956,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-17T18:14:14.752Z"
+  "lastSync": "2026-03-18T07:42:09.520Z"
 }
