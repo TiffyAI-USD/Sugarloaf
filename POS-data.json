@@ -6730,6 +6730,22 @@
           "category": "drink",
           "stock": 28,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 38,
+          "code": "P_1773149785260"
         }
       ],
       "status": "active",
@@ -7276,5 +7292,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T12:24:46.391Z"
+  "lastSync": "2026-03-19T12:25:07.580Z"
 }
