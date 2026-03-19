@@ -700,12 +700,6 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "BACCON": {
-      "name": "BACCON",
-      "stock": 35,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "P_1773219173270": {
       "name": "BURGER PATTIES (BLONDIE BURGER)",
       "price": 110,
@@ -1074,12 +1068,12 @@
       "category": "food",
       "stock": 0
     },
-    "P_1773904878519": {
-      "name": "CALAMARI",
-      "price": 55,
-      "cost": 17.85,
-      "category": "food",
-      "stock": 11
+    "BACCON_": {
+      "name": "BACCON ",
+      "stock": 26,
+      "cost": 0.3315384615384615,
+      "price": 0,
+      "category": "ingredient"
     }
   },
   "recipes": {
@@ -7449,6 +7443,13 @@
       "qty": 2,
       "cost": 0,
       "cat": "TOILET"
+    },
+    {
+      "date": 1773906205477,
+      "name": "BACCON ",
+      "qty": 26,
+      "cost": 8.62,
+      "cat": "FOOD"
     }
   ],
   "staffSales": {
@@ -7833,5 +7834,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T07:23:34.985Z"
+  "lastSync": "2026-03-19T07:43:25.507Z"
 }
