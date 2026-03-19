@@ -1074,6 +1074,13 @@
       "cost": 21.15,
       "category": "food",
       "stock": 4
+    },
+    "JALAPENOS_": {
+      "name": "JALAPENOS ",
+      "stock": 20,
+      "cost": 5.654999999999999,
+      "price": 0,
+      "category": "ingredient"
     }
   },
   "recipes": {
@@ -7454,6 +7461,13 @@
       "qty": 26,
       "cost": 192.14,
       "cat": "Food"
+    },
+    {
+      "date": 1773912896968,
+      "name": "JALAPENOS ",
+      "qty": 20,
+      "cost": 113.1,
+      "cat": "Food"
     }
   ],
   "staffSales": {
@@ -7838,5 +7852,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:22:06.431Z"
+  "lastSync": "2026-03-19T09:34:56.990Z"
 }
