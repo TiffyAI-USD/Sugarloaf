@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 95.39999999999993,
+      "stock": 540.4,
       "cost": 0,
       "category": "ingredient"
     },
@@ -1071,7 +1071,7 @@
     "BACCON_": {
       "name": "BACCON ",
       "stock": 26,
-      "cost": 0.3315384615384615,
+      "cost": 7.39,
       "price": 0,
       "category": "ingredient"
     }
@@ -7450,6 +7450,13 @@
       "qty": 26,
       "cost": 8.62,
       "cat": "FOOD"
+    },
+    {
+      "date": 1773906361241,
+      "name": "BACCON ",
+      "qty": 26,
+      "cost": 192.14,
+      "cat": "Food"
     }
   ],
   "staffSales": {
@@ -7834,5 +7841,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T07:43:25.507Z"
+  "lastSync": "2026-03-19T07:51:50.469Z"
 }
