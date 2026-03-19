@@ -6759,12 +6759,36 @@
       "id": 153,
       "items": [
         {
-          "name": "CASTLE LAGER 500ML",
-          "price": 30,
-          "cost": 11.9,
-          "category": "drink",
-          "stock": 30,
-          "code": "P_1773139959465"
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773220350299"
         },
         {
           "name": "MADAGASCAR STEAK",
@@ -6963,5 +6987,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:36:59.659Z"
+  "lastSync": "2026-03-19T06:37:05.547Z"
 }
