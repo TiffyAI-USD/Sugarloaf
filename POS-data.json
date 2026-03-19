@@ -786,7 +786,7 @@
     },
     "GREEN PEPPERS": {
       "name": "GREEN PEPPERS",
-      "stock": -0.02,
+      "stock": 29.98,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7831,5 +7831,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:15:11.058Z"
+  "lastSync": "2026-03-19T09:16:40.632Z"
 }
