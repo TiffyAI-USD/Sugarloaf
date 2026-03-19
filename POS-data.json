@@ -1052,7 +1052,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -5
+      "stock": -6
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -6965,8 +6965,12 @@
           "code": "P_1773923463427"
         }
       ],
-      "status": "active",
-      "date": 1773738707511
+      "status": "paid",
+      "date": 1773938309125,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
     },
     {
       "id": 158,
@@ -7038,6 +7042,12 @@
       "items": [],
       "status": "active",
       "date": 1773937878389
+    },
+    {
+      "id": 161,
+      "items": [],
+      "status": "active",
+      "date": 1773938309325
     }
   ],
   "purchaseLog": [
@@ -7459,5 +7469,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:38:22.091Z"
+  "lastSync": "2026-03-19T16:38:29.324Z"
 }
