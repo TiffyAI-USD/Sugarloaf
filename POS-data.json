@@ -689,7 +689,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -12,
+      "stock": 168,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7831,5 +7831,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:06:56.291Z"
+  "lastSync": "2026-03-19T09:08:14.038Z"
 }
