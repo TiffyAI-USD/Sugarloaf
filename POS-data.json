@@ -6938,14 +6938,6 @@
       "id": 156,
       "items": [
         {
-          "name": "SMIRNOFF STORM PINE",
-          "price": 35,
-          "cost": 18.71,
-          "category": "drink",
-          "stock": 45,
-          "code": "P_1773330079005"
-        },
-        {
           "name": "MADAGASCAR STEAK",
           "price": 155,
           "cost": 35,
@@ -7462,5 +7454,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:31:18.388Z"
+  "lastSync": "2026-03-19T16:32:34.605Z"
 }
