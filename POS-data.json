@@ -6765,6 +6765,14 @@
           "category": "drink",
           "stock": 30,
           "code": "P_1773139959465"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773220350299"
         }
       ],
       "status": "active",
@@ -6955,5 +6963,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:34:25.982Z"
+  "lastSync": "2026-03-19T06:36:59.659Z"
 }
