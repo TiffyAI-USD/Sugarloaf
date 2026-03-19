@@ -664,7 +664,7 @@
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
-      "stock": 0,
+      "stock": 50,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7831,5 +7831,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:17:20.519Z"
+  "lastSync": "2026-03-19T09:18:27.348Z"
 }
