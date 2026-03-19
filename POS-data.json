@@ -522,7 +522,7 @@
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": 1
+      "stock": 6
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -7852,5 +7852,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:34:56.990Z"
+  "lastSync": "2026-03-19T09:36:25.112Z"
 }
