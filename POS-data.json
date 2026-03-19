@@ -1008,7 +1008,7 @@
     },
     "CHICKEN BREAST": {
       "name": "CHICKEN BREAST",
-      "stock": -1,
+      "stock": 17,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7831,5 +7831,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:06:28.400Z"
+  "lastSync": "2026-03-19T09:06:56.291Z"
 }
