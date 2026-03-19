@@ -6938,20 +6938,12 @@
       "id": 156,
       "items": [
         {
-          "name": "MADAGASCAR STEAK",
-          "price": 155,
-          "cost": 35,
-          "category": "food",
-          "stock": 7,
-          "code": "P_1773220350299"
-        },
-        {
-          "name": "OYSTERS (BAKED)",
-          "price": 70,
-          "cost": 20,
-          "category": "food",
-          "stock": 31,
-          "code": "P_1773220662005"
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 25,
+          "code": "P_1773145425644"
         }
       ],
       "status": "active",
@@ -7454,5 +7446,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:32:34.605Z"
+  "lastSync": "2026-03-19T16:33:40.359Z"
 }
