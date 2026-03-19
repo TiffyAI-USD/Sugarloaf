@@ -597,7 +597,7 @@
     },
     "FETA": {
       "name": "FETA",
-      "stock": -0.025,
+      "stock": 59.975,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7831,5 +7831,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:08:14.038Z"
+  "lastSync": "2026-03-19T09:13:24.497Z"
 }
