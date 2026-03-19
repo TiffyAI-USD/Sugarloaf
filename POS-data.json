@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 95.39999999999993,
+      "stock": 165.39999999999992,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7852,5 +7852,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:46:26.217Z"
+  "lastSync": "2026-03-19T09:49:49.731Z"
 }
