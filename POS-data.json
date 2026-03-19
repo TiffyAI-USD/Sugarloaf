@@ -6797,6 +6797,14 @@
           "category": "food",
           "stock": 5,
           "code": "P_1773220350299"
+        },
+        {
+          "name": "EISBEIN",
+          "price": 145,
+          "cost": 65,
+          "category": "food",
+          "stock": 20,
+          "code": "P_1773213071275"
         }
       ],
       "status": "active",
@@ -6987,5 +6995,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:37:05.547Z"
+  "lastSync": "2026-03-19T06:37:23.924Z"
 }
