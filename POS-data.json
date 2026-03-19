@@ -593,7 +593,7 @@
       "price": 125,
       "cost": 27,
       "category": "food",
-      "stock": 3
+      "stock": 25
     },
     "FETA": {
       "name": "FETA",
@@ -7852,5 +7852,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:36:25.112Z"
+  "lastSync": "2026-03-19T09:37:36.195Z"
 }
