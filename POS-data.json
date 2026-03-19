@@ -7173,6 +7173,30 @@
           "category": "food",
           "stock": 5,
           "code": "P_1773218355573"
+        },
+        {
+          "name": "CRAB CURRY",
+          "price": 145,
+          "cost": 27.5,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773218355573"
+        },
+        {
+          "name": "CRAB CURRY",
+          "price": 145,
+          "cost": 27.5,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773218355573"
+        },
+        {
+          "name": "TRIPE",
+          "price": 105,
+          "cost": 30,
+          "category": "food",
+          "stock": 14,
+          "code": "P_1773211899248"
         }
       ],
       "status": "active",
@@ -7363,5 +7387,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:41:37.021Z"
+  "lastSync": "2026-03-19T06:41:51.039Z"
 }
