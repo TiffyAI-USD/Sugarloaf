@@ -1065,6 +1065,20 @@
       "cost": 11.9,
       "category": "drink",
       "stock": 0
+    },
+    "P_1773902940854": {
+      "name": "PASTA (PLAIN)",
+      "price": 45,
+      "cost": 7.5,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773902943783": {
+      "name": "PASTA (PLAIN)",
+      "price": 45,
+      "cost": 7.5,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7269,6 +7283,22 @@
           "category": "food",
           "stock": -1,
           "code": "P_1773571718066"
+        },
+        {
+          "name": "PASTA (PLAIN)",
+          "price": 45,
+          "cost": 7.5,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773902940854"
+        },
+        {
+          "name": "PASTA (PLAIN)",
+          "price": 45,
+          "cost": 7.5,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773902940854"
         }
       ],
       "status": "active",
@@ -7459,5 +7489,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:43:06.406Z"
+  "lastSync": "2026-03-19T06:52:54.909Z"
 }
