@@ -1,12 +1,5 @@
 {
   "inventory": {
-    "P_1771339932815": {
-      "name": "BLACK CROWN",
-      "price": 35,
-      "cost": 0,
-      "category": "drink",
-      "stock": 33
-    },
     "P_1772182685136": {
       "name": "TEQUILA SILVER",
       "price": 30,
@@ -27,13 +20,6 @@
       "cost": 0,
       "category": "drink",
       "stock": 4
-    },
-    "P_1773139959465": {
-      "name": "CASTLE LAGER 500ML",
-      "price": 30,
-      "cost": 11.9,
-      "category": "drink",
-      "stock": 30
     },
     "P_1773144259954": {
       "name": "CASTLE DOUBLE MALT",
@@ -201,7 +187,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 7
+      "stock": 20
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
@@ -762,7 +748,7 @@
     },
     "BEEF FILLET": {
       "name": "BEEF FILLET",
-      "stock": -1,
+      "stock": 10,
       "cost": 0,
       "category": "ingredient"
     },
@@ -1058,6 +1044,27 @@
       "cost": 16.5,
       "category": "drink",
       "stock": 100
+    },
+    "P_1773848840235": {
+      "name": "BLACK CROWN",
+      "price": 35,
+      "cost": 13.3,
+      "category": "drink",
+      "stock": 22
+    },
+    "P_1773849555427": {
+      "name": "HUNTERS DRY",
+      "price": 35,
+      "cost": 16.48,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1773849739925": {
+      "name": "CASTE LAGER 500ML ",
+      "price": 30,
+      "cost": 11.9,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -6750,7 +6757,16 @@
     },
     {
       "id": 153,
-      "items": [],
+      "items": [
+        {
+          "name": "CASTLE LAGER 500ML",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 30,
+          "code": "P_1773139959465"
+        }
+      ],
       "status": "active",
       "date": 1773571674318
     },
@@ -6939,5 +6955,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-18T15:07:46.452Z"
+  "lastSync": "2026-03-19T06:33:17.870Z"
 }
