@@ -436,13 +436,13 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 94.8,
+      "stock": 93.79999999999998,
       "cost": 1,
       "category": "ingredient"
     },
     "VEG OF DAY": {
       "name": "VEG OF DAY",
-      "stock": 0,
+      "stock": -0.4,
       "cost": 0,
       "category": "ingredient"
     },
@@ -451,23 +451,23 @@
       "price": 105,
       "cost": 30,
       "category": "food",
-      "stock": 14
+      "stock": 12
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -0.42000000000000004,
+      "stock": -1.8200000000000012,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -0.4000000000000002,
+      "stock": -6.199999999999999,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -0.1,
+      "stock": -1.1000000000000003,
       "cost": 0,
       "category": "ingredient"
     },
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 97.99999999999997,
+      "stock": 95.39999999999993,
       "cost": 0,
       "category": "ingredient"
     },
@@ -506,7 +506,7 @@
     },
     "SOUR CROUT": {
       "name": "SOUR CROUT",
-      "stock": -0.6,
+      "stock": -1.1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -515,30 +515,30 @@
       "price": 145,
       "cost": 65,
       "category": "food",
-      "stock": 20
+      "stock": 19
     },
     "P_1773213167637": {
       "name": "2 CRUMBED PORK CHOPS",
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": 3
+      "stock": 1
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -10,
+      "stock": -30,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": 6,
+      "stock": -24,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -2,
+      "stock": -7,
       "cost": 0,
       "category": "ingredient"
     },
@@ -547,7 +547,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 18
+      "stock": 8
     },
     "P_1773213504995": {
       "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
@@ -583,7 +583,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 20.379999999999992,
+      "stock": 19.379999999999978,
       "cost": 0,
       "category": "ingredient"
     },
@@ -645,7 +645,7 @@
       "price": 165,
       "cost": 15,
       "category": "food",
-      "stock": 44
+      "stock": 24
     },
     "P_1773215678430": {
       "name": "PRAWNS (MAIN DISH)",
@@ -659,14 +659,14 @@
       "price": 145,
       "cost": 27.5,
       "category": "food",
-      "stock": 5
+      "stock": 2
     },
     "P_1773218768414": {
       "name": "OCTOPUS (GRILLED)",
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 18
+      "stock": 14
     },
     "P_1773218854737": {
       "name": "EISBEIN",
@@ -724,7 +724,7 @@
       "price": 165,
       "cost": 60,
       "category": "food",
-      "stock": 14
+      "stock": 10
     },
     "P_1773219335220": {
       "name": "BONE MARROWS",
@@ -735,7 +735,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": 0,
+      "stock": -8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -744,11 +744,11 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 35
+      "stock": 31
     },
     "BEEF FILLET": {
       "name": "BEEF FILLET",
-      "stock": 10,
+      "stock": 9.8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -761,13 +761,13 @@
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
-      "stock": 10,
+      "stock": 5,
       "cost": 0,
       "category": "ingredient"
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": -6,
+      "stock": -16,
       "cost": 0,
       "category": "ingredient"
     },
@@ -776,17 +776,17 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": 5
+      "stock": 0
     },
     "PESTO ": {
       "name": "PESTO ",
-      "stock": 0,
+      "stock": -0.04,
       "cost": 0,
       "category": "ingredient"
     },
     "PARMESAN CHEESE": {
       "name": "PARMESAN CHEESE",
-      "stock": 10,
+      "stock": 9.96,
       "cost": 0,
       "category": "ingredient"
     },
@@ -795,7 +795,7 @@
       "price": 80,
       "cost": 16,
       "category": "food",
-      "stock": 6
+      "stock": 4
     },
     "BREAD SLICES": {
       "name": "BREAD SLICES",
@@ -855,7 +855,7 @@
       "price": 89,
       "cost": 0,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1773309845876": {
       "name": "BRUTAL FRUIT ",
@@ -1009,7 +1009,7 @@
       "price": 45,
       "cost": 6.5,
       "category": "food",
-      "stock": -1
+      "stock": -7
     },
     "P_1773765858998": {
       "name": "TSITSIKAMA SPRING 500ML",
@@ -1071,7 +1071,7 @@
       "price": 45,
       "cost": 7.5,
       "category": "food",
-      "stock": 0
+      "stock": -3
     },
     "P_1773902943783": {
       "name": "PASTA (PLAIN)",
@@ -7299,6 +7299,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1773902940854"
+        },
+        {
+          "name": "PASTA (PLAIN)",
+          "price": 45,
+          "cost": 7.5,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773902940854"
         }
       ],
       "status": "active",
@@ -7424,6 +7432,12 @@
       "items": [],
       "status": "active",
       "date": 1773761624100
+    },
+    {
+      "id": 159,
+      "items": [],
+      "status": "active",
+      "date": 1773903191971
     }
   ],
   "purchaseLog": [
@@ -7472,6 +7486,341 @@
         "name": "CHEESY STRIPS -5 (SERVED WITH DIP) ",
         "price": 50,
         "date": 1772895151102
+      },
+      {
+        "name": "MADAGASCAR STEAK",
+        "price": 155,
+        "date": 1773903187605
+      },
+      {
+        "name": "MADAGASCAR STEAK",
+        "price": 155,
+        "date": 1773903187607
+      },
+      {
+        "name": "MADAGASCAR STEAK",
+        "price": 155,
+        "date": 1773903187607
+      },
+      {
+        "name": "MADAGASCAR STEAK",
+        "price": 155,
+        "date": 1773903187607
+      },
+      {
+        "name": "MADAGASCAR STEAK",
+        "price": 155,
+        "date": 1773903187607
+      },
+      {
+        "name": "EISBEIN",
+        "price": 145,
+        "date": 1773903187608
+      },
+      {
+        "name": "LAMB SHANK",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "LAMB SHANK",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "LAMB SHANK",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "LAMB SHANK",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "2 CRUMBED PORK CHOPS",
+        "price": 115,
+        "date": 1773903187608
+      },
+      {
+        "name": "2 CRUMBED PORK CHOPS",
+        "price": 115,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAYFISH ",
+        "price": 165,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "OCTOPUS (GRILLED)",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "OCTOPUS (GRILLED)",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "OCTOPUS (GRILLED)",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "OCTOPUS (GRILLED)",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN WINGS",
+        "price": 75,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN WINGS",
+        "price": 75,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN WINGS",
+        "price": 75,
+        "date": 1773903187608
+      },
+      {
+        "name": "CHICKEN WINGS",
+        "price": 75,
+        "date": 1773903187608
+      },
+      {
+        "name": "CALAMARI SALAD",
+        "price": 89,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAB CURRY",
+        "price": 145,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAB CURRY",
+        "price": 145,
+        "date": 1773903187608
+      },
+      {
+        "name": "CRAB CURRY",
+        "price": 145,
+        "date": 1773903187608
+      },
+      {
+        "name": "TRIPE",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "TRIPE",
+        "price": 105,
+        "date": 1773903187608
+      },
+      {
+        "name": "CARPACCIO",
+        "price": 80,
+        "date": 1773903187608
+      },
+      {
+        "name": "CARPACCIO",
+        "price": 80,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "EGG & BACON",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "PASTA (PLAIN)",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "PASTA (PLAIN)",
+        "price": 45,
+        "date": 1773903187608
+      },
+      {
+        "name": "PASTA (PLAIN)",
+        "price": 45,
+        "date": 1773903187608
       }
     ],
     "Cats": [
@@ -7489,5 +7838,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:52:54.909Z"
+  "lastSync": "2026-03-19T06:53:11.971Z"
 }
