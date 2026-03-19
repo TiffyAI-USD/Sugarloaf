@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 28
+      "stock": 25
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 38
+      "stock": 37
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -320,7 +320,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": 11
+      "stock": 10
     },
     "P_1773205912873": {
       "name": "AKALINW",
@@ -913,7 +913,7 @@
       "price": 35,
       "cost": 18.71,
       "category": "drink",
-      "stock": 44
+      "stock": 43
     },
     "P_1773330195771": {
       "name": "STRAWBERRY LIPS TEQUILA ",
@@ -955,7 +955,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -9
+      "stock": -10
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -1052,14 +1052,14 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": 0
+      "stock": -5
     },
     "P_1773936567733": {
       "name": "RED BULL",
       "price": 30,
       "cost": 19.5,
       "category": "drink",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -6842,8 +6842,12 @@
           "code": "P_1773145425644"
         }
       ],
-      "status": "active",
-      "date": 1773571674318
+      "status": "paid",
+      "date": 1773937112856,
+      "total": 335,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 154,
@@ -6965,6 +6969,12 @@
       "items": [],
       "status": "active",
       "date": 1773761624100
+    },
+    {
+      "id": 159,
+      "items": [],
+      "status": "active",
+      "date": 1773937113043
     }
   ],
   "purchaseLog": [
@@ -7386,5 +7396,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:18:06.614Z"
+  "lastSync": "2026-03-19T16:18:33.043Z"
 }
