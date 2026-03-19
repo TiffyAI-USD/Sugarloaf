@@ -575,12 +575,6 @@
       "cost": 0,
       "category": "ingredient"
     },
-    "CALAMARI ": {
-      "name": "CALAMARI ",
-      "stock": 18.95,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "CHEESE": {
       "name": "CHEESE",
       "stock": 19.379999999999978,
@@ -1079,6 +1073,13 @@
       "cost": 7.5,
       "category": "food",
       "stock": 0
+    },
+    "P_1773904878519": {
+      "name": "CALAMARI",
+      "price": 55,
+      "cost": 17.85,
+      "category": "food",
+      "stock": 11
     }
   },
   "recipes": {
@@ -7432,12 +7433,6 @@
       "items": [],
       "status": "active",
       "date": 1773761624100
-    },
-    {
-      "id": 159,
-      "items": [],
-      "status": "active",
-      "date": 1773903191971
     }
   ],
   "purchaseLog": [
@@ -7838,5 +7833,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:53:11.971Z"
+  "lastSync": "2026-03-19T07:23:34.985Z"
 }
