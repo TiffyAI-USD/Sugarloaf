@@ -6972,9 +6972,18 @@
     },
     {
       "id": 159,
-      "items": [],
+      "items": [
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773149638554"
+        }
+      ],
       "status": "active",
-      "date": 1773937113043
+      "date": 1773937478068
     }
   ],
   "purchaseLog": [
@@ -7396,5 +7405,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:18:33.043Z"
+  "lastSync": "2026-03-19T16:24:56.759Z"
 }
