@@ -749,7 +749,7 @@
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
-      "stock": 5,
+      "stock": 10,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7841,5 +7841,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T07:51:50.469Z"
+  "lastSync": "2026-03-19T07:52:38.646Z"
 }
