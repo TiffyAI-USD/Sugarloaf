@@ -292,7 +292,7 @@
       "price": 30,
       "cost": 10.56,
       "category": "drink",
-      "stock": 0
+      "stock": 28
     },
     "P_1773164159136": {
       "name": "GRAPETISER 275ML",
@@ -6777,6 +6777,22 @@
           "category": "drink",
           "stock": 0,
           "code": "P_1773923463427"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "STONEY GINGER BEER",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773205810578"
         }
       ],
       "status": "active",
@@ -7323,5 +7339,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T12:31:36.906Z"
+  "lastSync": "2026-03-19T15:54:22.744Z"
 }
