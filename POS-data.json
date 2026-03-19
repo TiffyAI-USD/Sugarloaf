@@ -6748,22 +6748,6 @@
           "code": "P_1773220350299"
         },
         {
-          "name": "MADAGASCAR STEAK",
-          "price": 155,
-          "cost": 35,
-          "category": "food",
-          "stock": 5,
-          "code": "P_1773220350299"
-        },
-        {
-          "name": "MADAGASCAR STEAK",
-          "price": 155,
-          "cost": 35,
-          "category": "food",
-          "stock": 5,
-          "code": "P_1773220350299"
-        },
-        {
           "name": "EISBEIN",
           "price": 145,
           "cost": 65,
@@ -7804,5 +7788,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:56:49.321Z"
+  "lastSync": "2026-03-19T10:15:47.060Z"
 }
