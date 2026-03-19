@@ -455,7 +455,7 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": 0.4299999999999988,
+      "stock": -1.8200000000000012,
       "cost": 0,
       "category": "ingredient"
     },
@@ -476,11 +476,11 @@
       "price": 60,
       "cost": 15,
       "category": "food",
-      "stock": 34
+      "stock": 26
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 165.39999999999992,
+      "stock": 95.39999999999993,
       "cost": 0,
       "category": "ingredient"
     },
@@ -497,32 +497,18 @@
       "cost": 19.5,
       "category": "ingredient"
     },
-    "P_1773212967469": {
-      "name": "LINE FISH AND PRAWN",
-      "price": 125,
-      "cost": 21.15,
-      "category": "food",
-      "stock": 25
-    },
     "SOUR CROUT": {
       "name": "SOUR CROUT",
       "stock": -1.1,
       "cost": 0,
       "category": "ingredient"
     },
-    "P_1773213071275": {
-      "name": "EISBEIN",
-      "price": 145,
-      "cost": 65,
-      "category": "food",
-      "stock": 19
-    },
     "P_1773213167637": {
       "name": "2 CRUMBED PORK CHOPS",
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": 6
+      "stock": 1
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -570,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 26.579999999999977,
+      "stock": 19.379999999999978,
       "cost": 0,
       "category": "ingredient"
     },
@@ -593,11 +579,11 @@
       "price": 125,
       "cost": 27,
       "category": "food",
-      "stock": 25
+      "stock": 3
     },
     "FETA": {
       "name": "FETA",
-      "stock": 59.975,
+      "stock": -0.025,
       "cost": 0,
       "category": "ingredient"
     },
@@ -632,7 +618,7 @@
       "price": 165,
       "cost": 15,
       "category": "food",
-      "stock": 26
+      "stock": 24
     },
     "P_1773215678430": {
       "name": "PRAWNS (MAIN DISH)",
@@ -646,25 +632,18 @@
       "price": 145,
       "cost": 27.5,
       "category": "food",
-      "stock": 5
+      "stock": 2
     },
     "P_1773218768414": {
       "name": "OCTOPUS (GRILLED)",
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 18
-    },
-    "P_1773218854737": {
-      "name": "EISBEIN",
-      "price": 145,
-      "cost": 65,
-      "category": "food",
-      "stock": 20
+      "stock": 14
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
-      "stock": 50,
+      "stock": 0,
       "cost": 0,
       "category": "ingredient"
     },
@@ -689,7 +668,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": 168,
+      "stock": -12,
       "cost": 0,
       "category": "ingredient"
     },
@@ -705,7 +684,7 @@
       "price": 165,
       "cost": 60,
       "category": "food",
-      "stock": 13
+      "stock": 10
     },
     "P_1773219335220": {
       "name": "BONE MARROWS",
@@ -761,7 +740,7 @@
     },
     "PESTO ": {
       "name": "PESTO ",
-      "stock": 0.46,
+      "stock": -0.04,
       "cost": 0,
       "category": "ingredient"
     },
@@ -786,7 +765,7 @@
     },
     "GREEN PEPPERS": {
       "name": "GREEN PEPPERS",
-      "stock": 29.98,
+      "stock": -0.02,
       "cost": 0,
       "category": "ingredient"
     },
@@ -808,7 +787,7 @@
       "price": 55,
       "cost": 8,
       "category": "food",
-      "stock": 5
+      "stock": -1
     },
     "P_1773222794698": {
       "name": "MUFASA",
@@ -1008,7 +987,7 @@
     },
     "CHICKEN BREAST": {
       "name": "CHICKEN BREAST",
-      "stock": 17,
+      "stock": -1,
       "cost": 0,
       "category": "ingredient"
     },
@@ -1061,26 +1040,12 @@
       "category": "food",
       "stock": 0
     },
-    "P_1773911164989": {
-      "name": "HAKE FILLET (PUBSTYLE FISH AND CHIPS",
+    "P_1773914136085": {
+      "name": "EISBEIN",
       "price": 95,
-      "cost": 28.34,
+      "cost": 65,
       "category": "food",
-      "stock": 6
-    },
-    "P_1773912100467": {
-      "name": "LINE FISH AND PRAWN",
-      "price": 125,
-      "cost": 21.15,
-      "category": "food",
-      "stock": 4
-    },
-    "JALAPENOS_": {
-      "name": "JALAPENOS ",
-      "stock": 20,
-      "cost": 5.654999999999999,
-      "price": 0,
-      "category": "ingredient"
+      "stock": 13
     }
   },
   "recipes": {
@@ -1095,15 +1060,6 @@
     },
     "P_1773212737065": {
       "POTATOES ": 0.2
-    },
-    "P_1773212967469": {
-      "PRAWNS": 3,
-      "POTATOES ": 0.2,
-      "VEG OF DAY": 0.2
-    },
-    "P_1773213071275": {
-      "MASH POTATOES ": 0.2,
-      "SOUR CROUT": 0.5
     },
     "P_1773213167637": {
       "MASH POTATOES ": 0.2
@@ -1153,10 +1109,6 @@
     },
     "P_1773218768414": {
       "POTATOES ": 0.2
-    },
-    "P_1773218854737": {
-      "POTATOES ": 0.2,
-      "SOUR CROUT": 0.1
     },
     "P_1773219047917": {
       "PIZZA SAUCE": 0.5,
@@ -7852,5 +7804,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T09:49:49.731Z"
+  "lastSync": "2026-03-19T09:56:49.321Z"
 }
