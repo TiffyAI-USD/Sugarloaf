@@ -7229,6 +7229,46 @@
           "category": "food",
           "stock": -1,
           "code": "P_1773571718066"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773571718066"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773571718066"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773571718066"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773571718066"
+        },
+        {
+          "name": "EGG & BACON",
+          "price": 45,
+          "cost": 6.5,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773571718066"
         }
       ],
       "status": "active",
@@ -7419,5 +7459,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:43:01.195Z"
+  "lastSync": "2026-03-19T06:43:06.406Z"
 }
