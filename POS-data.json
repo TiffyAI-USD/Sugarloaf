@@ -6805,6 +6805,22 @@
           "category": "food",
           "stock": 20,
           "code": "P_1773213071275"
+        },
+        {
+          "name": "LAMB SHANK",
+          "price": 165,
+          "cost": 60,
+          "category": "food",
+          "stock": 14,
+          "code": "P_1773219242862"
+        },
+        {
+          "name": "LAMB SHANK",
+          "price": 165,
+          "cost": 60,
+          "category": "food",
+          "stock": 14,
+          "code": "P_1773219242862"
         }
       ],
       "status": "active",
@@ -6995,5 +7011,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T06:37:23.924Z"
+  "lastSync": "2026-03-19T06:37:33.436Z"
 }
