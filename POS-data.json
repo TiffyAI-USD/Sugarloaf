@@ -1060,6 +1060,13 @@
       "cost": 19.5,
       "category": "drink",
       "stock": -1
+    },
+    "P_1773937813355": {
+      "name": "CHEFFS PIZZA",
+      "price": 165,
+      "cost": 30,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7012,6 +7019,14 @@
           "category": "food",
           "stock": -2,
           "code": "P_1773308518835"
+        },
+        {
+          "name": "CHEFFS PIZZA",
+          "price": 165,
+          "cost": 30,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773937813355"
         }
       ],
       "status": "active",
@@ -7437,5 +7452,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-19T16:26:35.727Z"
+  "lastSync": "2026-03-19T16:30:59.352Z"
 }
