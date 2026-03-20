@@ -5,7 +5,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 26
+      "stock": 24
     },
     "P_1772185176729": {
       "name": "JAGERMEISTER",
@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 37
+      "stock": 34
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -461,7 +461,7 @@
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -6.199999999999999,
+      "stock": -6.299999999999999,
       "cost": 0,
       "category": "ingredient"
     },
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 95.19999999999993,
+      "stock": 94.99999999999993,
       "cost": 0,
       "category": "ingredient"
     },
@@ -695,7 +695,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": -8,
+      "stock": -10,
       "cost": 0,
       "category": "ingredient"
     },
@@ -704,7 +704,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 31
+      "stock": 30
     },
     "BEEF FILLET": {
       "name": "BEEF FILLET",
@@ -721,13 +721,13 @@
     },
     "BEEF FILLT": {
       "name": "BEEF FILLT",
-      "stock": 5,
+      "stock": 4,
       "cost": 0,
       "category": "ingredient"
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": -16,
+      "stock": -18,
       "cost": 0,
       "category": "ingredient"
     },
@@ -736,7 +736,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -7209,8 +7209,18 @@
           "code": "P_1772182685136"
         }
       ],
+      "status": "paid",
+      "date": 1774016284546,
+      "total": 395,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 162,
+      "items": [],
       "status": "active",
-      "date": 1774014352649
+      "date": 1774016284776
     }
   ],
   "purchaseLog": [
@@ -7632,5 +7642,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T14:15:13.483Z"
+  "lastSync": "2026-03-20T14:18:04.774Z"
 }
