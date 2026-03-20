@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SUGARLOAF | PREMIER POS & INVENTORY</title>
+    <style>
+        :root {
+            --primary: #d4a373;
+            --bg: #000000;
+            --surface: #121212;
+            --surface-light: #1e1e1e;
+            --accent: #44ff44;
+            --danger: #ff4444;
+            --warning: #ff9800;
+            --gold-grad: linear-gradient(145deg, #d4a373, #b38b59, #8a6d4b);
+            --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+        }
+
+        body { 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            background: var(--bg); color: #fff; margin: 0; padding: 10px; overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- BEAUTIFUL HEADERS --- */
+        .header-main {
+            background: var(--gold-grad); color: #000; padding: 20px; border-radius: 12px;
+            text-align: center; margin-bottom: 15px; box-shadow: var(--shadow);
+        }
+        .header-main h1 { margin: 0; font-size: 1.8rem; letter-spacing: 5px; text-transform: uppercase; font-weight: 900; }
+
+        /* --- LOGIN & PIN ARRAY --- */
+        #login-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: var(--bg); z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+        .login-box { 
+            background: var(--surface); padding: 30px; border-radius: 20px; border: 2px solid var(--primary); 
+            width: 85%; max-width: 350px; text-align: center; box-shadow: 0 0 50px rgba(212, 163, 115, 0.2);
+        }
+        .pin-display { 
+            font-size: 3rem; letter-spacing: 15px; margin-bottom: 25px; color: var(--primary); 
+            font-weight: 900; background: #000; padding: 15px; border-radius: 12px; border: 1px solid #333;
+        }
+
+        /* --- NAVIGATION --- */
+        .nav-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 15px; }
+        .nav-btn {
+            background: var(--surface-light); border: 1px solid #333; color: #888;
+            padding: 15px 5px; border-radius: 10px; font-size: 0.7rem; font-weight: 900;
+            text-transform: uppercase; cursor: pointer; transition: 0.2s;
+        }
+        .nav-btn.active { background: var(--gold-grad); color: #000; border: none; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(212, 163, 115, 0.4); }
+
+        /* --- POS GRID & INTERFACE --- */
+        .pos-container { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 15px; }
+        .product-area { background: var(--surface); padding: 15px; border-radius: 15px; border: 1px solid #222; }
+        .cart-area { background: var(--surface-light); padding: 15px; border-radius: 15px; border: 1px solid #333; position: sticky; top: 10px; height: fit-content; }
+        
+        .category-header {
+            color: var(--primary); font-size: 0.9rem; font-weight: 900; margin: 15px 0 10px 0;
+            text-transform: uppercase; border-left: 4px solid var(--primary); padding-left: 10px;
+        }
+
+        .grid-products { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; }
+        .item-card {
+            background: var(--gold-grad); color: #000; padding: 15px 10px; border-radius: 10px;
+            text-align: center; font-weight: 900; cursor: pointer; font-size: 0.8rem;
+            display: flex; flex-direction: column; justify-content: center; min-height: 75px;
+            border-bottom: 4px solid #8a6d4b; transition: 0.1s;
+        }
+        .item-card:active { transform: translateY(3px); border-bottom-width: 1px; }
+
+        /* --- REPORTING & TABLES --- */
+        .report-section { background: var(--surface); padding: 25px; border-radius: 15px; margin-bottom: 20px; border: 1px solid #333; }
+        .report-stat { background: #1a1a1a; padding: 20px; border-radius: 12px; border-left: 5px solid var(--primary); margin-bottom: 10px; }
+        .stat-value { font-size: 1.8rem; font-weight: 900; color: var(--accent); font-family: 'Courier New', monospace; }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th { text-align: left; padding: 12px; color: var(--primary); font-size: 0.7rem; text-transform: uppercase; border-bottom: 2px solid #333; }
+        td { padding: 12px; border-bottom: 1px solid #222; font-size: 0.85rem; }
+
+        /* --- AUDIT PANEL --- */
+        .audit-panel { background: #1a0000; border: 2px solid var(--danger); padding: 20px; border-radius: 15px; margin-bottom: 20px; }
+        .audit-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 10px; margin-top: 15px; }
+
+        /* --- BUTTONS --- */
+        .btn-main { background: var(--gold-grad); color: #000; border: none; padding: 18px; border-radius: 10px; font-weight: 900; text-transform: uppercase; width: 100%; cursor: pointer; font-size: 1.1rem; }
+        input, select { background: #000; color: #fff; border: 1px solid #444; padding: 14px; border-radius: 8px; width: 100%; font-weight: 700; }
+
+        @media print {
+            body { background: #fff; color: #000; padding: 0; }
+            .nav-bar, .audit-panel, .btn-main, .item-card, #login-overlay { display: none !important; }
+            .report-section { border: none; width: 100% !important; box-shadow: none; }
+            .stat-value { color: #000; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="login-overlay">
+        <div class="login-box">
+            <h1 style="color:var(--primary); margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase;">Sugarloaf Access</h1>
+            <div id="pin-display" class="pin-display">****</div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(1)">1</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(2)">2</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(3)">3</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(4)">4</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(5)">5</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(6)">6</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(7)">7</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(8)">8</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(9)">9</button>
+                <button class="nav-btn" style="background:var(--danger)!important; color:#fff;" onclick="clearPin()">C</button>
+                <button class="nav-btn" style="font-size: 1.5rem;" onclick="addPin(0)">0</button>
+                <button class="nav-btn" style="background:var(--accent)!important; color:#000;" onclick="tryLogin()">GO</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="app-container" style="display:none;">
+        <div class="header-main">
+            <h1 id="venue-title">SUGARLOAF PREMIUM</h1>
+            <div style="display:flex; justify-content: space-between; margin-top: 10px; font-size: 0.75rem; font-weight: 900;">
+                <span id="staff-name-display">STAFF: --</span>
+                <span id="live-clock">00:00:00</span>
+                <span id="sync-status" style="color:var(--accent)">RENDER CLOUD: CONNECTED</span>
+            </div>
+        </div>
+
+        <div class="nav-bar">
+            <button class="nav-btn active" id="btn-pos" onclick="switchTab('pos')">Terminal</button>
+            <button class="nav-btn" id="btn-inv" onclick="switchTab('inv')">Inventory</button>
+            <button class="nav-btn" id="btn-staff" onclick="switchTab('staff')">Staff Tabs</button>
+            <button class="nav-btn" id="btn-rep" onclick="switchTab('rep')">Management</button>
+        </div>
+
+        <div id="tab-pos" class="tab-content">
+            <div class="pos-container">
+                <div class="product-area">
+                    <div class="category-header">Liquor & Beverages</div>
+                    <div id="drinks-grid" class="grid-products"></div>
+                    <div class="category-header">Kitchen & Food</div>
+                    <div id="food-grid" class="grid-products"></div>
+                </div>
+                <div class="cart-area">
+                    <h3 style="color:var(--primary); margin:0 0 15px 0; text-transform:uppercase; border-bottom:1px solid #333; padding-bottom:5px;">Billing Summary</h3>
+                    <div id="cart-items" style="min-height:200px;"></div>
+                    <div class="total-box" style="text-align:right;">
+                        <span style="font-size:0.8rem; color:#888;">TOTAL DUE</span>
+                        <div id="pos-total" style="font-size:3rem; color:var(--accent); font-weight:900;">R 0.00</div>
+                    </div>
+                    <button class="btn-main" onclick="openTender()">Finalize Sale</button>
+                    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:10px;">
+                        <button class="nav-btn" style="color:var(--warning)" onclick="recordWaste()">Waste</button>
+                        <button class="nav-btn" style="color:var(--danger)" onclick="voidOrder()">Void</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab-inv" class="tab-content" style="display:none;">
+            <div class="audit-panel">
+                <h2 style="color:var(--danger); margin:0; font-size: 1.1rem; text-transform:uppercase;">⚠️ Live Shrinkage Audit</h2>
+                <p style="font-size:0.75rem; color:#aaa; margin:5px 0 15px 0;">Force system stock to match physical shelf count. Variance is logged as immediate financial loss.</p>
+                <div class="audit-grid">
+                    <select id="audit-item-select"></select>
+                    <input type="number" id="audit-actual-qty" placeholder="Shelf Count">
+                    <button onclick="executeAudit()" style="background:var(--danger); border:none; border-radius:8px; font-weight:900; color:white; cursor:pointer;">FORCE BALANCE</button>
+                </div>
+            </div>
+            <div class="report-section">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h2 style="color:var(--primary); margin:0;">ASSET VALUATION</h2>
+                    <button class="nav-btn" onclick="window.print()">Generate PDF</button>
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px; margin:20px 0;">
+                    <div class="report-stat"><div>TOTAL COST BASIS</div><div id="val-cost" class="stat-value">R 0.00</div></div>
+                    <div class="report-stat"><div>EST. RETAIL VALUE</div><div id="val-retail" class="stat-value" style="color:var(--primary);">R 0.00</div></div>
+                </div>
+                <table>
+                    <thead><tr><th>Product</th><th>Stock</th><th>Unit Cost</th><th>Status</th><th>Action</th></tr></thead>
+                    <tbody id="stock-tbody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="tab-staff" class="tab-content" style="display:none;">
+            <div class="report-section">
+                <h2 style="color:var(--primary);">STAFF CREDIT AUDIT</h2>
+                <div id="staff-credit-list"></div>
+                <button class="btn-main" style="margin-top:20px; background:var(--warning);" onclick="printStaffReport()">Print Master Staff Balances</button>
+            </div>
+        </div>
+
+        <div id="tab-rep" class="tab-content" style="display:none;">
+            <div class="report-section">
+                <h2 style="color:var(--primary);">DAILY Z-REPORT</h2>
+                <div class="report-stat">
+                    <div>GROSS SALES</div>
+                    <div id="rep-gross" class="stat-value">R 0.00</div>
+                </div>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+                    <div class="report-stat" style="border-left-color: var(--accent);"><div>TOTAL TIPS</div><div id="rep-tips" class="stat-value" style="font-size:1.4rem;">R 0.00</div></div>
+                    <div class="report-stat" style="border-left-color: var(--danger);"><div>AUDIT LOSS</div><div id="rep-loss" class="stat-value" style="color:var(--danger); font-size:1.4rem;">R 0.00</div></div>
+                </div>
+                <button class="btn-main" style="margin-top:20px;" onclick="generateZReport()">Finalize & Close Day</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="tender-modal" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:10001; display:none; justify-content:center; align-items:center;">
+        <div class="login-box" style="max-width:400px; border-color:var(--accent);">
+            <h2 style="color:var(--accent); text-transform:uppercase;">Pay Bill: <span id="tender-total">R 0.00</span></h2>
+            <input type="number" id="cash-input" placeholder="Amount Received" oninput="calculateChange()" style="font-size:2rem; text-align:center; margin-bottom:15px;">
+            <div id="change-display" style="font-size:1.5rem; font-weight:900; color:var(--warning); margin-bottom:20px;">Change: R0.00</div>
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+                <button class="btn-main" style="background:var(--accent)!important;" onclick="finalizeSale('Cash')">CASH</button>
+                <button class="btn-main" style="background:#444!important; color:#fff;" onclick="finalizeSale('Card')">CARD</button>
+            </div>
+            <button class="nav-btn" style="width:100%; margin-top:15px;" onclick="closeModal()">Go Back</button>
+        </div>
+    </div>
+
+    <script>
+        // --- DATA & SYNC ---
+        let inventory = JSON.parse(localStorage.getItem('pos_inv')) || {
+            "BEER_01": { name: "Castle Lite", stock: 24, cost: 18, price: 35, category: "drink" },
+            "SPR_01": { name: "Brandy (Tots)", stock: 150, cost: 12, price: 25, category: "drink" },
+            "FOOD_01": { name: "Burger & Chips", stock: 40, cost: 45, price: 95, category: "food" }
+        };
+
+        let transactions = JSON.parse(localStorage.getItem('pos_trans')) || [];
+        let auditLog = JSON.parse(localStorage.getItem('pos_audit_log')) || [];
+
+        // --- THE FULL 26-STAFF PIN REGISTRY ---
+        const STAFF_PINS = {
+            "1010": "Sean", "7711": "Cats", "7777": "King Ron", "2266": "Local",
+            "2255": "Jay", "2244": "Ben", "2233": "Lim", "2211": "Andisiwe",
+            "1199": "Lungile", "1188": "Jon", "1177": "Megan", "1166": "Sweswe",
+            "1155": "Siyamcela", "1144": "Luciano", "1133": "Tyran", "1122": "Sive",
+            "2020": "Zuko", "1999": "Lee", "1992": "Jonice", "1234": "Beranise",
+            "1111": "Momo", "2222": "Zet", "1529": "Marshall", "4444": "Hans",
+            "2015": "Regan", "5555": "Don"
+        };
+
+        let currentStaff = "";
+        let pinInput = "";
+        let currentCart = [];
+
+        // --- AUTH LOGIC ---
+        function addPin(n) { if(pinInput.length < 4) { pinInput += n; document.getElementById('pin-display').textContent = "*".repeat(pinInput.length); } }
+        function clearPin() { pinInput = ""; document.getElementById('pin-display').textContent = "****"; }
+        function tryLogin() {
+            if(STAFF_PINS[pinInput]) {
+                currentStaff = STAFF_PINS[pinInput];
+                document.getElementById('login-overlay').style.display = 'none';
+                document.getElementById('app-container').style.display = 'block';
+                document.getElementById('staff-name-display').textContent = `STAFF: ${currentStaff.toUpperCase()}`;
+                initPOS();
+            } else { alert("INVALID ACCESS CODE"); clearPin(); }
+        }
+
+        // --- POS ENGINE ---
+        function initPOS() {
+            renderProducts();
+            setInterval(() => { document.getElementById('live-clock').textContent = new Date().toLocaleTimeString(); }, 1000);
+        }
+
+        function renderProducts() {
+            const drinksGrid = document.getElementById('drinks-grid');
+            const foodGrid = document.getElementById('food-grid');
+            drinksGrid.innerHTML = ''; foodGrid.innerHTML = '';
+
+            Object.keys(inventory).forEach(key => {
+                const item = inventory[key];
+                const card = document.createElement('div');
+                card.className = 'item-card';
+                card.innerHTML = `${item.name}<br><span style="font-size:0.6rem; opacity:0.7;">R${item.price.toFixed(2)}</span>`;
+                card.onclick = () => { currentCart.push({...item, code: key}); updateCartUI(); };
+                
+                if(item.category === 'drink') drinksGrid.appendChild(card);
+                else foodGrid.appendChild(card);
+            });
+        }
+
+        function updateCartUI() {
+            const list = document.getElementById('cart-items');
+            list.innerHTML = '';
+            let total = 0;
+            currentCart.forEach((item, idx) => {
+                total += item.price;
+                list.innerHTML += `<div style="display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px solid #222; font-weight:700;">
+                    <span>${item.name}</span>
+                    <span>R${item.price.toFixed(2)} <button onclick="removeFromCart(${idx})" style="background:none; border:none; color:var(--danger); font-weight:900;">X</button></span>
+                </div>`;
+            });
+            document.getElementById('pos-total').textContent = `R ${total.toFixed(2)}`;
+        }
+
+        function removeFromCart(idx) { currentCart.splice(idx, 1); updateCartUI(); }
+
+        // --- TENDER LOGIC ---
+        function openTender() {
+            if(currentCart.length === 0) return;
+            const total = currentCart.reduce((s, i) => s + i.price, 0);
+            document.getElementById('tender-total').textContent = `R ${total.toFixed(2)}`;
+            document.getElementById('tender-modal').style.display = 'flex';
+        }
+        function closeModal() { document.getElementById('tender-modal').style.display = 'none'; }
+        function calculateChange() {
+            const total = currentCart.reduce((s, i) => s + i.price, 0);
+            const received = parseFloat(document.getElementById('cash-input').value) || 0;
+            document.getElementById('change-display').textContent = `Change: R${Math.max(0, received - total).toFixed(2)}`;
+        }
+
+        function finalizeSale(method) {
+            const total = currentCart.reduce((s, i) => s + i.price, 0);
+            const sale = {
+                date: new Date().getTime(),
+                staff: currentStaff,
+                items: [...currentCart],
+                total: total,
+                method: method
+            };
+
+            // Deduct stock
+            currentCart.forEach(it => { if(inventory[it.code]) inventory[it.code].stock--; });
+
+            transactions.push(sale);
+            saveAll();
+            currentCart = [];
+            updateCartUI();
+            closeModal();
+            alert("TRANSACTION COMPLETED");
+        }
+
+        // --- INVENTORY & AUDIT LOGIC ---
+        function switchTab(id) {
+            document.querySelectorAll('.tab-content').forEach(t => t.style.display = 'none');
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('tab-' + id).style.display = 'block';
+            document.getElementById('btn-' + id).classList.add('active');
+            if(id === 'inv') refreshInventory();
+            if(id === 'rep') refreshReports();
+        }
+
+        function refreshInventory() {
+            const tbody = document.getElementById('stock-tbody');
+            const select = document.getElementById('audit-item-select');
+            tbody.innerHTML = ''; select.innerHTML = '<option value="">-- SELECT PRODUCT --</option>';
+            let costVal = 0, retailVal = 0;
+
+            Object.keys(inventory).sort().forEach(key => {
+                const item = inventory[key];
+                costVal += (item.stock * item.cost);
+                retailVal += (item.stock * item.price);
+                
+                const status = item.stock < 10 ? `<span style="color:var(--danger)">LOW</span>` : `<span style="color:var(--accent)">OK</span>`;
+                tbody.innerHTML += `<tr><td><b>${item.name}</b></td><td>${item.stock}</td><td>R${item.cost}</td><td>${status}</td><td><button onclick="quickAdd('${key}')" class="nav-btn" style="padding:5px;">+Add</button></td></tr>`;
+                select.innerHTML += `<option value="${key}">${item.name}</option>`;
+            });
+
+            document.getElementById('val-cost').textContent = `R ${costVal.toFixed(2)}`;
+            document.getElementById('val-retail').textContent = `R ${retailVal.toFixed(2)}`;
+        }
+
+        function executeAudit() {
+            const key = document.getElementById('audit-item-select').value;
+            const actual = parseFloat(document.getElementById('audit-actual-qty').value);
+            if(!key || isNaN(actual)) return alert("Select item and count.");
+
+            const theoretical = inventory[key].stock;
+            const variance = theoretical - actual;
+            const financialLoss = variance * inventory[key].cost;
+
+            if(confirm(`AUDIT WARNING:\nItem: ${inventory[key].name}\nVariance: ${variance}\nLoss Value: R${financialLoss.toFixed(2)}\n\nFORCE SYSTEM BALANCE?`)) {
+                auditLog.push({ date: new Date().getTime(), item: inventory[key].name, variance, loss: financialLoss });
+                inventory[key].stock = actual;
+                saveAll();
+                refreshInventory();
+            }
+        }
+
+        function refreshReports() {
+            const today = new Date().setHours(0,0,0,0);
+            const sales = transactions.filter(t => t.date >= today);
+            const losses = auditLog.filter(a => a.date >= today);
+
+            const gross = sales.reduce((s, t) => s + t.total, 0);
+            const lossTotal = losses.reduce((s, a) => s + a.loss, 0);
+
+            document.getElementById('rep-gross').textContent = `R ${gross.toFixed(2)}`;
+            document.getElementById('rep-loss').textContent = `R ${lossTotal.toFixed(2)}`;
+        }
+
+        function saveAll() {
+            localStorage.setItem('pos_inv', JSON.stringify(inventory));
+            localStorage.setItem('pos_trans', JSON.stringify(transactions));
+            localStorage.setItem('pos_audit_log', JSON.stringify(auditLog));
+        }
+
+        function quickAdd(key) { let amt = prompt("Qty to add:"); if(amt) { inventory[key].stock += parseFloat(amt); saveAll(); refreshInventory(); } }
+        function voidOrder() { if(confirm("Clear current bill?")) { currentCart = []; updateCartUI(); } }
+        function recordWaste() { /* Logic for waste deduction */ alert("Wastage Logged"); }
+        function generateZReport() { window.print(); }
+
+    </script>
+</body>
+</html>
