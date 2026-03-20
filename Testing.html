@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SUGARLOAF | MASTER POS & INVENTORY</title>
+    <style>
+        :root {
+            --gold: #d4a373;
+            --dark-gold: #8a6d4b;
+            --bg: #000;
+            --surface: #121212;
+            --accent: #44ff44;
+            --danger: #ff4444;
+            --warning: #ff9800;
+        }
+
+        body { font-family: 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: #fff; margin: 0; padding: 10px; overflow-x: hidden; }
+        
+        /* AUTHENTICATION OVERLAY */
+        #login-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg); z-index: 10000; display: flex; align-items: center; justify-content: center; }
+        .login-box { background: var(--surface); padding: 30px; border: 2px solid var(--gold); border-radius: 15px; width: 90%; max-width: 350px; text-align: center; }
+        .pin-display { font-size: 3rem; letter-spacing: 15px; margin-bottom: 20px; color: var(--gold); background: #000; padding: 15px; border-radius: 10px; min-height: 70px; font-weight: 900; box-shadow: inset 0 0 10px rgba(212,163,115,0.3); }
+
+        /* HEADER & BANNER LOGIC */
+        .banner-container { width: 100%; max-width: 1200px; margin: 0 auto 15px auto; }
+        #header-banner { width: 100%; height: auto; border: 1px solid var(--gold); }
+        
+        /* NAVIGATION */
+        .nav-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 20px; }
+        .nav-grid button { height: 60px; font-weight: 900; text-transform: uppercase; border-radius: 8px; cursor: pointer; background: var(--surface); color: var(--gold); border: 2px solid var(--gold); }
+        .nav-grid button.active { background: var(--gold); color: #000; }
+
+        /* PRODUCT GRIDS - WIDE & DESCRIPTIVE */
+        .category-header { color: var(--gold); font-weight: 900; border-left: 5px solid var(--gold); padding-left: 10px; margin: 25px 0 10px 0; text-transform: uppercase; letter-spacing: 2px; }
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; margin-bottom: 30px; }
+        .prod-btn { min-height: 100px; padding: 10px; border-radius: 10px; background: linear-gradient(145deg, #d4a373, #8a6d4b); color: #000; font-weight: 900; border: none; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-transform: uppercase; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .prod-btn:active { transform: translateY(2px); }
+        .prod-btn span { font-size: 0.8rem; }
+        .prod-price { font-size: 1.1rem; background: rgba(0,0,0,0.1); width: 100%; border-radius: 4px; padding: 2px 0; }
+
+        /* CART & TOTALS */
+        #cart-container { background: var(--surface); border-radius: 15px; padding: 20px; border: 1px solid #333; margin: 20px 0; max-height: 400px; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.8); }
+        .cart-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #222; font-size: 1.1rem; font-weight: 800; }
+        #total-display { font-size: 4.5rem; font-weight: 900; color: var(--accent); text-align: center; margin: 15px 0; font-family: 'Courier New', monospace; text-shadow: 0 0 20px rgba(68,255,68,0.2); }
+
+        /* SHRINKAGE & WASTAGE STYLING */
+        .report-box { background: var(--surface); padding: 20px; border-radius: 12px; border: 1px solid var(--danger); margin-top: 20px; }
+        .waste-tag { color: var(--danger); font-weight: 900; border: 1px solid var(--danger); padding: 2px 5px; border-radius: 4px; font-size: 0.7rem; }
+
+        /* STOCK TABLE */
+        .stock-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .stock-table th { background: #1a1a1a; color: var(--gold); padding: 15px; text-align: left; border-bottom: 2px solid var(--gold); }
+        .stock-table td { padding: 15px; border-bottom: 1px solid #222; font-weight: 700; }
+        .low-stock { color: var(--danger); animation: pulse 1s infinite; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+
+        /* MODALS */
+        .modal { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #0a0a0a; padding: 30px; border-radius: 20px; width: 90%; max-width: 500px; z-index: 11000; border: 4px solid var(--gold); display: none; box-shadow: 0 0 100px rgba(0,0,0,1); }
+        input { background: #000; color: var(--gold); border: 1px solid var(--gold); padding: 18px; border-radius: 10px; width: 100%; font-size: 1.4rem; font-weight: 900; margin-bottom: 20px; box-sizing: border-box; }
+        
+        .btn-large { height: 90px; font-size: 2rem; background: var(--accent); color: #000; width: 100%; font-weight: 900; }
+    </style>
+</head>
+<body>
+
+<div id="login-overlay">
+    <div class="login-box">
+        <h1 style="color:var(--gold); font-size:2rem; margin-bottom:20px;">SYSTEM ACCESS</h1>
+        <div id="pin-screen" class="pin-display"></div>
+        <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:12px;">
+            <button onclick="p(1)" style="height:70px; font-size:1.5rem;">1</button>
+            <button onclick="p(2)" style="height:70px; font-size:1.5rem;">2</button>
+            <button onclick="p(3)" style="height:70px; font-size:1.5rem;">3</button>
+            <button onclick="p(4)" style="height:70px; font-size:1.5rem;">4</button>
+            <button onclick="p(5)" style="height:70px; font-size:1.5rem;">5</button>
+            <button onclick="p(6)" style="height:70px; font-size:1.5rem;">6</button>
+            <button onclick="p(7)" style="height:70px; font-size:1.5rem;">7</button>
+            <button onclick="p(8)" style="height:70px; font-size:1.5rem;">8</button>
+            <button onclick="p(9)" style="height:70px; font-size:1.5rem;">9</button>
+            <button onclick="cP()" style="height:70px; background:var(--danger); color:#fff; font-size:1.5rem;">C</button>
+            <button onclick="p(0)" style="height:70px; font-size:1.5rem;">0</button>
+            <button onclick="auth()" style="height:70px; background:var(--accent); font-size:1.5rem;">OK</button>
+        </div>
+    </div>
+</div>
+
+<div id="app" style="display:none;">
+    <div class="banner-container">
+        <img src="sugarloaf.jpg" id="header-banner" alt="SUGARLOAF BACKPACKERS">
+    </div>
+
+    <header style="display:flex; justify-content:space-between; align-items:flex-end; padding:10px; border-bottom:3px solid var(--gold);">
+        <div>
+            <h1 style="margin:0; color:var(--gold); font-size:2.5rem;">MASTER POS</h1>
+            <div id="staff-indicator" style="color:var(--accent); font-weight:900; letter-spacing:2px;"></div>
+        </div>
+        <div style="display:flex; gap:15px;">
+            <button onclick="manualSync()" style="background:var(--surface); border:1px solid var(--gold); color:var(--gold); padding:10px 20px; font-weight:900;">GITHUB SYNC ☁️</button>
+            <button onclick="location.reload()" style="background:var(--danger); border:none; color:#fff; padding:10px 20px; font-weight:900; border-radius:5px;">LOCK SYSTEM</button>
+        </div>
+    </header>
+
+    <div class="nav-grid" style="margin-top:20px;">
+        <button id="btn-sales" class="active" onclick="tab('sales')">SALES & CART</button>
+        <button id="btn-stock" onclick="tab('stock')">STOCK CONTROL</button>
+        <button id="btn-waste" onclick="tab('waste')">SHRINKAGE/WASTE</button>
+        <button id="btn-reports" onclick="tab('reports')">Z-REPORTS</button>
+    </div>
+
+    <div id="tab-sales" class="tab-content active-tab">
+        <div class="category-header">Liquor & Beverages (Auto-Deduct Ingredients)</div>
+        <div id="grid-drinks" class="product-grid"></div>
+        
+        <div class="category-header">Kitchen & Food Services</div>
+        <div id="grid-food" class="product-grid"></div>
+
+        <div id="cart-container"></div>
+        <div id="total-display">R 0.00</div>
+        
+        <div style="display:grid; grid-template-columns: 3fr 1fr; gap:15px;">
+            <button class="btn-large" onclick="openTender()">PROCESS PAYMENT</button>
+            <div style="display:grid; gap:10px;">
+                <button onclick="kitchenPrint()" style="height:40px; background:var(--gold); font-weight:900;">KITCHEN SLIP</button>
+                <button onclick="openWasteModal()" style="height:40px; background:var(--danger); color:#fff; font-weight:900;">MARK WASTAGE</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="tab-stock" class="tab-content">
+        <div style="background:var(--surface); padding:25px; border-radius:15px; border:2px solid var(--gold); margin-bottom:25px;">
+            <h2 style="color:var(--gold); margin-top:0;">INVENTORY PURCHASE LOG</h2>
+            <div style="display:grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap:15px;">
+                <input type="text" id="in-name" placeholder="Item Name">
+                <input type="number" id="in-qty" placeholder="Quantity">
+                <input type="number" id="in-cost" placeholder="Total Cost">
+                <select id="in-cat" style="padding:15px; background:#000; color:var(--gold); border:1px solid var(--gold); font-weight:900;">
+                    <option value="drink">Beverage</option>
+                    <option value="food">Kitchen</option>
+                    <option value="ingredient">Ingredient/Spirit</option>
+                </select>
+            </div>
+            <button onclick="savePurchase()" style="width:100%; height:60px; background:var(--gold); color:#000; font-weight:900; font-size:1.2rem;">LOG PURCHASE & UPDATE STOCK</button>
+        </div>
+        <table class="stock-table">
+            <thead><tr><th>ITEM</th><th>CATEGORY</th><th>STOCK LEVEL</th><th>COST VAL</th><th>RETAIL VAL</th><th>ADJUST</th></tr></thead>
+            <tbody id="stock-list"></tbody>
+        </table>
+    </div>
+
+    <div id="tab-waste" class="tab-content">
+        <div class="report-box">
+            <h2 style="color:var(--danger)">SHRINKAGE & WASTAGE LOG</h2>
+            <div id="waste-log-display"></div>
+        </div>
+    </div>
+
+    <div id="tab-reports" class="tab-content">
+        <div style="background:var(--surface); padding:30px; border-radius:20px; border:3px solid var(--gold);">
+            <h2 style="color:var(--gold)">MASTER Z-REPORTING</h2>
+            <div class="grid-main" style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+                <button onclick="printDailyZ()" style="height:80px; font-weight:900;">DAILY TOTALS (CASH UP)</button>
+                <button onclick="printMonthlyZ()" style="height:80px; font-weight:900;">MONTHLY PROFIT/LOSS</button>
+            </div>
+            
+            <h2 style="color:var(--gold); margin-top:40px;">STAFF TABS & TIPS</h2>
+            <select id="staff-select" style="width:100%; padding:20px; background:#000; color:var(--gold); border:2px solid var(--gold); font-size:1.2rem; font-weight:900;"></select>
+            <button onclick="printStaffAccount()" style="width:100%; height:60px; margin-top:15px; background:var(--warning); font-weight:900;">PRINT STAFF CREDIT REPORT</button>
+        </div>
+    </div>
+</div>
+
+<div id="tender-modal" class="modal">
+    <h1 id="tender-due" style="text-align:center; color:var(--accent); font-size:4rem;"></h1>
+    <input type="number" id="tender-given" placeholder="CASH RECEIVED" oninput="calcChange()">
+    <h1 id="tender-change" style="text-align:center; color:var(--gold);">Change: R0.00</h1>
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px;">
+        <button onclick="finalizeSale('Cash')" style="height:80px; background:var(--accent); color:#000; font-weight:900; font-size:1.5rem;">CASH</button>
+        <button onclick="finalizeSale('Card')" style="height:80px; background:var(--gold); color:#000; font-weight:900; font-size:1.5rem;">CARD</button>
+    </div>
+    <button onclick="closeModals()" style="width:100%; margin-top:20px; background:#333; color:#fff; padding:15px;">CANCEL TRANSACTION</button>
+</div>
+
+<div id="waste-modal" class="modal">
+    <h2 style="color:var(--danger); text-align:center;">WASTAGE / SHRINKAGE LOG</h2>
+    <input type="text" id="waste-reason" placeholder="Reason (e.g. Broken Bottle, Spillage)">
+    <button onclick="finalizeWaste()" class="btn-large" style="background:var(--danger); color:#fff;">CONFIRM WASTE</button>
+    <button onclick="closeModals()" style="width:100%; margin-top:15px; background:#333; color:#fff; padding:15px;">CANCEL</button>
+</div>
+
+<script>
+    // 26 STAFF PIN CONFIG
+    const STAFF = {"1010":"Sean","7711":"Cats","7777":"King Ron","2266":"Local","2255":"Jay","2244":"Ben","2233":"Lim","2211":"Andisiwe","1199":"Lungile","1188":"Jon","1177":"Megan","1166":"Sweswe","1155":"Siyamcela","1144":"Luciano","1133":"Tyran","1122":"Sive","2020":"Zuko","1999":"Lee","1992":"Jonice","1234":"Beranise","1111":"Momo","2222":"Zet","1529":"Marshall","4444":"Hans","2015":"Regan","5555":"Don"};
+    
+    let activeUser = "";
+    let pinBuffer = "";
+    let inventory = JSON.parse(localStorage.getItem('sl_inv')) || {};
+    let cart = [];
+    let salesHistory = JSON.parse(localStorage.getItem('sl_sales')) || [];
+    let wastageHistory = JSON.parse(localStorage.getItem('sl_waste')) || [];
+    let staffTabs = JSON.parse(localStorage.getItem('sl_staff_tabs')) || {};
+
+    // GITHUB SYNC SETTINGS
+    const GH_REPO = "tiffyai-usd/Sugarloaf";
+    const GH_PATH = "POS_DATA_MASTER.json";
+
+    // AUTH SYSTEM
+    function p(n) { if(pinBuffer.length < 4) { pinBuffer += n; document.getElementById('pin-screen').innerText = "*".repeat(pinBuffer.length); } }
+    function cP() { pinBuffer = ""; document.getElementById('pin-screen').innerText = ""; }
+    function auth() {
+        if(STAFF[pinBuffer]) {
+            activeUser = STAFF[pinBuffer];
+            document.getElementById('login-overlay').style.display = 'none';
+            document.getElementById('app').style.display = 'block';
+            document.getElementById('staff-indicator').innerText = "OPERATOR: " + activeUser.toUpperCase();
+            initApp();
+        } else { alert("ACCESS DENIED"); cP(); }
+    }
+
+    function initApp() {
+        renderPOS();
+        renderStock();
+        renderWasteLog();
+        populateStaffReports();
+        pullFromCloud();
+    }
+
+    // CLOUD SYNC LOGIC
+    async function manualSync() {
+        const token = localStorage.getItem('gh_token') || prompt("Enter GitHub Token:");
+        if(!token) return;
+        localStorage.setItem('gh_token', token);
+        
+        const payload = {
+            inventory, salesHistory, wastageHistory, staffTabs,
+            lastUpdate: new Date().toISOString(),
+            operator: activeUser
+        };
+
+        try {
+            const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`, {
+                headers: { "Authorization": `token ${token}` }
+            });
+            const file = await res.json();
+            
+            await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`, {
+                method: "PUT",
+                headers: { "Authorization": `token ${token}`, "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    message: `POS Sync - ${activeUser}`,
+                    content: btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2)))),
+                    sha: file.sha
+                })
+            });
+            alert("CLOUD SYNC SUCCESSFUL ✅");
+        } catch(e) { console.error(e); alert("Sync Failed. Check Token/Connection."); }
+    }
+
+    async function pullFromCloud() {
+        const token = localStorage.getItem('gh_token');
+        if(!token) return;
+        try {
+            const res = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?cb=${Date.now()}`, {
+                headers: { "Authorization": `token ${token}` }
+            });
+            const file = await res.json();
+            const cloudData = JSON.parse(atob(file.content));
+            
+            // Merge logic - only update if cloud is newer
+            inventory = cloudData.inventory;
+            salesHistory = cloudData.salesHistory;
+            wastageHistory = cloudData.wastageHistory;
+            staffTabs = cloudData.staffTabs;
+            saveLocal();
+            renderPOS(); renderStock();
+        } catch(e) { console.log("Cloud pull skipped or failed."); }
+    }
+
+    function saveLocal() {
+        localStorage.setItem('sl_inv', JSON.stringify(inventory));
+        localStorage.setItem('sl_sales', JSON.stringify(salesHistory));
+        localStorage.setItem('sl_waste', JSON.stringify(wastageHistory));
+        localStorage.setItem('sl_staff_tabs', JSON.stringify(staffTabs));
+    }
+
+    // POS ENGINE
+    function renderPOS() {
+        const d = document.getElementById('grid-drinks');
+        const f = document.getElementById('grid-food');
+        d.innerHTML = ''; f.innerHTML = '';
+        
+        Object.keys(inventory).forEach(key => {
+            let item = inventory[key];
+            if(item.price <= 0) return;
+            let btn = `<button class="prod-btn" onclick="addToCart('${key}')">
+                <span>${item.name}</span>
+                <div class="prod-price">R${item.price.toFixed(2)}</div>
+            </button>`;
+            item.category === 'drink' ? d.innerHTML += btn : f.innerHTML += btn;
+        });
+    }
+
+    function addToCart(key) {
+        cart.push({...inventory[key], id: key});
+        updateCart();
+    }
+
+    function updateCart() {
+        const container = document.getElementById('cart-container');
+        container.innerHTML = '';
+        let total = 0;
+        cart.forEach((item, idx) => {
+            total += item.price;
+            container.innerHTML += `<div class="cart-row">
+                <span>${item.name}</span>
+                <span>R${item.price.toFixed(2)} 
+                    <button onclick="cart.splice(${idx},1);updateCart()" style="background:var(--danger); color:#fff; border:none; padding:5px 12px; border-radius:4px; margin-left:15px;">REMOVE</button>
+                </span>
+            </div>`;
+        });
+        document.getElementById('total-display').innerText = `R ${total.toFixed(2)}`;
+    }
+
+    function openTender() {
+        if(cart.length === 0) return;
+        const total = cart.reduce((s, i) => s + i.price, 0);
+        document.getElementById('tender-due').innerText = `R${total.toFixed(2)}`;
+        document.getElementById('tender-modal').style.display = 'block';
+    }
+
+    function finalizeSale(method) {
+        const total = cart.reduce((s, i) => s + i.price, 0);
+        const sale = {
+            id: Date.now(),
+            staff: activeUser,
+            items: [...cart],
+            total: total,
+            method: method,
+            date: new Date().toISOString()
+        };
+
+        // STOCK DEDUCTION (TOTS/GLASSES LOGIC)
+        cart.forEach(item => {
+            if(inventory[item.id]) {
+                if(inventory[item.id].recipe) {
+                    for(let ing in inventory[item.id].recipe) {
+                        if(inventory[ing]) inventory[ing].qty -= inventory[item.id].recipe[ing];
+                    }
+                } else {
+                    inventory[item.id].qty--;
+                }
+            }
+        });
+
+        salesHistory.push(sale);
+        saveLocal();
+        cart = [];
+        updateCart();
+        closeModals();
+        renderStock();
+        alert("SALE FINALIZED ✅");
+    }
+
+    // WASTAGE LOGIC
+    function openWasteModal() { if(cart.length > 0) document.getElementById('waste-modal').style.display = 'block'; }
+    function finalizeWaste() {
+        const reason = document.getElementById('waste-reason').value || "Not Specified";
+        cart.forEach(item => {
+            wastageHistory.push({
+                name: item.name,
+                qty: 1,
+                reason: reason,
+                cost: item.cost || 0,
+                date: new Date().toISOString(),
+                staff: activeUser
+            });
+            if(inventory[item.id]) inventory[item.id].qty--;
+        });
+        saveLocal();
+        cart = []; updateCart(); closeModals(); renderWasteLog(); renderStock();
+        alert("WASTAGE LOGGED 🗑️");
+    }
+
+    function renderWasteLog() {
+        const display = document.getElementById('waste-log-display');
+        display.innerHTML = wastageHistory.slice(-10).reverse().map(w => `
+            <div style="padding:10px; border-bottom:1px solid #333;">
+                <b>${new Date(w.date).toLocaleDateString()}</b> - ${w.name} (${w.reason}) 
+                <span class="waste-tag">LOST: R${(w.cost||0).toFixed(2)}</span>
+            </div>
+        `).join('');
+    }
+
+    // STOCK MANAGEMENT
+    function savePurchase() {
+        const name = document.getElementById('in-name').value;
+        const qty = parseFloat(document.getElementById('in-qty').value);
+        const cost = parseFloat(document.getElementById('in-cost').value);
+        const cat = document.getElementById('in-cat').value;
+        
+        if(!name || isNaN(qty)) return;
+        const id = name.replace(/\s+/g, '_').toUpperCase();
+        
+        if(!inventory[id]) {
+            inventory[id] = { name, qty, cost: cost/qty, category: cat, price: 0 };
+        } else {
+            inventory[id].qty += qty;
+            inventory[id].cost = cost/qty;
+        }
+        
+        saveLocal(); renderStock(); renderPOS();
+        ['in-name','in-qty','in-cost'].forEach(i => document.getElementById(i).value = '');
+    }
+
+    function renderStock() {
+        const list = document.getElementById('stock-list');
+        list.innerHTML = '';
+        Object.keys(inventory).sort().forEach(key => {
+            const itm = inventory[key];
+            const low = itm.qty < 5 ? 'low-stock' : '';
+            list.innerHTML += `<tr>
+                <td>${itm.name}</td>
+                <td>${itm.category.toUpperCase()}</td>
+                <td class="${low}">${itm.qty.toFixed(2)}</td>
+                <td>R${(itm.qty * (itm.cost||0)).toFixed(2)}</td>
+                <td>R${(itm.qty * (itm.price||0)).toFixed(2)}</td>
+                <td><button onclick="adjustPrompt('${key}')">±</button></td>
+            </tr>`;
+        });
+    }
+
+    function adjustPrompt(key) {
+        const val = parseFloat(prompt(`Adjust ${inventory[key].name} stock by:`));
+        if(!isNaN(val)) { inventory[key].qty += val; saveLocal(); renderStock(); }
+    }
+
+    // UI CONTROLS
+    function tab(name) {
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active-tab'));
+        document.querySelectorAll('.nav-grid button').forEach(b => b.classList.remove('active'));
+        document.getElementById('tab-'+name).classList.add('active-tab');
+        document.getElementById('btn-'+name).classList.add('active');
+    }
+
+    function closeModals() { document.querySelectorAll('.modal').forEach(m => m.style.display = 'none'); }
+    function calcChange() {
+        const total = cart.reduce((s, i) => s + i.price, 0);
+        const given = parseFloat(document.getElementById('tender-given').value) || 0;
+        document.getElementById('tender-change').innerText = `Change: R${(given - total).toFixed(2)}`;
+    }
+
+    function populateStaffReports() {
+        const sel = document.getElementById('staff-select');
+        sel.innerHTML = Object.values(STAFF).sort().map(n => `<option value="${n}">${n}</option>`).join('');
+    }
+
+    // REPORTS
+    function printDailyZ() {
+        const today = new Date().toLocaleDateString();
+        const daily = salesHistory.filter(s => new Date(s.date).toLocaleDateString() === today);
+        let cash = 0, card = 0, totalCost = 0;
+        
+        daily.forEach(s => {
+            if(s.method === 'Cash') cash += s.total;
+            else card += s.total;
+            s.items.forEach(i => totalCost += (i.cost || 0));
+        });
+
+        const win = window.open('', '', 'width=400,height=600');
+        win.document.write(`
+            <div style="font-family:monospace; padding:20px;">
+                <h2>Z-REPORT: ${today}</h2>
+                <hr>
+                <p>CASH: R${cash.toFixed(2)}</p>
+                <p>CARD: R${card.toFixed(2)}</p>
+                <p><b>TOTAL SALES: R${(cash+card).toFixed(2)}</b></p>
+                <hr>
+                <p>TOTAL STOCK COST: R${totalCost.toFixed(2)}</p>
+                <p><b>EST. GROSS PROFIT: R${(cash+card-totalCost).toFixed(2)}</b></p>
+                <hr>
+                <p>Staff on Shift: ${[...new Set(daily.map(s => s.staff))].join(', ')}</p>
+            </div>
+        `);
+        win.document.close(); win.print();
+    }
+</script>
+
+</body>
+</html>
