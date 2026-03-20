@@ -1087,14 +1087,14 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": 12
     },
     "P_1773940161817": {
       "name": "BREEZER BOTTLE 275",
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": 24
     },
     "P_1773940266924": {
       "name": "EXTRME CANS 44OMLS",
@@ -7116,56 +7116,7 @@
     },
     {
       "id": 160,
-      "items": [
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.5,
-          "category": "drink",
-          "stock": 100,
-          "code": "P_1773846382152"
-        },
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.5,
-          "category": "drink",
-          "stock": 100,
-          "code": "P_1773846382152"
-        },
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.5,
-          "category": "drink",
-          "stock": 100,
-          "code": "P_1773846382152"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -6,
-          "code": "P_1773923463427"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1773937878389
     }
@@ -7589,5 +7540,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T12:58:45.721Z"
+  "lastSync": "2026-03-20T13:11:02.380Z"
 }
