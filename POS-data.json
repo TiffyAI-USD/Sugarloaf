@@ -61,7 +61,7 @@
       "price": 35,
       "cost": 15.98,
       "category": "drink",
-      "stock": 6
+      "stock": 5
     },
     "P_1773146067088": {
       "name": "CARONA",
@@ -299,7 +299,7 @@
       "price": 30,
       "cost": 15.85,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -843,7 +843,7 @@
       "price": 30,
       "cost": 12.64,
       "category": "drink",
-      "stock": 24
+      "stock": 23
     },
     "P_1773328735410": {
       "name": "CORONA EXTRA",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 41
+      "stock": 40
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -7338,8 +7338,18 @@
           "code": "P_1773328630441"
         }
       ],
+      "status": "paid",
+      "date": 1774032824352,
+      "total": 115,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 165,
+      "items": [],
       "status": "active",
-      "date": 1774032730992
+      "date": 1774032824506
     }
   ],
   "purchaseLog": [
@@ -7761,5 +7771,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T18:53:32.231Z"
+  "lastSync": "2026-03-20T18:54:05.085Z"
 }
