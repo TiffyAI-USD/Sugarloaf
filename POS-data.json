@@ -836,7 +836,7 @@
       "price": 40,
       "cost": 0,
       "category": "drink",
-      "stock": 40
+      "stock": 38
     },
     "P_1773328630441": {
       "name": "CASTLE LAGER 330ML",
@@ -948,7 +948,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -6
+      "stock": -7
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1059,7 +1059,7 @@
       "price": 30,
       "cost": 19.5,
       "category": "drink",
-      "stock": -1
+      "stock": 4
     },
     "P_1773937813355": {
       "name": "CHEFFS PIZZA",
@@ -7116,9 +7116,85 @@
     },
     {
       "id": 160,
-      "items": [],
+      "items": [
+        {
+          "name": "ROBERTSON DRY RED BOX 3L",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773323466547"
+        },
+        {
+          "name": "ROBERTSON DRY RED BOX 3L",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773323466547"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1773467035443"
+        }
+      ],
+      "status": "paid",
+      "date": 1774014299412,
+      "total": 175,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 161,
+      "items": [
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "CHICKEN WINGS",
+          "price": 75,
+          "cost": 20,
+          "category": "food",
+          "stock": 31,
+          "code": "P_1773219547672"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773149785260"
+        }
+      ],
       "status": "active",
-      "date": 1773937878389
+      "date": 1774014352649
     }
   ],
   "purchaseLog": [
@@ -7540,5 +7616,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T13:14:32.583Z"
+  "lastSync": "2026-03-20T14:12:49.068Z"
 }
