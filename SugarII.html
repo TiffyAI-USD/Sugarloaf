@@ -128,13 +128,6 @@
             max-height: 300px;
             overflow-y: auto;
         }
-
-        /* Logic for printing facility - Large and Beautiful */
-        @media print {
-            body { background: #fff; color: #000; }
-            .no-print { display: none; }
-            pre { font-size: 14pt; font-weight: 900; }
-        }
     </style>
 </head>
 <body>
@@ -282,7 +275,6 @@
     </div>
 
     <script>
-        // --- CLOUD SYNC LOGIC (Persisted) ---
         const GH_REPO = "tiffyai-usd/Sugarloaf";
         const GH_PATH = "POS-data.json";
 
@@ -315,10 +307,8 @@
                 if(!res.ok) return;
                 const fileInfo = await res.json();
                 const cloud = JSON.parse(atob(fileInfo.content));
-                
                 const localLastSync = parseInt(localStorage.getItem('last_sync_time')) || 0;
                 const cloudLastSync = new Date(cloud.lastSync).getTime();
-
                 if (cloudLastSync > localLastSync) {
                     if(cloud.inventory) inventory = cloud.inventory;
                     if(cloud.recipes) recipes = cloud.recipes;
@@ -343,7 +333,6 @@
             if(snd) { snd.currentTime = 0; snd.play().catch(e => console.log("Audio play blocked")); }
         }
 
-        // --- AUTH & CORE DATA ---
         let pinStr = "";
         let currentUser = "";
         const ADMIN_PIN = "1010";
@@ -358,7 +347,7 @@
         let selectedStockKey = "";
 
         function pP(n) { if(pinStr.length < 4) { pinStr += n; document.getElementById('pin-screen').textContent = "*".repeat(pinStr.length); } }
-        function cP() { pinStr = ""; document.getElementById('pin-screen').textContent = "****'; playSnd('snd-click'); }
+        function cP() { pinStr = ""; document.getElementById('pin-screen').textContent = "****"; playSnd('snd-click'); }
         function logout() { location.reload(); }
         
         async function login() {
@@ -394,10 +383,10 @@
             syncToCloud();
         }
 
-        // --- STAFF & SALES LOGIC ---
         function populateStaffUI() {
             const grid = document.getElementById('staff-name-grid');
             const select = document.getElementById('individual-staff-select');
+            if(!grid || !select) return;
             grid.innerHTML = ''; select.innerHTML = '';
             Object.values(STAFF_PINS).sort().forEach(name => {
                 grid.innerHTML += `<button onclick="finalizeStaffSale('${name}')">${name}</button>`;
@@ -425,97 +414,6 @@
             save(); createNewTransaction(); closeModal();
         }
 
-        // --- TRANSACTION HANDLING (TIPS ADDED HERE) ---
-        function finalizeSale(method) {
-            const t = transactions[currentTransIdx]; if (!t || t.items.length === 0) return;
-            const total = t.items.reduce((s, i) => s + i.price, 0);
-            const received = parseFloat(document.getElementById('tender-amt').value) || total;
-            
-            t.total = total;
-            // Tips logic: Only added if method is Card and amount > total
-            t.tip = (method === 'Card') ? Math.max(0, received - total) : 0;
-            t.method = method;
-            t.status = 'paid';
-            t.date = new Date().getTime();
-            t.staff = currentUser;
-            
-            // Stock deduction
-            t.items.forEach(it => {
-                if(inventory[it.code]) inventory[it.code].stock--; 
-                if(recipes[it.code]) { for(let ing in recipes[it.code]) if(inventory[ing]) inventory[ing].stock -= recipes[it.code][ing]; }
-            });
-
-            printReceipt(t); 
-            save(); 
-            createNewTransaction(); 
-            closeModal(); 
-            playSnd('snd-eat');
-        }
-
-        // --- REPORTING (FIXED TIP INTEGRATION) ---
-        function generateEnhancedZReport() {
-            const dateQuery = prompt("Report Date (YYYY-MM-DD) or Blank for Today:");
-            const reportDate = dateQuery ? new Date(dateQuery) : new Date();
-            reportDate.setHours(0,0,0,0);
-            const start = reportDate.getTime(); const end = start + 86400000;
-            const sales = transactions.filter(t => t.status === 'paid' && t.date >= start && t.date < end);
-
-            let cash = 0, card = 0, waste = 0, credit = 0, totalTips = 0, totalCost = 0;
-            let staffTips = {};
-            let ledgerBody = "TIME     TYPE    STAFF      AMOUNT   TIP\n------------------------------------------\n";
-
-            sales.forEach(s => {
-                const tStr = new Date(s.date).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
-                const tip = s.tip || 0;
-                
-                if(s.method === 'Cash') cash += s.total;
-                if(s.method === 'Card') card += s.total;
-                if(s.method === 'Wastage') waste += s.total;
-                
-                totalTips += tip;
-                staffTips[s.staff] = (staffTips[s.staff] || 0) + tip;
-
-                ledgerBody += `${tStr.padEnd(8)} ${s.method.padEnd(7).slice(0,7)} ${s.staff.padEnd(10).slice(0,10)} R${s.total.toFixed(2).padStart(7)} R${tip.toFixed(2).padStart(6)}\n`;
-                
-                s.items.forEach(i => { totalCost += (i.cost || 0); });
-            });
-
-            let staffTipSection = "\n⭐ TIPS EARNED BY STAFF\n----------------------------------\n";
-            Object.entries(staffTips).forEach(([name, amt]) => {
-                staffTipSection += `${name.padEnd(25).slice(0,25)} R${amt.toFixed(2).padStart(7)}\n`;
-            });
-
-            const pWin = window.open('', 'Z-REPORT', 'width=450,height=850');
-            pWin.document.write(`<html><body style="font-family:monospace; white-space:pre; padding:20px; font-size:12px;">
-PAPA RON'S | DAILY Z-REPORT
-DATE: ${reportDate.toLocaleDateString()}
-----------------------------------
-${ledgerBody}
-----------------------------------
-TOTAL CASH:         R${cash.toFixed(2).padStart(10)}
-TOTAL CARD:         R${card.toFixed(2).padStart(10)}
-----------------------------------
-GROSS REVENUE:      R${(cash + card).toFixed(2).padStart(10)}
-TOTAL TIPS:         R${totalTips.toFixed(2).padStart(10)}
-----------------------------------
-${staffTipSection}
-----------------------------------
-   *** END OF REPORT ***
-</body></html>`);
-            pWin.document.close(); pWin.print();
-        }
-
-        function printUserSales() {
-            const userSales = transactions.filter(t => t.status === 'paid' && t.staff === currentUser);
-            let cash = userSales.filter(s => s.method === 'Cash').reduce((s, t) => s + t.total, 0);
-            let card = userSales.filter(s => s.method === 'Card').reduce((s, t) => s + t.total, 0);
-            let tips = userSales.reduce((s, t) => s + (t.tip || 0), 0);
-            let win = window.open('', '', 'width=300,height=400');
-            win.document.write(`<pre>--- SHIFT CASH UP ---\nStaff: ${currentUser}\nDate: ${new Date().toLocaleDateString()}\n----------------\nCASH: R${cash.toFixed(2)}\nCARD: R${card.toFixed(2)}\nTIPS: R${tips.toFixed(2)}\n----------------\nTOTAL: R${(cash+card+tips).toFixed(2)}</pre>`);
-            win.document.close(); win.print();
-        }
-
-        // --- GENERAL POS FUNCTIONS ---
         function switchTab(id) {
             document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active-tab'));
             document.getElementById(id).classList.add('active-tab');
@@ -524,13 +422,95 @@ ${staffTipSection}
         }
 
         function secureSwitch(id) {
-            const pin = prompt("ADMIN PIN:");
-            if (pin === ADMIN_PIN) { switchTab(id); } else { alert("UNAUTHORIZED"); }
+            const pin = prompt("ADMIN PIN REQUIRED:");
+            if (pin === ADMIN_PIN) { switchTab(id); playSnd('snd-sparkle'); } else { alert("UNAUTHORIZED"); }
+        }
+
+        function logPurchase() {
+            const name = document.getElementById('pur-name').value.toUpperCase();
+            const qty = parseFloat(document.getElementById('pur-qty').value);
+            const cost = parseFloat(document.getElementById('pur-cost').value);
+            const cat = document.getElementById('pur-cat').value || "General";
+            if (!name || isNaN(qty) || isNaN(cost)) return alert("Required fields missing.");
+            purchaseLog.push({ date: new Date().getTime(), name, qty, cost, cat });
+            const key = name.replace(/\s+/g, '_').toUpperCase();
+            if (!inventory[key]) {
+                inventory[key] = { name, stock: qty, cost: cost/qty, price: 0, category: 'ingredient' };
+            } else {
+                inventory[key].stock += qty; inventory[key].cost = cost/qty;
+            }
+            save(); renderStock(); playSnd('snd-sparkle');
+            alert("Purchase recorded and stock updated.");
+            document.getElementById('pur-name').value = ''; document.getElementById('pur-qty').value = ''; document.getElementById('pur-cost').value = ''; document.getElementById('pur-cat').value = '';
+        }
+
+        function printPurchaseReport() {
+            let win = window.open('', '', 'width=400,height=600');
+            let rows = purchaseLog.map(p => `<tr><td>${new Date(p.date).toLocaleDateString()}</td><td>${p.name}</td><td>${p.qty}</td><td>R${p.cost.toFixed(2)}</td></tr>`).join('');
+            win.document.write(`<html><head><style>body{font-family:sans-serif; padding:20px;} table{width:100%; border-collapse:collapse;} th,td{border:1px solid #333; padding:8px;}</style></head><body><h3>PURCHASE REPORT</h3><table><tr><th>Date</th><th>Item</th><th>Qty</th><th>Cost</th></tr>${rows}</table></body></html>`);
+            win.document.close(); win.print();
+        }
+
+        function updateValuation() {
+            let totalCostVal = 0; let totalRetailVal = 0;
+            Object.values(inventory).forEach(itm => {
+                if(itm.stock > 0) { 
+                    totalCostVal += (itm.stock * (itm.cost || 0)); 
+                    totalRetailVal += (itm.stock * (itm.price || 0)); 
+                }
+            });
+            const grossProfit = totalRetailVal - totalCostVal;
+            const summary = document.getElementById('stock-summary');
+            if(summary) { 
+                summary.innerHTML = `<div style="border-bottom:1px solid #444;padding-bottom:8px;margin-bottom:8px;"><small>STOCK VALUE (COST)</small><br><span style="font-size:1.3rem;color:var(--primary);">R${totalCostVal.toFixed(2)}</span></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;"><div><small>POTENTIAL SALES</small><br><span style="font-size:1.1rem;color:var(--accent);">R${totalRetailVal.toFixed(2)}</span></div><div><small>EXPECTED PROFIT</small><br><span style="font-size:1.1rem;color:var(--warning);">R${grossProfit.toFixed(2)}</span></div></div>`; 
+            }
+            return { totalCostVal, totalRetailVal, grossProfit };
+        }
+
+        function printFullValuationReport() {
+            const pin = prompt("ADMIN PIN REQUIRED:");
+            if(pin !== ADMIN_PIN) return alert("UNAUTHORIZED");
+            const data = updateValuation(); 
+            let win = window.open('', '', 'width=800,height=900'); let rows = '';
+            Object.keys(inventory).sort().forEach(key => {
+                const itm = inventory[key]; 
+                if(itm.stock > 0) {
+                    const rowCost = (itm.stock * (itm.cost || 0)).toFixed(2); 
+                    const rowRetail = (itm.stock * (itm.price || 0)).toFixed(2);
+                    rows += `<tr><td>${itm.name}</td><td>${itm.stock.toFixed(1)}</td><td>R${(itm.cost || 0).toFixed(2)}</td><td>R${rowCost}</td><td>R${rowRetail}</td></tr>`;
+                }
+            });
+            win.document.write(`<html><head><style>body{font-family:sans-serif;padding:20px;}table{width:100%;border-collapse:collapse;margin-top:20px;}th,td{border:1px solid #ddd;padding:8px;text-align:left;}th{background:#f2f2f2;}.summary-box{background:#f9f9f9;padding:15px;border:2px solid #333;margin-bottom:20px;}</style></head><body><h1>STOCK VALUATION</h1><div class="summary-box"><h2>TOTAL SUMMARY</h2><p><strong>Total Stock Cost:</strong> R${data.totalCostVal.toFixed(2)}</p><p><strong>Total Potential Retail:</strong> R${data.totalRetailVal.toFixed(2)}</p><h3>Estimated Profit: R${data.grossProfit.toFixed(2)}</h3></div><table><thead><tr><th>Item Name</th><th>Qty on Hand</th><th>Unit Cost</th><th>Total Cost</th><th>Total Retail</th></tr></thead><tbody>${rows}</tbody></table></body></html>`);
+            win.document.close(); setTimeout(() => { win.print(); }, 500);
+        }
+
+        function processDistro() {
+            const pin = prompt("ADMIN PIN REQUIRED:");
+            if(pin !== ADMIN_PIN) return alert("UNAUTHORIZED");
+            const dest = document.getElementById('distro-to').value.toUpperCase(); 
+            const qty = parseFloat(document.getElementById('distro-amt').value); 
+            const checked = document.querySelectorAll('.stock-check:checked'); 
+            if(!dest || isNaN(qty) || qty <= 0 || checked.length === 0) return alert("Required fields missing.");
+            let slip = `TRANSFER TO: ${dest}\nDATE: ${new Date().toLocaleString()}\nSTAFF: ${currentUser}\n----------------------------\n`;
+            let itemsProcessed = 0;
+            checked.forEach(cb => { 
+                const itm = inventory[cb.value]; 
+                if(itm.stock >= qty) {
+                    itm.stock -= qty; slip += `${qty.toFixed(1)} x ${itm.name}\n`; itemsProcessed++;
+                }
+            });
+            if(itemsProcessed > 0) {
+                save(); renderStock(); 
+                const win = window.open('', '', 'width=350,height=500'); 
+                win.document.write(`<pre>${slip}\n----------------------------\nRecieved by: _______________</pre>`); 
+                win.document.close(); win.print();
+            }
         }
 
         function renderPOS() {
             const f = document.getElementById('foodGrid'); const d = document.getElementById('drinkGrid');
-            const query = (document.getElementById('pos-search')?.value || "").toUpperCase();
+            const searchInput = document.getElementById('pos-search'); const query = searchInput ? searchInput.value.toUpperCase() : "";
+            if(!f || !d) return;
             f.innerHTML = ''; d.innerHTML = '';
             Object.keys(inventory).forEach(key => {
                 if(inventory[key].category === 'ingredient') return;
@@ -539,37 +519,116 @@ ${staffTipSection}
                 btn.innerHTML = `<div style="width:100%" onclick="addToCart('${key}')"><b>${inventory[key].name}</b><br>R${inventory[key].price.toFixed(2)}</div>`;
                 inventory[key].category === 'food' ? f.appendChild(btn) : d.appendChild(btn);
             });
-            const tTabs = document.getElementById('trans-tabs'); tTabs.innerHTML = '';
+            const tTabs = document.getElementById('trans-tabs'); if(!tTabs) return;
+            tTabs.innerHTML = '';
             transactions.forEach((t, i) => {
                 if(t.status !== 'active') return;
                 const btn = document.createElement('button'); btn.className = `tab-btn ${i === currentTransIdx ? 'active' : ''}`;
-                btn.textContent = `Table ${t.id}`; btn.onclick = () => { currentTransIdx = i; renderPOS(); }; tTabs.appendChild(btn);
+                btn.textContent = `Table ${t.id}`; btn.onclick = () => { currentTransIdx = i; renderPOS(); playSnd('snd-click'); }; tTabs.appendChild(btn);
             });
             updateCartUI();
         }
 
-        function addToCart(key) { transactions[currentTransIdx].items.push({...inventory[key], code: key}); updateCartUI(); playSnd('snd-click'); }
+        function addToCart(key) { if (currentTransIdx === -1) createNewTransaction(); transactions[currentTransIdx].items.push({...inventory[key], code: key}); save(); updateCartUI(); playSnd('snd-click'); }
 
         function updateCartUI() {
-            const list = document.getElementById('cart-list'); list.innerHTML = ''; let total = 0;
+            const list = document.getElementById('cart-list'); if(!list) return;
+            list.innerHTML = ''; let total = 0;
             if(transactions[currentTransIdx]) {
                 transactions[currentTransIdx].items.forEach((it, i) => {
                     total += it.price;
-                    list.innerHTML += `<div class="cart-row"><span>${it.name}</span><span>R${it.price.toFixed(2)} <button onclick="removeFromCart(${i})">×</button></span></div>`;
+                    list.innerHTML += `<div class="cart-row"><span>${it.name}</span><span>R${it.price.toFixed(2)} <button onclick="removeFromCart(${i})" style="background:var(--danger)!important;color:white!important;padding:2px 8px;">×</button></span></div>`;
                 });
             }
-            document.getElementById('total-view').textContent = `R ${total.toFixed(2)}`;
+            const tv = document.getElementById('total-view'); if(tv) tv.textContent = `R ${total.toFixed(2)}`;
         }
 
-        function removeFromCart(i) { transactions[currentTransIdx].items.splice(i, 1); updateCartUI(); }
+        function removeFromCart(i) { transactions[currentTransIdx].items.splice(i, 1); save(); updateCartUI(); }
 
         function renderStock() {
-            const cont = document.getElementById('inventory-display'); cont.innerHTML = '';
-            const query = (document.getElementById('stock-search')?.value || "").toUpperCase();
+            const cont = document.getElementById('inventory-display'); if(!cont) return;
+            const searchQuery = (document.getElementById('stock-search')?.value || "").toUpperCase();
+            cont.innerHTML = '';
             Object.keys(inventory).sort().forEach(key => {
-                const itm = inventory[key]; if (query && !itm.name.toUpperCase().includes(query)) return;
-                cont.innerHTML += `<div class="stock-row"><input type="checkbox" class="stock-check" value="${key}"><div><b>${itm.name}</b></div><div>${itm.stock.toFixed(1)}</div><div>R${((itm.price||0)-(itm.cost||0)).toFixed(2)}</div><button onclick="openStockIn('${key}')">+In</button></div>`;
+                const itm = inventory[key]; if (searchQuery && !itm.name.toUpperCase().includes(searchQuery)) return;
+                const profit = (itm.price || 0) - (itm.cost || 0); const stockClass = itm.stock <= 5 ? 'stock-status-low' : 'stock-status-good';
+                cont.innerHTML += `<div class="stock-row"><input type="checkbox" class="stock-check" value="${key}"><div style="text-align:left;"><b>${itm.name}</b><br><small>Cost: R${(itm.cost||0).toFixed(2)}</small></div><div class="${stockClass}">${itm.stock.toFixed(1)}</div><div>R${profit.toFixed(2)}</div><button onclick="openStockIn('${key}')" class="btn-small">+In</button></div>`;
             });
+            updateValuation();
+        }
+
+        function finalizeSale(method) {
+            const t = transactions[currentTransIdx]; if (!t || t.items.length === 0) return;
+            const total = t.items.reduce((s, i) => s + i.price, 0);
+            const received = parseFloat(document.getElementById('tender-amt').value) || total;
+            t.total = total;
+            t.tip = (method === 'Card') ? Math.max(0, received - total) : 0;
+            t.method = method; t.status = 'paid'; t.date = new Date().getTime(); t.staff = currentUser;
+            t.items.forEach(it => {
+                if(inventory[it.code]) inventory[it.code].stock--; 
+                if(recipes[it.code]) { for(let ing in recipes[it.code]) if(inventory[ing]) inventory[ing].stock -= recipes[it.code][ing]; }
+            });
+            printReceipt(t); save(); createNewTransaction(); closeModal(); playSnd('snd-eat');
+        }
+
+        function markAsWastage() {
+            const t = transactions[currentTransIdx]; if (!t || t.items.length === 0) return;
+            const reason = prompt("Enter Reason:");
+            t.total = 0; t.method = 'Wastage'; t.status = 'paid'; t.date = new Date().getTime(); t.staff = currentUser; t.notes = reason || "Wastage";
+            t.items.forEach(it => {
+                if(inventory[it.code]) inventory[it.code].stock--; 
+                if(recipes[it.code]) { for(let ing in recipes[it.code]) if(inventory[ing]) inventory[ing].stock -= recipes[it.code][ing]; }
+            });
+            printReceipt(t); save(); createNewTransaction();
+        }
+
+        function generateEnhancedZReport() {
+            const dateQuery = prompt("Report Date (YYYY-MM-DD):");
+            const reportDate = dateQuery ? new Date(dateQuery) : new Date();
+            reportDate.setHours(0,0,0,0);
+            const start = reportDate.getTime(); const end = start + 86400000;
+            const sales = transactions.filter(t => t.status === 'paid' && t.date >= start && t.date < end);
+            let cash = 0, card = 0, totalTips = 0; let staffTips = {};
+            let ledger = "TIME     TYPE    STAFF      AMOUNT   TIP\n------------------------------------------\n";
+            sales.forEach(s => {
+                const tStr = new Date(s.date).toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+                const tip = s.tip || 0;
+                if(s.method === 'Cash') cash += s.total;
+                if(s.method === 'Card') card += s.total;
+                totalTips += tip;
+                staffTips[s.staff] = (staffTips[s.staff] || 0) + tip;
+                ledger += `${tStr.padEnd(8)} ${s.method.padEnd(7).slice(0,7)} ${s.staff.padEnd(10).slice(0,10)} R${s.total.toFixed(2).padStart(7)} R${tip.toFixed(2).padStart(6)}\n`;
+            });
+            let staffTipSection = "\n⭐ TIPS BY STAFF\n----------------------------------\n";
+            Object.entries(staffTips).forEach(([name, amt]) => { staffTipSection += `${name.padEnd(25).slice(0,25)} R${amt.toFixed(2).padStart(7)}\n`; });
+            const pWin = window.open('', 'Z-REPORT', 'width=450,height=850');
+            pWin.document.write(`<pre>PAPA RON'S Z-REPORT\nDATE: ${reportDate.toLocaleDateString()}\n----------------------------------\n${ledger}\n----------------------------------\nTOTAL CASH: R${cash.toFixed(2)}\nTOTAL CARD: R${card.toFixed(2)}\nTOTAL TIPS: R${totalTips.toFixed(2)}\n${staffTipSection}</pre>`);
+            pWin.document.close(); pWin.print();
+        }
+
+        function printReceipt(t) {
+            let win = window.open('', '', 'width=300,height=600');
+            let items = t.items.map(i => `${i.name.padEnd(15).slice(0,15)} R${i.price.toFixed(2)}`).join('\n');
+            win.document.write(`<pre>--- PAPA RON'S ---\nStaff: ${t.staff}\nTable: ${t.id}\n----------------\n${items}\n----------------\nSUBTOTAL: R${t.total.toFixed(2)}\nTIP: R${(t.tip||0).toFixed(2)}\nTOTAL: R${(t.total + (t.tip||0)).toFixed(2)}</pre>`);
+            win.document.close(); win.print();
+        }
+
+        function printKitchenSlip() {
+            const t = transactions[currentTransIdx]; if(!t || t.items.length === 0) return;
+            let win = window.open('', '', 'width=300,height=400');
+            let items = t.items.map(i => `[ ] ${i.name}`).join('\n');
+            win.document.write(`<pre style="font-size:16pt;">KITCHEN ORDER\nTable: ${t.id}\n----------------\n${items}</pre>`);
+            win.document.close(); win.print();
+        }
+
+        function printUserSales() {
+            const userSales = transactions.filter(t => t.status === 'paid' && t.staff === currentUser);
+            let cash = userSales.filter(s => s.method === 'Cash').reduce((s, t) => s + t.total, 0);
+            let card = userSales.filter(s => s.method === 'Card').reduce((s, t) => s + t.total, 0);
+            let tips = userSales.reduce((s, t) => s + (t.tip || 0), 0);
+            let win = window.open('', '', 'width=300,height=400');
+            win.document.write(`<pre>--- SHIFT CASH UP ---\nStaff: ${currentUser}\nCASH: R${cash.toFixed(2)}\nCARD: R${card.toFixed(2)}\nTIPS: R${tips.toFixed(2)}</pre>`);
+            win.document.close(); win.print();
         }
 
         function createNewTransaction() { transactions.push({id: transactions.length + 1, items: [], status:'active', date: new Date().getTime()}); currentTransIdx = transactions.length - 1; renderPOS(); }
@@ -579,15 +638,24 @@ ${staffTipSection}
             const received = parseFloat(document.getElementById('tender-amt').value) || total; 
             document.getElementById('diff-display').textContent = `Change: R${(received - total).toFixed(2)}`; 
         }
-        function closeModal() { document.querySelectorAll('.modal').forEach(m => m.style.display='none'); }
-        
-        // Stock/Purchase/Report placeholders for full continuity
-        function logPurchase() { /* Logic as before */ }
-        function addIngRow() { /* Logic as before */ }
-        function saveNewProduct() { /* Logic as before */ }
-        function openStockIn(k) { selectedStockKey = k; document.getElementById('stock-modal').style.display = 'block'; }
+        function addIngRow() { const div = document.createElement('div'); div.className = "ing-grid"; div.innerHTML = `<input type="text" class="i-name" placeholder="Ingredient"><input type="number" class="i-qty" placeholder="Qty"><input type="number" class="i-cost" placeholder="Cost">`; document.getElementById('ing-rows').appendChild(div); }
+        function saveNewProduct() {
+            const name = document.getElementById('m-name').value.toUpperCase(); const price = parseFloat(document.getElementById('m-price').value);
+            const id = "P_" + Date.now(); const ings = {}; 
+            document.querySelectorAll('#ing-rows .ing-grid').forEach(row => {
+                const iName = row.querySelector('.i-name').value.replace(/\s+/g, '_').toUpperCase();
+                const iQty = parseFloat(row.querySelector('.i-qty').value);
+                if(iName && iQty) ings[iName] = iQty;
+            });
+            inventory[id] = { name, price, category: document.getElementById('m-cat').value, stock: 0 };
+            if(Object.keys(ings).length > 0) recipes[id] = ings;
+            save(); location.reload();
+        }
+        function openStockIn(k) { selectedStockKey = k; document.getElementById('stock-item-name').textContent = inventory[k].name; document.getElementById('stock-modal').style.display = 'block'; }
         function confirmStockAdd() { const a = parseFloat(document.getElementById('stock-add-amt').value); if(a) { inventory[selectedStockKey].stock += a; save(); renderStock(); closeModal(); } }
-        function generateReport(range) { if(range==='daily') generateEnhancedZReport(); }
+        function selectAll(v) { document.querySelectorAll('.stock-check').forEach(c => c.checked = v); }
+        function closeModal() { document.querySelectorAll('.modal').forEach(m => m.style.display='none'); }
+        function generateReport(range) { if(range === 'daily') generateEnhancedZReport(); }
     </script>
 </body>
 </html>
