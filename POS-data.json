@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 24
+      "stock": 22
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -299,7 +299,7 @@
       "price": 30,
       "cost": 15.85,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -815,7 +815,7 @@
       "price": 89,
       "cost": 0,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1773309845876": {
       "name": "BRUTAL FRUIT ",
@@ -948,14 +948,14 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -7
+      "stock": -9
     },
     "P_1773489030098": {
       "name": "POWERADE",
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -10
+      "stock": -12
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -7268,8 +7268,54 @@
           "code": "P_1773164159136"
         }
       ],
+      "status": "paid",
+      "date": 1774016608019,
+      "total": 300,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 163,
+      "items": [
+        {
+          "name": "CALAMARI SALAD",
+          "price": 89,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1773308518835"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1773145425644"
+        }
+      ],
+      "status": "paid",
+      "date": 1774016662045,
+      "total": 119,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 164,
+      "items": [
+        {
+          "name": "BELLGRAVIA GIN AND TONIC",
+          "price": 35,
+          "cost": 15.98,
+          "category": "drink",
+          "stock": 6,
+          "code": "P_1773145877947"
+        }
+      ],
       "status": "active",
-      "date": 1774016284776
+      "date": 1774032730992
     }
   ],
   "purchaseLog": [
@@ -7691,5 +7737,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T14:23:06.724Z"
+  "lastSync": "2026-03-20T18:52:32.218Z"
 }
