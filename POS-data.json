@@ -26,14 +26,14 @@
       "price": 30,
       "cost": 13.81,
       "category": "drink",
-      "stock": 50
+      "stock": 47
     },
     "P_1773144628700": {
       "name": "CASTLE MILK STOUT",
       "price": 35,
       "cost": 11.9,
       "category": "drink",
-      "stock": 5
+      "stock": 4
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
@@ -906,7 +906,7 @@
       "price": 30,
       "cost": 259.22,
       "category": "drink",
-      "stock": 30
+      "stock": 28
     },
     "P_1773330079005": {
       "name": "SMIRNOFF STORM PINE",
@@ -7811,6 +7811,57 @@
       "date": 1774087951846,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -8.0"
+    },
+    {
+      "id": "BAL_1774088029383",
+      "items": [
+        {
+          "name": "SKYY VODKA ",
+          "price": 0,
+          "cost": 259.22,
+          "code": "P_1773329861913"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774088029383,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -2.0"
+    },
+    {
+      "id": "BAL_1774089287618",
+      "items": [
+        {
+          "name": "CASTLE MILK STOUT",
+          "price": 0,
+          "cost": 11.9,
+          "code": "P_1773144628700"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774089287618,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -1.0"
+    },
+    {
+      "id": "BAL_1774089362021",
+      "items": [
+        {
+          "name": "CASTLE DOUBLE MALT",
+          "price": 0,
+          "cost": 13.81,
+          "code": "P_1773144259954"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774089362021,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -3.0"
     }
   ],
   "purchaseLog": [
@@ -8531,5 +8582,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T10:12:31.861Z"
+  "lastSync": "2026-03-21T10:36:02.036Z"
 }
