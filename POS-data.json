@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 5
+      "stock": 4
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -7777,6 +7777,23 @@
       "date": 1774086437613,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 22.0"
+    },
+    {
+      "id": "BAL_1774086488507",
+      "items": [
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 0,
+          "cost": 4.45,
+          "code": "P_1773152229222"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774086488507,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -1.0"
     }
   ],
   "purchaseLog": [
@@ -8497,5 +8514,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:47:17.624Z"
+  "lastSync": "2026-03-21T09:48:08.516Z"
 }
