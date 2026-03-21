@@ -801,7 +801,7 @@
       "price": 125,
       "cost": 26.47,
       "category": "food",
-      "stock": 17
+      "stock": 25
     },
     "P_1773308487164": {
       "name": "STEAK",
@@ -955,7 +955,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -13
+      "stock": 24
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -8032,6 +8032,23 @@
       "date": 1774096360453,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 20.0"
+    },
+    {
+      "id": "BAL_1774098221840",
+      "items": [
+        {
+          "name": "POWERADE",
+          "price": 0,
+          "cost": 7.5,
+          "code": "P_1773489030098"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774098221840,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 37.0"
     }
   ],
   "purchaseLog": [
@@ -8752,5 +8769,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T12:32:40.482Z"
+  "lastSync": "2026-03-21T13:06:02.206Z"
 }
