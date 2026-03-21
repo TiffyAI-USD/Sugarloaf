@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 22
+      "stock": 20
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -131,7 +131,7 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 10
+      "stock": 9
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 6
+      "stock": 5
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -320,7 +320,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": 10
+      "stock": 9
     },
     "P_1773205912873": {
       "name": "AKALINW",
@@ -369,7 +369,7 @@
       "price": 25,
       "cost": 6.39,
       "category": "drink",
-      "stock": 28
+      "stock": 26
     },
     "P_1773206716666": {
       "name": "OLF BERGER ",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 35
+      "stock": 29
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -955,7 +955,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": -12
+      "stock": -13
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -1137,6 +1137,13 @@
       "cost": 10.4,
       "category": "drink",
       "stock": -3
+    },
+    "P_1774084468465": {
+      "name": "R50 CASH IN HAND",
+      "price": 50,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7425,6 +7432,14 @@
           "category": "drink",
           "stock": 41,
           "code": "P_1773328735410"
+        },
+        {
+          "name": "R50 CASH IN HAND",
+          "price": 50,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774084468465"
         }
       ],
       "status": "active",
@@ -7489,10 +7504,109 @@
           "category": "drink",
           "stock": 10,
           "code": "P_1773150214676"
+        },
+        {
+          "name": "KLIPDRIFT",
+          "price": 25,
+          "cost": 6.39,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773206681976"
+        },
+        {
+          "name": "KLIPDRIFT",
+          "price": 25,
+          "cost": 6.39,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773206681976"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "STONEY GINGER BEER",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773205810578"
         }
       ],
       "status": "active",
       "date": 1774084127562
+    },
+    {
+      "id": 168,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 34,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 34,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 34,
+          "code": "P_1773344090994"
+        }
+      ],
+      "status": "active",
+      "date": 1774084320408
+    },
+    {
+      "id": 169,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773344090994"
+        }
+      ],
+      "status": "active",
+      "date": 1774084357777
+    },
+    {
+      "id": 170,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 30,
+          "code": "P_1773344090994"
+        }
+      ],
+      "status": "active",
+      "date": 1774084383951
+    },
+    {
+      "id": 171,
+      "items": [],
+      "status": "active",
+      "date": 1774084397702
     }
   ],
   "purchaseLog": [
@@ -8099,6 +8213,11 @@
         "name": "COKE ",
         "price": 20,
         "date": 1772970767804
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084396335
       }
     ],
     "Hans": [
@@ -8106,9 +8225,78 @@
         "name": "BLACK LABLE 300MLS",
         "price": 30,
         "date": 1772971013989
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774084318869
+      },
+      {
+        "name": "BLACK LABEL 500ML",
+        "price": 30,
+        "date": 1774084318869
+      },
+      {
+        "name": "BLACK LABEL 500ML",
+        "price": 30,
+        "date": 1774084318869
+      },
+      {
+        "name": "POWERADE",
+        "price": 25,
+        "date": 1774084318869
+      },
+      {
+        "name": "APPLETIZERS ",
+        "price": 30,
+        "date": 1774084318869
+      },
+      {
+        "name": "KLIPDRIFT",
+        "price": 25,
+        "date": 1774084318869
+      },
+      {
+        "name": "KLIPDRIFT",
+        "price": 25,
+        "date": 1774084318869
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084318869
+      },
+      {
+        "name": "STONEY GINGER BEER",
+        "price": 20,
+        "date": 1774084318869
+      }
+    ],
+    "Beranise": [
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084356791
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084356791
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084356791
+      }
+    ],
+    "Lungile": [
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084381956
       }
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:08:47.561Z"
+  "lastSync": "2026-03-21T09:15:29.513Z"
 }
