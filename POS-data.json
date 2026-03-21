@@ -7410,6 +7410,70 @@
           "category": "drink",
           "stock": 16,
           "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773145614589"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773145614589"
         }
       ],
       "status": "active",
@@ -7853,5 +7917,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T08:59:02.937Z"
+  "lastSync": "2026-03-21T08:59:06.386Z"
 }
