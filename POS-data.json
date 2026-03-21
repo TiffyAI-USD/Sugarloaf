@@ -7383,6 +7383,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1774084468465"
+        },
+        {
+          "name": "PESTO FETA AND GARLIC",
+          "price": 85,
+          "cost": 40,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774084579933"
         }
       ],
       "status": "active",
@@ -7565,16 +7573,7 @@
     },
     {
       "id": 174,
-      "items": [
-        {
-          "name": "PESTO FETA AND GARLIC",
-          "price": 85,
-          "cost": 40,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1774084579933"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084592543
     }
@@ -8273,5 +8272,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:16:32.560Z"
+  "lastSync": "2026-03-21T09:17:06.855Z"
 }
