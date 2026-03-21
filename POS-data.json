@@ -187,7 +187,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 20
+      "stock": 7
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
@@ -7743,6 +7743,23 @@
       "date": 1774086302722,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -14.0"
+    },
+    {
+      "id": "BAL_1774086374199",
+      "items": [
+        {
+          "name": "CASTLE LITE 500ML",
+          "price": 0,
+          "cost": 12.46,
+          "code": "P_1773151833033"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774086374199,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -13.0"
     }
   ],
   "purchaseLog": [
@@ -8463,5 +8480,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:45:02.729Z"
+  "lastSync": "2026-03-21T09:46:14.205Z"
 }
