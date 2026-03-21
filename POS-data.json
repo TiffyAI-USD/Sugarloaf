@@ -5,7 +5,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 24
+      "stock": 30
     },
     "P_1772185176729": {
       "name": "JAGERMEISTER",
@@ -292,7 +292,7 @@
       "price": 30,
       "cost": 10.56,
       "category": "drink",
-      "stock": 28
+      "stock": 48
     },
     "P_1773164159136": {
       "name": "GRAPETISER 275ML",
@@ -7981,6 +7981,40 @@
       "date": 1774092806496,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -6.0"
+    },
+    {
+      "id": "BAL_1774092921591",
+      "items": [
+        {
+          "name": "TEQUILA GOLD",
+          "price": 0,
+          "cost": 10.56,
+          "code": "P_1773162909257"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774092921591,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 20.0"
+    },
+    {
+      "id": "BAL_1774096186691",
+      "items": [
+        {
+          "name": "TEQUILA SILVER",
+          "price": 0,
+          "cost": 0,
+          "code": "P_1772182685136"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774096186691,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 6.0"
     }
   ],
   "purchaseLog": [
@@ -8701,5 +8735,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T11:33:26.503Z"
+  "lastSync": "2026-03-21T12:29:46.709Z"
 }
