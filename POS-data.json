@@ -103,7 +103,7 @@
       "price": 45,
       "cost": 19.5,
       "category": "drink",
-      "stock": 18
+      "stock": 14
     },
     "P_1773149785260": {
       "name": "SAVANNA DRY",
@@ -7658,6 +7658,23 @@
       "date": 1774085845554,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -4.0"
+    },
+    {
+      "id": "BAL_1774085978238",
+      "items": [
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 0,
+          "cost": 19.5,
+          "code": "P_1773149638554"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774085978238,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -4.0"
     }
   ],
   "purchaseLog": [
@@ -8378,5 +8395,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:37:25.570Z"
+  "lastSync": "2026-03-21T09:39:38.248Z"
 }
