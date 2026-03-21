@@ -7546,12 +7546,12 @@
       "id": 169,
       "items": [
         {
-          "name": "CASTLE MILK STOUT",
-          "price": 35,
-          "cost": 11.9,
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
           "category": "drink",
-          "stock": 4,
-          "code": "P_1773144628700"
+          "stock": 37,
+          "code": "P_1773328735410"
         }
       ],
       "status": "active",
@@ -8883,5 +8883,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-21T18:30:47.835Z"
+  "lastSync": "2026-03-21T18:32:34.681Z"
 }
