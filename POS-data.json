@@ -47,7 +47,7 @@
       "price": 30,
       "cost": 14.96,
       "category": "drink",
-      "stock": 13
+      "stock": 9
     },
     "P_1773145804561": {
       "name": "BELLGRAVIA GIN AND DRY LEMON",
@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 34
+      "stock": 33
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 16
+      "stock": 6
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -455,13 +455,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -1.8200000000000012,
+      "stock": -2.0200000000000014,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -6.299999999999999,
+      "stock": -7.299999999999999,
       "cost": 0,
       "category": "ingredient"
     },
@@ -512,19 +512,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": 0,
+      "stock": -4,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": -24,
+      "stock": -30,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -7,
+      "stock": -8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -533,7 +533,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 8
+      "stock": 6
     },
     "CREAM ": {
       "name": "CREAM ",
@@ -850,7 +850,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 46
+      "stock": 41
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 40
+      "stock": 37
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1003,7 +1003,7 @@
       "price": 30,
       "cost": 16.5,
       "category": "drink",
-      "stock": 100
+      "stock": 99
     },
     "P_1773848840235": {
       "name": "BLACK CROWN",
@@ -1052,7 +1052,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -6
+      "stock": -8
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -1136,7 +1136,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": 0
+      "stock": -3
     }
   },
   "recipes": {
@@ -7585,14 +7585,6 @@
           "category": "food",
           "stock": 8,
           "code": "P_1773213348251"
-        },
-        {
-          "name": "WINDHOEK DRAUGHT",
-          "price": 30,
-          "cost": 16.5,
-          "category": "drink",
-          "stock": 100,
-          "code": "P_1773846382152"
         }
       ],
       "status": "active",
@@ -8018,6 +8010,161 @@
         "name": "PASTA (PLAIN)",
         "price": 45,
         "date": 1773903187608
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "HEINEKEN",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "HEINEKEN",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "HEINEKEN",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "HEINEKEN",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "SPRITE 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "FANTA",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "FANTA",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "SPRITE 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992983
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774083992983
+      },
+      {
+        "name": "SPRITE 500ML",
+        "price": 20,
+        "date": 1774083992983
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1774083992983
+      },
+      {
+        "name": "CHICKEN LIVERS",
+        "price": 45,
+        "date": 1774083992984
+      },
+      {
+        "name": "WINDHOEK DRAUGHT",
+        "price": 30,
+        "date": 1774083992984
+      },
+      {
+        "name": "SAVANNA DRY",
+        "price": 35,
+        "date": 1774083992984
+      },
+      {
+        "name": "TSITSIKAMA SPARCLING 500ML",
+        "price": 15,
+        "date": 1774083992984
       }
     ],
     "Cats": [
@@ -8036,5 +8183,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:05:09.210Z"
+  "lastSync": "2026-03-21T09:07:36.444Z"
 }
