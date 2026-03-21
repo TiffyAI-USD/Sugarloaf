@@ -1123,6 +1123,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 48
+    },
+    "P_1774083523087": {
+      "name": "TSITSIKAMA SPRING 500ML",
+      "price": 15,
+      "cost": 5,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7371,6 +7378,38 @@
           "category": "drink",
           "stock": 40,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773145614589"
+        },
+        {
+          "name": "HEINEKEN",
+          "price": 30,
+          "cost": 14.96,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773145614589"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773152229222"
         }
       ],
       "status": "active",
@@ -7814,5 +7853,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T08:55:51.871Z"
+  "lastSync": "2026-03-21T08:59:02.937Z"
 }
