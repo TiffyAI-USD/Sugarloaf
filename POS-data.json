@@ -124,7 +124,7 @@
       "price": 35,
       "cost": 15.67,
       "category": "drink",
-      "stock": 7
+      "stock": 2
     },
     "P_1773150214676": {
       "name": "APPLETIZERS ",
@@ -7709,6 +7709,23 @@
       "date": 1774086137786,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -5.0"
+    },
+    {
+      "id": "BAL_1774086199500",
+      "items": [
+        {
+          "name": "BERNINI CLASSIC",
+          "price": 0,
+          "cost": 15.67,
+          "code": "P_1773149976429"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774086199500,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -5.0"
     }
   ],
   "purchaseLog": [
@@ -8429,5 +8446,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:42:17.793Z"
+  "lastSync": "2026-03-21T09:43:19.510Z"
 }
