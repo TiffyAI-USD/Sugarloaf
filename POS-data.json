@@ -913,7 +913,7 @@
       "price": 35,
       "cost": 18.71,
       "category": "drink",
-      "stock": 43
+      "stock": 39
     },
     "P_1773330195771": {
       "name": "STRAWBERRY LIPS TEQUILA ",
@@ -7641,6 +7641,23 @@
       "date": 1774085738309,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 4.0"
+    },
+    {
+      "id": "BAL_1774085845554",
+      "items": [
+        {
+          "name": "SMIRNOFF STORM PINE",
+          "price": 0,
+          "cost": 18.71,
+          "code": "P_1773330079005"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774085845554,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -4.0"
     }
   ],
   "purchaseLog": [
@@ -8361,5 +8378,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:35:38.317Z"
+  "lastSync": "2026-03-21T09:37:25.570Z"
 }
