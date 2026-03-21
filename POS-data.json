@@ -7537,6 +7537,14 @@
           "category": "drink",
           "stock": 16,
           "code": "P_1773152229222"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773328735410"
         }
       ],
       "status": "active",
@@ -7980,5 +7988,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:03:49.783Z"
+  "lastSync": "2026-03-21T09:04:49.343Z"
 }
