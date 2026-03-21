@@ -418,7 +418,7 @@
       "price": 50,
       "cost": 19.72,
       "category": "drink",
-      "stock": 22
+      "stock": 24
     },
     "P_1773207423198": {
       "name": "COURVOISIER CONIAC",
@@ -7382,7 +7382,16 @@
     },
     {
       "id": 165,
-      "items": [],
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -9,
+          "code": "P_1773467035443"
+        }
+      ],
       "status": "active",
       "date": 1774080367872
     },
@@ -7405,126 +7414,19 @@
     },
     {
       "id": 167,
-      "items": [
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 6,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "BLACK LABEL 500ML",
-          "price": 30,
-          "cost": 12.79,
-          "category": "drink",
-          "stock": 22,
-          "code": "P_1773145425644"
-        },
-        {
-          "name": "BLACK LABEL 500ML",
-          "price": 30,
-          "cost": 12.79,
-          "category": "drink",
-          "stock": 22,
-          "code": "P_1773145425644"
-        },
-        {
-          "name": "POWERADE",
-          "price": 25,
-          "cost": 7.5,
-          "category": "drink",
-          "stock": -12,
-          "code": "P_1773489030098"
-        },
-        {
-          "name": "APPLETIZERS ",
-          "price": 30,
-          "cost": 15.49,
-          "category": "drink",
-          "stock": 10,
-          "code": "P_1773150214676"
-        },
-        {
-          "name": "KLIPDRIFT",
-          "price": 25,
-          "cost": 6.39,
-          "category": "drink",
-          "stock": 28,
-          "code": "P_1773206681976"
-        },
-        {
-          "name": "KLIPDRIFT",
-          "price": 25,
-          "cost": 6.39,
-          "category": "drink",
-          "stock": 28,
-          "code": "P_1773206681976"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 35,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "STONEY GINGER BEER",
-          "price": 20,
-          "cost": 10.5,
-          "category": "drink",
-          "stock": 10,
-          "code": "P_1773205810578"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084127562
     },
     {
       "id": 168,
-      "items": [
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 34,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 34,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 34,
-          "code": "P_1773344090994"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084320408
     },
     {
       "id": 169,
-      "items": [
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 31,
-          "code": "P_1773344090994"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084357777
     },
@@ -8022,6 +7924,23 @@
       "date": 1774098221840,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 37.0"
+    },
+    {
+      "id": "BAL_1774104206868",
+      "items": [
+        {
+          "name": "JAMESON SELECT",
+          "price": 0,
+          "cost": 19.72,
+          "code": "P_1773207358357"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774104206868,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 2.0"
     }
   ],
   "purchaseLog": [
@@ -8742,5 +8661,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T13:18:39.925Z"
+  "lastSync": "2026-03-21T15:09:40.088Z"
 }
