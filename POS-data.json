@@ -948,7 +948,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -10
+      "stock": -12
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -7958,8 +7958,37 @@
           "code": "P_1773467035443"
         }
       ],
+      "status": "paid",
+      "date": 1774105853523,
+      "total": 95,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 205,
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -11,
+          "code": "P_1773467035443"
+        }
+      ],
+      "status": "paid",
+      "date": 1774105888899,
+      "total": 95,
+      "tip": 5,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 206,
+      "items": [],
       "status": "active",
-      "date": 1774105796202
+      "date": 1774105889036
     }
   ],
   "purchaseLog": [
@@ -8685,8 +8714,13 @@
         "amount": 5,
         "date": 1774105795974,
         "table": 165
+      },
+      {
+        "amount": 5,
+        "date": 1774105888899,
+        "table": 205
       }
     ]
   },
-  "lastSync": "2026-03-21T15:10:45.040Z"
+  "lastSync": "2026-03-21T15:11:20.188Z"
 }
