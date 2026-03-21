@@ -7347,7 +7347,32 @@
     },
     {
       "id": 165,
-      "items": [],
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773344090994"
+        }
+      ],
       "status": "active",
       "date": 1774080367872
     },
@@ -7789,5 +7814,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T08:09:32.322Z"
+  "lastSync": "2026-03-21T08:55:51.871Z"
 }
