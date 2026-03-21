@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 33
+      "stock": 28
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -7692,6 +7692,23 @@
       "date": 1774086045153,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -11.0"
+    },
+    {
+      "id": "BAL_1774086137786",
+      "items": [
+        {
+          "name": "SAVANNA DRY",
+          "price": 0,
+          "cost": 16.5,
+          "code": "P_1773149785260"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774086137786,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -5.0"
     }
   ],
   "purchaseLog": [
@@ -8412,5 +8429,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:40:45.162Z"
+  "lastSync": "2026-03-21T09:42:17.793Z"
 }
