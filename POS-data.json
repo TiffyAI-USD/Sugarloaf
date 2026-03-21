@@ -7363,228 +7363,36 @@
       "id": 165,
       "items": [
         {
-          "name": "COCA COLA 500ML",
-          "price": 20,
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "MILK STOUT CANS 500ML ",
+          "price": 35,
           "cost": 0,
           "category": "drink",
-          "stock": 40,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 40,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 40,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "HEINEKEN",
-          "price": 30,
-          "cost": 14.96,
-          "category": "drink",
-          "stock": 13,
-          "code": "P_1773145614589"
-        },
-        {
-          "name": "HEINEKEN",
-          "price": 30,
-          "cost": 14.96,
-          "category": "drink",
-          "stock": 13,
-          "code": "P_1773145614589"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "HEINEKEN",
-          "price": 30,
-          "cost": 14.96,
-          "category": "drink",
-          "stock": 13,
-          "code": "P_1773145614589"
-        },
-        {
-          "name": "HEINEKEN",
-          "price": 30,
-          "cost": 14.96,
-          "category": "drink",
-          "stock": 13,
-          "code": "P_1773145614589"
-        },
-        {
-          "name": "SPRITE 500ML",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": 0,
-          "code": "P_1774083678799"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -6,
-          "code": "P_1773923463427"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -6,
-          "code": "P_1773923463427"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "SPRITE 500ML",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": 0,
-          "code": "P_1774083678799"
-        },
-        {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 16,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 46,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "SPRITE 500ML",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": 0,
-          "code": "P_1774083678799"
-        },
-        {
-          "name": "CHICKEN LIVERS",
-          "price": 45,
-          "cost": 12.5,
-          "category": "food",
-          "stock": 8,
-          "code": "P_1773213348251"
-        },
-        {
-          "name": "CHICKEN LIVERS",
-          "price": 45,
-          "cost": 12.5,
-          "category": "food",
-          "stock": 8,
-          "code": "P_1773213348251"
+          "stock": 48,
+          "code": "P_1773939828226"
         }
       ],
       "status": "active",
@@ -8183,5 +7991,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:07:36.444Z"
+  "lastSync": "2026-03-21T09:07:56.688Z"
 }
