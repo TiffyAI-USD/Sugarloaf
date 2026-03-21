@@ -138,7 +138,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 14
+      "stock": 0
     },
     "P_1773150663163": {
       "name": "SCHWEPPES TONIC WATER",
@@ -7726,6 +7726,23 @@
       "date": 1774086199500,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -5.0"
+    },
+    {
+      "id": "BAL_1774086302722",
+      "items": [
+        {
+          "name": "BRUTAL FRUIT RUBY APPLE",
+          "price": 0,
+          "cost": 14.6,
+          "code": "P_1773150462720"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774086302722,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -14.0"
     }
   ],
   "purchaseLog": [
@@ -8446,5 +8463,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:43:19.510Z"
+  "lastSync": "2026-03-21T09:45:02.729Z"
 }
