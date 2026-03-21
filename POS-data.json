@@ -1003,7 +1003,7 @@
       "price": 30,
       "cost": 16.5,
       "category": "drink",
-      "stock": 99
+      "stock": 92
     },
     "P_1773848840235": {
       "name": "BLACK CROWN",
@@ -7590,6 +7590,23 @@
       ],
       "status": "active",
       "date": 1774084639069
+    },
+    {
+      "id": "BAL_1774085472027",
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 0,
+          "cost": 16.5,
+          "code": "P_1773846382152"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774085472032,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -7.0"
     }
   ],
   "purchaseLog": [
@@ -8310,5 +8327,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:21:40.480Z"
+  "lastSync": "2026-03-21T09:31:12.042Z"
 }
