@@ -1151,6 +1151,13 @@
       "cost": 40,
       "category": "food",
       "stock": -1
+    },
+    "P_1774098821849": {
+      "name": "ARRABIATTA CHICKEN ",
+      "price": 90,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7553,32 +7560,7 @@
     },
     {
       "id": 175,
-      "items": [
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -9,
-          "code": "P_1773923463427"
-        },
-        {
-          "name": "STONEY GINGER BEER",
-          "price": 20,
-          "cost": 10.5,
-          "category": "drink",
-          "stock": 9,
-          "code": "P_1773205810578"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 29,
-          "code": "P_1773344090994"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084639069
     },
@@ -8760,5 +8742,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T13:11:15.278Z"
+  "lastSync": "2026-03-21T13:18:39.925Z"
 }
