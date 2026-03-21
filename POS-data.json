@@ -7501,6 +7501,30 @@
           "category": "drink",
           "stock": 92,
           "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 92,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 76,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 76,
+          "code": "P_1772185176729"
         }
       ],
       "status": "active",
@@ -8833,5 +8857,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-21T18:24:57.089Z"
+  "lastSync": "2026-03-21T18:26:23.096Z"
 }
