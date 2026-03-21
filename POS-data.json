@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 24
+      "stock": 22
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 28
+      "stock": 23
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 28
+      "stock": 27
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -7426,14 +7426,83 @@
           "category": "drink",
           "stock": 24,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773344090994"
         }
       ],
-      "status": "active",
-      "date": 1774084127562
+      "status": "paid",
+      "date": 1774112372134,
+      "total": 255,
+      "tip": 15,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 168,
-      "items": [],
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 92,
+          "code": "P_1773846382152"
+        }
+      ],
       "status": "active",
       "date": 1774084320408
     },
@@ -8756,8 +8825,13 @@
         "amount": 5,
         "date": 1774105888899,
         "table": 205
+      },
+      {
+        "amount": 15,
+        "date": 1774112372134,
+        "table": 167
       }
     ]
   },
-  "lastSync": "2026-03-21T16:54:26.241Z"
+  "lastSync": "2026-03-21T18:24:57.089Z"
 }
