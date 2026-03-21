@@ -208,14 +208,14 @@
       "price": 25,
       "cost": 10.6,
       "category": "drink",
-      "stock": 69
+      "stock": 56
     },
     "P_1773155151874": {
       "name": "GORDENS DRY GIN",
       "price": 25,
       "cost": 6.06,
       "category": "drink",
-      "stock": 21
+      "stock": 15
     },
     "P_1773155215043": {
       "name": "ABSOLUTE VODCA",
@@ -7947,6 +7947,40 @@
       "date": 1774092608275,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -3.0"
+    },
+    {
+      "id": "BAL_1774092739303",
+      "items": [
+        {
+          "name": "SMIRNOFF 1818 VODCA",
+          "price": 0,
+          "cost": 10.6,
+          "code": "P_1773155056799"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774092739303,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -13.0"
+    },
+    {
+      "id": "BAL_1774092806496",
+      "items": [
+        {
+          "name": "GORDENS DRY GIN",
+          "price": 0,
+          "cost": 6.06,
+          "code": "P_1773155151874"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774092806496,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -6.0"
     }
   ],
   "purchaseLog": [
@@ -8667,5 +8701,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T11:30:08.288Z"
+  "lastSync": "2026-03-21T11:33:26.503Z"
 }
