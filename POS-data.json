@@ -19,7 +19,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 4
+      "stock": 1
     },
     "P_1773144259954": {
       "name": "CASTLE DOUBLE MALT",
@@ -7862,6 +7862,23 @@
       "date": 1774089362021,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -3.0"
+    },
+    {
+      "id": "BAL_1774089427628",
+      "items": [
+        {
+          "name": "SCHWEPPES 1L",
+          "price": 0,
+          "cost": 0,
+          "code": "P_1772185638955"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774089427628,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -3.0"
     }
   ],
   "purchaseLog": [
@@ -8582,5 +8599,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T10:36:02.036Z"
+  "lastSync": "2026-03-21T10:37:07.642Z"
 }
