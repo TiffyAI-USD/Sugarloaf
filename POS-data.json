@@ -1143,6 +1143,13 @@
       "price": 50,
       "cost": 0,
       "category": "food",
+      "stock": -1
+    },
+    "P_1774084579933": {
+      "name": "PESTO FETA AND GARLIC",
+      "price": 85,
+      "cost": 40,
+      "category": "food",
       "stock": 0
     }
   },
@@ -7370,70 +7377,6 @@
       "id": 165,
       "items": [
         {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 41,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 41,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 41,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "MILK STOUT CANS 500ML ",
-          "price": 35,
-          "cost": 0,
-          "category": "drink",
-          "stock": 48,
-          "code": "P_1773939828226"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "COCA COLA 500ML",
-          "price": 20,
-          "cost": 0,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773344090994"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -8,
-          "code": "P_1773923463427"
-        },
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 41,
-          "code": "P_1773328735410"
-        },
-        {
           "name": "R50 CASH IN HAND",
           "price": 50,
           "cost": 0,
@@ -7607,6 +7550,33 @@
       "items": [],
       "status": "active",
       "date": 1774084397702
+    },
+    {
+      "id": 172,
+      "items": [],
+      "status": "active",
+      "date": 1774084549336
+    },
+    {
+      "id": 173,
+      "items": [],
+      "status": "active",
+      "date": 1774084553456
+    },
+    {
+      "id": 174,
+      "items": [
+        {
+          "name": "PESTO FETA AND GARLIC",
+          "price": 85,
+          "cost": 40,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774084579933"
+        }
+      ],
+      "status": "active",
+      "date": 1774084592543
     }
   ],
   "purchaseLog": [
@@ -8206,6 +8176,11 @@
         "name": "CORONA EXTRA",
         "price": 30,
         "date": 1774084126452
+      },
+      {
+        "name": "R50 CASH IN HAND",
+        "price": 50,
+        "date": 1774084547870
       }
     ],
     "Cats": [
@@ -8298,5 +8273,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:15:29.513Z"
+  "lastSync": "2026-03-21T09:16:32.560Z"
 }
