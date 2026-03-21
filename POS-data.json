@@ -180,7 +180,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 1
+      "stock": 23
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
@@ -7760,6 +7760,23 @@
       "date": 1774086374199,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -13.0"
+    },
+    {
+      "id": "BAL_1774086437613",
+      "items": [
+        {
+          "name": "CASTLE LITE 330ML",
+          "price": 0,
+          "cost": 12.46,
+          "code": "P_1773151783920"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774086437613,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 22.0"
     }
   ],
   "purchaseLog": [
@@ -8480,5 +8497,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:46:14.205Z"
+  "lastSync": "2026-03-21T09:47:17.624Z"
 }
