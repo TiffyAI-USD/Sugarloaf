@@ -7545,6 +7545,54 @@
           "category": "drink",
           "stock": 46,
           "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 100,
+          "code": "P_1773846382152"
         }
       ],
       "status": "active",
@@ -7988,5 +8036,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:04:49.343Z"
+  "lastSync": "2026-03-21T09:05:09.210Z"
 }
