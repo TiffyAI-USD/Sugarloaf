@@ -987,7 +987,7 @@
     },
     "CHICKEN BREAST": {
       "name": "CHICKEN BREAST",
-      "stock": -1,
+      "stock": 12,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7896,6 +7896,23 @@
       "date": 1774089506886,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -1.0"
+    },
+    {
+      "id": "BAL_1774091685406",
+      "items": [
+        {
+          "name": "CHICKEN BREAST",
+          "price": 0,
+          "cost": 0,
+          "code": "CHICKEN BREAST"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774091685406,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 13.0"
     }
   ],
   "purchaseLog": [
@@ -8616,5 +8633,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T10:38:26.898Z"
+  "lastSync": "2026-03-21T11:14:45.427Z"
 }
