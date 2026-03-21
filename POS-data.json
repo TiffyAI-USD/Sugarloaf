@@ -117,7 +117,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 22
+      "stock": 0
     },
     "P_1773149976429": {
       "name": "BERNINI CLASSIC",
@@ -7913,6 +7913,23 @@
       "date": 1774091685406,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 13.0"
+    },
+    {
+      "id": "BAL_1774092190028",
+      "items": [
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 0,
+          "cost": 14.6,
+          "code": "P_1773149869795"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774092190028,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -22.0"
     }
   ],
   "purchaseLog": [
@@ -8633,5 +8650,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T11:14:45.427Z"
+  "lastSync": "2026-03-21T11:23:10.047Z"
 }
