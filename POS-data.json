@@ -236,7 +236,7 @@
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 37
+      "stock": 57
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -8015,6 +8015,23 @@
       "date": 1774096186691,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 6.0"
+    },
+    {
+      "id": "BAL_1774096360453",
+      "items": [
+        {
+          "name": "J & B WHISKY ",
+          "price": 0,
+          "cost": 7.1,
+          "code": "P_1773156851227"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774096360453,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 20.0"
     }
   ],
   "purchaseLog": [
@@ -8735,5 +8752,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T12:29:46.709Z"
+  "lastSync": "2026-03-21T12:32:40.482Z"
 }
