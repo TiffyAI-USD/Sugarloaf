@@ -82,7 +82,7 @@
       "price": 35,
       "cost": 16.48,
       "category": "drink",
-      "stock": 18
+      "stock": 14
     },
     "P_1773148398541": {
       "name": "HUNTERS GOLD 440ML",
@@ -7607,6 +7607,23 @@
       "date": 1774085472032,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -7.0"
+    },
+    {
+      "id": "BAL_1774085664410",
+      "items": [
+        {
+          "name": "HUNTERS DRY 440ML",
+          "price": 0,
+          "cost": 16.48,
+          "code": "P_1773147927738"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774085664410,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -4.0"
     }
   ],
   "purchaseLog": [
@@ -8327,5 +8344,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:31:12.042Z"
+  "lastSync": "2026-03-21T09:34:24.423Z"
 }
