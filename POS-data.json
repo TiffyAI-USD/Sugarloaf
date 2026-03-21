@@ -7525,6 +7525,14 @@
           "category": "drink",
           "stock": 76,
           "code": "P_1772185176729"
+        },
+        {
+          "name": "OCTOPUS (GRILLED)",
+          "price": 105,
+          "cost": 18,
+          "category": "food",
+          "stock": 14,
+          "code": "P_1773218768414"
         }
       ],
       "status": "active",
@@ -8857,5 +8865,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-21T18:26:23.096Z"
+  "lastSync": "2026-03-21T18:27:28.017Z"
 }
