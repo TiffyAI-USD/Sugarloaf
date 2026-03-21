@@ -47,7 +47,7 @@
       "price": 30,
       "cost": 14.96,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773145804561": {
       "name": "BELLGRAVIA GIN AND DRY LEMON",
@@ -7879,6 +7879,23 @@
       "date": 1774089427628,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -3.0"
+    },
+    {
+      "id": "BAL_1774089506886",
+      "items": [
+        {
+          "name": "HEINEKEN",
+          "price": 0,
+          "cost": 14.96,
+          "code": "P_1773145614589"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774089506886,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -1.0"
     }
   ],
   "purchaseLog": [
@@ -8599,5 +8616,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T10:37:07.642Z"
+  "lastSync": "2026-03-21T10:38:26.898Z"
 }
