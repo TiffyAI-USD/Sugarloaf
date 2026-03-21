@@ -850,7 +850,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 41
+      "stock": 37
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 37
+      "stock": 35
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1052,7 +1052,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -8
+      "stock": -9
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -1080,7 +1080,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 48
+      "stock": 47
     },
     "P_1773940012492": {
       "name": "BREEZER CANS 440ML",
@@ -7393,6 +7393,38 @@
           "category": "drink",
           "stock": 48,
           "code": "P_1773939828226"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -8,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 41,
+          "code": "P_1773328735410"
         }
       ],
       "status": "active",
@@ -7414,6 +7446,53 @@
       "date": 1774080572301,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 30.0"
+    },
+    {
+      "id": 167,
+      "items": [
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 6,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "POWERADE",
+          "price": 25,
+          "cost": 7.5,
+          "category": "drink",
+          "stock": -12,
+          "code": "P_1773489030098"
+        },
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773150214676"
+        }
+      ],
+      "status": "active",
+      "date": 1774084127562
     }
   ],
   "purchaseLog": [
@@ -7973,6 +8052,46 @@
         "name": "TSITSIKAMA SPARCLING 500ML",
         "price": 15,
         "date": 1774083992984
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774084126452
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774084126452
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774084126452
+      },
+      {
+        "name": "MILK STOUT CANS 500ML ",
+        "price": 35,
+        "date": 1774084126452
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084126452
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084126452
+      },
+      {
+        "name": "FANTA",
+        "price": 20,
+        "date": 1774084126452
+      },
+      {
+        "name": "CORONA EXTRA",
+        "price": 30,
+        "date": 1774084126452
       }
     ],
     "Cats": [
@@ -7991,5 +8110,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:07:56.688Z"
+  "lastSync": "2026-03-21T09:08:47.561Z"
 }
