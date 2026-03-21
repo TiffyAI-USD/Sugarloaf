@@ -320,7 +320,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773205912873": {
       "name": "AKALINW",
@@ -927,7 +927,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 29
+      "stock": 28
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1052,7 +1052,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -9
+      "stock": -10
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -1150,7 +1150,7 @@
       "price": 85,
       "cost": 40,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -7377,14 +7377,6 @@
       "id": 165,
       "items": [
         {
-          "name": "R50 CASH IN HAND",
-          "price": 50,
-          "cost": 0,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1774084468465"
-        },
-        {
           "name": "PESTO FETA AND GARLIC",
           "price": 85,
           "cost": 40,
@@ -7576,6 +7568,43 @@
       "items": [],
       "status": "active",
       "date": 1774084592543
+    },
+    {
+      "id": 175,
+      "items": [
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -9,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "STONEY GINGER BEER",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1773205810578"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 29,
+          "code": "P_1773344090994"
+        }
+      ],
+      "status": "active",
+      "date": 1774084639069
+    },
+    {
+      "id": 176,
+      "items": [],
+      "status": "active",
+      "date": 1774084673794
     }
   ],
   "purchaseLog": [
@@ -8269,8 +8298,32 @@
         "price": 20,
         "date": 1774084381956
       }
+    ],
+    "Momo": [
+      {
+        "name": "PESTO FETA AND GARLIC",
+        "price": 85,
+        "date": 1774084637533
+      }
+    ],
+    "Charlie": [
+      {
+        "name": "FANTA",
+        "price": 20,
+        "date": 1774084672521
+      },
+      {
+        "name": "STONEY GINGER BEER",
+        "price": 20,
+        "date": 1774084672521
+      },
+      {
+        "name": "COCA COLA 500ML",
+        "price": 20,
+        "date": 1774084672521
+      }
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T09:17:06.855Z"
+  "lastSync": "2026-03-21T09:17:44.310Z"
 }
