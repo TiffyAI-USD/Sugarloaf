@@ -512,7 +512,7 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -30,
+      "stock": 0,
       "cost": 0,
       "category": "ingredient"
     },
@@ -7349,7 +7349,24 @@
       "id": 165,
       "items": [],
       "status": "active",
-      "date": 1774032824506
+      "date": 1774080367872
+    },
+    {
+      "id": "BAL_1774080572301",
+      "items": [
+        {
+          "name": "BREAD SLICE",
+          "price": 0,
+          "cost": 0,
+          "code": "BREAD SLICE"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774080572301,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 30.0"
     }
   ],
   "purchaseLog": [
@@ -7771,5 +7788,6 @@
       }
     ]
   },
-  "lastSync": "2026-03-20T18:54:05.085Z"
+  "staffTips": {},
+  "lastSync": "2026-03-21T08:09:32.322Z"
 }
