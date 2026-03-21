@@ -131,7 +131,7 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 9
+      "stock": 6
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
@@ -7930,6 +7930,23 @@
       "date": 1774092190028,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -22.0"
+    },
+    {
+      "id": "BAL_1774092608275",
+      "items": [
+        {
+          "name": "APPLETIZERS ",
+          "price": 0,
+          "cost": 15.49,
+          "code": "P_1773150214676"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774092608275,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -3.0"
     }
   ],
   "purchaseLog": [
@@ -8650,5 +8667,5 @@
     ]
   },
   "staffTips": {},
-  "lastSync": "2026-03-21T11:23:10.047Z"
+  "lastSync": "2026-03-21T11:30:08.288Z"
 }
