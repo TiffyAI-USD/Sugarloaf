@@ -7544,32 +7544,7 @@
     },
     {
       "id": 169,
-      "items": [
-        {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773328735410"
-        },
-        {
-          "name": "PUB STYLE FISH",
-          "price": 95,
-          "cost": 0,
-          "category": "food",
-          "stock": -12,
-          "code": "P_1773467035443"
-        },
-        {
-          "name": "PUB STYLE FISH",
-          "price": 95,
-          "cost": 0,
-          "category": "food",
-          "stock": -12,
-          "code": "P_1773467035443"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084357777
     },
@@ -8929,5 +8904,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T08:13:10.159Z"
+  "lastSync": "2026-03-22T08:13:13.225Z"
 }
