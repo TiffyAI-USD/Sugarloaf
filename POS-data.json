@@ -7544,16 +7544,7 @@
     },
     {
       "id": 169,
-      "items": [
-        {
-          "name": "SMIRNOFF ICE BERRY TWIST",
-          "price": 35,
-          "cost": 13,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773147503327"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774084357777
     },
@@ -9633,5 +9624,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T11:01:07.857Z"
+  "lastSync": "2026-03-22T11:02:52.023Z"
 }
