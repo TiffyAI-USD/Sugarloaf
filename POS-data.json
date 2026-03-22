@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 21
+      "stock": 20
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -948,7 +948,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -15
+      "stock": -16
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1115,7 +1115,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 24
+      "stock": 48
     },
     "P_1773943086919": {
       "name": "BRUTAL FRUIT SPRITZER 500ML ",
@@ -1171,14 +1171,14 @@
       "price": 6,
       "cost": 3,
       "category": "food",
-      "stock": 0
+      "stock": -2
     },
     "P_1774180387344": {
       "name": "EXTRA BREAD 2 X SLICES",
       "price": 3,
       "cost": 2,
       "category": "food",
-      "stock": 0
+      "stock": -4
     }
   },
   "recipes": {
@@ -7710,10 +7710,38 @@
           "category": "food",
           "stock": 0,
           "code": "P_1774180387344"
+        },
+        {
+          "name": "EXTRA BREAD 2 X SLICES",
+          "price": 3,
+          "cost": 2,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180387344"
+        },
+        {
+          "name": "EXTRA BREAD 2 X SLICES",
+          "price": 3,
+          "cost": 2,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180387344"
+        },
+        {
+          "name": "EXTRA BREAD 2 X SLICES",
+          "price": 3,
+          "cost": 2,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180387344"
         }
       ],
-      "status": "active",
-      "date": 1774084549336
+      "status": "paid",
+      "date": 1774183400285,
+      "total": 154,
+      "tip": 34,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 173,
@@ -9758,7 +9786,14 @@
         "date": 1774117660936,
         "table": 168
       }
+    ],
+    "Momo": [
+      {
+        "amount": 34,
+        "date": 1774183400285,
+        "table": 172
+      }
     ]
   },
-  "lastSync": "2026-03-22T12:43:02.644Z"
+  "lastSync": "2026-03-22T13:47:34.377Z"
 }
