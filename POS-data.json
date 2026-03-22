@@ -7618,6 +7618,14 @@
           "category": "drink",
           "stock": 7,
           "code": "P_1773148398541"
+        },
+        {
+          "name": "HUNTERS GOLD 440ML",
+          "price": 35,
+          "cost": 15.42,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773148398541"
         }
       ],
       "status": "active",
@@ -9668,5 +9676,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T11:46:47.355Z"
+  "lastSync": "2026-03-22T11:47:38.314Z"
 }
