@@ -7806,6 +7806,30 @@
           "category": "drink",
           "stock": 4,
           "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 4,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "PEANUTS ",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": 30,
+          "code": "P_1774188313329"
+        },
+        {
+          "name": "PEANUTS ",
+          "price": 10,
+          "cost": 0,
+          "category": "food",
+          "stock": 30,
+          "code": "P_1774188313329"
         }
       ],
       "status": "active",
@@ -9942,5 +9966,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T14:25:19.480Z"
+  "lastSync": "2026-03-22T14:25:36.378Z"
 }
