@@ -7544,7 +7544,16 @@
     },
     {
       "id": 169,
-      "items": [],
+      "items": [
+        {
+          "name": "COURVOISIER CONIAC",
+          "price": 50,
+          "cost": 18.63,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1773207423198"
+        }
+      ],
       "status": "active",
       "date": 1774084357777
     },
@@ -8904,5 +8913,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T08:13:13.225Z"
+  "lastSync": "2026-03-22T10:11:39.237Z"
 }
