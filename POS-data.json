@@ -1158,6 +1158,13 @@
       "cost": 0,
       "category": "food",
       "stock": 0
+    },
+    "P_1774180112425": {
+      "name": "SEAFOOD FOR 2",
+      "price": 350,
+      "cost": 185,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -7626,6 +7633,14 @@
           "category": "drink",
           "stock": 7,
           "code": "P_1773148398541"
+        },
+        {
+          "name": "SEAFOOD FOR 2",
+          "price": 350,
+          "cost": 185,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180112425"
         }
       ],
       "status": "active",
@@ -9676,5 +9691,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T11:47:38.314Z"
+  "lastSync": "2026-03-22T11:48:51.908Z"
 }
