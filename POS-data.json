@@ -913,7 +913,7 @@
       "price": 35,
       "cost": 18.71,
       "category": "drink",
-      "stock": 39
+      "stock": 38
     },
     "P_1773330195771": {
       "name": "STRAWBERRY LIPS TEQUILA ",
@@ -1163,6 +1163,20 @@
       "name": "SEAFOOD FOR 2",
       "price": 350,
       "cost": 185,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774180213778": {
+      "name": "EXTRA EGG",
+      "price": 6,
+      "cost": 3,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774180387344": {
+      "name": "EXTRA BREAD 2 X SLICES",
+      "price": 3,
+      "cost": 2,
       "category": "food",
       "stock": 0
     }
@@ -7561,8 +7575,12 @@
           "code": "P_1773330079005"
         }
       ],
-      "status": "active",
-      "date": 1774084357777
+      "status": "paid",
+      "date": 1774181667690,
+      "total": 35,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 170,
@@ -8240,6 +8258,12 @@
       "items": [],
       "status": "active",
       "date": 1774180007377
+    },
+    {
+      "id": 209,
+      "items": [],
+      "status": "active",
+      "date": 1774181668006
     }
   ],
   "purchaseLog": [
@@ -9708,5 +9732,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T11:49:34.192Z"
+  "lastSync": "2026-03-22T12:14:27.993Z"
 }
