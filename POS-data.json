@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 19
+      "stock": 43
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -8385,6 +8385,23 @@
       "date": 1774188494293,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 11.0"
+    },
+    {
+      "id": "BAL_1774188726836",
+      "items": [
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 0,
+          "cost": 12.79,
+          "code": "P_1773145425644"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774188726836,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 24.0"
     }
   ],
   "purchaseLog": [
@@ -9860,5 +9877,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T14:08:14.302Z"
+  "lastSync": "2026-03-22T14:12:06.854Z"
 }
