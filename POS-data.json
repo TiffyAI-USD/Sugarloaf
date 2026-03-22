@@ -7830,6 +7830,30 @@
           "category": "food",
           "stock": 30,
           "code": "P_1774188313329"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 14,
+          "code": "P_1773149638554"
         }
       ],
       "status": "active",
@@ -9966,5 +9990,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T14:25:36.378Z"
+  "lastSync": "2026-03-22T14:25:51.241Z"
 }
