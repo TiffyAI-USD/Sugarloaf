@@ -89,7 +89,7 @@
       "price": 35,
       "cost": 15.42,
       "category": "drink",
-      "stock": 7
+      "stock": 5
     },
     "P_1773148706987": {
       "name": "SAVANNA NEAT",
@@ -131,7 +131,7 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 6
+      "stock": 5
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
@@ -404,7 +404,7 @@
       "price": 50,
       "cost": 19,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773207238699": {
       "name": "JONNY WALKER BLACK ",
@@ -1164,7 +1164,7 @@
       "price": 350,
       "cost": 185,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1774180213778": {
       "name": "EXTRA EGG",
@@ -7661,8 +7661,12 @@
           "code": "P_1774180112425"
         }
       ],
-      "status": "active",
-      "date": 1774084397702
+      "status": "paid",
+      "date": 1774181700910,
+      "total": 500,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 172,
@@ -7682,6 +7686,30 @@
           "category": "food",
           "stock": -15,
           "code": "P_1773467035443"
+        },
+        {
+          "name": "EXTRA EGG",
+          "price": 6,
+          "cost": 3,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180213778"
+        },
+        {
+          "name": "EXTRA EGG",
+          "price": 6,
+          "cost": 3,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180213778"
+        },
+        {
+          "name": "EXTRA BREAD 2 X SLICES",
+          "price": 3,
+          "cost": 2,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774180387344"
         }
       ],
       "status": "active",
@@ -9732,5 +9760,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T12:14:27.993Z"
+  "lastSync": "2026-03-22T12:43:02.644Z"
 }
