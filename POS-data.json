@@ -7766,7 +7766,16 @@
     },
     {
       "id": 173,
-      "items": [],
+      "items": [
+        {
+          "name": "CASTLE LITE 500ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773151833033"
+        }
+      ],
       "status": "active",
       "date": 1774084553456
     },
@@ -9901,5 +9910,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T14:20:15.549Z"
+  "lastSync": "2026-03-22T14:24:21.013Z"
 }
