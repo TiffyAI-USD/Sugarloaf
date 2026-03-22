@@ -8344,6 +8344,46 @@
           "category": "drink",
           "stock": 35.5,
           "code": "P_1773157574033"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773328735410"
         }
       ],
       "status": "active",
@@ -9705,5 +9745,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-22T10:16:31.813Z"
+  "lastSync": "2026-03-22T10:16:42.521Z"
 }
