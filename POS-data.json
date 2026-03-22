@@ -7554,14 +7554,6 @@
           "code": "P_1773328735410"
         },
         {
-          "name": "CORONA EXTRA",
-          "price": 30,
-          "cost": 16.46,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773328735410"
-        },
-        {
           "name": "PUB STYLE FISH",
           "price": 95,
           "cost": 0,
@@ -7576,22 +7568,6 @@
           "category": "food",
           "stock": -12,
           "code": "P_1773467035443"
-        },
-        {
-          "name": "PUB STYLE FISH",
-          "price": 95,
-          "cost": 0,
-          "category": "food",
-          "stock": -12,
-          "code": "P_1773467035443"
-        },
-        {
-          "name": "FANTA",
-          "price": 20,
-          "cost": 10.4,
-          "category": "drink",
-          "stock": -10,
-          "code": "P_1773923463427"
         }
       ],
       "status": "active",
@@ -8180,12 +8156,6 @@
       "date": 1774106104784,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: -6.0"
-    },
-    {
-      "id": 208,
-      "items": [],
-      "status": "active",
-      "date": 1774118032564
     }
   ],
   "purchaseLog": [
@@ -8959,5 +8929,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-21T18:33:52.564Z"
+  "lastSync": "2026-03-22T08:13:10.159Z"
 }
