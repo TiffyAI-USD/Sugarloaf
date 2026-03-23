@@ -306,7 +306,7 @@
       "price": 25,
       "cost": 7.25,
       "category": "drink",
-      "stock": 22
+      "stock": 17
     },
     "P_1773205494078": {
       "name": "BERNINI BLUSH",
@@ -600,12 +600,6 @@
       "category": "food",
       "stock": 23
     },
-    "CALAMARI TUBES": {
-      "name": "CALAMARI TUBES",
-      "stock": 13.85,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "P_1773215225358": {
       "name": "STUFFED CALAMARI ",
       "price": 125,
@@ -718,12 +712,6 @@
       "cost": 35,
       "category": "food",
       "stock": 7
-    },
-    "BEEF FILLT": {
-      "name": "BEEF FILLT",
-      "stock": 4,
-      "cost": 0,
-      "category": "ingredient"
     },
     "BRANDY": {
       "name": "BRANDY",
@@ -927,7 +915,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 26
+      "stock": 24
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1164,7 +1152,7 @@
       "price": 350,
       "cost": 185,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1774180213778": {
       "name": "EXTRA EGG",
@@ -1200,6 +1188,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 24
+    },
+    "CALAMARI_TUBES": {
+      "name": "CALAMARI TUBES",
+      "stock": 13.8,
+      "cost": 0.9057971014492753,
+      "price": 0,
+      "category": "ingredient"
     }
   },
   "recipes": {
@@ -7865,13 +7860,139 @@
     },
     {
       "id": 174,
-      "items": [],
-      "status": "active",
-      "date": 1774084592543
+      "items": [
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773169167556"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "SEAFOOD FOR 2",
+          "price": 350,
+          "cost": 185,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1774180112425"
+        }
+      ],
+      "status": "paid",
+      "date": 1774192735449,
+      "total": 515,
+      "tip": 55,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 175,
-      "items": [],
+      "items": [
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 64,
+          "code": "P_1773214041916"
+        }
+      ],
       "status": "active",
       "date": 1774084639069
     },
@@ -8605,12 +8726,6 @@
       "tip": 0,
       "method": "Cash",
       "staff": "Marshall"
-    },
-    {
-      "id": 217,
-      "items": [],
-      "status": "active",
-      "date": 1774190350652
     }
   ],
   "purchaseLog": [
@@ -8647,6 +8762,13 @@
       "name": "JALAPENOS ",
       "qty": 20,
       "cost": 113.1,
+      "cat": "Food"
+    },
+    {
+      "date": 1774259619822,
+      "name": "CALAMARI TUBES",
+      "qty": 13.8,
+      "cost": 12.5,
       "cat": "Food"
     }
   ],
@@ -10083,8 +10205,13 @@
         "amount": 34,
         "date": 1774183400285,
         "table": 172
+      },
+      {
+        "amount": 55,
+        "date": 1774192735449,
+        "table": 174
       }
     ]
   },
-  "lastSync": "2026-03-22T14:39:02.413Z"
+  "lastSync": "2026-03-23T09:53:39.854Z"
 }
