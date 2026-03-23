@@ -1183,10 +1183,10 @@
       "category": "drink",
       "stock": 24
     },
-    "BEEF_FILLET_": {
-      "name": "BEEF FILLET ",
-      "stock": 0,
-      "cost": null,
+    "BEEF_FILLET": {
+      "name": "BEEF FILLET",
+      "stock": 1,
+      "cost": 24.5,
       "price": 0,
       "category": "ingredient"
     }
@@ -8778,6 +8778,13 @@
       "qty": 0,
       "cost": 24.5,
       "cat": "Food"
+    },
+    {
+      "date": 1774260966082,
+      "name": "BEEF FILLET",
+      "qty": 1,
+      "cost": 24.5,
+      "cat": "Food"
     }
   ],
   "staffSales": {
@@ -10221,5 +10228,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-23T10:05:13.404Z"
+  "lastSync": "2026-03-23T10:16:06.096Z"
 }
