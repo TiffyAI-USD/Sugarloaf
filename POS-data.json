@@ -1185,7 +1185,7 @@
     },
     "BEEF_FILLET": {
       "name": "BEEF FILLET",
-      "stock": 1,
+      "stock": 10,
       "cost": 24.5,
       "price": 0,
       "category": "ingredient"
@@ -10228,5 +10228,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-23T10:16:06.096Z"
+  "lastSync": "2026-03-23T10:16:45.632Z"
 }
