@@ -700,12 +700,6 @@
       "category": "food",
       "stock": 30
     },
-    "BEEF FILLET": {
-      "name": "BEEF FILLET",
-      "stock": 9.8,
-      "cost": 0,
-      "category": "ingredient"
-    },
     "P_1773219731782": {
       "name": "STEAK EGG AND CHIPS",
       "price": 135,
@@ -1189,10 +1183,10 @@
       "category": "drink",
       "stock": 24
     },
-    "CALAMARI_TUBES": {
-      "name": "CALAMARI TUBES",
-      "stock": 13.8,
-      "cost": 0.9057971014492753,
+    "BEEF_FILLET": {
+      "name": "BEEF FILLET",
+      "stock": 9.8,
+      "cost": 2.5,
       "price": 0,
       "category": "ingredient"
     }
@@ -8770,6 +8764,13 @@
       "qty": 13.8,
       "cost": 12.5,
       "cat": "Food"
+    },
+    {
+      "date": 1774259871078,
+      "name": "BEEF FILLET",
+      "qty": 9.8,
+      "cost": 24.5,
+      "cat": "Food"
     }
   ],
   "staffSales": {
@@ -10213,5 +10214,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-23T09:53:39.854Z"
+  "lastSync": "2026-03-23T09:57:51.085Z"
 }
