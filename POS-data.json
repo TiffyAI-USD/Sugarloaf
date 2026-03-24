@@ -8906,6 +8906,62 @@
           "category": "drink",
           "stock": 42,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 42,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -3,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "STRONG BOW CANS ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1774188093247"
         }
       ],
       "status": "active",
@@ -10483,5 +10539,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T18:40:20.931Z"
+  "lastSync": "2026-03-24T18:40:48.278Z"
 }
