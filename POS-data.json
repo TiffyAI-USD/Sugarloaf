@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 43
+      "stock": 42
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 1
+      "stock": -1
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 94.79999999999993,
+      "stock": 94.39999999999992,
       "cost": 0,
       "category": "ingredient"
     },
@@ -489,11 +489,11 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 23
+      "stock": 22
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": -18,
+      "stock": -24,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -512,7 +512,7 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -6,
+      "stock": -8,
       "cost": 0,
       "category": "ingredient"
     },
@@ -619,7 +619,7 @@
       "price": 185,
       "cost": 39,
       "category": "food",
-      "stock": 21.5
+      "stock": 20.5
     },
     "P_1773218355573": {
       "name": "CRAB CURRY",
@@ -769,7 +769,7 @@
       "price": 55,
       "cost": 8,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1773222794698": {
       "name": "MUFASA",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 23
+      "stock": 22
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -923,7 +923,7 @@
       "price": 55,
       "cost": 0,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1773467035443": {
       "name": "PUB STYLE FISH",
@@ -958,7 +958,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 17
+      "stock": 16
     },
     "P_1773766196672": {
       "name": "LIQUI FRUIT RED GRAPE",
@@ -1097,7 +1097,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 47
+      "stock": 46
     },
     "P_1773943086919": {
       "name": "BRUTAL FRUIT SPRITZER 500ML ",
@@ -1132,14 +1132,14 @@
       "price": 85,
       "cost": 40,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1774098821849": {
       "name": "ARRABIATTA CHICKEN ",
       "price": 90,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1774180112425": {
       "name": "SEAFOOD FOR 2",
@@ -8598,10 +8598,46 @@
           "category": "food",
           "stock": 21.5,
           "code": "P_1773215678430"
+        },
+        {
+          "name": "BLACK LABEL 300ML ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 47,
+          "code": "P_1773942714676"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 43,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773765858998"
         }
       ],
-      "status": "active",
-      "date": 1774180007377
+      "status": "paid",
+      "date": 1774371859314,
+      "total": 560,
+      "tip": 60,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 209,
@@ -8864,12 +8900,12 @@
       "id": 218,
       "items": [
         {
-          "name": "RED BULL",
+          "name": "BLACK LABEL 500ML",
           "price": 30,
-          "cost": 19.5,
+          "cost": 12.79,
           "category": "drink",
-          "stock": 4,
-          "code": "P_1773936567733"
+          "stock": 42,
+          "code": "P_1773145425644"
         }
       ],
       "status": "active",
@@ -8912,10 +8948,28 @@
           "category": "drink",
           "stock": 23,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 1,
+          "code": "P_1773152229222"
         }
       ],
+      "status": "paid",
+      "date": 1774370855546,
+      "total": 170,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 221,
+      "items": [],
       "status": "active",
-      "date": 1774370610493
+      "date": 1774371859457
     }
   ],
   "purchaseLog": [
@@ -10429,5 +10483,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T16:47:06.263Z"
+  "lastSync": "2026-03-24T18:40:20.931Z"
 }
