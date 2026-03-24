@@ -8727,7 +8727,16 @@
     },
     {
       "id": 217,
-      "items": [],
+      "items": [
+        {
+          "name": "CALAMARI SALAD",
+          "price": 89,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1773308518835"
+        }
+      ],
       "status": "active",
       "date": 1774356379595
     }
@@ -10202,5 +10211,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T12:46:19.594Z"
+  "lastSync": "2026-03-24T12:46:51.100Z"
 }
