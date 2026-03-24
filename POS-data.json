@@ -8896,7 +8896,24 @@
     },
     {
       "id": 220,
-      "items": [],
+      "items": [
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 23,
+          "code": "P_1773212737065"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1773344090994"
+        }
+      ],
       "status": "active",
       "date": 1774370610493
     }
@@ -10412,5 +10429,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T16:44:18.998Z"
+  "lastSync": "2026-03-24T16:47:06.263Z"
 }
