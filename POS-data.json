@@ -8560,22 +8560,6 @@
       "id": 208,
       "items": [
         {
-          "name": "BLACK LABEL 500ML",
-          "price": 30,
-          "cost": 12.79,
-          "category": "drink",
-          "stock": 43,
-          "code": "P_1773145425644"
-        },
-        {
-          "name": "BLACK LABEL 500ML",
-          "price": 30,
-          "cost": 12.79,
-          "category": "drink",
-          "stock": 43,
-          "code": "P_1773145425644"
-        },
-        {
           "name": "CRUMBED MUSHROOMS ",
           "price": 55,
           "cost": 8,
@@ -10428,5 +10412,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T16:44:17.581Z"
+  "lastSync": "2026-03-24T16:44:18.998Z"
 }
