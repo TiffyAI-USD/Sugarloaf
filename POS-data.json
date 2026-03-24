@@ -8606,6 +8606,30 @@
           "category": "food",
           "stock": -1,
           "code": "P_1774084579933"
+        },
+        {
+          "name": "PRAWNS (MAIN DISH)",
+          "price": 185,
+          "cost": 39,
+          "category": "food",
+          "stock": 21.5,
+          "code": "P_1773215678430"
+        },
+        {
+          "name": "ARRABIATTA CHICKEN ",
+          "price": 90,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774098821849"
+        },
+        {
+          "name": "BLACK LABEL 300ML ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 47,
+          "code": "P_1773942714676"
         }
       ],
       "status": "active",
@@ -10354,5 +10378,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T15:51:51.968Z"
+  "lastSync": "2026-03-24T16:13:48.591Z"
 }
