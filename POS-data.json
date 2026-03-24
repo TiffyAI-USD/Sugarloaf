@@ -8568,12 +8568,44 @@
           "code": "P_1773152229222"
         },
         {
-          "name": "PRAWNS (MAIN DISH)",
-          "price": 185,
-          "cost": 39,
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 17,
+          "code": "P_1773765858998"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 43,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 43,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "CRUMBED MUSHROOMS ",
+          "price": 55,
+          "cost": 8,
           "category": "food",
-          "stock": 21.5,
-          "code": "P_1773215678430"
+          "stock": -2,
+          "code": "P_1773220946460"
+        },
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773466721989"
         },
         {
           "name": "ARRABIATTA CHICKEN ",
@@ -8584,12 +8616,20 @@
           "code": "P_1774098821849"
         },
         {
-          "name": "BLACK LABEL 300ML ",
-          "price": 30,
-          "cost": 0,
-          "category": "drink",
-          "stock": 47,
-          "code": "P_1773942714676"
+          "name": "PESTO FETA AND GARLIC",
+          "price": 85,
+          "cost": 40,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1774084579933"
+        },
+        {
+          "name": "PRAWNS (MAIN DISH)",
+          "price": 185,
+          "cost": 39,
+          "category": "food",
+          "stock": 21.5,
+          "code": "P_1773215678430"
         }
       ],
       "status": "active",
@@ -8866,6 +8906,21 @@
       ],
       "status": "active",
       "date": 1774365776336
+    },
+    {
+      "id": 219,
+      "items": [
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 30,
+          "code": "P_1773328735410"
+        }
+      ],
+      "status": "active",
+      "date": 1774370588556
     }
   ],
   "purchaseLog": [
@@ -10374,5 +10429,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T16:39:19.048Z"
+  "lastSync": "2026-03-24T16:43:08.565Z"
 }
