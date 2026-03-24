@@ -832,7 +832,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 30
+      "stock": 29
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -8560,22 +8560,6 @@
       "id": 208,
       "items": [
         {
-          "name": "TSITSIKAMA SPARCLING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 1,
-          "code": "P_1773152229222"
-        },
-        {
-          "name": "TSITSIKAMA SPRING 500ML",
-          "price": 15,
-          "cost": 4.45,
-          "category": "drink",
-          "stock": 17,
-          "code": "P_1773765858998"
-        },
-        {
           "name": "BLACK LABEL 500ML",
           "price": 30,
           "cost": 12.79,
@@ -8919,8 +8903,18 @@
           "code": "P_1773328735410"
         }
       ],
+      "status": "paid",
+      "date": 1774370610343,
+      "total": 30,
+      "tip": 5,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 220,
+      "items": [],
       "status": "active",
-      "date": 1774370588556
+      "date": 1774370610493
     }
   ],
   "purchaseLog": [
@@ -10414,6 +10408,11 @@
         "amount": 25,
         "date": 1774117660936,
         "table": 168
+      },
+      {
+        "amount": 5,
+        "date": 1774370610343,
+        "table": 219
       }
     ],
     "Momo": [
@@ -10429,5 +10428,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T16:43:08.565Z"
+  "lastSync": "2026-03-24T16:44:17.581Z"
 }
