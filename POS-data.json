@@ -455,19 +455,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.0200000000000014,
+      "stock": -2.1600000000000015,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -7.299999999999999,
+      "stock": -7.9999999999999964,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -1.1000000000000003,
+      "stock": -1.800000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -493,7 +493,7 @@
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": 3,
+      "stock": -18,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -550,13 +550,13 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 64.95,
+      "stock": 64.60000000000002,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 19.379999999999978,
+      "stock": 19.029999999999973,
       "cost": 0,
       "category": "ingredient"
     },
@@ -565,7 +565,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 64
+      "stock": 57
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -7987,8 +7987,12 @@
           "code": "P_1773214041916"
         }
       ],
-      "status": "active",
-      "date": 1774084639069
+      "status": "paid",
+      "date": 1774356379355,
+      "total": 1295,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": "BAL_1774085472027",
@@ -8720,6 +8724,12 @@
       "tip": 0,
       "method": "Cash",
       "staff": "Marshall"
+    },
+    {
+      "id": 217,
+      "items": [],
+      "status": "active",
+      "date": 1774356379595
     }
   ],
   "purchaseLog": [
@@ -10192,41 +10202,5 @@
       }
     ]
   },
-  "staffTips": {
-    "Marshall": [
-      {
-        "amount": 5,
-        "date": 1774105795974,
-        "table": 165
-      },
-      {
-        "amount": 5,
-        "date": 1774105888899,
-        "table": 205
-      },
-      {
-        "amount": 15,
-        "date": 1774112372134,
-        "table": 167
-      },
-      {
-        "amount": 25,
-        "date": 1774117660936,
-        "table": 168
-      }
-    ],
-    "Momo": [
-      {
-        "amount": 34,
-        "date": 1774183400285,
-        "table": 172
-      },
-      {
-        "amount": 55,
-        "date": 1774192735449,
-        "table": 174
-      }
-    ]
-  },
-  "lastSync": "2026-03-23T10:16:45.632Z"
+  "lastSync": "2026-03-24T12:46:19.594Z"
 }
