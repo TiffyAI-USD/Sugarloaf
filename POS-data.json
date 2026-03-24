@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 42
+      "stock": 37
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -313,7 +313,7 @@
       "price": 35,
       "cost": 12.67,
       "category": "drink",
-      "stock": 65
+      "stock": 64
     },
     "P_1773205810578": {
       "name": "STONEY GINGER BEER",
@@ -436,7 +436,7 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 93.79999999999998,
+      "stock": 93.19999999999997,
       "cost": 1,
       "category": "ingredient"
     },
@@ -508,7 +508,7 @@
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": 1
+      "stock": -2
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 22
+      "stock": 21
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -3
+      "stock": -4
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -1167,7 +1167,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 24
+      "stock": 22
     },
     "P_1774188313329": {
       "name": "PEANUTS ",
@@ -8962,10 +8962,54 @@
           "category": "drink",
           "stock": 24,
           "code": "P_1774188093247"
+        },
+        {
+          "name": "STRONG BOW CANS ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 24,
+          "code": "P_1774188093247"
+        },
+        {
+          "name": "BERNINI BLUSH",
+          "price": 35,
+          "cost": 12.67,
+          "category": "drink",
+          "stock": 65,
+          "code": "P_1773205494078"
+        },
+        {
+          "name": "2 CRUMBED PORK CHOPS",
+          "price": 115,
+          "cost": 17.4,
+          "category": "food",
+          "stock": 1,
+          "code": "P_1773213167637"
+        },
+        {
+          "name": "2 CRUMBED PORK CHOPS",
+          "price": 115,
+          "cost": 17.4,
+          "category": "food",
+          "stock": 1,
+          "code": "P_1773213167637"
+        },
+        {
+          "name": "2 CRUMBED PORK CHOPS",
+          "price": 115,
+          "cost": 17.4,
+          "category": "food",
+          "stock": 1,
+          "code": "P_1773213167637"
         }
       ],
-      "status": "active",
-      "date": 1774365776336
+      "status": "paid",
+      "date": 1774377742787,
+      "total": 640,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 219,
@@ -10539,5 +10583,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T18:40:48.278Z"
+  "lastSync": "2026-03-24T18:42:53.887Z"
 }
