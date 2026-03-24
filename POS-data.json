@@ -1189,6 +1189,13 @@
       "cost": 24.5,
       "price": 0,
       "category": "ingredient"
+    },
+    "P_1774356457371": {
+      "name": "EISHBEIN",
+      "price": 145,
+      "cost": 55,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -8735,6 +8742,14 @@
           "category": "food",
           "stock": -4,
           "code": "P_1773308518835"
+        },
+        {
+          "name": "EISHBEIN",
+          "price": 145,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774356457371"
         }
       ],
       "status": "active",
@@ -10211,5 +10226,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T12:46:51.100Z"
+  "lastSync": "2026-03-24T12:48:18.569Z"
 }
