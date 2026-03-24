@@ -1196,6 +1196,13 @@
       "cost": 55,
       "category": "food",
       "stock": 0
+    },
+    "P_1774356562726": {
+      "name": "LIQUI FRUIT TROPICAL",
+      "price": 20,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -8551,7 +8558,16 @@
     },
     {
       "id": 208,
-      "items": [],
+      "items": [
+        {
+          "name": "LIQUI FRUIT TROPICAL",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774356562726"
+        }
+      ],
       "status": "active",
       "date": 1774180007377
     },
@@ -8750,6 +8766,14 @@
           "category": "food",
           "stock": 0,
           "code": "P_1774356457371"
+        },
+        {
+          "name": "BLACK LABEL 300ML ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773942714676"
         }
       ],
       "status": "active",
@@ -10226,5 +10250,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T12:48:18.569Z"
+  "lastSync": "2026-03-24T12:49:31.955Z"
 }
