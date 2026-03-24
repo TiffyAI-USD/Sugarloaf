@@ -797,7 +797,7 @@
       "price": 89,
       "cost": 0,
       "category": "food",
-      "stock": -4
+      "stock": -5
     },
     "P_1773309845876": {
       "name": "BRUTAL FRUIT ",
@@ -1097,7 +1097,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 48
+      "stock": 47
     },
     "P_1773943086919": {
       "name": "BRUTAL FRUIT SPRITZER 500ML ",
@@ -1195,14 +1195,14 @@
       "price": 145,
       "cost": 55,
       "category": "food",
-      "stock": 0
+      "stock": -1
     },
     "P_1774356562726": {
       "name": "LIQUI FRUIT TROPICAL",
       "price": 20,
       "cost": 0,
       "category": "food",
-      "stock": 0
+      "stock": -1
     }
   },
   "recipes": {
@@ -8558,16 +8558,7 @@
     },
     {
       "id": 208,
-      "items": [
-        {
-          "name": "LIQUI FRUIT TROPICAL",
-          "price": 20,
-          "cost": 0,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1774356562726"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774180007377
     },
@@ -8774,10 +8765,28 @@
           "category": "drink",
           "stock": 48,
           "code": "P_1773942714676"
+        },
+        {
+          "name": "LIQUI FRUIT TROPICAL",
+          "price": 20,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774356562726"
         }
       ],
+      "status": "paid",
+      "date": 1774358523978,
+      "total": 284,
+      "tip": 36,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 218,
+      "items": [],
       "status": "active",
-      "date": 1774356379595
+      "date": 1774358524387
     }
   ],
   "purchaseLog": [
@@ -10250,5 +10259,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T12:49:31.955Z"
+  "lastSync": "2026-03-24T13:22:04.368Z"
 }
