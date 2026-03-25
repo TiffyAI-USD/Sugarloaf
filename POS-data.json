@@ -689,7 +689,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": -14,
+      "stock": -16,
       "cost": 0,
       "category": "ingredient"
     },
@@ -698,7 +698,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 28
+      "stock": 27
     },
     "P_1773219731782": {
       "name": "STEAK EGG AND CHIPS",
@@ -909,14 +909,14 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 19
+      "stock": 18
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
@@ -1027,7 +1027,7 @@
       "price": 95,
       "cost": 65,
       "category": "food",
-      "stock": 13
+      "stock": 11
     },
     "P_1773923463427": {
       "name": "FANTA",
@@ -9382,10 +9382,36 @@
           "category": "food",
           "stock": 28,
           "code": "P_1773219547672"
+        },
+        {
+          "name": "MEDIUM CHIPS ",
+          "price": 35,
+          "cost": 10,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773466315290"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1773344090994"
         }
       ],
+      "status": "paid",
+      "date": 1774459302158,
+      "total": 320,
+      "tip": 100,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 231,
+      "items": [],
       "status": "active",
-      "date": 1774459105030
+      "date": 1774459302437
     }
   ],
   "purchaseLog": [
@@ -10889,6 +10915,11 @@
         "amount": 5,
         "date": 1774458832749,
         "table": 228
+      },
+      {
+        "amount": 100,
+        "date": 1774459302158,
+        "table": 230
       }
     ],
     "Momo": [
@@ -10904,5 +10935,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:19:34.453Z"
+  "lastSync": "2026-03-25T17:21:42.436Z"
 }
