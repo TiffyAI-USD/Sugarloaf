@@ -9374,6 +9374,14 @@
           "category": "food",
           "stock": 13,
           "code": "P_1773914136085"
+        },
+        {
+          "name": "CHICKEN WINGS",
+          "price": 75,
+          "cost": 20,
+          "category": "food",
+          "stock": 28,
+          "code": "P_1773219547672"
         }
       ],
       "status": "active",
@@ -10896,5 +10904,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:18:54.557Z"
+  "lastSync": "2026-03-25T17:19:34.453Z"
 }
