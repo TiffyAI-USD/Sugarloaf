@@ -9409,9 +9409,18 @@
     },
     {
       "id": 231,
-      "items": [],
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -21,
+          "code": "P_1773467035443"
+        }
+      ],
       "status": "active",
-      "date": 1774459302437
+      "date": 1774459321520
     }
   ],
   "purchaseLog": [
@@ -10935,5 +10944,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:21:42.436Z"
+  "lastSync": "2026-03-25T17:22:13.459Z"
 }
