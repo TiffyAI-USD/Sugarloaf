@@ -348,7 +348,7 @@
       "price": 20,
       "cost": 6.55,
       "category": "drink",
-      "stock": 3
+      "stock": 2
     },
     "P_1773206480637": {
       "name": "LIQUI FRUIT CRANBERRY COOLER",
@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.87999999999997,
+      "stock": 18.82999999999997,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -15,
+      "stock": -16,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 16
+      "stock": 15
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -19
+      "stock": -20
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -9175,7 +9175,16 @@
     },
     {
       "id": 225,
-      "items": [],
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -20,
+          "code": "P_1773467035443"
+        }
+      ],
       "status": "active",
       "date": 1774452192216
     },
@@ -9273,9 +9282,38 @@
     },
     {
       "id": 229,
-      "items": [],
-      "status": "active",
-      "date": 1774455379273
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 16,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -19,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "LIQUI FRUITE APPLE & CRANBERRY ",
+          "price": 20,
+          "cost": 6.55,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1773206330598"
+        }
+      ],
+      "status": "paid",
+      "date": 1774455407431,
+      "total": 225,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     }
   ],
   "purchaseLog": [
@@ -10748,5 +10786,46 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T16:15:59.406Z"
+  "staffTips": {
+    "Marshall": [
+      {
+        "amount": 5,
+        "date": 1774105795974,
+        "table": 165
+      },
+      {
+        "amount": 5,
+        "date": 1774105888899,
+        "table": 205
+      },
+      {
+        "amount": 15,
+        "date": 1774112372134,
+        "table": 167
+      },
+      {
+        "amount": 25,
+        "date": 1774117660936,
+        "table": 168
+      },
+      {
+        "amount": 5,
+        "date": 1774370610343,
+        "table": 219
+      }
+    ],
+    "Momo": [
+      {
+        "amount": 34,
+        "date": 1774183400285,
+        "table": 172
+      },
+      {
+        "amount": 55,
+        "date": 1774192735449,
+        "table": 174
+      }
+    ]
+  },
+  "lastSync": "2026-03-25T17:10:40.571Z"
 }
