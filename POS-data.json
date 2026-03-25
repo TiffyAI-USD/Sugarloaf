@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 37
+      "stock": 32
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -992,7 +992,7 @@
       "price": 35,
       "cost": 13.3,
       "category": "drink",
-      "stock": 22
+      "stock": 21
     },
     "P_1773849555427": {
       "name": "HUNTERS DRY",
@@ -1034,7 +1034,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -11
+      "stock": -12
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -4
+      "stock": -5
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -1167,7 +1167,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 22
+      "stock": 19
     },
     "P_1774188313329": {
       "name": "PEANUTS ",
@@ -9542,8 +9542,18 @@
           "code": "P_1773923463427"
         }
       ],
+      "status": "paid",
+      "date": 1774462495162,
+      "total": 330,
+      "tip": 20,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 233,
+      "items": [],
       "status": "active",
-      "date": 1774461893141
+      "date": 1774462495429
     }
   ],
   "purchaseLog": [
@@ -11052,6 +11062,11 @@
         "amount": 100,
         "date": 1774459302158,
         "table": 230
+      },
+      {
+        "amount": 20,
+        "date": 1774462495162,
+        "table": 232
       }
     ],
     "Momo": [
@@ -11067,5 +11082,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T18:13:33.560Z"
+  "lastSync": "2026-03-25T18:14:55.425Z"
 }
