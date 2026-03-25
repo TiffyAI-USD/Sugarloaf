@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.92999999999997,
+      "stock": 18.87999999999997,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -14,
+      "stock": -15,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 17
+      "stock": 16
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 20
+      "stock": 19
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -9250,22 +9250,32 @@
           "code": "P_1773219173270"
         },
         {
-          "name": "LIQUI FRUIT TROPICAL",
+          "name": "COCA COLA 500ML",
           "price": 20,
           "cost": 0,
-          "category": "food",
-          "stock": -1,
-          "code": "P_1774356562726"
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773344090994"
         }
       ],
-      "status": "active",
-      "date": 1774452260518
+      "status": "paid",
+      "date": 1774455378996,
+      "total": 130,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 228,
       "items": [],
       "status": "active",
       "date": 1774454526497
+    },
+    {
+      "id": 229,
+      "items": [],
+      "status": "active",
+      "date": 1774455379273
     }
   ],
   "purchaseLog": [
@@ -10738,5 +10748,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T16:15:57.540Z"
+  "lastSync": "2026-03-25T16:15:59.406Z"
 }
