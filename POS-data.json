@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.82999999999997,
+      "stock": 18.77999999999997,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -16,
+      "stock": -17,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 15
+      "stock": 14
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -21
+      "stock": -22
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1104,7 +1104,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 48
+      "stock": 46
     },
     "P_1774083523087": {
       "name": "TSITSIKAMA SPRING 500ML",
@@ -9443,8 +9443,27 @@
           "code": "P_1773943086919"
         }
       ],
+      "status": "paid",
+      "date": 1774459384843,
+      "total": 275,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 232,
+      "items": [
+        {
+          "name": "STRONG BOW CANS ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1774188093247"
+        }
+      ],
       "status": "active",
-      "date": 1774459321520
+      "date": 1774461893141
     }
   ],
   "purchaseLog": [
@@ -10968,5 +10987,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:22:42.018Z"
+  "lastSync": "2026-03-25T18:05:00.816Z"
 }
