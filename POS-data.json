@@ -75,7 +75,7 @@
       "price": 35,
       "cost": 13,
       "category": "drink",
-      "stock": 36
+      "stock": 35
     },
     "P_1773147927738": {
       "name": "HUNTERS DRY 440ML",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 94.39999999999992,
+      "stock": 94.19999999999992,
       "cost": 0,
       "category": "ingredient"
     },
@@ -489,7 +489,7 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 22
+      "stock": 21
     },
     "PRAWNS": {
       "name": "PRAWNS",
@@ -9162,14 +9162,24 @@
           "code": "P_1773212737065"
         }
       ],
-      "status": "active",
-      "date": 1774446518630
+      "status": "paid",
+      "date": 1774452226074,
+      "total": 170,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 225,
       "items": [],
       "status": "active",
       "date": 1774452192216
+    },
+    {
+      "id": 226,
+      "items": [],
+      "status": "active",
+      "date": 1774452226224
     }
   ],
   "purchaseLog": [
@@ -10642,5 +10652,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T15:23:12.216Z"
+  "lastSync": "2026-03-25T15:23:46.222Z"
 }
