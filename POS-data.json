@@ -9417,6 +9417,30 @@
           "category": "food",
           "stock": -21,
           "code": "P_1773467035443"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 15,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BRUTAL FRUIT SPRITZER 500ML ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773943086919"
+        },
+        {
+          "name": "BRUTAL FRUIT SPRITZER 500ML ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773943086919"
         }
       ],
       "status": "active",
@@ -10944,5 +10968,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:22:13.459Z"
+  "lastSync": "2026-03-25T17:22:42.018Z"
 }
