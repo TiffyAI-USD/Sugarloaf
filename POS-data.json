@@ -9183,6 +9183,14 @@
           "category": "food",
           "stock": -20,
           "code": "P_1773467035443"
+        },
+        {
+          "name": "ALFREDO",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773941757615"
         }
       ],
       "status": "active",
@@ -10827,5 +10835,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T17:10:40.571Z"
+  "lastSync": "2026-03-25T17:11:13.613Z"
 }
