@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 20
+      "stock": 19
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -783,7 +783,7 @@
       "price": 125,
       "cost": 26.47,
       "category": "food",
-      "stock": 25
+      "stock": 24
     },
     "P_1773308487164": {
       "name": "STEAK",
@@ -9112,8 +9112,12 @@
           "code": "P_1773230972483"
         }
       ],
-      "status": "active",
-      "date": 1774446498750
+      "status": "paid",
+      "date": 1774452192061,
+      "total": 160,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 223,
@@ -9165,7 +9169,7 @@
       "id": 225,
       "items": [],
       "status": "active",
-      "date": 1774452158784
+      "date": 1774452192216
     }
   ],
   "purchaseLog": [
@@ -10638,46 +10642,5 @@
       }
     ]
   },
-  "staffTips": {
-    "Marshall": [
-      {
-        "amount": 5,
-        "date": 1774105795974,
-        "table": 165
-      },
-      {
-        "amount": 5,
-        "date": 1774105888899,
-        "table": 205
-      },
-      {
-        "amount": 15,
-        "date": 1774112372134,
-        "table": 167
-      },
-      {
-        "amount": 25,
-        "date": 1774117660936,
-        "table": 168
-      },
-      {
-        "amount": 5,
-        "date": 1774370610343,
-        "table": 219
-      }
-    ],
-    "Momo": [
-      {
-        "amount": 34,
-        "date": 1774183400285,
-        "table": 172
-      },
-      {
-        "amount": 55,
-        "date": 1774192735449,
-        "table": 174
-      }
-    ]
-  },
-  "lastSync": "2026-03-25T15:22:38.782Z"
+  "lastSync": "2026-03-25T15:23:12.216Z"
 }
