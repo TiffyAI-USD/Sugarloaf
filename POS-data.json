@@ -75,7 +75,7 @@
       "price": 35,
       "cost": 13,
       "category": "drink",
-      "stock": 37
+      "stock": 36
     },
     "P_1773147927738": {
       "name": "HUNTERS DRY 440ML",
@@ -436,7 +436,7 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 93.19999999999997,
+      "stock": 92.99999999999997,
       "cost": 1,
       "category": "ingredient"
     },
@@ -508,7 +508,7 @@
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -9077,12 +9077,31 @@
           "code": "P_1773213167637"
         },
         {
-          "name": "CHICKEN LEG QUARTER ",
-          "price": 135,
-          "cost": 15.26,
-          "category": "food",
-          "stock": 22,
-          "code": "P_1773212737065"
+          "name": "SMIRNOFF ICE BERRY TWIST",
+          "price": 35,
+          "cost": 13,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773147503327"
+        }
+      ],
+      "status": "paid",
+      "date": 1774452158484,
+      "total": 150,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 222,
+      "items": [
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773149785260"
         },
         {
           "name": "LINE FISH",
@@ -9091,14 +9110,21 @@
           "category": "food",
           "stock": 25,
           "code": "P_1773230972483"
-        },
+        }
+      ],
+      "status": "active",
+      "date": 1774446498750
+    },
+    {
+      "id": 223,
+      "items": [
         {
-          "name": "SMIRNOFF ICE BERRY TWIST",
-          "price": 35,
-          "cost": 13,
-          "category": "drink",
-          "stock": 37,
-          "code": "P_1773147503327"
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -18,
+          "code": "P_1773467035443"
         },
         {
           "name": "SMIRNOFF ICE BERRY TWIST",
@@ -9110,7 +9136,36 @@
         }
       ],
       "status": "active",
-      "date": 1774371859457
+      "date": 1774446509918
+    },
+    {
+      "id": 224,
+      "items": [
+        {
+          "name": "SMIRNOFF ICE BERRY TWIST",
+          "price": 35,
+          "cost": 13,
+          "category": "drink",
+          "stock": 37,
+          "code": "P_1773147503327"
+        },
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 22,
+          "code": "P_1773212737065"
+        }
+      ],
+      "status": "active",
+      "date": 1774446518630
+    },
+    {
+      "id": 225,
+      "items": [],
+      "status": "active",
+      "date": 1774452158784
     }
   ],
   "purchaseLog": [
@@ -10624,5 +10679,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-25T13:48:06.541Z"
+  "lastSync": "2026-03-25T15:22:38.782Z"
 }
