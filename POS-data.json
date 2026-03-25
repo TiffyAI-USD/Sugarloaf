@@ -9067,7 +9067,16 @@
     },
     {
       "id": 221,
-      "items": [],
+      "items": [
+        {
+          "name": "2 CRUMBED PORK CHOPS",
+          "price": 115,
+          "cost": 17.4,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1773213167637"
+        }
+      ],
       "status": "active",
       "date": 1774371859457
     }
@@ -10583,5 +10592,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-24T18:42:53.887Z"
+  "lastSync": "2026-03-25T13:39:16.767Z"
 }
