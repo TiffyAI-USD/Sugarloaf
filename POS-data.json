@@ -9875,6 +9875,14 @@
           "category": "drink",
           "stock": 15,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "GRAPETISER 275ML",
+          "price": 30,
+          "cost": 15.85,
+          "category": "drink",
+          "stock": 6,
+          "code": "P_1773164159136"
         }
       ],
       "status": "active",
@@ -11407,5 +11415,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:11:12.152Z"
+  "lastSync": "2026-03-26T17:12:02.351Z"
 }
