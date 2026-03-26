@@ -9843,6 +9843,14 @@
           "category": "food",
           "stock": -2,
           "code": "P_1773466721989"
+        },
+        {
+          "name": "CRUMBED MUSHROOMS ",
+          "price": 55,
+          "cost": 8,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1773220946460"
         }
       ],
       "status": "active",
@@ -11375,5 +11383,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:08:46.975Z"
+  "lastSync": "2026-03-26T17:09:05.398Z"
 }
