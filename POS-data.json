@@ -722,13 +722,13 @@
     },
     "PESTO ": {
       "name": "PESTO ",
-      "stock": -0.04,
+      "stock": -0.06,
       "cost": 0,
       "category": "ingredient"
     },
     "PARMESAN CHEESE": {
       "name": "PARMESAN CHEESE",
-      "stock": 9.96,
+      "stock": 9.940000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -737,7 +737,7 @@
       "price": 80,
       "cost": 16,
       "category": "food",
-      "stock": 4
+      "stock": 3
     },
     "BREAD SLICES": {
       "name": "BREAD SLICES",
@@ -969,7 +969,7 @@
     },
     "CHICKEN BREAST": {
       "name": "CHICKEN BREAST",
-      "stock": 12,
+      "stock": 11,
       "cost": 0,
       "category": "ingredient"
     },
@@ -978,7 +978,7 @@
       "price": 69,
       "cost": 0,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1773846382152": {
       "name": "WINDHOEK DRAUGHT",
@@ -10049,8 +10049,18 @@
           "code": "P_1773771013096"
         }
       ],
+      "status": "paid",
+      "date": 1774546639281,
+      "total": 149,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 245,
+      "items": [],
       "status": "active",
-      "date": 1774546564451
+      "date": 1774546639404
     }
   ],
   "purchaseLog": [
@@ -11584,5 +11594,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:37:04.644Z"
+  "lastSync": "2026-03-26T17:37:19.404Z"
 }
