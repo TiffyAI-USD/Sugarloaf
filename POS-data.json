@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 32
+      "stock": 28
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -985,7 +985,7 @@
       "price": 30,
       "cost": 16.5,
       "category": "drink",
-      "stock": 59
+      "stock": 54
     },
     "P_1773848840235": {
       "name": "BLACK CROWN",
@@ -9593,8 +9593,70 @@
           "code": "P_1773846382152"
         }
       ],
+      "status": "paid",
+      "date": 1774462698569,
+      "total": 150,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 234,
+      "items": [
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 58,
+          "code": "P_1773846382152"
+        }
+      ],
+      "status": "paid",
+      "date": 1774462737205,
+      "total": 120,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 235,
+      "items": [
+        {
+          "name": "LINE FISH",
+          "price": 125,
+          "cost": 26.47,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773230972483"
+        }
+      ],
       "status": "active",
-      "date": 1774462602385
+      "date": 1774537598179
     }
   ],
   "purchaseLog": [
@@ -11067,61 +11129,5 @@
       }
     ]
   },
-  "staffTips": {
-    "Marshall": [
-      {
-        "amount": 5,
-        "date": 1774105795974,
-        "table": 165
-      },
-      {
-        "amount": 5,
-        "date": 1774105888899,
-        "table": 205
-      },
-      {
-        "amount": 15,
-        "date": 1774112372134,
-        "table": 167
-      },
-      {
-        "amount": 25,
-        "date": 1774117660936,
-        "table": 168
-      },
-      {
-        "amount": 5,
-        "date": 1774370610343,
-        "table": 219
-      },
-      {
-        "amount": 5,
-        "date": 1774458832749,
-        "table": 228
-      },
-      {
-        "amount": 100,
-        "date": 1774459302158,
-        "table": 230
-      },
-      {
-        "amount": 20,
-        "date": 1774462495162,
-        "table": 232
-      }
-    ],
-    "Momo": [
-      {
-        "amount": 34,
-        "date": 1774183400285,
-        "table": 172
-      },
-      {
-        "amount": 55,
-        "date": 1774192735449,
-        "table": 174
-      }
-    ]
-  },
-  "lastSync": "2026-03-25T18:17:24.532Z"
+  "lastSync": "2026-03-26T15:06:46.183Z"
 }
