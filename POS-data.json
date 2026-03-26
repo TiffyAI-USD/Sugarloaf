@@ -229,7 +229,7 @@
       "price": 35,
       "cost": 10.67,
       "category": "drink",
-      "stock": 49
+      "stock": 48
     },
     "P_1773156851227": {
       "name": "J & B WHISKY ",
@@ -299,7 +299,7 @@
       "price": 30,
       "cost": 15.85,
       "category": "drink",
-      "stock": 6
+      "stock": 5
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -512,7 +512,7 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -8,
+      "stock": -10,
       "cost": 0,
       "category": "ingredient"
     },
@@ -689,7 +689,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": -16,
+      "stock": -18,
       "cost": 0,
       "category": "ingredient"
     },
@@ -698,7 +698,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 27
+      "stock": 26
     },
     "P_1773219731782": {
       "name": "STEAK EGG AND CHIPS",
@@ -769,7 +769,7 @@
       "price": 55,
       "cost": 8,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1773222794698": {
       "name": "MUFASA",
@@ -790,7 +790,7 @@
       "price": 135,
       "cost": 0,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1773308518835": {
       "name": "CALAMARI SALAD",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 15
+      "stock": 14
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -923,7 +923,7 @@
       "price": 55,
       "cost": 0,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1773467035443": {
       "name": "PUB STYLE FISH",
@@ -9893,8 +9893,18 @@
           "code": "P_1773155309888"
         }
       ],
+      "status": "paid",
+      "date": 1774545207375,
+      "total": 405,
+      "tip": 5,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 241,
+      "items": [],
       "status": "active",
-      "date": 1774544767214
+      "date": 1774545207516
     }
   ],
   "purchaseLog": [
@@ -11408,6 +11418,11 @@
         "amount": 20,
         "date": 1774462495162,
         "table": 232
+      },
+      {
+        "amount": 5,
+        "date": 1774545207375,
+        "table": 240
       }
     ],
     "Momo": [
@@ -11423,5 +11438,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:12:15.866Z"
+  "lastSync": "2026-03-26T17:13:27.515Z"
 }
