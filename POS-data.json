@@ -10160,9 +10160,26 @@
     },
     {
       "id": 247,
-      "items": [],
+      "items": [
+        {
+          "name": "SMIRNOFF ICE BERRY BLAST",
+          "price": 125,
+          "cost": 35,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1774537698017"
+        },
+        {
+          "name": "SMIRNOFF ICE BERRY BLAST",
+          "price": 125,
+          "cost": 35,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1774537698017"
+        }
+      ],
       "status": "active",
-      "date": 1774546872516
+      "date": 1774546891205
     }
   ],
   "purchaseLog": [
@@ -11701,5 +11718,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:41:12.516Z"
+  "lastSync": "2026-03-26T17:42:04.091Z"
 }
