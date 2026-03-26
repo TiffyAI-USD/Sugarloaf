@@ -180,7 +180,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 23
+      "stock": 20
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 94.19999999999992,
+      "stock": 93.99999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -633,7 +633,7 @@
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 13
+      "stock": 12
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -9926,10 +9926,28 @@
           "category": "drink",
           "stock": 23,
           "code": "P_1773151783920"
+        },
+        {
+          "name": "OCTOPUS (GRILLED)",
+          "price": 105,
+          "cost": 18,
+          "category": "food",
+          "stock": 13,
+          "code": "P_1773218768414"
         }
       ],
+      "status": "paid",
+      "date": 1774546229416,
+      "total": 195,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 242,
+      "items": [],
       "status": "active",
-      "date": 1774546162311
+      "date": 1774546229679
     }
   ],
   "purchaseLog": [
@@ -11463,5 +11481,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:29:57.761Z"
+  "lastSync": "2026-03-26T17:30:29.678Z"
 }
