@@ -9835,9 +9835,18 @@
     },
     {
       "id": 240,
-      "items": [],
+      "items": [
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1773466721989"
+        }
+      ],
       "status": "active",
-      "date": 1774544749589
+      "date": 1774544767214
     }
   ],
   "purchaseLog": [
@@ -11366,5 +11375,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:05:49.589Z"
+  "lastSync": "2026-03-26T17:08:46.975Z"
 }
