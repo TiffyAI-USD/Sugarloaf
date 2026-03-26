@@ -9977,6 +9977,14 @@
           "category": "drink",
           "stock": 14,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1773150214676"
         }
       ],
       "status": "active",
@@ -11514,5 +11522,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:33:02.062Z"
+  "lastSync": "2026-03-26T17:33:22.888Z"
 }
