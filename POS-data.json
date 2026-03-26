@@ -818,7 +818,7 @@
       "price": 40,
       "cost": 0,
       "category": "drink",
-      "stock": 38
+      "stock": 37
     },
     "P_1773328630441": {
       "name": "CASTLE LAGER 330ML",
@@ -1209,7 +1209,7 @@
       "price": 125,
       "cost": 35,
       "category": "drink",
-      "stock": -2
+      "stock": -4
     }
   },
   "recipes": {
@@ -9729,14 +9729,46 @@
           "code": "P_1774537698017"
         }
       ],
-      "status": "active",
-      "date": 1774537607497
+      "status": "paid",
+      "date": 1774537769461,
+      "total": 250,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Momo"
     },
     {
       "id": 237,
-      "items": [],
+      "items": [
+        {
+          "name": "ROBERTSON DRY RED BOX 3L",
+          "price": 40,
+          "cost": 0,
+          "category": "drink",
+          "stock": 38,
+          "code": "P_1773323466547"
+        }
+      ],
+      "status": "paid",
+      "date": 1774544485582,
+      "total": 40,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 238,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773344090994"
+        }
+      ],
       "status": "active",
-      "date": 1774537744501
+      "date": 1774544530354
     }
   ],
   "purchaseLog": [
@@ -11209,5 +11241,61 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T15:09:04.501Z"
+  "staffTips": {
+    "Marshall": [
+      {
+        "amount": 5,
+        "date": 1774105795974,
+        "table": 165
+      },
+      {
+        "amount": 5,
+        "date": 1774105888899,
+        "table": 205
+      },
+      {
+        "amount": 15,
+        "date": 1774112372134,
+        "table": 167
+      },
+      {
+        "amount": 25,
+        "date": 1774117660936,
+        "table": 168
+      },
+      {
+        "amount": 5,
+        "date": 1774370610343,
+        "table": 219
+      },
+      {
+        "amount": 5,
+        "date": 1774458832749,
+        "table": 228
+      },
+      {
+        "amount": 100,
+        "date": 1774459302158,
+        "table": 230
+      },
+      {
+        "amount": 20,
+        "date": 1774462495162,
+        "table": 232
+      }
+    ],
+    "Momo": [
+      {
+        "amount": 34,
+        "date": 1774183400285,
+        "table": 172
+      },
+      {
+        "amount": 55,
+        "date": 1774192735449,
+        "table": 174
+      }
+    ]
+  },
+  "lastSync": "2026-03-26T17:02:24.826Z"
 }
