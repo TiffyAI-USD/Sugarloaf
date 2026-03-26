@@ -10114,6 +10114,14 @@
           "category": "drink",
           "stock": 21,
           "code": "P_1773848840235"
+        },
+        {
+          "name": "STRONG BOW CANS ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1774188093247"
         }
       ],
       "status": "active",
@@ -11651,5 +11659,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:38:36.387Z"
+  "lastSync": "2026-03-26T17:38:56.550Z"
 }
