@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 28
+      "stock": 27
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -75,7 +75,7 @@
       "price": 35,
       "cost": 13,
       "category": "drink",
-      "stock": 34
+      "stock": 33
     },
     "P_1773147927738": {
       "name": "HUNTERS DRY 440ML",
@@ -1069,7 +1069,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 12
+      "stock": 10
     },
     "P_1773940161817": {
       "name": "BREEZER BOTTLE 275",
@@ -9826,8 +9826,18 @@
           "code": "P_1773145425644"
         }
       ],
+      "status": "paid",
+      "date": 1774544749466,
+      "total": 135,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 240,
+      "items": [],
       "status": "active",
-      "date": 1774544595237
+      "date": 1774544749589
     }
   ],
   "purchaseLog": [
@@ -11356,5 +11366,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:04:30.248Z"
+  "lastSync": "2026-03-26T17:05:49.589Z"
 }
