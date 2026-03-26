@@ -9653,10 +9653,24 @@
           "category": "food",
           "stock": 24,
           "code": "P_1773230972483"
+        },
+        {
+          "name": "LINE FISH",
+          "price": 125,
+          "cost": 26.47,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773230972483"
         }
       ],
       "status": "active",
       "date": 1774537598179
+    },
+    {
+      "id": 236,
+      "items": [],
+      "status": "active",
+      "date": 1774537607497
     }
   ],
   "purchaseLog": [
@@ -11129,5 +11143,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T15:06:46.183Z"
+  "lastSync": "2026-03-26T15:07:03.211Z"
 }
