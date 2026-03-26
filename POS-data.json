@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 21
+      "stock": 17
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -916,14 +916,14 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
       "price": 55,
       "cost": 0,
       "category": "food",
-      "stock": -3
+      "stock": -5
     },
     "P_1773467035443": {
       "name": "PUB STYLE FISH",
@@ -985,7 +985,7 @@
       "price": 30,
       "cost": 16.5,
       "category": "drink",
-      "stock": 54
+      "stock": 47
     },
     "P_1773848840235": {
       "name": "BLACK CROWN",
@@ -10310,10 +10310,30 @@
           "category": "drink",
           "stock": 54,
           "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 54,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "MEDIUM CHIPS ",
+          "price": 35,
+          "cost": 10,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1773466315290"
         }
       ],
-      "status": "active",
-      "date": 1774547043583
+      "status": "paid",
+      "date": 1774549294714,
+      "total": 475,
+      "tip": 86,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 250,
@@ -11856,6 +11876,11 @@
         "amount": 35,
         "date": 1774546781085,
         "table": 245
+      },
+      {
+        "amount": 86,
+        "date": 1774549294714,
+        "table": 249
       }
     ],
     "Momo": [
@@ -11871,5 +11896,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T18:19:01.929Z"
+  "lastSync": "2026-03-26T18:23:11.631Z"
 }
