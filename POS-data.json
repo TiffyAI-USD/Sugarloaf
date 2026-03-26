@@ -1069,7 +1069,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 10
+      "stock": 9
     },
     "P_1773940161817": {
       "name": "BREEZER BOTTLE 275",
@@ -1097,7 +1097,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 46
+      "stock": 45
     },
     "P_1773943086919": {
       "name": "BRUTAL FRUIT SPRITZER 500ML ",
@@ -10022,8 +10022,27 @@
           "code": "P_1773940012492"
         }
       ],
+      "status": "paid",
+      "date": 1774546546474,
+      "total": 65,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 244,
+      "items": [
+        {
+          "name": "CARPACCIO",
+          "price": 80,
+          "cost": 16,
+          "category": "food",
+          "stock": 4,
+          "code": "P_1773220536730"
+        }
+      ],
       "status": "active",
-      "date": 1774546438256
+      "date": 1774546564451
     }
   ],
   "purchaseLog": [
@@ -11557,5 +11576,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:35:33.436Z"
+  "lastSync": "2026-03-26T17:36:17.217Z"
 }
