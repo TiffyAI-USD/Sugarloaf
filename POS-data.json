@@ -131,7 +131,7 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 5
+      "stock": 3
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
@@ -461,7 +461,7 @@
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -7.9999999999999964,
+      "stock": -8.099999999999996,
       "cost": 0,
       "category": "ingredient"
     },
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 93.99999999999991,
+      "stock": 93.79999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.77999999999997,
+      "stock": 18.679999999999968,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -17,
+      "stock": -19,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 14
+      "stock": 12
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -709,7 +709,7 @@
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": -18,
+      "stock": -20,
       "cost": 0,
       "category": "ingredient"
     },
@@ -718,7 +718,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 14
+      "stock": 13
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -9985,10 +9985,28 @@
           "category": "drink",
           "stock": 5,
           "code": "P_1773150214676"
+        },
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1773150214676"
         }
       ],
+      "status": "paid",
+      "date": 1774546438090,
+      "total": 455,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 243,
+      "items": [],
       "status": "active",
-      "date": 1774546262165
+      "date": 1774546438256
     }
   ],
   "purchaseLog": [
@@ -11522,5 +11540,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:33:22.888Z"
+  "lastSync": "2026-03-26T17:33:58.255Z"
 }
