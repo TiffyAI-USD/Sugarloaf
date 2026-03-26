@@ -455,19 +455,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.1600000000000015,
+      "stock": -2.1800000000000015,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -8.099999999999996,
+      "stock": -8.199999999999996,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -1.800000000000001,
+      "stock": -1.900000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -493,7 +493,7 @@
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": -24,
+      "stock": -27,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -550,13 +550,13 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 64.60000000000002,
+      "stock": 64.55000000000003,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.679999999999968,
+      "stock": 18.629999999999967,
       "cost": 0,
       "category": "ingredient"
     },
@@ -565,7 +565,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 57
+      "stock": 56
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -10214,7 +10214,16 @@
     },
     {
       "id": 249,
-      "items": [],
+      "items": [
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1773466721989"
+        }
+      ],
       "status": "active",
       "date": 1774547043583
     },
@@ -10230,8 +10239,12 @@
           "code": "P_1773214041916"
         }
       ],
-      "status": "active",
-      "date": 1774547198372
+      "status": "paid",
+      "date": 1774547272814,
+      "total": 185,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     }
   ],
   "purchaseLog": [
@@ -11770,5 +11783,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:47:45.701Z"
+  "lastSync": "2026-03-26T18:17:03.230Z"
 }
