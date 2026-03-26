@@ -10039,6 +10039,14 @@
           "category": "food",
           "stock": 4,
           "code": "P_1773220536730"
+        },
+        {
+          "name": "CHICKEN SALAD",
+          "price": 69,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773771013096"
         }
       ],
       "status": "active",
@@ -11576,5 +11584,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:36:17.217Z"
+  "lastSync": "2026-03-26T17:37:04.644Z"
 }
