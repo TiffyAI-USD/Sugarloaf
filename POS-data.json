@@ -10141,6 +10141,14 @@
           "category": "drink",
           "stock": 22,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "BLACK CROWN",
+          "price": 35,
+          "cost": 13.3,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1773848840235"
         }
       ],
       "status": "active",
@@ -11683,5 +11691,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:40:42.065Z"
+  "lastSync": "2026-03-26T17:40:58.105Z"
 }
