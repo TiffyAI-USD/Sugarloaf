@@ -10004,7 +10004,16 @@
     },
     {
       "id": 243,
-      "items": [],
+      "items": [
+        {
+          "name": "BLACK LABEL 300ML ",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773942714676"
+        }
+      ],
       "status": "active",
       "date": 1774546438256
     }
@@ -11540,5 +11549,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:33:58.255Z"
+  "lastSync": "2026-03-26T17:34:29.423Z"
 }
