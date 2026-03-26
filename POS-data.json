@@ -10012,6 +10012,14 @@
           "category": "drink",
           "stock": 46,
           "code": "P_1773942714676"
+        },
+        {
+          "name": "BREEZER CANS 440ML",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 10,
+          "code": "P_1773940012492"
         }
       ],
       "status": "active",
@@ -11549,5 +11557,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T17:34:29.423Z"
+  "lastSync": "2026-03-26T17:35:33.436Z"
 }
