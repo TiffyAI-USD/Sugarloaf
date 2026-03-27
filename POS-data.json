@@ -1265,7 +1265,7 @@
       "price": 100,
       "cost": 55,
       "category": "food",
-      "stock": 0
+      "stock": -2
     }
   },
   "recipes": {
@@ -10628,6 +10628,39 @@
       "items": [],
       "status": "active",
       "date": 1774635464410
+    },
+    {
+      "id": 259,
+      "items": [
+        {
+          "name": "CHEF'S CHOICE PIZZA SPECIAL ",
+          "price": 100,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774635508941"
+        },
+        {
+          "name": "CHEF'S CHOICE PIZZA SPECIAL ",
+          "price": 100,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774635508941"
+        }
+      ],
+      "status": "paid",
+      "date": 1774635536015,
+      "total": 200,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Momo"
+    },
+    {
+      "id": 260,
+      "items": [],
+      "status": "active",
+      "date": 1774635536133
     }
   ],
   "purchaseLog": [
@@ -12176,5 +12209,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:18:28.953Z"
+  "lastSync": "2026-03-27T18:18:48.488Z"
 }
