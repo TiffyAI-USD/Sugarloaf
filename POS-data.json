@@ -12,7 +12,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 74
+      "stock": 73
     },
     "P_1772185638955": {
       "name": "SCHWEPPES 1L",
@@ -180,7 +180,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 12
+      "stock": 11
     },
     "P_1773151833033": {
       "name": "CASTLE LITE 500ML",
@@ -825,7 +825,7 @@
       "price": 30,
       "cost": 12.64,
       "category": "drink",
-      "stock": 23
+      "stock": 22
     },
     "P_1773328735410": {
       "name": "CORONA EXTRA",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 13
+      "stock": 12
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -10738,9 +10738,71 @@
     },
     {
       "id": 261,
+      "items": [
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LITE 330ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1773151783920"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 74,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774635048920"
+        }
+      ],
+      "status": "paid",
+      "date": 1774636110819,
+      "total": 190,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 262,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 13,
+          "code": "P_1773344090994"
+        }
+      ],
+      "status": "paid",
+      "date": 1774636172792,
+      "total": 20,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 263,
       "items": [],
       "status": "active",
-      "date": 1774636029438
+      "date": 1774636172926
     }
   ],
   "purchaseLog": [
@@ -12289,5 +12351,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:27:09.437Z"
+  "lastSync": "2026-03-27T18:29:32.925Z"
 }
