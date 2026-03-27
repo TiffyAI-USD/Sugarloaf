@@ -832,7 +832,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 25
+      "stock": 23
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -10461,10 +10461,28 @@
           "category": "drink",
           "stock": 25,
           "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 25,
+          "code": "P_1773328735410"
         }
       ],
+      "status": "paid",
+      "date": 1774634681075,
+      "total": 60,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 255,
+      "items": [],
       "status": "active",
-      "date": 1774634618594
+      "date": 1774634681197
     }
   ],
   "purchaseLog": [
@@ -12013,5 +12031,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:04:14.518Z"
+  "lastSync": "2026-03-27T18:04:41.196Z"
 }
