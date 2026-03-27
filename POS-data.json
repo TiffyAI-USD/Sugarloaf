@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -10719,15 +10719,28 @@
     },
     {
       "id": 260,
-      "items": [],
-      "status": "active",
-      "date": 1774635536133
+      "items": [
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1774635048920"
+        }
+      ],
+      "status": "paid",
+      "date": 1774636029285,
+      "total": 100,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 261,
       "items": [],
       "status": "active",
-      "date": 1774635706667
+      "date": 1774636029438
     }
   ],
   "purchaseLog": [
@@ -12276,5 +12289,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:21:46.667Z"
+  "lastSync": "2026-03-27T18:27:09.437Z"
 }
