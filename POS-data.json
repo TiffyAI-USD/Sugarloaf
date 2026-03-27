@@ -10391,6 +10391,22 @@
           "category": "drink",
           "stock": 20,
           "code": "P_1773151783920"
+        },
+        {
+          "name": "CASTLE LITE 330ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773151783920"
+        },
+        {
+          "name": "LINE FISH",
+          "price": 125,
+          "cost": 26.47,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773230972483"
         }
       ],
       "status": "active",
@@ -11938,5 +11954,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:00:40.071Z"
+  "lastSync": "2026-03-27T18:00:54.181Z"
 }
