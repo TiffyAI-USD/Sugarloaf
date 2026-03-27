@@ -10530,9 +10530,18 @@
     },
     {
       "id": 256,
-      "items": [],
+      "items": [
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 21,
+          "code": "P_1773212737065"
+        }
+      ],
       "status": "active",
-      "date": 1774635249063
+      "date": 1774635325369
     }
   ],
   "purchaseLog": [
@@ -12081,5 +12090,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:14:09.062Z"
+  "lastSync": "2026-03-27T18:15:31.928Z"
 }
