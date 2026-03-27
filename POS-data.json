@@ -10353,6 +10353,27 @@
       "tip": 0,
       "method": "Card",
       "staff": "Marshall"
+    },
+    {
+      "id": 251,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773219173270"
+        }
+      ],
+      "status": "active",
+      "date": 1774634271570
+    },
+    {
+      "id": 252,
+      "items": [],
+      "status": "active",
+      "date": 1774634280609
     }
   ],
   "purchaseLog": [
@@ -11896,5 +11917,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-26T18:23:11.631Z"
+  "lastSync": "2026-03-27T17:58:14.040Z"
 }
