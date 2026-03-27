@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 93.79999999999991,
+      "stock": 93.59999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -489,7 +489,7 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 21
+      "stock": 20
     },
     "PRAWNS": {
       "name": "PRAWNS",
@@ -1217,6 +1217,48 @@
       "cost": 0,
       "category": "food",
       "stock": -1
+    },
+    "P_1774635395299": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 100,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774635396812": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 100,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774635401639": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 55,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774635405859": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 55,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774635408469": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 55,
+      "category": "food",
+      "stock": 0
+    },
+    "P_1774635409146": {
+      "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 55,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -10540,8 +10582,27 @@
           "code": "P_1773212737065"
         }
       ],
+      "status": "paid",
+      "date": 1774635339291,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 257,
+      "items": [
+        {
+          "name": "S&T PIZZA SPECIAL ",
+          "price": 100,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774635409146"
+        }
+      ],
       "status": "active",
-      "date": 1774635325369
+      "date": 1774635339436
     }
   ],
   "purchaseLog": [
@@ -12090,5 +12151,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:15:31.928Z"
+  "lastSync": "2026-03-27T18:17:24.188Z"
 }
