@@ -10418,7 +10418,24 @@
     },
     {
       "id": 253,
-      "items": [],
+      "items": [
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 28,
+          "code": "P_1773328735410"
+        }
+      ],
       "status": "active",
       "date": 1774634471626
     }
@@ -11964,5 +11981,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:01:11.626Z"
+  "lastSync": "2026-03-27T18:02:25.500Z"
 }
