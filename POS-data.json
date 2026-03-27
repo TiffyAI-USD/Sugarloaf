@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.629999999999967,
+      "stock": 18.579999999999966,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -19,
+      "stock": -20,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 12
+      "stock": 11
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -937,7 +937,7 @@
       "price": 25,
       "cost": 7.5,
       "category": "drink",
-      "stock": 24
+      "stock": 23
     },
     "P_1773489624065": {
       "name": "MUFASA PIZZA",
@@ -10374,12 +10374,25 @@
           "code": "P_1773489030098"
         }
       ],
-      "status": "active",
-      "date": 1774634271570
+      "status": "paid",
+      "date": 1774634322800,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 252,
-      "items": [],
+      "items": [
+        {
+          "name": "CASTLE LITE 330ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773151783920"
+        }
+      ],
       "status": "active",
       "date": 1774634280609
     }
@@ -11925,5 +11938,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T17:58:32.529Z"
+  "lastSync": "2026-03-27T18:00:40.071Z"
 }
