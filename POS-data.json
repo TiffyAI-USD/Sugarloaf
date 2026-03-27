@@ -916,7 +916,7 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
@@ -1255,6 +1255,13 @@
     },
     "P_1774635409146": {
       "name": "S&T PIZZA SPECIAL ",
+      "price": 100,
+      "cost": 55,
+      "category": "food",
+      "stock": -1
+    },
+    "P_1774635508941": {
+      "name": "CHEF'S CHOICE PIZZA SPECIAL ",
       "price": 100,
       "cost": 55,
       "category": "food",
@@ -10599,10 +10606,28 @@
           "category": "food",
           "stock": 0,
           "code": "P_1774635409146"
+        },
+        {
+          "name": "MEDIUM CHIPS ",
+          "price": 35,
+          "cost": 10,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1773466315290"
         }
       ],
+      "status": "paid",
+      "date": 1774635464292,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 258,
+      "items": [],
       "status": "active",
-      "date": 1774635339436
+      "date": 1774635464410
     }
   ],
   "purchaseLog": [
@@ -12151,5 +12176,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:17:24.188Z"
+  "lastSync": "2026-03-27T18:18:28.953Z"
 }
