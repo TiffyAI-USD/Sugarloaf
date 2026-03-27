@@ -1210,6 +1210,13 @@
       "cost": 35,
       "category": "drink",
       "stock": -6
+    },
+    "P_1774635048920": {
+      "name": "SPECIAL MUFASA",
+      "price": 100,
+      "cost": 0,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -10504,6 +10511,14 @@
           "category": "drink",
           "stock": 17,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774635048920"
         }
       ],
       "status": "active",
@@ -12056,5 +12071,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-27T18:05:33.946Z"
+  "lastSync": "2026-03-27T18:13:36.193Z"
 }
