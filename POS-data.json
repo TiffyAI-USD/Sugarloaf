@@ -11278,6 +11278,54 @@
           "category": "food",
           "stock": -7,
           "code": "P_1774635048920"
+        },
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -7,
+          "code": "P_1774635048920"
+        },
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -7,
+          "code": "P_1774635048920"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 11,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774709145542"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774709145542"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774709145542"
         }
       ],
       "status": "active",
@@ -12835,5 +12883,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:48:00.254Z"
+  "lastSync": "2026-03-28T17:48:12.665Z"
 }
