@@ -455,19 +455,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.2400000000000015,
+      "stock": -2.260000000000001,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -8.499999999999995,
+      "stock": -8.599999999999996,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -2.200000000000001,
+      "stock": -2.4000000000000012,
       "cost": 0,
       "category": "ingredient"
     },
@@ -476,7 +476,7 @@
       "price": 60,
       "cost": 15,
       "category": "food",
-      "stock": 26
+      "stock": 24
     },
     "POTATOES ": {
       "name": "POTATOES ",
@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.369999999999965,
+      "stock": 18.329999999999966,
       "cost": 0,
       "category": "ingredient"
     },
@@ -741,19 +741,19 @@
     },
     "BREAD SLICES": {
       "name": "BREAD SLICES",
-      "stock": -8,
+      "stock": -12,
       "cost": 0,
       "category": "ingredient"
     },
     "GREEN PEPPERS": {
       "name": "GREEN PEPPERS",
-      "stock": -0.08,
+      "stock": -0.12000000000000001,
       "cost": 0,
       "category": "ingredient"
     },
     "ONION": {
       "name": "ONION",
-      "stock": -0.08,
+      "stock": -0.12000000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -762,7 +762,7 @@
       "price": 70,
       "cost": 20,
       "category": "food",
-      "stock": 28
+      "stock": 26
     },
     "P_1773220946460": {
       "name": "CRUMBED MUSHROOMS ",
@@ -783,7 +783,7 @@
       "price": 125,
       "cost": 26.47,
       "category": "food",
-      "stock": 20
+      "stock": 19
     },
     "P_1773308487164": {
       "name": "STEAK",
@@ -832,7 +832,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 23
+      "stock": 21
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 12
+      "stock": 11
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -22
+      "stock": -24
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -5
+      "stock": -6
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -1279,7 +1279,7 @@
       "price": 40,
       "cost": 25,
       "category": "food",
-      "stock": -2
+      "stock": -3
     }
   },
   "recipes": {
@@ -11084,10 +11084,96 @@
           "category": "food",
           "stock": 20,
           "code": "P_1773230972483"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -22,
+          "code": "P_1773467035443"
+        }
+      ],
+      "status": "paid",
+      "date": 1774719372856,
+      "total": 390,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 266,
+      "items": [
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 23,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "MUSSELS",
+          "price": 60,
+          "cost": 15,
+          "category": "food",
+          "stock": 25,
+          "code": "P_1773212399084"
+        },
+        {
+          "name": "OYSTERS (BAKED)",
+          "price": 70,
+          "cost": 20,
+          "category": "food",
+          "stock": 27,
+          "code": "P_1773220662005"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -23,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1774709145542"
+        }
+      ],
+      "status": "paid",
+      "date": 1774719572118,
+      "total": 325,
+      "tip": 35,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 267,
+      "items": [
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1774635048920"
         }
       ],
       "status": "active",
-      "date": 1774710982375
+      "date": 1774719572290
     }
   ],
   "purchaseLog": [
@@ -12621,6 +12707,11 @@
         "amount": 15,
         "date": 1774634618458,
         "table": 253
+      },
+      {
+        "amount": 35,
+        "date": 1774719572118,
+        "table": 266
       }
     ],
     "Momo": [
@@ -12636,5 +12727,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:35:43.964Z"
+  "lastSync": "2026-03-28T17:40:52.327Z"
 }
