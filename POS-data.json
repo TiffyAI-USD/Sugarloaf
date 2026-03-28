@@ -916,7 +916,7 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -4
+      "stock": -5
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -4
+      "stock": -5
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -11180,8 +11180,18 @@
           "code": "P_1773466315290"
         }
       ],
+      "status": "paid",
+      "date": 1774719851734,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 268,
+      "items": [],
       "status": "active",
-      "date": 1774719572290
+      "date": 1774719851934
     }
   ],
   "purchaseLog": [
@@ -12735,5 +12745,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:43:52.287Z"
+  "lastSync": "2026-03-28T17:44:11.932Z"
 }
