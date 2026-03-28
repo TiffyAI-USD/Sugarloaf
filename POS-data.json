@@ -839,7 +839,7 @@
       "price": 35,
       "cost": 13.71,
       "category": "drink",
-      "stock": 25
+      "stock": 24
     },
     "P_1773329125060": {
       "name": "JOSE CUERVO GOLD",
@@ -916,7 +916,7 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -5
+      "stock": -6
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -6
+      "stock": -7
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -11235,9 +11235,44 @@
     },
     {
       "id": 270,
+      "items": [
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1774635048920"
+        },
+        {
+          "name": "MEDIUM CHIPS ",
+          "price": 35,
+          "cost": 10,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1773466315290"
+        },
+        {
+          "name": "FLYFISH ",
+          "price": 35,
+          "cost": 13.71,
+          "category": "drink",
+          "stock": 25,
+          "code": "P_1773328863956"
+        }
+      ],
+      "status": "paid",
+      "date": 1774720032159,
+      "total": 170,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 271,
       "items": [],
       "status": "active",
-      "date": 1774719955484
+      "date": 1774720032328
     }
   ],
   "purchaseLog": [
@@ -12791,5 +12826,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:45:55.483Z"
+  "lastSync": "2026-03-28T17:46:58.026Z"
 }
