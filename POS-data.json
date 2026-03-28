@@ -10966,7 +10966,24 @@
     },
     {
       "id": 264,
-      "items": [],
+      "items": [
+        {
+          "name": "MUFASA PIZZA",
+          "price": 150,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1773489624065"
+        },
+        {
+          "name": "CHEF'S CHOICE PIZZA SPECIAL ",
+          "price": 100,
+          "cost": 55,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1774635508941"
+        }
+      ],
       "status": "active",
       "date": 1774705593321
     }
@@ -12441,5 +12458,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T14:44:31.187Z"
+  "lastSync": "2026-03-28T14:45:05.673Z"
 }
