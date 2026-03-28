@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -5
+      "stock": -6
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -11189,9 +11189,45 @@
     },
     {
       "id": 268,
-      "items": [],
+      "items": [
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1774635048920"
+        }
+      ],
+      "status": "paid",
+      "date": 1774719886502,
+      "total": 100,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 269,
+      "items": [
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -24,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "CHICKEN WINGS",
+          "price": 75,
+          "cost": 20,
+          "category": "food",
+          "stock": 26,
+          "code": "P_1773219547672"
+        }
+      ],
       "status": "active",
-      "date": 1774719851934
+      "date": 1774719886623
     }
   ],
   "purchaseLog": [
@@ -12745,5 +12781,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:44:11.932Z"
+  "lastSync": "2026-03-28T17:45:16.352Z"
 }
