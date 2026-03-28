@@ -10943,6 +10943,22 @@
           "category": "food",
           "stock": 56,
           "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 56,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 56,
+          "code": "P_1773214041916"
         }
       ],
       "status": "active",
@@ -10950,16 +10966,7 @@
     },
     {
       "id": 264,
-      "items": [
-        {
-          "name": "GINGER ALE ",
-          "price": 20,
-          "cost": 15,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1774705580696"
-        }
-      ],
+      "items": [],
       "status": "active",
       "date": 1774705593321
     }
@@ -12434,5 +12441,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T14:44:18.017Z"
+  "lastSync": "2026-03-28T14:44:31.187Z"
 }
