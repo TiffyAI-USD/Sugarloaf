@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.329999999999966,
+      "stock": 18.279999999999966,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -20,
+      "stock": -21,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 11
+      "stock": 10
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -7
+      "stock": -10
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -1279,7 +1279,7 @@
       "price": 40,
       "cost": 25,
       "category": "food",
-      "stock": -3
+      "stock": -6
     }
   },
   "recipes": {
@@ -11328,8 +11328,18 @@
           "code": "P_1774709145542"
         }
       ],
+      "status": "paid",
+      "date": 1774720126962,
+      "total": 530,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 272,
+      "items": [],
       "status": "active",
-      "date": 1774720032328
+      "date": 1774720127090
     }
   ],
   "purchaseLog": [
@@ -12883,5 +12893,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:48:12.665Z"
+  "lastSync": "2026-03-28T17:48:47.089Z"
 }
