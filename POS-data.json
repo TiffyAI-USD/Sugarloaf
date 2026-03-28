@@ -11270,7 +11270,16 @@
     },
     {
       "id": 271,
-      "items": [],
+      "items": [
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -7,
+          "code": "P_1774635048920"
+        }
+      ],
       "status": "active",
       "date": 1774720032328
     }
@@ -12826,5 +12835,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:46:58.026Z"
+  "lastSync": "2026-03-28T17:48:00.254Z"
 }
