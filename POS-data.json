@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -25
+      "stock": -26
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -958,7 +958,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 16
+      "stock": 15
     },
     "P_1773766196672": {
       "name": "LIQUI FRUIT RED GRAPE",
@@ -11364,10 +11364,28 @@
           "category": "drink",
           "stock": 16,
           "code": "P_1773765858998"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -25,
+          "code": "P_1773467035443"
         }
       ],
+      "status": "paid",
+      "date": 1774721738918,
+      "total": 110,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Momo"
+    },
+    {
+      "id": 274,
+      "items": [],
       "status": "active",
-      "date": 1774721714223
+      "date": 1774721739201
     }
   ],
   "purchaseLog": [
@@ -12921,5 +12939,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T18:15:26.585Z"
+  "lastSync": "2026-03-28T18:15:39.200Z"
 }
