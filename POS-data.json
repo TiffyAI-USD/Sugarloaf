@@ -11356,9 +11356,18 @@
     },
     {
       "id": 273,
-      "items": [],
+      "items": [
+        {
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773765858998"
+        }
+      ],
       "status": "active",
-      "date": 1774720167453
+      "date": 1774721714223
     }
   ],
   "purchaseLog": [
@@ -12912,5 +12921,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:56:22.811Z"
+  "lastSync": "2026-03-28T18:15:26.585Z"
 }
