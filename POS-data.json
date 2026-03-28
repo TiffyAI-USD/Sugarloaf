@@ -11383,9 +11383,18 @@
     },
     {
       "id": 274,
-      "items": [],
+      "items": [
+        {
+          "name": "CHEF'S CHOICE PIZZA SPECIAL ",
+          "price": 100,
+          "cost": 55,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774635508941"
+        }
+      ],
       "status": "active",
-      "date": 1774721739201
+      "date": 1774721762245
     }
   ],
   "purchaseLog": [
@@ -12858,86 +12867,5 @@
       }
     ]
   },
-  "staffTips": {
-    "Marshall": [
-      {
-        "amount": 5,
-        "date": 1774105795974,
-        "table": 165
-      },
-      {
-        "amount": 5,
-        "date": 1774105888899,
-        "table": 205
-      },
-      {
-        "amount": 15,
-        "date": 1774112372134,
-        "table": 167
-      },
-      {
-        "amount": 25,
-        "date": 1774117660936,
-        "table": 168
-      },
-      {
-        "amount": 5,
-        "date": 1774370610343,
-        "table": 219
-      },
-      {
-        "amount": 5,
-        "date": 1774458832749,
-        "table": 228
-      },
-      {
-        "amount": 100,
-        "date": 1774459302158,
-        "table": 230
-      },
-      {
-        "amount": 20,
-        "date": 1774462495162,
-        "table": 232
-      },
-      {
-        "amount": 5,
-        "date": 1774545207375,
-        "table": 240
-      },
-      {
-        "amount": 35,
-        "date": 1774546781085,
-        "table": 245
-      },
-      {
-        "amount": 86,
-        "date": 1774549294714,
-        "table": 249
-      },
-      {
-        "amount": 15,
-        "date": 1774634618458,
-        "table": 253
-      },
-      {
-        "amount": 35,
-        "date": 1774719572118,
-        "table": 266
-      }
-    ],
-    "Momo": [
-      {
-        "amount": 34,
-        "date": 1774183400285,
-        "table": 172
-      },
-      {
-        "amount": 55,
-        "date": 1774192735449,
-        "table": 174
-      }
-    ]
-  },
-  "lastSync": "2026-03-28T18:15:39.200Z"
+  "lastSync": "2026-03-28T18:16:11.217Z"
 }
