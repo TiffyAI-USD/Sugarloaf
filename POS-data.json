@@ -1273,6 +1273,13 @@
       "cost": 15,
       "category": "food",
       "stock": 0
+    },
+    "P_1774709145542": {
+      "name": "ICE CREAM ",
+      "price": 40,
+      "cost": 25,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -10982,6 +10989,22 @@
           "category": "food",
           "stock": -2,
           "code": "P_1774635508941"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774709145542"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774709145542"
         }
       ],
       "status": "active",
@@ -12458,5 +12481,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T14:45:05.673Z"
+  "lastSync": "2026-03-28T14:46:01.387Z"
 }
