@@ -11011,14 +11011,6 @@
           "code": "P_1774709145542"
         },
         {
-          "name": "ICE CREAM ",
-          "price": 40,
-          "cost": 25,
-          "category": "food",
-          "stock": 0,
-          "code": "P_1774709145542"
-        },
-        {
           "name": "HUNTERS DRY 440ML",
           "price": 35,
           "cost": 16.48,
@@ -12523,5 +12515,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T15:16:22.370Z"
+  "lastSync": "2026-03-28T15:37:29.127Z"
 }
