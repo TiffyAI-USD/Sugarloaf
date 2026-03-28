@@ -1266,6 +1266,13 @@
       "cost": 55,
       "category": "food",
       "stock": -2
+    },
+    "P_1774705580696": {
+      "name": "GINGER ALE ",
+      "price": 20,
+      "cost": 15,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -10800,9 +10807,73 @@
     },
     {
       "id": 263,
-      "items": [],
+      "items": [
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 19,
+          "code": "P_1773149785260"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 53,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 53,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 53,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 53,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "GINGER ALE ",
+          "price": 20,
+          "cost": 15,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774705580696"
+        }
+      ],
       "status": "active",
-      "date": 1774636172926
+      "date": 1774705509351
+    },
+    {
+      "id": 264,
+      "items": [
+        {
+          "name": "GINGER ALE ",
+          "price": 20,
+          "cost": 15,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1774705580696"
+        }
+      ],
+      "status": "active",
+      "date": 1774705593321
     }
   ],
   "purchaseLog": [
@@ -12275,81 +12346,5 @@
       }
     ]
   },
-  "staffTips": {
-    "Marshall": [
-      {
-        "amount": 5,
-        "date": 1774105795974,
-        "table": 165
-      },
-      {
-        "amount": 5,
-        "date": 1774105888899,
-        "table": 205
-      },
-      {
-        "amount": 15,
-        "date": 1774112372134,
-        "table": 167
-      },
-      {
-        "amount": 25,
-        "date": 1774117660936,
-        "table": 168
-      },
-      {
-        "amount": 5,
-        "date": 1774370610343,
-        "table": 219
-      },
-      {
-        "amount": 5,
-        "date": 1774458832749,
-        "table": 228
-      },
-      {
-        "amount": 100,
-        "date": 1774459302158,
-        "table": 230
-      },
-      {
-        "amount": 20,
-        "date": 1774462495162,
-        "table": 232
-      },
-      {
-        "amount": 5,
-        "date": 1774545207375,
-        "table": 240
-      },
-      {
-        "amount": 35,
-        "date": 1774546781085,
-        "table": 245
-      },
-      {
-        "amount": 86,
-        "date": 1774549294714,
-        "table": 249
-      },
-      {
-        "amount": 15,
-        "date": 1774634618458,
-        "table": 253
-      }
-    ],
-    "Momo": [
-      {
-        "amount": 34,
-        "date": 1774183400285,
-        "table": 172
-      },
-      {
-        "amount": 55,
-        "date": 1774192735449,
-        "table": 174
-      }
-    ]
-  },
-  "lastSync": "2026-03-27T18:29:32.925Z"
+  "lastSync": "2026-03-28T13:46:33.340Z"
 }
