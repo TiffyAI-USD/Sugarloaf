@@ -689,7 +689,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": -18,
+      "stock": -20,
       "cost": 0,
       "category": "ingredient"
     },
@@ -698,7 +698,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 26
+      "stock": 25
     },
     "P_1773219731782": {
       "name": "STEAK EGG AND CHIPS",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -24
+      "stock": -25
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -11226,8 +11226,18 @@
           "code": "P_1773219547672"
         }
       ],
+      "status": "paid",
+      "date": 1774719955349,
+      "total": 170,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 270,
+      "items": [],
       "status": "active",
-      "date": 1774719886623
+      "date": 1774719955484
     }
   ],
   "purchaseLog": [
@@ -12781,5 +12791,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T17:45:16.352Z"
+  "lastSync": "2026-03-28T17:45:55.483Z"
 }
