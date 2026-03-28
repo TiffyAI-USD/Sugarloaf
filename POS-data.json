@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 19
+      "stock": 18
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -236,7 +236,7 @@
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 53
+      "stock": 45
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -455,19 +455,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.1800000000000015,
+      "stock": -2.2400000000000015,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -8.199999999999996,
+      "stock": -8.499999999999995,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -1.900000000000001,
+      "stock": -2.200000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -493,7 +493,7 @@
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": -27,
+      "stock": -36,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -550,13 +550,13 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 64.55000000000003,
+      "stock": 64.40000000000003,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 18.579999999999966,
+      "stock": 18.369999999999965,
       "cost": 0,
       "category": "ingredient"
     },
@@ -565,7 +565,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 56
+      "stock": 53
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -741,19 +741,19 @@
     },
     "BREAD SLICES": {
       "name": "BREAD SLICES",
-      "stock": -2,
+      "stock": -8,
       "cost": 0,
       "category": "ingredient"
     },
     "GREEN PEPPERS": {
       "name": "GREEN PEPPERS",
-      "stock": -0.02,
+      "stock": -0.08,
       "cost": 0,
       "category": "ingredient"
     },
     "ONION": {
       "name": "ONION",
-      "stock": -0.02,
+      "stock": -0.08,
       "cost": 0,
       "category": "ingredient"
     },
@@ -762,7 +762,7 @@
       "price": 70,
       "cost": 20,
       "category": "food",
-      "stock": 31
+      "stock": 28
     },
     "P_1773220946460": {
       "name": "CRUMBED MUSHROOMS ",
@@ -1272,7 +1272,7 @@
       "price": 20,
       "cost": 15,
       "category": "food",
-      "stock": 0
+      "stock": -4
     },
     "P_1774709145542": {
       "name": "ICE CREAM ",
@@ -10968,8 +10968,12 @@
           "code": "P_1773214041916"
         }
       ],
-      "status": "active",
-      "date": 1774705509351
+      "status": "paid",
+      "date": 1774710982064,
+      "total": 1080,
+      "tip": 220,
+      "method": "Card",
+      "staff": "Momo"
     },
     {
       "id": 264,
@@ -11041,6 +11045,12 @@
       ],
       "status": "active",
       "date": 1774705593321
+    },
+    {
+      "id": 265,
+      "items": [],
+      "status": "active",
+      "date": 1774710982375
     }
   ],
   "purchaseLog": [
@@ -12513,5 +12523,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T14:46:52.680Z"
+  "lastSync": "2026-03-28T15:16:22.370Z"
 }
