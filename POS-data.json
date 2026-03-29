@@ -12,7 +12,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 63
+      "stock": 61
     },
     "P_1772185638955": {
       "name": "SCHWEPPES 1L",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": -3
+      "stock": -5
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -215,7 +215,7 @@
       "price": 25,
       "cost": 6.06,
       "category": "drink",
-      "stock": 15
+      "stock": 5
     },
     "P_1773155215043": {
       "name": "ABSOLUTE VODCA",
@@ -278,7 +278,7 @@
       "price": 40,
       "cost": 7,
       "category": "drink",
-      "stock": 33
+      "stock": 31
     },
     "P_1773158634215": {
       "name": "DROSTY HOF SWEET DRY RED 5L",
@@ -1216,7 +1216,7 @@
       "price": 100,
       "cost": 0,
       "category": "food",
-      "stock": -11
+      "stock": -13
     },
     "P_1774635395299": {
       "name": "S&T PIZZA SPECIAL ",
@@ -12517,10 +12517,28 @@
           "category": "food",
           "stock": -11,
           "code": "P_1774635048920"
+        },
+        {
+          "name": "SPECIAL MUFASA",
+          "price": 100,
+          "cost": 0,
+          "category": "food",
+          "stock": -11,
+          "code": "P_1774635048920"
         }
       ],
+      "status": "paid",
+      "date": 1774803171678,
+      "total": 620,
+      "tip": 30,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 288,
+      "items": [],
       "status": "active",
-      "date": 1774803006810
+      "date": 1774803171806
     }
   ],
   "purchaseLog": [
@@ -14094,6 +14112,11 @@
         "amount": 20,
         "date": 1774802864548,
         "table": 284
+      },
+      {
+        "amount": 30,
+        "date": 1774803171678,
+        "table": 287
       }
     ],
     "Momo": [
@@ -14109,5 +14132,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:52:35.133Z"
+  "lastSync": "2026-03-29T16:52:51.805Z"
 }
