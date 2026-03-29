@@ -11941,6 +11941,14 @@
           "category": "drink",
           "stock": 4,
           "code": "P_1773151833033"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773152229222"
         }
       ],
       "status": "active",
@@ -13633,5 +13641,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:40:42.474Z"
+  "lastSync": "2026-03-29T16:40:51.658Z"
 }
