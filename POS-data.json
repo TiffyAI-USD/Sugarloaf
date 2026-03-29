@@ -12,7 +12,7 @@
       "price": 30,
       "cost": 0,
       "category": "drink",
-      "stock": 70
+      "stock": 66
     },
     "P_1772185638955": {
       "name": "SCHWEPPES 1L",
@@ -236,7 +236,7 @@
       "price": 25,
       "cost": 7.1,
       "category": "drink",
-      "stock": 45
+      "stock": 37
     },
     "P_1773157354874": {
       "name": "CAPTAIN MORGAN SPICED GOLD",
@@ -250,7 +250,7 @@
       "price": 25,
       "cost": 7.3,
       "category": "drink",
-      "stock": 29
+      "stock": 24
     },
     "P_1773157574033": {
       "name": "AMARULA",
@@ -390,7 +390,7 @@
       "price": 10,
       "cost": 1.71,
       "category": "drink",
-      "stock": 29
+      "stock": 27
     },
     "P_1773206987907": {
       "name": "ROSES CORDIAL LIME",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 11
+      "stock": 10
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -6
+      "stock": -8
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -11791,10 +11791,36 @@
           "category": "drink",
           "stock": 70,
           "code": "P_1772185176729"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 45,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 45,
+          "code": "P_1773156851227"
         }
       ],
+      "status": "paid",
+      "date": 1774801771953,
+      "total": 525,
+      "tip": 290,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 278,
+      "items": [],
       "status": "active",
-      "date": 1774801305208
+      "date": 1774801772217
     }
   ],
   "purchaseLog": [
@@ -13338,6 +13364,11 @@
         "amount": 255,
         "date": 1774800487233,
         "table": 275
+      },
+      {
+        "amount": 290,
+        "date": 1774801771953,
+        "table": 277
       }
     ],
     "Momo": [
@@ -13353,5 +13384,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:27:51.125Z"
+  "lastSync": "2026-03-29T16:29:32.215Z"
 }
