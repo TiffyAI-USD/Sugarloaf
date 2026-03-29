@@ -985,7 +985,7 @@
       "price": 30,
       "cost": 16.5,
       "category": "drink",
-      "stock": 35
+      "stock": 30
     },
     "P_1773848840235": {
       "name": "BLACK CROWN",
@@ -12552,16 +12552,50 @@
           "category": "drink",
           "stock": 35,
           "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773846382152"
         }
       ],
-      "status": "active",
-      "date": 1774803171806
+      "status": "paid",
+      "date": 1774803226253,
+      "total": 150,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": 289,
       "items": [],
       "status": "active",
       "date": 1774803190708
+    },
+    {
+      "id": 290,
+      "items": [],
+      "status": "active",
+      "date": 1774803226348
     }
   ],
   "purchaseLog": [
@@ -14155,5 +14189,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:53:28.633Z"
+  "lastSync": "2026-03-29T16:53:40.665Z"
 }
