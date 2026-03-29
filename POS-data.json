@@ -11580,6 +11580,14 @@
           "category": "drink",
           "stock": 44,
           "code": "P_1773942714676"
+        },
+        {
+          "name": "STONEY GINGER BEER",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1773205810578"
         }
       ],
       "status": "active",
@@ -13142,5 +13150,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:08:53.673Z"
+  "lastSync": "2026-03-29T16:09:52.049Z"
 }
