@@ -12096,12 +12096,12 @@
       "id": 282,
       "items": [
         {
-          "name": "SMIRNOFF ICE BERRY BLAST",
-          "price": 125,
-          "cost": 35,
+          "name": "RICHELIEU",
+          "price": 25,
+          "cost": 7.25,
           "category": "drink",
-          "stock": -6,
-          "code": "P_1774537698017"
+          "stock": 13,
+          "code": "P_1773169167556"
         }
       ],
       "status": "active",
@@ -13689,5 +13689,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:42:06.845Z"
+  "lastSync": "2026-03-29T16:43:40.081Z"
 }
