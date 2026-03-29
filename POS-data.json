@@ -1280,6 +1280,13 @@
       "cost": 25,
       "category": "food",
       "stock": -6
+    },
+    "P_1774797274711": {
+      "name": "BUFFET PLATTER(ADULT)",
+      "price": 225,
+      "cost": 125,
+      "category": "food",
+      "stock": 0
     }
   },
   "recipes": {
@@ -11404,7 +11411,7 @@
       "id": 275,
       "items": [],
       "status": "active",
-      "date": 1774721773773
+      "date": 1774797240401
     }
   ],
   "purchaseLog": [
@@ -12877,5 +12884,86 @@
       }
     ]
   },
-  "lastSync": "2026-03-28T18:16:29.537Z"
+  "staffTips": {
+    "Marshall": [
+      {
+        "amount": 5,
+        "date": 1774105795974,
+        "table": 165
+      },
+      {
+        "amount": 5,
+        "date": 1774105888899,
+        "table": 205
+      },
+      {
+        "amount": 15,
+        "date": 1774112372134,
+        "table": 167
+      },
+      {
+        "amount": 25,
+        "date": 1774117660936,
+        "table": 168
+      },
+      {
+        "amount": 5,
+        "date": 1774370610343,
+        "table": 219
+      },
+      {
+        "amount": 5,
+        "date": 1774458832749,
+        "table": 228
+      },
+      {
+        "amount": 100,
+        "date": 1774459302158,
+        "table": 230
+      },
+      {
+        "amount": 20,
+        "date": 1774462495162,
+        "table": 232
+      },
+      {
+        "amount": 5,
+        "date": 1774545207375,
+        "table": 240
+      },
+      {
+        "amount": 35,
+        "date": 1774546781085,
+        "table": 245
+      },
+      {
+        "amount": 86,
+        "date": 1774549294714,
+        "table": 249
+      },
+      {
+        "amount": 15,
+        "date": 1774634618458,
+        "table": 253
+      },
+      {
+        "amount": 35,
+        "date": 1774719572118,
+        "table": 266
+      }
+    ],
+    "Momo": [
+      {
+        "amount": 34,
+        "date": 1774183400285,
+        "table": 172
+      },
+      {
+        "amount": 55,
+        "date": 1774192735449,
+        "table": 174
+      }
+    ]
+  },
+  "lastSync": "2026-03-29T15:14:34.748Z"
 }
