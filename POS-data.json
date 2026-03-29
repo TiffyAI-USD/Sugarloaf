@@ -12137,6 +12137,54 @@
           "category": "drink",
           "stock": 26,
           "code": "P_1773206681976"
+        },
+        {
+          "name": "KLIPDRIFT",
+          "price": 25,
+          "cost": 6.39,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773206681976"
+        },
+        {
+          "name": "KLIPDRIFT",
+          "price": 25,
+          "cost": 6.39,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773206681976"
+        },
+        {
+          "name": "KLIPDRIFT",
+          "price": 25,
+          "cost": 6.39,
+          "category": "drink",
+          "stock": 26,
+          "code": "P_1773206681976"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 66,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 66,
+          "code": "P_1772185176729"
+        },
+        {
+          "name": "JAGERMEISTER",
+          "price": 30,
+          "cost": 0,
+          "category": "drink",
+          "stock": 66,
+          "code": "P_1772185176729"
         }
       ],
       "status": "active",
@@ -13724,5 +13772,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:45:16.375Z"
+  "lastSync": "2026-03-29T16:45:24.931Z"
 }
