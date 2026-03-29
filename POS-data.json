@@ -12544,6 +12544,14 @@
           "category": "drink",
           "stock": 35,
           "code": "P_1773846382152"
+        },
+        {
+          "name": "WINDHOEK DRAUGHT",
+          "price": 30,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 35,
+          "code": "P_1773846382152"
         }
       ],
       "status": "active",
@@ -14147,5 +14155,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:53:21.140Z"
+  "lastSync": "2026-03-29T16:53:28.633Z"
 }
