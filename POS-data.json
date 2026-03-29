@@ -11830,6 +11830,21 @@
       ],
       "status": "active",
       "date": 1774801772217
+    },
+    {
+      "id": 279,
+      "items": [
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773149785260"
+        }
+      ],
+      "status": "active",
+      "date": 1774801841941
     }
   ],
   "purchaseLog": [
@@ -13393,5 +13408,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-29T16:30:40.087Z"
+  "lastSync": "2026-03-29T16:30:49.102Z"
 }
