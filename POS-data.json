@@ -124,7 +124,7 @@
       "price": 35,
       "cost": 15.67,
       "category": "drink",
-      "stock": 2
+      "stock": 0
     },
     "P_1773150214676": {
       "name": "APPLETIZERS ",
@@ -1287,6 +1287,41 @@
       "cost": 125,
       "category": "food",
       "stock": -12
+    },
+    "P_1774968836162": {
+      "name": "LUNCH BAR",
+      "price": 10,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1774968892831": {
+      "name": "GORDON'S PINK CAN",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1774968946987": {
+      "name": "GORDON'S BLUE CAN",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1774969065113": {
+      "name": "BERNINI MIMOSA CAN 500",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
+    },
+    "P_1774969244473": {
+      "name": "SAVANNA 500",
+      "price": 45,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -12641,6 +12676,23 @@
       "date": 1774968711489,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 46.0"
+    },
+    {
+      "id": "BAL_1774970313462",
+      "items": [
+        {
+          "name": "BERNINI CLASSIC",
+          "price": 0,
+          "cost": 15.67,
+          "code": "P_1773149976429"
+        }
+      ],
+      "total": 0,
+      "method": "Shrinkage",
+      "status": "paid",
+      "date": 1774970313465,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: -2.0"
     }
   ],
   "purchaseLog": [
@@ -14234,5 +14286,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-31T14:51:51.523Z"
+  "lastSync": "2026-03-31T15:18:33.478Z"
 }
