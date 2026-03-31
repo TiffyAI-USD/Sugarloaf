@@ -1307,7 +1307,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": 24
     },
     "P_1774969065113": {
       "name": "BERNINI MIMOSA CAN 500",
@@ -12795,6 +12795,23 @@
       "date": 1774971896510,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 24.0"
+    },
+    {
+      "id": "BAL_1774972020523",
+      "items": [
+        {
+          "name": "GORDON'S BLUE CAN",
+          "price": 0,
+          "cost": 0,
+          "code": "P_1774968946987"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774972020523,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 24.0"
     }
   ],
   "purchaseLog": [
@@ -14388,5 +14405,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-31T15:44:56.528Z"
+  "lastSync": "2026-03-31T15:47:00.564Z"
 }
