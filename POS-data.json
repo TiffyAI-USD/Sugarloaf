@@ -68,7 +68,7 @@
       "price": 30,
       "cost": 16.02,
       "category": "drink",
-      "stock": 38
+      "stock": 68
     },
     "P_1773147503327": {
       "name": "SMIRNOFF ICE BERRY TWIST",
@@ -12607,6 +12607,23 @@
       "date": 1774967845476,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 34.0"
+    },
+    {
+      "id": "BAL_1774968595250",
+      "items": [
+        {
+          "name": "CARONA",
+          "price": 0,
+          "cost": 16.02,
+          "code": "P_1773146067088"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774968595251,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 30.0"
     }
   ],
   "purchaseLog": [
@@ -14200,5 +14217,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-31T14:37:25.500Z"
+  "lastSync": "2026-03-31T14:49:55.275Z"
 }
