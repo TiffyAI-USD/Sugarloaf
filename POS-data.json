@@ -1300,7 +1300,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 0
+      "stock": 24
     },
     "P_1774968946987": {
       "name": "GORDON'S BLUE CAN",
@@ -12761,6 +12761,23 @@
       "date": 1774971269626,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 24.0"
+    },
+    {
+      "id": "BAL_1774971478220",
+      "items": [
+        {
+          "name": "GORDON'S PINK CAN",
+          "price": 0,
+          "cost": 0,
+          "code": "P_1774968892831"
+        }
+      ],
+      "total": 0,
+      "method": "Balance_Over",
+      "status": "paid",
+      "date": 1774971478220,
+      "staff": "Marshall",
+      "notes": "Stock Balance. Diff: 24.0"
     }
   ],
   "purchaseLog": [
@@ -14354,5 +14371,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-31T15:34:29.641Z"
+  "lastSync": "2026-03-31T15:37:58.229Z"
 }
