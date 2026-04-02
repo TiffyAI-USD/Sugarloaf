@@ -455,19 +455,19 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.510000000000001,
+      "stock": -2.530000000000001,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -9.749999999999995,
+      "stock": -9.949999999999994,
       "cost": 0,
       "category": "ingredient"
     },
     "WHITE WINE": {
       "name": "WHITE WINE",
-      "stock": -3.100000000000002,
+      "stock": -3.200000000000002,
       "cost": 0,
       "category": "ingredient"
     },
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 93.3999999999999,
+      "stock": 92.9999999999999,
       "cost": 0,
       "category": "ingredient"
     },
@@ -489,11 +489,11 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 20
+      "stock": 19
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": -60,
+      "stock": -63,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -550,13 +550,13 @@
     },
     "MUSSEL MEAT": {
       "name": "MUSSEL MEAT",
-      "stock": 64.10000000000005,
+      "stock": 64.05000000000005,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 17.95999999999996,
+      "stock": 17.90999999999996,
       "cost": 0,
       "category": "ingredient"
     },
@@ -565,7 +565,7 @@
       "price": 185,
       "cost": 8.5,
       "category": "food",
-      "stock": 47
+      "stock": 46
     },
     "P_1773214465273": {
       "name": "GRATED CHEESE 2KG",
@@ -709,7 +709,7 @@
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": -20,
+      "stock": -22,
       "cost": 0,
       "category": "ingredient"
     },
@@ -718,7 +718,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 5
+      "stock": 2
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -13468,7 +13468,16 @@
     },
     {
       "id": 304,
-      "items": [],
+      "items": [
+        {
+          "name": "BELLGRAVIA GIN AND TONIC",
+          "price": 35,
+          "cost": 15.98,
+          "category": "drink",
+          "stock": 5,
+          "code": "P_1773145877947"
+        }
+      ],
       "status": "active",
       "date": 1775150554681
     },
@@ -13498,10 +13507,49 @@
           "category": "drink",
           "stock": 5,
           "code": "P_1773344090994"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 47,
+          "code": "P_1773214041916"
         }
       ],
-      "status": "active",
-      "date": 1775150917275
+      "status": "paid",
+      "date": 1775150976174,
+      "total": 400,
+      "tip": 50,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 306,
+      "items": [
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 20,
+          "code": "P_1773212737065"
+        }
+      ],
+      "status": "paid",
+      "date": 1775151010122,
+      "total": 135,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
     }
   ],
   "purchaseLog": [
@@ -15102,8 +15150,13 @@
         "amount": 435,
         "date": 1775150917080,
         "table": 303
+      },
+      {
+        "amount": 50,
+        "date": 1775150976174,
+        "table": 305
       }
     ]
   },
-  "lastSync": "2026-04-02T17:29:00.225Z"
+  "lastSync": "2026-04-02T18:02:57.616Z"
 }
