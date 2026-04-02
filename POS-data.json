@@ -13130,10 +13130,121 @@
           "category": "drink",
           "stock": 33,
           "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "SCHWEPPES SODA WATER",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773150716589"
         }
       ],
       "status": "active",
       "date": 1775150327767
+    },
+    {
+      "id": 304,
+      "items": [
+        {
+          "name": "SCHWEPPES SODA WATER",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773150716589"
+        },
+        {
+          "name": "SCHWEPPES SODA WATER",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 31,
+          "code": "P_1773150716589"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -9,
+          "code": "P_1774083678799"
+        }
+      ],
+      "status": "active",
+      "date": 1775150554681
     }
   ],
   "purchaseLog": [
@@ -14732,5 +14843,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:21:01.030Z"
+  "lastSync": "2026-04-02T17:22:56.005Z"
 }
