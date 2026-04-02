@@ -1322,6 +1322,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 0
+    },
+    "P_1775150828208": {
+      "name": "WINE GLS",
+      "price": 40,
+      "cost": 25,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -13338,6 +13345,134 @@
           "category": "drink",
           "stock": 48,
           "code": "P_1773162909257"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "CAPTAIN MORGAN SPICED GOLD",
+          "price": 25,
+          "cost": 6.25,
+          "category": "drink",
+          "stock": 20,
+          "code": "P_1773157354874"
+        },
+        {
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1773765858998"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "SAVANNA ANGRY LEMON",
+          "price": 45,
+          "cost": 19.5,
+          "category": "drink",
+          "stock": 11,
+          "code": "P_1773149638554"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1775150828208"
         }
       ],
       "status": "active",
@@ -14971,5 +15106,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:24:50.894Z"
+  "lastSync": "2026-04-02T17:27:19.858Z"
 }
