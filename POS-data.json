@@ -187,7 +187,7 @@
       "price": 30,
       "cost": 12.46,
       "category": "drink",
-      "stock": 48
+      "stock": 47
     },
     "P_1773152229222": {
       "name": "TSITSIKAMA SPARCLING 500ML",
@@ -355,7 +355,7 @@
       "price": 20,
       "cost": 6.55,
       "category": "drink",
-      "stock": 2
+      "stock": 1
     },
     "P_1773206565471": {
       "name": "LIGUI FRUIT TROPICAL",
@@ -832,7 +832,7 @@
       "price": 30,
       "cost": 16.46,
       "category": "drink",
-      "stock": 18
+      "stock": 16
     },
     "P_1773328863956": {
       "name": "FLYFISH ",
@@ -1006,7 +1006,7 @@
       "price": 30,
       "cost": 11.9,
       "category": "drink",
-      "stock": 0
+      "stock": -9
     },
     "P_1773902940854": {
       "name": "PASTA (PLAIN)",
@@ -12622,9 +12622,86 @@
     },
     {
       "id": 289,
-      "items": [],
-      "status": "active",
-      "date": 1774803190708
+      "items": [
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        },
+        {
+          "name": "CASTE LAGER 500ML ",
+          "price": 30,
+          "cost": 11.9,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773849739925"
+        }
+      ],
+      "status": "paid",
+      "date": 1775060543779,
+      "total": 270,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
     },
     {
       "id": "BAL_1774967845476",
@@ -12812,6 +12889,83 @@
       "date": 1774972020523,
       "staff": "Marshall",
       "notes": "Stock Balance. Diff: 24.0"
+    },
+    {
+      "id": 301,
+      "items": [
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 18,
+          "code": "P_1773328735410"
+        }
+      ],
+      "status": "paid",
+      "date": 1775060587285,
+      "total": 60,
+      "tip": 10,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 302,
+      "items": [
+        {
+          "name": "CASTLE LITE 500ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 48,
+          "code": "P_1773151833033"
+        },
+        {
+          "name": "LIQUI FRUIT CRANBERRY COOLER",
+          "price": 20,
+          "cost": 6.55,
+          "category": "drink",
+          "stock": 2,
+          "code": "P_1773206480637"
+        }
+      ],
+      "status": "paid",
+      "date": 1775060633684,
+      "total": 50,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 303,
+      "items": [
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        }
+      ],
+      "status": "active",
+      "date": 1775150327767
     }
   ],
   "purchaseLog": [
@@ -14390,6 +14544,11 @@
         "amount": 30,
         "date": 1774803171678,
         "table": 287
+      },
+      {
+        "amount": 10,
+        "date": 1775060587285,
+        "table": 301
       }
     ],
     "Momo": [
@@ -14405,5 +14564,5 @@
       }
     ]
   },
-  "lastSync": "2026-03-31T15:47:00.564Z"
+  "lastSync": "2026-04-02T17:18:55.798Z"
 }
