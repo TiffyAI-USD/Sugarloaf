@@ -13557,7 +13557,16 @@
     },
     {
       "id": 307,
-      "items": [],
+      "items": [
+        {
+          "name": "RED HEART RUM",
+          "price": 25,
+          "cost": 7.82,
+          "category": "drink",
+          "stock": 21,
+          "code": "P_1773157682336"
+        }
+      ],
       "status": "active",
       "date": 1775152987518
     }
@@ -15168,5 +15177,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T18:03:07.517Z"
+  "lastSync": "2026-04-02T18:03:41.376Z"
 }
