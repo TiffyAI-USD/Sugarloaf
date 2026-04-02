@@ -13074,6 +13074,22 @@
           "category": "food",
           "stock": 8,
           "code": "P_1773213728170"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
+        },
+        {
+          "name": "J & B WHISKY ",
+          "price": 25,
+          "cost": 7.1,
+          "category": "drink",
+          "stock": 33,
+          "code": "P_1773156851227"
         }
       ],
       "status": "active",
@@ -14676,5 +14692,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:19:46.717Z"
+  "lastSync": "2026-04-02T17:20:58.642Z"
 }
