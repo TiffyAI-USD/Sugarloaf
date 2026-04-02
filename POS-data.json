@@ -13042,6 +13042,38 @@
           "category": "food",
           "stock": -4,
           "code": "P_1773220946460"
+        },
+        {
+          "name": "PRAWNS (MAIN DISH)",
+          "price": 185,
+          "cost": 39,
+          "category": "food",
+          "stock": 20.5,
+          "code": "P_1773215678430"
+        },
+        {
+          "name": "OYSTERS (BAKED)",
+          "price": 70,
+          "cost": 20,
+          "category": "food",
+          "stock": 26,
+          "code": "P_1773220662005"
+        },
+        {
+          "name": "MUSSELS",
+          "price": 60,
+          "cost": 15,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773212399084"
+        },
+        {
+          "name": "SNAILS (CREAMY GARLIC SNAILS)",
+          "price": 70,
+          "cost": 17,
+          "category": "food",
+          "stock": 8,
+          "code": "P_1773213728170"
         }
       ],
       "status": "active",
@@ -14644,5 +14676,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:19:28.836Z"
+  "lastSync": "2026-04-02T17:19:46.717Z"
 }
