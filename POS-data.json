@@ -12962,6 +12962,62 @@
           "category": "food",
           "stock": 53,
           "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 53,
+          "code": "P_1773214041916"
+        },
+        {
+          "name": "CHICKEN BREAST (STUFFED CHICKEN BREAST) ",
+          "price": 125,
+          "cost": 17,
+          "category": "food",
+          "stock": 23,
+          "code": "P_1773215086503"
+        },
+        {
+          "name": "CHICKEN BREAST (STUFFED CHICKEN BREAST) ",
+          "price": 125,
+          "cost": 17,
+          "category": "food",
+          "stock": 23,
+          "code": "P_1773215086503"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 6,
+          "code": "P_1773213348251"
         }
       ],
       "status": "active",
@@ -14564,5 +14620,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:18:55.798Z"
+  "lastSync": "2026-04-02T17:19:11.512Z"
 }
