@@ -13018,6 +13018,30 @@
           "category": "food",
           "stock": 6,
           "code": "P_1773213348251"
+        },
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1773466721989"
+        },
+        {
+          "name": "BONE MARROWS",
+          "price": 60,
+          "cost": 4,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773219335220"
+        },
+        {
+          "name": "CRUMBED MUSHROOMS ",
+          "price": 55,
+          "cost": 8,
+          "category": "food",
+          "stock": -4,
+          "code": "P_1773220946460"
         }
       ],
       "status": "active",
@@ -14620,5 +14644,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-02T17:19:11.512Z"
+  "lastSync": "2026-04-02T17:19:28.836Z"
 }
