@@ -14054,9 +14054,18 @@
     },
     {
       "id": 316,
-      "items": [],
+      "items": [
+        {
+          "name": "SAVANNA CAN 500ML ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1773939656950"
+        }
+      ],
       "status": "active",
-      "date": 1775239971701
+      "date": 1775242119026
     }
   ],
   "purchaseLog": [
@@ -15695,5 +15704,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:12:40.194Z"
+  "lastSync": "2026-04-03T18:48:59.376Z"
 }
