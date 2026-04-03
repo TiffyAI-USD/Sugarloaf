@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 92.39999999999989,
+      "stock": 92.19999999999989,
       "cost": 0,
       "category": "ingredient"
     },
@@ -633,7 +633,7 @@
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 12
+      "stock": 11
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": 1
+      "stock": 0
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -1195,7 +1195,7 @@
       "price": 145,
       "cost": 55,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1774356562726": {
       "name": "LIQUI FRUIT TROPICAL",
@@ -1328,7 +1328,7 @@
       "price": 40,
       "cost": 25,
       "category": "drink",
-      "stock": -4
+      "stock": -6
     },
     "P_1775239559143": {
       "name": "BUNNY CHOW SPECIAL (BEEF)",
@@ -14003,9 +14003,60 @@
     },
     {
       "id": 315,
+      "items": [
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -4,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": 1,
+          "code": "P_1773344090994"
+        },
+        {
+          "name": "OCTOPUS (GRILLED)",
+          "price": 105,
+          "cost": 18,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773218768414"
+        },
+        {
+          "name": "EISHBEIN",
+          "price": 145,
+          "cost": 55,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774356457371"
+        }
+      ],
+      "status": "paid",
+      "date": 1775239971590,
+      "total": 350,
+      "tip": 50,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 316,
       "items": [],
       "status": "active",
-      "date": 1775239913169
+      "date": 1775239971701
     }
   ],
   "purchaseLog": [
@@ -15636,8 +15687,13 @@
         "amount": 45,
         "date": 1775239913065,
         "table": 314
+      },
+      {
+        "amount": 50,
+        "date": 1775239971590,
+        "table": 315
       }
     ]
   },
-  "lastSync": "2026-04-03T18:11:53.168Z"
+  "lastSync": "2026-04-03T18:12:40.194Z"
 }
