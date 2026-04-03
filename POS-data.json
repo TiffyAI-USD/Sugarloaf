@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -10
+      "stock": -13
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -1335,7 +1335,7 @@
       "price": 75,
       "cost": 55,
       "category": "food",
-      "stock": 0
+      "stock": -3
     },
     "P_1775239597812": {
       "name": "BUNNY CHOW SPECIAL (CHICKEN)",
@@ -13770,9 +13770,149 @@
     },
     {
       "id": 312,
-      "items": [],
+      "items": [
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": 0,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1774083678799"
+        }
+      ],
+      "status": "paid",
+      "date": 1775239715919,
+      "total": 285,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 313,
+      "items": [
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "BUNNY CHOW SPECIAL (BEEF)",
+          "price": 75,
+          "cost": 55,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1775239559143"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE DOUBLE MALT",
+          "price": 30,
+          "cost": 13.81,
+          "category": "drink",
+          "stock": 47,
+          "code": "P_1773144259954"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
+        }
+      ],
       "status": "active",
-      "date": 1775239637295
+      "date": 1775239716025
     }
   ],
   "purchaseLog": [
@@ -15396,5 +15536,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:07:17.294Z"
+  "lastSync": "2026-04-03T18:09:12.160Z"
 }
