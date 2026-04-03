@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 46
+      "stock": 43
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 12
+      "stock": 11
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -14363,8 +14363,27 @@
           "code": "P_1773152229222"
         }
       ],
+      "status": "paid",
+      "date": 1775242713618,
+      "total": 105,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 326,
+      "items": [
+        {
+          "name": "COCA COLA 500ML",
+          "price": 20,
+          "cost": 0,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773344090994"
+        }
+      ],
       "status": "active",
-      "date": 1775242662946
+      "date": 1775242713730
     }
   ],
   "purchaseLog": [
@@ -16008,5 +16027,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:58:15.690Z"
+  "lastSync": "2026-04-03T18:59:04.804Z"
 }
