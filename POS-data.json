@@ -13928,7 +13928,72 @@
     },
     {
       "id": 314,
-      "items": [],
+      "items": [
+        {
+          "name": "EISHBEIN",
+          "price": 145,
+          "cost": 55,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1774356457371"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -28,
+          "code": "P_1773467035443"
+        },
+        {
+          "name": "MEDIUM CHIPS ",
+          "price": 35,
+          "cost": 10,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1773466315290"
+        },
+        {
+          "name": "JALAPEÃOS POPERS",
+          "price": 55,
+          "cost": 0,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1773466721989"
+        },
+        {
+          "name": "STONEY GINGER BEER",
+          "price": 20,
+          "cost": 10.5,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773205810578"
+        },
+        {
+          "name": "EXTRME CANS 44OMLS",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 47,
+          "code": "P_1773940266924"
+        },
+        {
+          "name": "SCHWEPPES SODA WATER",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 27,
+          "code": "P_1773150716589"
+        },
+        {
+          "name": "SCHWEPPES SODA WATER",
+          "price": 20,
+          "cost": 8.34,
+          "category": "drink",
+          "stock": 27,
+          "code": "P_1773150716589"
+        }
+      ],
       "status": "active",
       "date": 1775239815538
     }
@@ -15559,5 +15624,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:10:15.537Z"
+  "lastSync": "2026-04-03T18:11:15.917Z"
 }
