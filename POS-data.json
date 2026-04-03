@@ -26,7 +26,7 @@
       "price": 30,
       "cost": 13.81,
       "category": "drink",
-      "stock": 47
+      "stock": 46
     },
     "P_1773144628700": {
       "name": "CASTLE MILK STOUT",
@@ -825,7 +825,7 @@
       "price": 30,
       "cost": 12.64,
       "category": "drink",
-      "stock": 22
+      "stock": 15
     },
     "P_1773328735410": {
       "name": "CORONA EXTRA",
@@ -1335,7 +1335,7 @@
       "price": 75,
       "cost": 55,
       "category": "food",
-      "stock": -3
+      "stock": -6
     },
     "P_1775239597812": {
       "name": "BUNNY CHOW SPECIAL (CHICKEN)",
@@ -13909,10 +13909,28 @@
           "category": "drink",
           "stock": 22,
           "code": "P_1773328630441"
+        },
+        {
+          "name": "CASTLE LAGER 330ML",
+          "price": 30,
+          "cost": 12.64,
+          "category": "drink",
+          "stock": 22,
+          "code": "P_1773328630441"
         }
       ],
+      "status": "paid",
+      "date": 1775239815428,
+      "total": 465,
+      "tip": 100,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 314,
+      "items": [],
       "status": "active",
-      "date": 1775239716025
+      "date": 1775239815538
     }
   ],
   "purchaseLog": [
@@ -15533,8 +15551,13 @@
         "amount": 5,
         "date": 1775239637036,
         "table": 311
+      },
+      {
+        "amount": 100,
+        "date": 1775239815428,
+        "table": 313
       }
     ]
   },
-  "lastSync": "2026-04-03T18:09:12.160Z"
+  "lastSync": "2026-04-03T18:10:15.537Z"
 }
