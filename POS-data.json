@@ -1055,7 +1055,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 12
+      "stock": 10
     },
     "P_1773939828226": {
       "name": "MILK STOUT CANS 500ML ",
@@ -14062,10 +14062,37 @@
           "category": "drink",
           "stock": 12,
           "code": "P_1773939656950"
+        },
+        {
+          "name": "SAVANNA CAN 500ML ",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1773939656950"
+        }
+      ],
+      "status": "paid",
+      "date": 1775242171412,
+      "total": 70,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 317,
+      "items": [
+        {
+          "name": "CASTLE LITE 500ML",
+          "price": 30,
+          "cost": 12.46,
+          "category": "drink",
+          "stock": 46,
+          "code": "P_1773151833033"
         }
       ],
       "status": "active",
-      "date": 1775242119026
+      "date": 1775242171617
     }
   ],
   "purchaseLog": [
@@ -15704,5 +15731,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:48:59.376Z"
+  "lastSync": "2026-04-03T18:49:59.598Z"
 }
