@@ -117,7 +117,7 @@
       "price": 35,
       "cost": 14.6,
       "category": "drink",
-      "stock": 0
+      "stock": -1
     },
     "P_1773149976429": {
       "name": "BERNINI CLASSIC",
@@ -436,7 +436,7 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 92.99999999999997,
+      "stock": 92.79999999999997,
       "cost": 1,
       "category": "ingredient"
     },
@@ -455,7 +455,7 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.570000000000001,
+      "stock": -2.590000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -508,7 +508,7 @@
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -637,19 +637,19 @@
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
-      "stock": 0,
+      "stock": -0.5,
       "cost": 0,
       "category": "ingredient"
     },
     "LINGUINE ": {
       "name": "LINGUINE ",
-      "stock": 8,
+      "stock": 7,
       "cost": 0,
       "category": "ingredient"
     },
     "CHEESE PARMESAN ": {
       "name": "CHEESE PARMESAN ",
-      "stock": 22,
+      "stock": 21.98,
       "cost": 0,
       "category": "ingredient"
     },
@@ -658,7 +658,7 @@
       "price": 95,
       "cost": 15,
       "category": "food",
-      "stock": 7
+      "stock": 6
     },
     "EGG": {
       "name": "EGG",
@@ -790,7 +790,7 @@
       "price": 135,
       "cost": 0,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1773308518835": {
       "name": "CALAMARI SALAD",
@@ -909,7 +909,7 @@
       "price": 20,
       "cost": 0,
       "category": "drink",
-      "stock": -1
+      "stock": -3
     },
     "P_1773466315290": {
       "name": "MEDIUM CHIPS ",
@@ -14412,10 +14412,28 @@
           "category": "food",
           "stock": -3,
           "code": "P_1773213167637"
+        },
+        {
+          "name": "BRUTAL FRUIT STRAWBERRY ",
+          "price": 35,
+          "cost": 14.6,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773149869795"
         }
       ],
+      "status": "paid",
+      "date": 1775242814760,
+      "total": 420,
+      "tip": 115,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 327,
+      "items": [],
       "status": "active",
-      "date": 1775242713730
+      "date": 1775242814890
     }
   ],
   "purchaseLog": [
@@ -16014,6 +16032,11 @@
         "amount": 50,
         "date": 1775242369800,
         "table": 317
+      },
+      {
+        "amount": 115,
+        "date": 1775242814760,
+        "table": 326
       }
     ],
     "Momo": [
@@ -16059,5 +16082,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-03T18:59:30.138Z"
+  "lastSync": "2026-04-03T19:00:14.890Z"
 }
