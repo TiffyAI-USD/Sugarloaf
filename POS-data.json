@@ -152,7 +152,7 @@
       "price": 20,
       "cost": 8.34,
       "category": "drink",
-      "stock": 27
+      "stock": 25
     },
     "P_1773150754259": {
       "name": "SCHWEPPES LEMONADE 200ML",
@@ -320,7 +320,7 @@
       "price": 20,
       "cost": 10.5,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773205912873": {
       "name": "AKALINW",
@@ -916,21 +916,21 @@
       "price": 35,
       "cost": 10,
       "category": "food",
-      "stock": -6
+      "stock": -7
     },
     "P_1773466721989": {
       "name": "JALAPEÃOS POPERS",
       "price": 55,
       "cost": 0,
       "category": "food",
-      "stock": -6
+      "stock": -7
     },
     "P_1773467035443": {
       "name": "PUB STYLE FISH",
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -28
+      "stock": -29
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1083,7 +1083,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": 47
+      "stock": 46
     },
     "P_1773941757615": {
       "name": "ALFREDO",
@@ -1195,7 +1195,7 @@
       "price": 145,
       "cost": 55,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1774356562726": {
       "name": "LIQUI FRUIT TROPICAL",
@@ -13994,8 +13994,18 @@
           "code": "P_1773150716589"
         }
       ],
+      "status": "paid",
+      "date": 1775239913065,
+      "total": 425,
+      "tip": 45,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 315,
+      "items": [],
       "status": "active",
-      "date": 1775239815538
+      "date": 1775239913169
     }
   ],
   "purchaseLog": [
@@ -15621,8 +15631,13 @@
         "amount": 100,
         "date": 1775239815428,
         "table": 313
+      },
+      {
+        "amount": 45,
+        "date": 1775239913065,
+        "table": 314
       }
     ]
   },
-  "lastSync": "2026-04-03T18:11:15.917Z"
+  "lastSync": "2026-04-03T18:11:53.168Z"
 }
