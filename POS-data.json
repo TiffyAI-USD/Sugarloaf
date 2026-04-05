@@ -14509,6 +14509,22 @@
           "category": "drink",
           "stock": 16,
           "code": "P_1773328735410"
+        },
+        {
+          "name": "CORONA EXTRA",
+          "price": 30,
+          "cost": 16.46,
+          "category": "drink",
+          "stock": 16,
+          "code": "P_1773328735410"
+        },
+        {
+          "name": "MUSSEL MEAT (SEAFOOD PLATTER)",
+          "price": 185,
+          "cost": 8.5,
+          "category": "food",
+          "stock": 43,
+          "code": "P_1773214041916"
         }
       ],
       "status": "active",
@@ -16161,5 +16177,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-05T14:32:01.491Z"
+  "lastSync": "2026-04-05T14:32:09.216Z"
 }
