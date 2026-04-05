@@ -436,7 +436,7 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 92.79999999999997,
+      "stock": 92.59999999999997,
       "cost": 1,
       "category": "ingredient"
     },
@@ -508,7 +508,7 @@
       "price": 115,
       "cost": 17.4,
       "category": "food",
-      "stock": -4
+      "stock": -5
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
@@ -14441,8 +14441,27 @@
           "code": "P_1773213167637"
         }
       ],
+      "status": "paid",
+      "date": 1775399424897,
+      "total": 115,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Momo"
+    },
+    {
+      "id": 328,
+      "items": [
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -6,
+          "code": "P_1775150828208"
+        }
+      ],
       "status": "active",
-      "date": 1775399414537
+      "date": 1775399425075
     }
   ],
   "purchaseLog": [
@@ -16091,5 +16110,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-05T14:30:21.177Z"
+  "lastSync": "2026-04-05T14:30:41.838Z"
 }
