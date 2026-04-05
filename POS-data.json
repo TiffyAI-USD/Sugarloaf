@@ -14650,6 +14650,14 @@
           "category": "drink",
           "stock": 17,
           "code": "P_1773149785260"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773213348251"
         }
       ],
       "status": "active",
@@ -16312,5 +16320,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-05T14:37:15.896Z"
+  "lastSync": "2026-04-05T14:37:32.607Z"
 }
