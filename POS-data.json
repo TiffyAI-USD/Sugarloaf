@@ -278,7 +278,7 @@
       "price": 40,
       "cost": 7,
       "category": "drink",
-      "stock": 27
+      "stock": 25
     },
     "P_1773158634215": {
       "name": "DROSTY HOF SWEET DRY RED 5L",
@@ -14677,10 +14677,28 @@
           "category": "drink",
           "stock": 27,
           "code": "P_1773158228951"
+        },
+        {
+          "name": "4TH STREET WHITE SWEET 5L",
+          "price": 40,
+          "cost": 7,
+          "category": "drink",
+          "stock": 27,
+          "code": "P_1773158228951"
         }
       ],
+      "status": "paid",
+      "date": 1775589655715,
+      "total": 80,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 333,
+      "items": [],
       "status": "active",
-      "date": 1775589606493
+      "date": 1775589655946
     }
   ],
   "purchaseLog": [
@@ -16339,5 +16357,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-07T19:20:41.065Z"
+  "lastSync": "2026-04-07T19:20:55.945Z"
 }
