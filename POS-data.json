@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 17
+      "stock": 16
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -455,13 +455,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.6700000000000013,
+      "stock": -2.7700000000000014,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -10.549999999999992,
+      "stock": -11.049999999999992,
       "cost": 0,
       "category": "ingredient"
     },
@@ -512,19 +512,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -16,
+      "stock": -18,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": -33,
+      "stock": -36,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -8.5,
+      "stock": -9,
       "cost": 0,
       "category": "ingredient"
     },
@@ -533,7 +533,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 5
+      "stock": 4
     },
     "CREAM ": {
       "name": "CREAM ",
@@ -14660,8 +14660,27 @@
           "code": "P_1773213348251"
         }
       ],
+      "status": "paid",
+      "date": 1775399855332,
+      "total": 80,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 332,
+      "items": [
+        {
+          "name": "4TH STREET WHITE SWEET 5L",
+          "price": 40,
+          "cost": 7,
+          "category": "drink",
+          "stock": 27,
+          "code": "P_1773158228951"
+        }
+      ],
       "status": "active",
-      "date": 1775399807201
+      "date": 1775589606493
     }
   ],
   "purchaseLog": [
@@ -16320,5 +16339,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-05T14:37:32.607Z"
+  "lastSync": "2026-04-07T19:20:41.065Z"
 }
