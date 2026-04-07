@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 91.79999999999988,
+      "stock": 91.19999999999987,
       "cost": 0,
       "category": "ingredient"
     },
@@ -489,7 +489,7 @@
       "price": 135,
       "cost": 15.26,
       "category": "food",
-      "stock": 16
+      "stock": 13
     },
     "PRAWNS": {
       "name": "PRAWNS",
@@ -1279,7 +1279,7 @@
       "price": 40,
       "cost": 25,
       "category": "food",
-      "stock": -6
+      "stock": -8
     },
     "P_1774797274711": {
       "name": "BUFFET PLATTER(ADULT)",
@@ -1314,7 +1314,7 @@
       "price": 35,
       "cost": 0,
       "category": "drink",
-      "stock": -2
+      "stock": -4
     },
     "P_1774969244473": {
       "name": "SAVANNA 500",
@@ -14873,9 +14873,76 @@
     },
     {
       "id": 336,
+      "items": [
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 16,
+          "code": "P_1773212737065"
+        },
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 16,
+          "code": "P_1773212737065"
+        },
+        {
+          "name": "CHICKEN LEG QUARTER ",
+          "price": 135,
+          "cost": 15.26,
+          "category": "food",
+          "stock": 16,
+          "code": "P_1773212737065"
+        },
+        {
+          "name": "BERNINI MIMOSA CAN 500",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1774969065113"
+        },
+        {
+          "name": "BERNINI MIMOSA CAN 500",
+          "price": 35,
+          "cost": 0,
+          "category": "drink",
+          "stock": -2,
+          "code": "P_1774969065113"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1774709145542"
+        },
+        {
+          "name": "ICE CREAM ",
+          "price": 40,
+          "cost": 25,
+          "category": "food",
+          "stock": -6,
+          "code": "P_1774709145542"
+        }
+      ],
+      "status": "paid",
+      "date": 1775590157899,
+      "total": 555,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 337,
       "items": [],
       "status": "active",
-      "date": 1775590022672
+      "date": 1775590158001
     }
   ],
   "purchaseLog": [
@@ -16549,5 +16616,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-07T19:27:02.671Z"
+  "lastSync": "2026-04-07T19:29:09.619Z"
 }
