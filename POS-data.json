@@ -33,7 +33,7 @@
       "price": 35,
       "cost": 11.9,
       "category": "drink",
-      "stock": 4
+      "stock": 2
     },
     "P_1773145425644": {
       "name": "BLACK LABEL 500ML",
@@ -110,7 +110,7 @@
       "price": 35,
       "cost": 16.5,
       "category": "drink",
-      "stock": 16
+      "stock": 15
     },
     "P_1773149869795": {
       "name": "BRUTAL FRUIT STRAWBERRY ",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 91.19999999999987,
+      "stock": 90.99999999999987,
       "cost": 0,
       "category": "ingredient"
     },
@@ -633,7 +633,7 @@
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 11
+      "stock": 10
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -15063,8 +15063,27 @@
           "code": "P_1773218768414"
         }
       ],
+      "status": "paid",
+      "date": 1775675542131,
+      "total": 210,
+      "tip": 10,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 341,
+      "items": [
+        {
+          "name": "EISHBEIN",
+          "price": 145,
+          "cost": 55,
+          "category": "food",
+          "stock": -5,
+          "code": "P_1774356457371"
+        }
+      ],
       "status": "active",
-      "date": 1775675485939
+      "date": 1775675542280
     }
   ],
   "purchaseLog": [
@@ -16537,5 +16556,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-08T19:12:02.271Z"
+  "lastSync": "2026-04-08T19:12:57.910Z"
 }
