@@ -14994,6 +14994,22 @@
           "category": "drink",
           "stock": 1,
           "code": "P_1773150214676"
+        },
+        {
+          "name": "TSITSIKAMA SPRING 500ML",
+          "price": 15,
+          "cost": 5,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1774083523087"
+        },
+        {
+          "name": "LINE FISH",
+          "price": 125,
+          "cost": 26.47,
+          "category": "food",
+          "stock": 14,
+          "code": "P_1773230972483"
         }
       ],
       "status": "active",
@@ -16470,5 +16486,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-08T19:10:34.522Z"
+  "lastSync": "2026-04-08T19:10:46.480Z"
 }
