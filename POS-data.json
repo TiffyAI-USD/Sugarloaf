@@ -131,7 +131,7 @@
       "price": 30,
       "cost": 15.49,
       "category": "drink",
-      "stock": 1
+      "stock": 0
     },
     "P_1773150462720": {
       "name": "BRUTAL FRUIT RUBY APPLE",
@@ -783,7 +783,7 @@
       "price": 125,
       "cost": 26.47,
       "category": "food",
-      "stock": 14
+      "stock": 13
     },
     "P_1773308487164": {
       "name": "STEAK",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -29
+      "stock": -30
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1111,7 +1111,7 @@
       "price": 15,
       "cost": 5,
       "category": "drink",
-      "stock": 0
+      "stock": -1
     },
     "P_1774083678799": {
       "name": "SPRITE 500ML",
@@ -15010,10 +15010,28 @@
           "category": "food",
           "stock": 14,
           "code": "P_1773230972483"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -29,
+          "code": "P_1773467035443"
         }
       ],
+      "status": "paid",
+      "date": 1775675485829,
+      "total": 265,
+      "tip": 115,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 340,
+      "items": [],
       "status": "active",
-      "date": 1775675400224
+      "date": 1775675485939
     }
   ],
   "purchaseLog": [
@@ -16486,5 +16504,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-08T19:10:46.480Z"
+  "lastSync": "2026-04-08T19:11:25.939Z"
 }
