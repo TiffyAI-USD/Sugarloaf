@@ -15080,6 +15080,30 @@
           "category": "food",
           "stock": -5,
           "code": "P_1774356457371"
+        },
+        {
+          "name": "MADAGASCAR STEAK",
+          "price": 155,
+          "cost": 35,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1773220350299"
+        },
+        {
+          "name": "GRAPETISER 275ML",
+          "price": 30,
+          "cost": 15.85,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773164159136"
+        },
+        {
+          "name": "GRAPETISER 275ML",
+          "price": 30,
+          "cost": 15.85,
+          "category": "drink",
+          "stock": -1,
+          "code": "P_1773164159136"
         }
       ],
       "status": "active",
@@ -16556,5 +16580,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-08T19:12:57.910Z"
+  "lastSync": "2026-04-08T19:13:13.573Z"
 }
