@@ -299,7 +299,7 @@
       "price": 30,
       "cost": 15.85,
       "category": "drink",
-      "stock": -1
+      "stock": -3
     },
     "P_1773169167556": {
       "name": "RICHELIEU",
@@ -461,7 +461,7 @@
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -11.049999999999992,
+      "stock": -11.149999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 90.99999999999987,
+      "stock": 90.79999999999987,
       "cost": 0,
       "category": "ingredient"
     },
@@ -709,7 +709,7 @@
     },
     "BRANDY": {
       "name": "BRANDY",
-      "stock": -22,
+      "stock": -24,
       "cost": 0,
       "category": "ingredient"
     },
@@ -718,7 +718,7 @@
       "price": 155,
       "cost": 35,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "PESTO ": {
       "name": "PESTO ",
@@ -1195,7 +1195,7 @@
       "price": 145,
       "cost": 55,
       "category": "food",
-      "stock": -5
+      "stock": -6
     },
     "P_1774356562726": {
       "name": "LIQUI FRUIT TROPICAL",
@@ -15106,8 +15106,35 @@
           "code": "P_1773164159136"
         }
       ],
+      "status": "paid",
+      "date": 1775675601270,
+      "total": 360,
+      "tip": 40,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 342,
+      "items": [
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -8,
+          "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -8,
+          "code": "P_1775150828208"
+        }
+      ],
       "status": "active",
-      "date": 1775675542280
+      "date": 1775847347687
     }
   ],
   "purchaseLog": [
@@ -16580,5 +16607,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-08T19:13:13.573Z"
+  "lastSync": "2026-04-10T18:55:54.326Z"
 }
