@@ -15300,6 +15300,14 @@
           "category": "food",
           "stock": 7,
           "code": "P_1773219173270"
+        },
+        {
+          "name": "PUB STYLE FISH",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -32,
+          "code": "P_1773467035443"
         }
       ],
       "status": "active",
@@ -16977,5 +16985,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T19:05:04.782Z"
+  "lastSync": "2026-04-10T19:05:12.287Z"
 }
