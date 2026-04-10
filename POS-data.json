@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 42
+      "stock": 40
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -103,7 +103,7 @@
       "price": 45,
       "cost": 19.5,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773149785260": {
       "name": "SAVANNA DRY",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 90.79999999999987,
+      "stock": 90.39999999999986,
       "cost": 0,
       "category": "ingredient"
     },
@@ -493,7 +493,7 @@
     },
     "PRAWNS": {
       "name": "PRAWNS",
-      "stock": -81,
+      "stock": -93,
       "cost": 19.5,
       "category": "ingredient"
     },
@@ -619,7 +619,7 @@
       "price": 185,
       "cost": 39,
       "category": "food",
-      "stock": 19.5
+      "stock": 17.5
     },
     "P_1773218355573": {
       "name": "CRAB CURRY",
@@ -1111,7 +1111,7 @@
       "price": 15,
       "cost": 5,
       "category": "drink",
-      "stock": -1
+      "stock": -2
     },
     "P_1774083678799": {
       "name": "SPRITE 500ML",
@@ -1132,7 +1132,7 @@
       "price": 85,
       "cost": 40,
       "category": "food",
-      "stock": -3
+      "stock": -4
     },
     "P_1774098821849": {
       "name": "ARRABIATTA CHICKEN ",
@@ -1328,7 +1328,7 @@
       "price": 40,
       "cost": 25,
       "category": "drink",
-      "stock": -8
+      "stock": -10
     },
     "P_1775239559143": {
       "name": "BUNNY CHOW SPECIAL (BEEF)",
@@ -15189,8 +15189,35 @@
           "code": "P_1774084579933"
         }
       ],
+      "status": "paid",
+      "date": 1775847386557,
+      "total": 655,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 343,
+      "items": [
+        {
+          "name": "APPLETIZERS ",
+          "price": 30,
+          "cost": 15.49,
+          "category": "drink",
+          "stock": 0,
+          "code": "P_1773150214676"
+        },
+        {
+          "name": "SAVANNA DRY",
+          "price": 35,
+          "cost": 16.5,
+          "category": "drink",
+          "stock": 15,
+          "code": "P_1773149785260"
+        }
+      ],
       "status": "active",
-      "date": 1775847347687
+      "date": 1775847386724
     }
   ],
   "purchaseLog": [
@@ -16663,5 +16690,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T18:56:22.368Z"
+  "lastSync": "2026-04-10T18:56:58.355Z"
 }
