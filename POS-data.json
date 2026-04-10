@@ -15375,6 +15375,22 @@
           "category": "drink",
           "stock": -16,
           "code": "P_1774083678799"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "HUNTERS DRY 440ML",
+          "price": 35,
+          "cost": 16.48,
+          "category": "drink",
+          "stock": 12,
+          "code": "P_1773147927738"
         }
       ],
       "status": "active",
@@ -17052,5 +17068,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T19:06:33.141Z"
+  "lastSync": "2026-04-10T19:06:47.310Z"
 }
