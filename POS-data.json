@@ -15163,6 +15163,30 @@
           "category": "drink",
           "stock": 42,
           "code": "P_1773145425644"
+        },
+        {
+          "name": "PRAWNS (MAIN DISH)",
+          "price": 185,
+          "cost": 39,
+          "category": "food",
+          "stock": 19.5,
+          "code": "P_1773215678430"
+        },
+        {
+          "name": "PRAWNS (MAIN DISH)",
+          "price": 185,
+          "cost": 39,
+          "category": "food",
+          "stock": 19.5,
+          "code": "P_1773215678430"
+        },
+        {
+          "name": "PESTO FETA AND GARLIC",
+          "price": 85,
+          "cost": 40,
+          "category": "food",
+          "stock": -3,
+          "code": "P_1774084579933"
         }
       ],
       "status": "active",
@@ -16639,5 +16663,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T18:56:10.556Z"
+  "lastSync": "2026-04-10T18:56:22.368Z"
 }
