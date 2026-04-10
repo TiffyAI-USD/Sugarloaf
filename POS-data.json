@@ -15343,7 +15343,24 @@
     },
     {
       "id": 346,
-      "items": [],
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 5,
+          "code": "P_1773219173270"
+        }
+      ],
       "status": "active",
       "date": 1775847943857
     }
@@ -17019,5 +17036,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T19:05:43.857Z"
+  "lastSync": "2026-04-10T19:06:15.987Z"
 }
