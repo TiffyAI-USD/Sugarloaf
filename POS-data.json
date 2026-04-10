@@ -82,7 +82,7 @@
       "price": 35,
       "cost": 16.48,
       "category": "drink",
-      "stock": 12
+      "stock": 11
     },
     "P_1773148398541": {
       "name": "HUNTERS GOLD 440ML",
@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 17.359999999999953,
+      "stock": 17.259999999999952,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -27,
+      "stock": -29,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 5
+      "stock": 3
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -930,7 +930,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -33
+      "stock": -34
     },
     "P_1773489030098": {
       "name": "POWERADE",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -16
+      "stock": -18
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -15393,8 +15393,18 @@
           "code": "P_1773147927738"
         }
       ],
+      "status": "paid",
+      "date": 1775848019993,
+      "total": 390,
+      "tip": 40,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 347,
+      "items": [],
       "status": "active",
-      "date": 1775847943857
+      "date": 1775848020128
     }
   ],
   "purchaseLog": [
@@ -17013,6 +17023,11 @@
         "amount": 70,
         "date": 1775590022548,
         "table": 335
+      },
+      {
+        "amount": 40,
+        "date": 1775848019993,
+        "table": 346
       }
     ],
     "Momo": [
@@ -17068,5 +17083,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T19:06:47.310Z"
+  "lastSync": "2026-04-10T19:07:00.128Z"
 }
