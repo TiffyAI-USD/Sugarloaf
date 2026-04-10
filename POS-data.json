@@ -436,13 +436,13 @@
     },
     "MASH POTATOES ": {
       "name": "MASH POTATOES ",
-      "stock": 92.59999999999997,
+      "stock": 92.39999999999996,
       "cost": 1,
       "category": "ingredient"
     },
     "VEG OF DAY": {
       "name": "VEG OF DAY",
-      "stock": -0.4,
+      "stock": -0.6000000000000001,
       "cost": 0,
       "category": "ingredient"
     },
@@ -451,17 +451,17 @@
       "price": 105,
       "cost": 30,
       "category": "food",
-      "stock": 12
+      "stock": 11
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.7700000000000014,
+      "stock": -2.8700000000000014,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -11.149999999999991,
+      "stock": -11.649999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -512,19 +512,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -18,
+      "stock": -20,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": -36,
+      "stock": -39,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -9,
+      "stock": -9.5,
       "cost": 0,
       "category": "ingredient"
     },
@@ -533,7 +533,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 4
+      "stock": 3
     },
     "CREAM ": {
       "name": "CREAM ",
@@ -1090,7 +1090,7 @@
       "price": 95,
       "cost": 0,
       "category": "food",
-      "stock": -2
+      "stock": -3
     },
     "P_1773942714676": {
       "name": "BLACK LABEL 300ML ",
@@ -1139,7 +1139,7 @@
       "price": 90,
       "cost": 0,
       "category": "food",
-      "stock": -1
+      "stock": -2
     },
     "P_1774180112425": {
       "name": "SEAFOOD FOR 2",
@@ -15241,9 +15241,69 @@
     },
     {
       "id": 344,
-      "items": [],
+      "items": [
+        {
+          "name": "TRIPE",
+          "price": 105,
+          "cost": 30,
+          "category": "food",
+          "stock": 12,
+          "code": "P_1773211899248"
+        },
+        {
+          "name": "ARRABIATTA CHICKEN ",
+          "price": 90,
+          "cost": 0,
+          "category": "food",
+          "stock": -1,
+          "code": "P_1774098821849"
+        },
+        {
+          "name": "ALFREDO",
+          "price": 95,
+          "cost": 0,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1773941757615"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 4,
+          "code": "P_1773213348251"
+        }
+      ],
+      "status": "paid",
+      "date": 1775847473104,
+      "total": 335,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Momo"
+    },
+    {
+      "id": 345,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 7,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 7,
+          "code": "P_1773219173270"
+        }
+      ],
       "status": "active",
-      "date": 1775847435757
+      "date": 1775847901469
     }
   ],
   "purchaseLog": [
@@ -16716,5 +16776,206 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T18:57:15.755Z"
+  "staffTips": {
+    "Marshall": [
+      {
+        "amount": 5,
+        "date": 1774105795974,
+        "table": 165
+      },
+      {
+        "amount": 5,
+        "date": 1774105888899,
+        "table": 205
+      },
+      {
+        "amount": 15,
+        "date": 1774112372134,
+        "table": 167
+      },
+      {
+        "amount": 25,
+        "date": 1774117660936,
+        "table": 168
+      },
+      {
+        "amount": 5,
+        "date": 1774370610343,
+        "table": 219
+      },
+      {
+        "amount": 5,
+        "date": 1774458832749,
+        "table": 228
+      },
+      {
+        "amount": 100,
+        "date": 1774459302158,
+        "table": 230
+      },
+      {
+        "amount": 20,
+        "date": 1774462495162,
+        "table": 232
+      },
+      {
+        "amount": 5,
+        "date": 1774545207375,
+        "table": 240
+      },
+      {
+        "amount": 35,
+        "date": 1774546781085,
+        "table": 245
+      },
+      {
+        "amount": 86,
+        "date": 1774549294714,
+        "table": 249
+      },
+      {
+        "amount": 15,
+        "date": 1774634618458,
+        "table": 253
+      },
+      {
+        "amount": 35,
+        "date": 1774719572118,
+        "table": 266
+      },
+      {
+        "amount": 255,
+        "date": 1774800487233,
+        "table": 275
+      },
+      {
+        "amount": 290,
+        "date": 1774801771953,
+        "table": 277
+      },
+      {
+        "amount": 10,
+        "date": 1774802067715,
+        "table": 278
+      },
+      {
+        "amount": 5,
+        "date": 1774802229459,
+        "table": 280
+      },
+      {
+        "amount": 25,
+        "date": 1774802330313,
+        "table": 281
+      },
+      {
+        "amount": 20,
+        "date": 1774802500977,
+        "table": 279
+      },
+      {
+        "amount": 20,
+        "date": 1774802864548,
+        "table": 284
+      },
+      {
+        "amount": 30,
+        "date": 1774803171678,
+        "table": 287
+      },
+      {
+        "amount": 10,
+        "date": 1775060587285,
+        "table": 301
+      },
+      {
+        "amount": 60,
+        "date": 1775153095440,
+        "table": 307
+      },
+      {
+        "amount": 50,
+        "date": 1775153436173,
+        "table": 310
+      },
+      {
+        "amount": 50,
+        "date": 1775242369800,
+        "table": 317
+      },
+      {
+        "amount": 115,
+        "date": 1775242814760,
+        "table": 326
+      },
+      {
+        "amount": 30,
+        "date": 1775589744711,
+        "table": 333
+      },
+      {
+        "amount": 80,
+        "date": 1775589847617,
+        "table": 334
+      },
+      {
+        "amount": 70,
+        "date": 1775590022548,
+        "table": 335
+      }
+    ],
+    "Momo": [
+      {
+        "amount": 34,
+        "date": 1774183400285,
+        "table": 172
+      },
+      {
+        "amount": 55,
+        "date": 1774192735449,
+        "table": 174
+      },
+      {
+        "amount": 435,
+        "date": 1775150917080,
+        "table": 303
+      },
+      {
+        "amount": 50,
+        "date": 1775150976174,
+        "table": 305
+      },
+      {
+        "amount": 5,
+        "date": 1775239637036,
+        "table": 311
+      },
+      {
+        "amount": 100,
+        "date": 1775239815428,
+        "table": 313
+      },
+      {
+        "amount": 45,
+        "date": 1775239913065,
+        "table": 314
+      },
+      {
+        "amount": 50,
+        "date": 1775239971590,
+        "table": 315
+      },
+      {
+        "amount": 10,
+        "date": 1775399638876,
+        "table": 329
+      },
+      {
+        "amount": 25,
+        "date": 1775399807084,
+        "table": 330
+      }
+    ]
+  },
+  "lastSync": "2026-04-10T19:05:04.782Z"
 }
