@@ -15367,6 +15367,14 @@
           "category": "food",
           "stock": -33,
           "code": "P_1773467035443"
+        },
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1774083678799"
         }
       ],
       "status": "active",
@@ -17044,5 +17052,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-10T19:06:25.116Z"
+  "lastSync": "2026-04-10T19:06:33.141Z"
 }
