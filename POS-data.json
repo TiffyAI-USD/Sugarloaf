@@ -1328,7 +1328,7 @@
       "price": 40,
       "cost": 25,
       "category": "drink",
-      "stock": -10
+      "stock": -12
     },
     "P_1775239559143": {
       "name": "BUNNY CHOW SPECIAL (BEEF)",
@@ -15424,10 +15424,28 @@
           "category": "drink",
           "stock": -10,
           "code": "P_1775150828208"
+        },
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1775150828208"
         }
       ],
+      "status": "paid",
+      "date": 1776449802537,
+      "total": 80,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 348,
+      "items": [],
       "status": "active",
-      "date": 1776167162833
+      "date": 1776449802761
     }
   ],
   "purchaseLog": [
@@ -17106,5 +17124,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-17T18:16:33.386Z"
+  "lastSync": "2026-04-17T18:16:34.708Z"
 }
