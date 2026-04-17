@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 9
+      "stock": 8
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -341,7 +341,7 @@
       "price": 20,
       "cost": 6.55,
       "category": "drink",
-      "stock": 3
+      "stock": 2
     },
     "P_1773206330598": {
       "name": "LIQUI FRUITE APPLE & CRANBERRY ",
@@ -480,7 +480,7 @@
     },
     "POTATOES ": {
       "name": "POTATOES ",
-      "stock": 90.39999999999986,
+      "stock": 90.19999999999986,
       "cost": 0,
       "category": "ingredient"
     },
@@ -633,7 +633,7 @@
       "price": 105,
       "cost": 18,
       "category": "food",
-      "stock": 10
+      "stock": 9
     },
     "PIZZA SAUCE": {
       "name": "PIZZA SAUCE",
@@ -783,7 +783,7 @@
       "price": 125,
       "cost": 26.47,
       "category": "food",
-      "stock": 12
+      "stock": 11
     },
     "P_1773308487164": {
       "name": "STEAK",
@@ -15583,10 +15583,36 @@
           "category": "food",
           "stock": 12,
           "code": "P_1773230972483"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 9,
+          "code": "P_1773152229222"
+        },
+        {
+          "name": "LIQUI FRUIT MANGO & 0RANGE",
+          "price": 20,
+          "cost": 6.55,
+          "category": "drink",
+          "stock": 3,
+          "code": "P_1773206179279"
         }
       ],
+      "status": "paid",
+      "date": 1776450121999,
+      "total": 265,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 353,
+      "items": [],
       "status": "active",
-      "date": 1776450034215
+      "date": 1776450122114
     }
   ],
   "purchaseLog": [
@@ -17265,5 +17291,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-17T18:20:01.250Z"
+  "lastSync": "2026-04-17T18:21:35.857Z"
 }
