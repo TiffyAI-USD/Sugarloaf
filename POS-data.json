@@ -1357,6 +1357,13 @@
       "cost": 0,
       "category": "drink",
       "stock": 0
+    },
+    "P_1776167415593": {
+      "name": "BREEZER BLACK BERRY 440",
+      "price": 35,
+      "cost": 0,
+      "category": "drink",
+      "stock": 0
     }
   },
   "recipes": {
@@ -15409,7 +15416,16 @@
     },
     {
       "id": 347,
-      "items": [],
+      "items": [
+        {
+          "name": "WINE GLS",
+          "price": 40,
+          "cost": 25,
+          "category": "drink",
+          "stock": -10,
+          "code": "P_1775150828208"
+        }
+      ],
       "status": "active",
       "date": 1776167162833
     }
@@ -17090,5 +17106,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-14T11:48:21.554Z"
+  "lastSync": "2026-04-17T18:16:33.386Z"
 }
