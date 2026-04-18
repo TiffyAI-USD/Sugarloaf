@@ -15610,9 +15610,26 @@
     },
     {
       "id": 353,
-      "items": [],
+      "items": [
+        {
+          "name": "CRAYFISH ",
+          "price": 165,
+          "cost": 15,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773215522553"
+        },
+        {
+          "name": "CRAYFISH ",
+          "price": 165,
+          "cost": 15,
+          "category": "food",
+          "stock": 24,
+          "code": "P_1773215522553"
+        }
+      ],
       "status": "active",
-      "date": 1776450122114
+      "date": 1776536343107
     }
   ],
   "purchaseLog": [
@@ -17291,5 +17308,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-17T18:21:35.857Z"
+  "lastSync": "2026-04-18T18:21:14.225Z"
 }
