@@ -40,7 +40,7 @@
       "price": 30,
       "cost": 12.79,
       "category": "drink",
-      "stock": 40
+      "stock": 39
     },
     "P_1773145614589": {
       "name": "HEINEKEN",
@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 8
+      "stock": 7
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -1349,7 +1349,7 @@
       "price": 65,
       "cost": 15,
       "category": "food",
-      "stock": -2
+      "stock": -6
     },
     "P_1776167291728": {
       "name": "CHILLERS PUNCH",
@@ -15612,24 +15612,66 @@
       "id": 353,
       "items": [
         {
-          "name": "CRAYFISH ",
-          "price": 165,
+          "name": "EXTRA CRAYFISH",
+          "price": 65,
           "cost": 15,
           "category": "food",
-          "stock": 24,
-          "code": "P_1773215522553"
+          "stock": -2,
+          "code": "P_1775399711938"
         },
         {
-          "name": "CRAYFISH ",
-          "price": 165,
+          "name": "EXTRA CRAYFISH",
+          "price": 65,
           "cost": 15,
           "category": "food",
-          "stock": 24,
-          "code": "P_1773215522553"
+          "stock": -2,
+          "code": "P_1775399711938"
+        },
+        {
+          "name": "EXTRA CRAYFISH",
+          "price": 65,
+          "cost": 15,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1775399711938"
+        },
+        {
+          "name": "EXTRA CRAYFISH",
+          "price": 65,
+          "cost": 15,
+          "category": "food",
+          "stock": -2,
+          "code": "P_1775399711938"
+        },
+        {
+          "name": "BLACK LABEL 500ML",
+          "price": 30,
+          "cost": 12.79,
+          "category": "drink",
+          "stock": 40,
+          "code": "P_1773145425644"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 8,
+          "code": "P_1773152229222"
         }
       ],
+      "status": "paid",
+      "date": 1776536508807,
+      "total": 305,
+      "tip": 45,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 354,
+      "items": [],
       "status": "active",
-      "date": 1776536343107
+      "date": 1776536509079
     }
   ],
   "purchaseLog": [
@@ -17253,6 +17295,11 @@
         "amount": 40,
         "date": 1775848019993,
         "table": 346
+      },
+      {
+        "amount": 45,
+        "date": 1776536508807,
+        "table": 353
       }
     ],
     "Momo": [
@@ -17308,5 +17355,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-18T18:21:14.225Z"
+  "lastSync": "2026-04-18T18:21:49.078Z"
 }
