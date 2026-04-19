@@ -194,7 +194,7 @@
       "price": 15,
       "cost": 4.45,
       "category": "drink",
-      "stock": 7
+      "stock": 6
     },
     "P_1773154991980": {
       "name": "SOUTHERN COMFORT",
@@ -455,13 +455,13 @@
     },
     "GARLIC": {
       "name": "GARLIC",
-      "stock": -2.8700000000000014,
+      "stock": -3.1700000000000017,
       "cost": 0,
       "category": "ingredient"
     },
     "CREAM": {
       "name": "CREAM",
-      "stock": -11.649999999999991,
+      "stock": -13.149999999999991,
       "cost": 0,
       "category": "ingredient"
     },
@@ -512,19 +512,19 @@
     },
     "BREAD SLICE": {
       "name": "BREAD SLICE",
-      "stock": -20,
+      "stock": -26,
       "cost": 0,
       "category": "ingredient"
     },
     "CHILLY": {
       "name": "CHILLY",
-      "stock": -39,
+      "stock": -48,
       "cost": 0,
       "category": "ingredient"
     },
     "RED WINE": {
       "name": "RED WINE",
-      "stock": -9.5,
+      "stock": -11,
       "cost": 0,
       "category": "ingredient"
     },
@@ -533,7 +533,7 @@
       "price": 45,
       "cost": 12.5,
       "category": "food",
-      "stock": 3
+      "stock": 0
     },
     "CREAM ": {
       "name": "CREAM ",
@@ -556,7 +556,7 @@
     },
     "CHEESE": {
       "name": "CHEESE",
-      "stock": 17.15999999999995,
+      "stock": 17.05999999999995,
       "cost": 0,
       "category": "ingredient"
     },
@@ -662,7 +662,7 @@
     },
     "EGG": {
       "name": "EGG",
-      "stock": -31,
+      "stock": -33,
       "cost": 0,
       "category": "ingredient"
     },
@@ -671,7 +671,7 @@
       "price": 110,
       "cost": 20,
       "category": "food",
-      "stock": 1
+      "stock": -1
     },
     "P_1773219242862": {
       "name": "LAMB SHANK",
@@ -689,7 +689,7 @@
     },
     "BREAD SLICES ": {
       "name": "BREAD SLICES ",
-      "stock": -20,
+      "stock": -22,
       "cost": 0,
       "category": "ingredient"
     },
@@ -698,7 +698,7 @@
       "price": 75,
       "cost": 20,
       "category": "food",
-      "stock": 25
+      "stock": 24
     },
     "P_1773219731782": {
       "name": "STEAK EGG AND CHIPS",
@@ -1034,7 +1034,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -16
+      "stock": -20
     },
     "P_1773936567733": {
       "name": "RED BULL",
@@ -1118,7 +1118,7 @@
       "price": 20,
       "cost": 10.4,
       "category": "drink",
-      "stock": -18
+      "stock": -19
     },
     "P_1774084468465": {
       "name": "R50 CASH IN HAND",
@@ -15669,9 +15669,138 @@
     },
     {
       "id": 354,
+      "items": [
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 1,
+          "code": "P_1773219173270"
+        },
+        {
+          "name": "BURGER PATTIES (BLONDIE BURGER)",
+          "price": 110,
+          "cost": 20,
+          "category": "food",
+          "stock": 1,
+          "code": "P_1773219173270"
+        }
+      ],
+      "status": "paid",
+      "date": 1776536544272,
+      "total": 220,
+      "tip": 0,
+      "method": "Card",
+      "staff": "Marshall"
+    },
+    {
+      "id": 355,
+      "items": [
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 3,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 3,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "CHICKEN LIVERS",
+          "price": 45,
+          "cost": 12.5,
+          "category": "food",
+          "stock": 3,
+          "code": "P_1773213348251"
+        },
+        {
+          "name": "CHICKEN WINGS",
+          "price": 75,
+          "cost": 20,
+          "category": "food",
+          "stock": 25,
+          "code": "P_1773219547672"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1773923463427"
+        },
+        {
+          "name": "FANTA",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -16,
+          "code": "P_1773923463427"
+        }
+      ],
+      "status": "paid",
+      "date": 1776536623652,
+      "total": 290,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 356,
+      "items": [
+        {
+          "name": "SPRITE 500ML",
+          "price": 20,
+          "cost": 10.4,
+          "category": "drink",
+          "stock": -18,
+          "code": "P_1774083678799"
+        },
+        {
+          "name": "TSITSIKAMA SPARCLING 500ML",
+          "price": 15,
+          "cost": 4.45,
+          "category": "drink",
+          "stock": 7,
+          "code": "P_1773152229222"
+        }
+      ],
+      "status": "paid",
+      "date": 1776536681584,
+      "total": 35,
+      "tip": 0,
+      "method": "Cash",
+      "staff": "Marshall"
+    },
+    {
+      "id": 357,
       "items": [],
       "status": "active",
-      "date": 1776536509079
+      "date": 1776580206282
     }
   ],
   "purchaseLog": [
@@ -17355,5 +17484,5 @@
       }
     ]
   },
-  "lastSync": "2026-04-18T18:21:49.078Z"
+  "lastSync": "2026-04-19T06:30:21.371Z"
 }
